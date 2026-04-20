@@ -1,0 +1,5 @@
+*.log
+bgp_report.html
+install_bgp_monitor.ps1
+__pycache__/
+*.pyc
