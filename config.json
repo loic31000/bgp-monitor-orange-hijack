@@ -1,0 +1,51 @@
+{
+  "refresh_seconds": 300,
+  "webhook_url": null,
+  "targets": [
+    {
+      "label": "90.98.0.0/15",
+      "type": "prefix",
+      "resource": "90.98.0.0/15",
+      "role": "Préfixe hijacké",
+      "legit_asn": "3215",
+      "hijack_asn": "41128",
+      "desc": "Orange France — Espace IP légitime"
+    },
+    {
+      "label": "92.183.128.0/18",
+      "type": "prefix",
+      "resource": "92.183.128.0/18",
+      "role": "Cible secondaire",
+      "legit_asn": "3215",
+      "hijack_asn": "263692",
+      "desc": "Orange France — Pré-positionnement"
+    },
+    {
+      "label": "AS41128",
+      "type": "asn",
+      "resource": "41128",
+      "role": "Origine frauduleuse",
+      "legit_asn": null,
+      "hijack_asn": "41128",
+      "desc": "ORANGEFR-GRX-AS — ASN compromis"
+    },
+    {
+      "label": "AS3215",
+      "type": "asn",
+      "resource": "3215",
+      "role": "Orange légitime",
+      "legit_asn": "3215",
+      "hijack_asn": null,
+      "desc": "Orange France — Propriétaire réel"
+    },
+    {
+      "label": "AS29802",
+      "type": "asn",
+      "resource": "29802",
+      "role": "Destination finale",
+      "legit_asn": null,
+      "hijack_asn": null,
+      "desc": "Hivelocity Dallas TX — Infra réelle"
+    }
+  ]
+}
