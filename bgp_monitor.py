@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# bgp_monitor.py — Version 2.1 — Corrections complètes
+# bgp_monitor.py — Version 2.4 — Hijack massif 167.32.0.0/16
 import requests
 import time
 import os
@@ -55,13 +55,13 @@ def h2(text):
 # ── Chargement de la configuration ────────────────────────────
 DEFAULT_CONFIG = {
     "refresh_seconds": 300,
-    "webhook_url": None,
     "targets": [
+        # === HIJACK ORANGE (enquête principale) ===
         {
             "label": "90.98.0.0/15",
             "type": "prefix",
             "resource": "90.98.0.0/15",
-            "role": "Préfixe hijacké",
+            "role": "Préfixe hijacké (Orange)",
             "legit_asn": "3215",
             "hijack_asn": "41128",
             "desc": "Orange France — Espace IP légitime"
@@ -70,7 +70,7 @@ DEFAULT_CONFIG = {
             "label": "92.183.128.0/18",
             "type": "prefix",
             "resource": "92.183.128.0/18",
-            "role": "Cible secondaire",
+            "role": "Cible secondaire (Orange)",
             "legit_asn": "3215",
             "hijack_asn": "263692",
             "desc": "Orange France — Pré-positionnement"
@@ -80,8 +80,6 @@ DEFAULT_CONFIG = {
             "type": "asn",
             "resource": "41128",
             "role": "Origine frauduleuse",
-            "legit_asn": None,
-            "hijack_asn": "41128",
             "desc": "ORANGEFR-GRX-AS — ASN compromis"
         },
         {
@@ -89,18 +87,133 @@ DEFAULT_CONFIG = {
             "type": "asn",
             "resource": "3215",
             "role": "Orange légitime",
-            "legit_asn": "3215",
-            "hijack_asn": None,
             "desc": "Orange France — Propriétaire réel"
         },
         {
             "label": "AS29802",
             "type": "asn",
             "resource": "29802",
-            "role": "Destination finale",
-            "legit_asn": None,
-            "hijack_asn": None,
+            "role": "Destination finale (Hivelocity)",
             "desc": "Hivelocity Dallas TX — Infra réelle"
+        },
+        # === ROUTES SPAMHAUS (pool MCI/SAE) ===
+        {
+            "label": "198.193.12.0/24",
+            "type": "prefix",
+            "resource": "198.193.12.0/24",
+            "role": "Route suspecte (MCI/SAE pool)",
+            "hijack_asn": "2702",
+            "desc": "Pool MCI/SAE — AS2702 dormant depuis 2003"
+        },
+        {
+            "label": "198.195.144.0/24",
+            "type": "prefix",
+            "resource": "198.195.144.0/24",
+            "role": "Route suspecte (MCI/SAE pool)",
+            "hijack_asn": "2702",
+            "desc": "Pool MCI/SAE — AS2702 dormant"
+        },
+        {
+            "label": "198.196.199.0/24",
+            "type": "prefix",
+            "resource": "198.196.199.0/24",
+            "role": "Route suspecte (MCI/SAE pool)",
+            "hijack_asn": "2702",
+            "desc": "Pool MCI/SAE — AS2702 dormant"
+        },
+        # === NOUVEAU : HIJACK MASSIF 167.32.0.0/16 (AS PARLEMENT VOLÉ) ===
+        {
+            "label": "167.32.0.0/16",
+            "type": "prefix",
+            "resource": "167.32.0.0/16",
+            "role": "HIJACK MASSIF — Parlement canadien volé",
+            "hijack_asn": "398290",
+            "desc": "AS398290 (House of Commons) volé — Actif depuis nov. 2023 — 331/331 peers"
+        },
+        {
+            "label": "167.32.0.0/21",
+            "type": "prefix",
+            "resource": "167.32.0.0/21",
+            "role": "Sous-préfixe (AS398290)",
+            "hijack_asn": "398290",
+            "desc": "Détournement massif — Sous-ensemble /21"
+        },
+        {
+            "label": "167.32.2.0/24",
+            "type": "prefix",
+            "resource": "167.32.2.0/24",
+            "role": "Sous-préfixe (AS398290)",
+            "hijack_asn": "398290",
+            "desc": "Détournement massif — /24"
+        },
+        {
+            "label": "167.32.3.0/24",
+            "type": "prefix",
+            "resource": "167.32.3.0/24",
+            "role": "Sous-préfixe (AS398290)",
+            "hijack_asn": "398290",
+            "desc": "Détournement massif — /24"
+        },
+        {
+            "label": "167.32.5.0/24",
+            "type": "prefix",
+            "resource": "167.32.5.0/24",
+            "role": "Sous-préfixe (AS398290)",
+            "hijack_asn": "398290",
+            "desc": "Détournement massif — /24"
+        },
+        {
+            "label": "167.32.6.0/24",
+            "type": "prefix",
+            "resource": "167.32.6.0/24",
+            "role": "Sous-préfixe (AS398290)",
+            "hijack_asn": "398290",
+            "desc": "Détournement massif — /24"
+        },
+        {
+            "label": "167.32.7.0/24",
+            "type": "prefix",
+            "resource": "167.32.7.0/24",
+            "role": "Sous-préfixe (AS398290)",
+            "hijack_asn": "398290",
+            "desc": "Détournement massif — /24"
+        },
+        {
+            "label": "167.32.8.0/24",
+            "type": "prefix",
+            "resource": "167.32.8.0/24",
+            "role": "Sous-préfixe (AS398290)",
+            "hijack_asn": "398290",
+            "desc": "Détournement massif — /24"
+        },
+        # === AS SUSPECTS ===
+        {
+            "label": "AS2702",
+            "type": "asn",
+            "resource": "2702",
+            "role": "AS dormant réactivé",
+            "desc": "Novx Systems/Interserve — Dormant depuis 2003"
+        },
+        {
+            "label": "AS7857",
+            "type": "asn",
+            "resource": "7857",
+            "role": "AS défunt réactivé",
+            "desc": "Empire Communications — Société disparue"
+        },
+        {
+            "label": "AS215828",
+            "type": "asn",
+            "resource": "215828",
+            "role": "Upstream suspect (Allemagne)",
+            "desc": "TMW Global Networks — Tizian Maxime Weigt"
+        },
+        {
+            "label": "AS398290",
+            "type": "asn",
+            "resource": "398290",
+            "role": "AS GOUVERNEMENTAL VOLÉ",
+            "desc": "House of Commons (Canada) — Volé et utilisé pour hijack BGP"
         },
     ]
 }
@@ -113,12 +226,10 @@ def load_config():
     if os.path.exists(CONFIG_FILE):
         with open(CONFIG_FILE, "r", encoding="utf-8") as f:
             user_cfg = json.load(f)
-        # Fusion : les clés user écrasent les défauts
         cfg = {**DEFAULT_CONFIG, **user_cfg}
         print(clr(f"  Config chargée depuis {CONFIG_FILE}", DIM, GRN))
     else:
         cfg = DEFAULT_CONFIG.copy()
-        # Génère un config.json d'exemple au premier lancement
         with open(CONFIG_FILE, "w", encoding="utf-8") as f:
             json.dump(DEFAULT_CONFIG, f, indent=2, ensure_ascii=False)
         print(clr(f"  config.json généré — modifiez-le pour personnaliser les cibles.", DIM, YLW))
@@ -137,6 +248,9 @@ def fetch_prefix(prefix):
         r.raise_for_status()
         d = r.json().get("data", {})
         origins = [str(o.get("origin", "")) for o in d.get("origins", [])]
+        last_seen_origin = d.get("last_seen", {}).get("origin", "")
+        if last_seen_origin and last_seen_origin not in origins:
+            origins.append(str(last_seen_origin))
         peers   = d.get("visibility", {})
         total   = peers.get("total_ris_peers", 0)
         visible = peers.get("ris_peers_seeing", 0)
@@ -147,7 +261,8 @@ def fetch_prefix(prefix):
             "last_update": d.get("last_update", "—"),
         }
     except requests.RequestException as e:
-        return {"error": str(e)}
+        # Gestion des erreurs 500, 404, etc.
+        return {"error": str(e), "status_code": getattr(e.response, 'status_code', None) if hasattr(e, 'response') else None}
  
  
 def fetch_asn(asn):
@@ -187,9 +302,16 @@ def analyse(target):
         total      = data["total"]
         pct        = round(visible / total * 100, 1) if total else 0
         hijack_asn = target.get("hijack_asn")
+        legit_asn  = target.get("legit_asn")
  
-        # FIX : condition unique et correcte — l'ASN frauduleux est-il présent ?
+        # Détection du hijack : AS frauduleux présent OU AS légitime ABSENT
+        hijack_detected = False
         if hijack_asn and hijack_asn in origins:
+            hijack_detected = True
+        elif legit_asn and legit_asn not in origins and origins:
+            hijack_detected = True
+ 
+        if hijack_detected:
             status = "HIJACK"
         else:
             status = "CLEAN"
@@ -215,19 +337,6 @@ def analyse(target):
         })
  
     return result
- 
- 
-# ── Alertes webhook (Discord / Slack / générique) ──────────────
-def send_webhook(webhook_url, message):
-    """Envoie une alerte JSON vers un webhook Discord/Slack."""
-    if not webhook_url:
-        return
-    try:
-        payload = {"content": message}          # Discord
-        # Pour Slack, remplacer par : {"text": message}
-        requests.post(webhook_url, json=payload, timeout=5)
-    except requests.RequestException:
-        pass  # L'alerte webhook ne doit jamais planter le monitoring
  
  
 # ── Affichage terminal ─────────────────────────────────────────
@@ -360,11 +469,12 @@ def generate_html(results, check_num, timestamp, history):
   </style>
 </head>
 <body>
-  <h1>🛡 BGP Monitor — Orange France</h1>
+  <h1>🛡 BGP Monitor — Hijack Massif 167.32.0.0/16 (AS398290) DÉTECTÉ</h1>
   <p class="sub">
     <span class="pill">Check #{check_num}</span>
     <span class="pill">{timestamp}</span>
-    <span class="pill">AS41128 · AS263692 · 90.98.0.0/15 · 92.183.128.0/18</span>
+    <span class="pill">AS41128 · AS2702 · AS7857 · AS215828 · AS398290</span>
+    <span class="pill">90.98.0.0/15 · 198.193.0.0/16 · 167.32.0.0/16</span>
     <span class="pill">Auto-refresh 5 min</span>
   </p>
   {alert_banner}
@@ -378,7 +488,7 @@ def generate_html(results, check_num, timestamp, history):
     <tbody>{rows}</tbody>
   </table>
   <div class="footer">
-    BGP Monitor v2.1 · Sources: RIPEstat API · Logs: bgp_monitor.log · bgp_alerts.log
+    BGP Monitor v2.4 · Sources: RIPEstat API · Logs: bgp_monitor.log · bgp_alerts.log
   </div>
 </body>
 </html>"""
@@ -394,10 +504,6 @@ def parse_args():
         help="Intervalle de vérification en secondes (défaut: config.json ou 300)"
     )
     parser.add_argument(
-        "--webhook", type=str, default=None,
-        help="URL webhook Discord/Slack pour les alertes HIJACK"
-    )
-    parser.add_argument(
         "--once", action="store_true",
         help="Effectue une seule vérification puis quitte (utile pour CI/CD)"
     )
@@ -409,26 +515,22 @@ def main():
     args   = parse_args()
     config = load_config()
  
-    # Priorité : argument CLI > config.json > défaut
     refresh     = args.refresh or config.get("refresh_seconds", 300)
-    webhook_url = args.webhook or config.get("webhook_url")
     targets     = config["targets"]
  
     history = {t["label"]: [] for t in targets}
  
     os.system("cls" if os.name == "nt" else "clear")
-    h1("BGP MONITOR v2.1 — Orange France Investigation")
-    print(f"  {clr('AS41128 · AS263692 · 90.98.0.0/15 · 92.183.128.0/18', CYN)}")
+    h1("BGP MONITOR v2.4 — Hijack Massif 167.32.0.0/16 (AS398290)")
+    print(f"  {clr('AS41128 · AS2702 · AS7857 · AS215828 · AS398290', CYN)}")
+    print(f"  {clr('90.98.0.0/15 · 198.193.0.0/16 · 167.32.0.0/16', CYN)}")
     print(
         f"  {clr(f'Refresh {refresh}s  |  HTML: bgp_report.html  |  CTRL+C pour arrêter', DIM)}"
     )
-    if webhook_url:
-        print(f"  {clr(f'Webhook actif : {webhook_url[:50]}...', DIM, GRN)}")
     print()
  
     check_num = 0
  
-    # FIX : utilisation de context managers pour garantir la fermeture des fichiers
     with (
         open("bgp_monitor.log", "a", encoding="utf-8") as log_file,
         open("bgp_alerts.log",  "a", encoding="utf-8") as alert_file,
@@ -440,8 +542,7 @@ def main():
  
                 h2(f"Vérification #{check_num}  ·  {ts}")
  
-                results         = []
-                alert_triggered = False
+                results = []
  
                 for i, target in enumerate(targets, 1):
                     print(
@@ -451,28 +552,22 @@ def main():
                     res = analyse(target)
                     results.append(res)
  
-                    # Historique en mémoire (max 20 entrées par cible)
                     history[target["label"]].append(res["status"])
                     if len(history[target["label"]]) > 20:
                         history[target["label"]].pop(0)
  
-                    # Log général
                     log_file.write(f"[{ts}] {res['label']} → {res['status']}\n")
                     log_file.flush()
  
                     if res["status"] == "HIJACK":
-                        alert_triggered = True
                         alert_file.write(f"[{ts}] ⚠ HIJACK DÉTECTÉ — {res['label']}\n")
                         alert_file.flush()
  
-                # Effacer la ligne de progression
                 print(" " * 60, end="\r")
  
-                # Affichage terminal
                 for i, res in enumerate(results, 1):
                     print_result(res, i)
  
-                # Résumé
                 sep("─", 70, YLW)
                 hijacks = [r for r in results if r["status"] == "HIJACK"]
                 if hijacks:
@@ -482,14 +577,6 @@ def main():
                     )
                     for h in hijacks:
                         print(f"    {clr('→', RED)} {clr(h['label'], BOLD, RED)}  {clr(h['role'], DIM)}")
- 
-                    # Alerte webhook
-                    msg = (
-                        f"🚨 BGP HIJACK DÉTECTÉ — {len(hijacks)} cible(s)\n"
-                        + "\n".join(f"→ {h['label']} ({h['role']})" for h in hijacks)
-                        + f"\n[{ts}]"
-                    )
-                    send_webhook(webhook_url, msg)
                 else:
                     print(
                         f"  {badge_ok('✔  AUCUNE ALERTE')}  "
@@ -503,7 +590,6 @@ def main():
                 )
                 print()
  
-                # Rapport HTML
                 html = generate_html(results, check_num, ts, history)
                 with open("bgp_report.html", "w", encoding="utf-8") as f:
                     f.write(html)
