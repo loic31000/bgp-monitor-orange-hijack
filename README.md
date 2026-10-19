@@ -123,4 +123,4 @@ Ce statut est une détection basée sur les règles codées dans l'outil. Il ne 
 
 ## Licence
 
-Aucun fichier `LICENSE` n'est actuellement présent dans le dépôt.
+Ce projet est sous licence MIT, voir [LICENSE](LICENSE).
