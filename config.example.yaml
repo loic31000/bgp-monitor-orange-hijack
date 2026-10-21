@@ -72,14 +72,25 @@ settings:
       - {type: webhook, url_env: BGPMON_WEBHOOK_URL, format: auto, min_severity: high}
 
 targets:
-  # ── Enquête principale : espace Orange France (AS3215) ───────────────────
-  - label: "90.98.0.0/15"
+  # ── Enquête principale : ancien 90.98.0.0/15 d'Orange France (AS3215) ────
+  # Le /15 a été annoncé via AS41128 de février à avril 2026, puis repris par
+  # AS3215 via deux /16 le 20/04/2026. Depuis le transfert RIPE NCC du
+  # 03/09/2026, seule la moitié 90.99.0.0/16 reste à Orange : la cible est
+  # scindée en deux /16 (voir dossier/90.98.0.0-18/RAPPORT.md).
+  #
+  # Surveillance : l'apparition d'un objet `route` ou d'une ROA nouveaux sur ces
+  # deux préfixes doit déclencher un événement.
+  #   - irr: watch → IRR_OBJECT_CREATED / MODIFIED / DELETED (préfixe exact et
+  #     plus-spécifiques, sur RADB, ALTDB et RIPE) ;
+  #   - ROA → RPKI_STATE_CHANGED (ROA apparue ou disparue, changement de statut)
+  #     pour chaque couple (préfixe, origine) observé en BGP sur ces cibles.
+  - label: "90.99.0.0/16"
     type: prefix
-    resource: "90.98.0.0/15"
+    resource: "90.99.0.0/16"
     role: "Espace Orange France"
-    description: "Annoncé via AS41128 de fév. à avr. 2026 ; repris par AS3215 via des /16 le 20/04/2026"
+    description: "Moitié du 90.98.0.0/15 d'origine restée à Orange S.A. ; annoncée par AS3215 (ROA maxLength 24)"
     expected_origins: [3215]
-    forbidden_origins: [41128]
+    forbidden_origins: [41128, 270118]
     forbidden_path_asns: [41128, 22541, 29802]
     expected_upstreams: []
     max_prefix_length: 24
@@ -87,6 +98,23 @@ targets:
     rpki: expect_valid
     irr: watch
     severity: critical
+
+  # Transféré à Fastly le 03/09/2026 (RIPE NCC), à confirmer par les NOC ;
+  # passer rpki à expect_valid dès qu'une ROA AS54113 existe.
+  - label: "90.98.0.0/16"
+    type: prefix
+    resource: "90.98.0.0/16"
+    role: "Ancien espace Orange, transféré à Fastly, Inc."
+    description: "Transfert RIPE NCC Orange S.A. → Fastly, Inc. du 03/09/2026 ; 90.98.0.0/18 annoncé par AS54113 depuis le 05/10/2026"
+    expected_origins: [54113]
+    forbidden_origins: [41128, 270118]
+    forbidden_path_asns: [41128, 22541, 29802]
+    expected_upstreams: []
+    max_prefix_length: 24
+    allow_more_specific_from: [54113]
+    rpki: any
+    irr: watch
+    severity: high
 
   - label: "92.183.128.0/18"
     type: prefix

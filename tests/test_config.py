@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import copy
+import ipaddress
 import json
 from pathlib import Path
 
@@ -23,21 +24,30 @@ def test_example_config_is_valid_and_covers_v24_targets() -> None:
     cfg = load_config(ROOT / "config.example.yaml")
     labels = {t.label for t in cfg.targets}
     legacy = extract_legacy_default_config((ROOT / "legacy" / "bgp_monitor.py").read_text("utf-8"))
-    # Les sous-préfixes 167.32.x sont couverts par la cible 167.32.0.0/16 (moreSpecific).
+    # Les sous-préfixes 167.32.x sont couverts par la cible 167.32.0.0/16 (moreSpecific),
+    # et 90.98.0.0/15 par ses deux moitiés /16, vérifiées ci-dessous.
     covered = {
         t["label"]
         for t in legacy["targets"]
-        if not t["label"].startswith("167.32.") or t["label"] == "167.32.0.0/16"
+        if (not t["label"].startswith("167.32.") or t["label"] == "167.32.0.0/16")
+        and t["label"] != "90.98.0.0/15"
     }
     assert covered <= labels
     assert not any(lbl.startswith("167.32.") and lbl != "167.32.0.0/16" for lbl in labels)
     silent = [t.label for t in cfg.targets if t.expect_silent]
     assert silent == ["198.193.12.0/24", "198.195.144.0/24", "198.196.199.0/24"]
-    orange = cfg.target("90.98.0.0/15")
-    assert orange is not None
+    # 90.98.0.0/15 (v2.4) : transféré pour moitié à Fastly le 03/09/2026, scindé en deux /16.
+    fastly = cfg.target("90.98.0.0/16")
+    orange = cfg.target("90.99.0.0/16")
+    assert fastly is not None and orange is not None
+    assert fastly.expected_origins == (54113,)
+    assert {41128, 270118} <= set(fastly.forbidden_origins)
     assert orange.expected_origins == (3215,)
-    assert orange.forbidden_path_asns == (41128, 22541, 29802)
+    assert {41128, 270118} <= set(orange.forbidden_origins)
     assert orange.rpki == "expect_valid"
+    assert fastly.forbidden_path_asns == orange.forbidden_path_asns == (41128, 22541, 29802)
+    halves = [ipaddress.IPv4Network(fastly.resource), ipaddress.IPv4Network(orange.resource)]
+    assert list(ipaddress.collapse_addresses(halves)) == [ipaddress.IPv4Network("90.98.0.0/15")]
     assert cfg.settings.report_refresh == cfg.settings.check_interval
 
 
