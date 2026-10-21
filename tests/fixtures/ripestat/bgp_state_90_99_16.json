@@ -1,0 +1,101 @@
+{
+ "messages": [],
+ "see_also": [],
+ "version": "1.2",
+ "data_call_name": "bgp-state",
+ "data_call_status": "supported",
+ "cached": false,
+ "query_id": "20261021063240-733cb862-4836-44cb-bc6b-405f2bc39e90",
+ "process_time": 149,
+ "server_id": "app176",
+ "build_version": "v0.12.0-2026.10.20",
+ "pipeline": "1473439",
+ "status": "ok",
+ "status_code": 200,
+ "time": "2026-10-21T06:32:40.663989",
+ "data": {
+  "resource": "90.99.0.0/16",
+  "timestamp": "2026-10-21T03:59:52",
+  "bgp_state": [
+   {
+    "target_prefix": "90.99.0.0/16",
+    "source_id": "00-102.208.105.2",
+    "path": [
+     328840,
+     327727,
+     174,
+     5511,
+     3215
+    ],
+    "community": [
+     "64525:10"
+    ]
+   },
+   {
+    "target_prefix": "90.99.0.0/16",
+    "source_id": "00-103.212.68.10",
+    "path": [
+     55720,
+     6939,
+     5511,
+     3215
+    ],
+    "community": []
+   },
+   {
+    "target_prefix": "90.99.0.0/16",
+    "source_id": "00-12.0.1.63",
+    "path": [
+     7018,
+     5511,
+     3215
+    ],
+    "community": [
+     "7018:5000",
+     "7018:38000"
+    ]
+   },
+   {
+    "target_prefix": "90.99.0.0/16",
+    "source_id": "00-143.246.179.232",
+    "path": [
+     61218,
+     6939,
+     5511,
+     3215
+    ],
+    "community": []
+   },
+   {
+    "target_prefix": "90.99.0.0/16",
+    "source_id": "00-154.11.12.212",
+    "path": [
+     852,
+     3257,
+     5511,
+     3215
+    ],
+    "community": []
+   },
+   {
+    "target_prefix": "90.99.0.0/16",
+    "source_id": "00-161.129.152.2",
+    "path": [
+     13830,
+     971,
+     174,
+     5511,
+     3215
+    ],
+    "community": [
+     "174:21000",
+     "174:22013",
+     "13830:3003",
+     "13830:4000",
+     "13830:5000"
+    ]
+   }
+  ],
+  "nr_routes": 6
+ }
+}

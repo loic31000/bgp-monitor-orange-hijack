@@ -1,0 +1,6 @@
+{
+ "type": "ris_error",
+ "data": {
+  "message": "Unknown subscription parameter"
+ }
+}

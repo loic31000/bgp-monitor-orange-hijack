@@ -1,5 +1,32 @@
-*.log
-bgp_report.html
-install_bgp_monitor.ps1
+# Python
 __pycache__/
 *.pyc
+*.egg-info/
+build/
+dist/
+.venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Configuration locale (peut contenir une URL de webhook) : seul config.example.yaml est versionné
+config.yaml
+config.yml
+config.local.*
+*.local.yaml
+.env
+
+# Données générées à l'exécution
+*.sqlite3
+*.sqlite3-wal
+*.sqlite3-shm
+*.db
+*.log
+*.jsonl
+bgp_report.html
+*.html.tmp
+events*.csv
+events*.json
+
+# Divers
+install_bgp_monitor.ps1

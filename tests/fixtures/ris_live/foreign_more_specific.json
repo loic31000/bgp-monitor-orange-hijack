@@ -1,0 +1,28 @@
+{
+ "type": "ris_message",
+ "data": {
+  "timestamp": 1791390000.0,
+  "peer": "192.0.2.10",
+  "peer_asn": "6939",
+  "id": "x",
+  "host": "rrc00.ripe.net",
+  "type": "UPDATE",
+  "path": [
+   6939,
+   64512,
+   65001,
+   9999
+  ],
+  "community": [],
+  "origin": "IGP",
+  "announcements": [
+   {
+    "next_hop": "192.0.2.10",
+    "prefixes": [
+     "90.98.10.0/24"
+    ]
+   }
+  ],
+  "withdrawals": []
+ }
+}

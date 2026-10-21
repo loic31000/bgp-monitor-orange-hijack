@@ -1,0 +1,16 @@
+.git
+.github
+.venv
+**/__pycache__
+.pytest_cache
+.mypy_cache
+.ruff_cache
+tests
+legacy
+*.sqlite3*
+*.log
+*.jsonl
+*.html
+config.yaml
+config.local.*
+.env

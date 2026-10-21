@@ -1,0 +1,47 @@
+# Exemple d'unité systemd pour bgpmon.
+#
+#   sudo useradd --system --home /var/lib/bgpmon --create-home bgpmon
+#   sudo -u bgpmon python3 -m venv /opt/bgpmon/.venv
+#   sudo /opt/bgpmon/.venv/bin/pip install /opt/bgpmon   (ou -r requirements.txt)
+#   sudo cp config.example.yaml /var/lib/bgpmon/config.yaml   (puis l'adapter)
+#   echo 'BGPMON_WEBHOOK_URL=https://...' | sudo tee /etc/bgpmon.env && sudo chmod 600 /etc/bgpmon.env
+#   sudo cp deploy/bgpmon.service /etc/systemd/system/ && sudo systemctl enable --now bgpmon
+
+[Unit]
+Description=bgpmon — moniteur BGP passif (RIS Live, RIPEstat, RPKI, IRR)
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=simple
+User=bgpmon
+Group=bgpmon
+WorkingDirectory=/var/lib/bgpmon
+Environment=BGPMON_CONFIG=/var/lib/bgpmon/config.yaml
+# Fichier facultatif contenant BGPMON_WEBHOOK_URL (droits 600, hors dépôt)
+EnvironmentFile=-/etc/bgpmon.env
+ExecStart=/opt/bgpmon/.venv/bin/python -m bgpmon run
+# SIGTERM déclenche un arrêt propre (fermeture RIS Live, écriture SQLite, rapport)
+KillSignal=SIGTERM
+TimeoutStopSec=30
+Restart=on-failure
+RestartSec=30
+
+# Durcissement : l'outil n'a besoin que de sortir sur le réseau et d'écrire son répertoire.
+NoNewPrivileges=yes
+ProtectSystem=strict
+ProtectHome=yes
+PrivateTmp=yes
+PrivateDevices=yes
+ProtectKernelTunables=yes
+ProtectKernelModules=yes
+ProtectControlGroups=yes
+# AF_UNIX reste nécessaire à la résolution DNS via systemd-resolved/nscd.
+RestrictAddressFamilies=AF_INET AF_INET6 AF_UNIX
+ReadWritePaths=/var/lib/bgpmon
+CapabilityBoundingSet=
+LockPersonality=yes
+MemoryDenyWriteExecute=yes
+
+[Install]
+WantedBy=multi-user.target

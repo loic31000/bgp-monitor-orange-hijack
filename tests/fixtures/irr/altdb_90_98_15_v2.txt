@@ -1,0 +1,19 @@
+% Réponse simulée : l'objet AS41128 est modifié (descr), un objet AS270118 apparaît,
+% l'objet AS3215 a disparu.
+
+route:      90.98.0.0/15
+origin:     AS41128
+descr:      Description modifiée
+mnt-by:     MAINT-EXAMPLE
+admin-c:    EX1-ARIN
+tech-c:     EX1-ARIN
+changed:    noc@example.net 20261020
+source:     ALTDB
+rpki-ov-state:  valid # changement volatil ignoré
+
+route:      90.98.0.0/15
+origin:     AS270118
+descr:      Exemple
+mnt-by:     MAINT-EXAMPLE
+source:     ALTDB
+
