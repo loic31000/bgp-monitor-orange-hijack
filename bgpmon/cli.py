@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import argparse
+import ipaddress
 import json
 import logging
 import os
@@ -25,7 +26,7 @@ from bgpmon.config import (
     migrate_legacy,
     parse_config,
 )
-from bgpmon.models import EVENT_TYPES, SEVERITIES, SEVERITY_RANK, Event, iso, make_key
+from bgpmon.models import EVENT_TYPES, SEVERITIES, SEVERITY_RANK, Event, iso, make_key, parse_asn
 from bgpmon.monitor import Monitor
 from bgpmon.report import (
     build_report_data,
@@ -124,6 +125,50 @@ def _exit_code(states: dict[str, str], allow_unknown: bool) -> int:
 
 
 # ── Commandes ─────────────────────────────────────────────────────────────
+
+
+def cmd_dossier(args: argparse.Namespace) -> int:
+    """Collecte passive d'un dossier de preuves pour un couple préfixe/origine."""
+    from bgpmon.config import RipestatSettings
+    from bgpmon.dossier import apply_redactions, collect
+
+    settings = RipestatSettings()
+    if args.config and Path(args.config).exists():
+        settings = load_config(args.config).settings.ripestat
+    setup_logging(args.log_level or "INFO")
+    try:
+        asn = parse_asn(args.asn)
+        network = ipaddress.ip_network(args.prefix, strict=True)
+    except ValueError as exc:
+        sys.stderr.write(f"Argument invalide : {exc}\n")
+        return EXIT_ERROR
+    out_dir = args.output or f"dossier/{str(network).replace('/', '-')}"
+    ripestat = RipeStatClient(settings)
+    try:
+        summary = collect(
+            str(network),
+            asn,
+            out_dir,
+            ripestat,
+            covering=args.covering,
+            roa_dates=args.roa_date,
+            tals=args.tal,
+            provider_list=args.provider_list,
+            provider_history=args.provider_history,
+            reference=args.reference,
+            ptr=args.ptr_sample,
+            holder_org=args.holder_org,
+            holder_name=args.holder_name,
+        )
+    finally:
+        ripestat.close()
+    if args.redact:
+        n = apply_redactions(out_dir, args.redact)
+        out(f"{len(args.redact)} terme(s) masqué(s) dans {n} fichier(s) brut(s)")
+    out(f"Dossier écrit dans {out_dir} : summary.json, OBSERVATIONS.md, INDEX.json, raw/")
+    if summary["unverified"]:
+        out(f"{len(summary['unverified'])} point(s) non vérifié(s), voir OBSERVATIONS.md")
+    return EXIT_OK
 
 
 def cmd_test_alert(args: argparse.Namespace) -> int:
@@ -505,6 +550,39 @@ def build_parser() -> argparse.ArgumentParser:
 
     p = sub.add_parser("check-config", parents=[common], help="valider la configuration")
     p.set_defaults(func=cmd_check_config)
+
+    p = sub.add_parser(
+        "dossier", parents=[common], help="dossier de preuves passif pour un couple préfixe/origine"
+    )
+    p.add_argument("prefix", help="préfixe annoncé, ex. 90.98.0.0/18")
+    p.add_argument("asn", help="origine observée, ex. 54113 ou AS54113")
+    p.add_argument("-o", "--output", help="répertoire (défaut : dossier/<préfixe>)")
+    p.add_argument("--covering", help="préfixe englobant (défaut : préfixe raccourci de 3 bits)")
+    p.add_argument(
+        "--roa-date", action="append", help="date AAAA-MM-JJ des archives ROA (répétable)"
+    )
+    p.add_argument("--tal", action="append", help="TAL des archives ROA (défaut : ripencc)")
+    p.add_argument("--provider-list", help="URL d'une liste d'IP publiée par l'opérateur")
+    p.add_argument(
+        "--provider-history",
+        action="store_true",
+        help="consulter aussi les archives Wayback Machine de cette liste",
+    )
+    p.add_argument(
+        "--reference", type=int, default=6, help="préfixes de référence de l'ASN (défaut 6)"
+    )
+    p.add_argument(
+        "--ptr-sample", type=int, default=8, help="adresses PTR échantillonnées (défaut 8)"
+    )
+    p.add_argument("--holder-org", help="organisation RIPE du titulaire, ex. ORG-FT2-RIPE")
+    p.add_argument("--holder-name", help="nom dans les transferts RIPE NCC, ex. « Orange S.A. »")
+    p.add_argument(
+        "--redact",
+        action="append",
+        default=[],
+        help="terme à masquer dans les données brutes (nom de personne repéré), répétable",
+    )
+    p.set_defaults(func=cmd_dossier)
 
     p = sub.add_parser(
         "test-alert", parents=[common], help="envoyer une alerte factice sur les canaux configurés"

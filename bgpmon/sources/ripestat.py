@@ -53,6 +53,11 @@ class RipeStatClient:
 
     def get(self, endpoint: str, **params: Any) -> dict[str, Any]:
         """Appelle `/data/<endpoint>/data.json` et retourne le champ `data`."""
+        data: dict[str, Any] = self.get_body(endpoint, **params)["data"]
+        return data
+
+    def get_body(self, endpoint: str, **params: Any) -> dict[str, Any]:
+        """Comme `get`, mais retourne la réponse complète (`data`, `messages`, `status`…)."""
         query = {k: str(v) for k, v in params.items() if v is not None}
         query["sourceapp"] = self.settings.sourceapp
         cache_key = (endpoint, tuple(sorted(query.items())))
@@ -60,13 +65,13 @@ class RipeStatClient:
             cached = self._cache.get(cache_key)
             if cached and cached[0] > self._clock():
                 return cached[1]
-            data = self._fetch(endpoint, query)
+            body = self._fetch(endpoint, query)
             if self.settings.cache_ttl:
-                self._cache[cache_key] = (self._clock() + self.settings.cache_ttl, data)
+                self._cache[cache_key] = (self._clock() + self.settings.cache_ttl, body)
                 if len(self._cache) > 2048:
                     now = self._clock()
                     self._cache = {k: v for k, v in self._cache.items() if v[0] > now}
-            return data
+            return body
 
     def _fetch(self, endpoint: str, query: dict[str, str]) -> dict[str, Any]:
         url = f"{self.settings.base_url}/{endpoint}/data.json"
@@ -101,8 +106,8 @@ class RipeStatClient:
             for level, text in body.get("messages") or []:
                 if level == "error":
                     raise SourceError(f"RIPEstat {endpoint} : {text}")
-            data: dict[str, Any] = body["data"]
-            return data
+            full: dict[str, Any] = body
+            return full
         raise SourceError(f"RIPEstat {endpoint} injoignable : {last_error}")
 
     # ── Endpoints ──

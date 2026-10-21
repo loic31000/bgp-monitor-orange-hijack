@@ -1,5 +1,11 @@
 # Journal des modifications
 
+## Non publié
+
+- Nouvelle sous-commande `bgpmon dossier PREFIX ASN` : collecte passive et horodatée d'un dossier de preuves sur une annonce. Elle couvre le routage RIS actuel et historique, BGPlay, les archives ROA du RIPE NCC, l'IRR, le registre RIPE, les transferts officiels, le DNS inverse et la liste d'IP de l'opérateur. Les e-mails sont masqués et l'option `--redact` permet de masquer des termes repérés à la relecture.
+- Client RIPEstat : `get_body()` expose aussi les `messages` des réponses.
+- Premier dossier : `dossier/90.98.0.0-18/` (alerte AS54113).
+
 ## 3.0.0 — 2026-10-21
 
 Réécriture complète : le script monolithique `bgp_monitor.py` v2.4 devient le package `bgpmon` (`python -m bgpmon`). L'ancien script est conservé, marqué obsolète, dans `legacy/`.
