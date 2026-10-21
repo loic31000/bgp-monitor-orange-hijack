@@ -1,0 +1,67 @@
+{
+ "meta": {
+  "source": "whois whois.radb.net:43",
+  "query": "-s RADB -T route -M 90.98.0.0/15",
+  "fetched_at": "2026-10-21T08:03:37+00:00",
+  "sha256_data": "2b4ea379ac69a43a9745c82f9c8173238dfe948d76e7360984b52180d58d7278",
+  "tool": "bgpmon 3.0.0",
+  "note": ""
+ },
+ "data": {
+  "objects": [
+   {
+    "route": [
+     "90.98.0.0/18"
+    ],
+    "descr": [
+     "Fastly"
+    ],
+    "origin": [
+     "AS54113"
+    ],
+    "mnt-by": [
+     "MAINT-AS54113"
+    ],
+    "source": [
+     "RADB"
+    ],
+    "changed": [
+     "<masqué>@fastly.com 20261005 # 11:49 GMT"
+    ],
+    "last-modified": [
+     "2026-10-05T11:49:37Z"
+    ],
+    "rpki-ov-state": [
+     "not_found # No ROAs found, or RPKI validation not enabled for source"
+    ]
+   },
+   {
+    "route": [
+     "90.98.128.0/18"
+    ],
+    "descr": [
+     "Fastly"
+    ],
+    "origin": [
+     "AS54113"
+    ],
+    "mnt-by": [
+     "MAINT-AS54113"
+    ],
+    "source": [
+     "RADB"
+    ],
+    "changed": [
+     "<masqué>@fastly.com 20261005 # 11:49 GMT"
+    ],
+    "last-modified": [
+     "2026-10-05T11:49:37Z"
+    ],
+    "rpki-ov-state": [
+     "not_found # No ROAs found, or RPKI validation not enabled for source"
+    ]
+   }
+  ],
+  "errors": []
+ }
+}

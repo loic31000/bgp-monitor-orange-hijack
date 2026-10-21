@@ -255,6 +255,32 @@ Le fichier de configuration est choisi avec `-c`, sinon `$BGPMON_CONFIG`, sinon 
 
 Tous ces fichiers sont ignorés par git.
 
+### Dossier de preuves sur une alerte
+
+`bgpmon dossier PREFIX ASN` rassemble, de façon 100 % passive, ce que disent les sources publiques d'une annonce suspecte. Il ne conclut rien : l'interprétation reste humaine.
+
+```bash
+python -m bgpmon dossier 90.98.0.0/18 54113 --covering 90.98.0.0/15 \
+  --provider-list https://api.fastly.com/public-ip-list --provider-history \
+  --holder-org ORG-FT2-RIPE --holder-name "Orange S.A." \
+  --roa-date 2026-04-19 --roa-date 2026-10-20
+```
+
+La collecte porte sur :
+- **Routage** : état actuel du préfixe et du préfixe englobant, historique RIS en périodes continues, première annonce et upstreams heure par heure (BGPlay), déroulé des retraits récents. Les upstreams actuels sont comparés aux autres préfixes de l'ASN.
+- **RPKI** : validation actuelle, et ROA des archives quotidiennes du RIPE NCC aux dates demandées, avec vérification SHA-256.
+- **IRR** : objets `route` (exact, englobant, plus- et moins-spécifiques) sur RADB, ALTDB et RIPE, avec le contexte des maintainers (nombre d'objets, origines, dates).
+- **Registre RIPE** : `inetnum`, organisation, historique whois, `aut-num`. Pour les upstreams vus à l'apparition, la commande relève aussi les lignes de politique qui mentionnent l'ASN, avec leur première version.
+- **Transferts officiels du RIPE NCC** recouvrant le préfixe englobant ou impliquant le titulaire. Seul un extrait filtré est conservé.
+- **DNS inverse** via un résolveur public DNS-over-HTTPS, avec un petit échantillon de PTR, une adresse par /24 et aucun balayage. En option, la liste d'IP publiée par l'opérateur et ses archives dans la Wayback Machine.
+- **Avec `--holder-org`** : les routes d'origine étrangère au titulaire dans tout son espace RIPE.
+
+La sortie (`dossier/<préfixe>/` par défaut) comprend :
+- `raw/*.json` : chaque réponse, avec sa source, sa requête, son horodatage et son empreinte SHA-256 ;
+- `INDEX.json`, `summary.json`, et `OBSERVATIONS.md` (constats bruts, sans interprétation).
+
+Les adresses e-mail sont masquées et les attributs de contact RPSL sont supprimés. Les sources en échec sont listées comme « non vérifié ». Les noms de détenteurs d'ASN ou de parties à un transfert peuvent désigner une personne physique : relisez-les avant toute publication.
+
 ### Docker et systemd
 
 ```bash

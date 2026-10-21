@@ -1,0 +1,445 @@
+{
+ "meta": {
+  "source": "RIPEstat https://stat.ripe.net/data/",
+  "query": "routing-history resource=90.98.0.0/15",
+  "fetched_at": "2026-10-21T08:01:19+00:00",
+  "sha256_data": "d16de62aede2b4eb4e75997c4c44abef3b7d5d50c21f66337f59e4f755e8e28d",
+  "tool": "bgpmon 3.0.0",
+  "note": ""
+ },
+ "data": {
+  "messages": [
+   [
+    "info",
+    "Results exclude routes with very low visibility (less than 10 RIS full-feed peers seeing)."
+   ]
+  ],
+  "data": {
+   "by_origin": [
+    {
+     "origin": "1299",
+     "prefixes": [
+      {
+       "prefix": "0.0.0.0/1",
+       "timelines": [
+        {
+         "starttime": "2008-05-05T00:00:00",
+         "endtime": "2008-05-16T23:59:59",
+         "full_peers_seeing": 58.0
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "origin": "3215",
+     "prefixes": [
+      {
+       "prefix": "90.98.0.0/16",
+       "timelines": [
+        {
+         "starttime": "2026-04-13T00:00:00",
+         "endtime": "2026-05-06T23:59:59",
+         "full_peers_seeing": 330.54
+        },
+        {
+         "starttime": "2026-05-07T00:00:00",
+         "endtime": "2026-06-23T23:59:59",
+         "full_peers_seeing": 327.25
+        },
+        {
+         "starttime": "2026-06-24T00:00:00",
+         "endtime": "2026-07-17T23:59:59",
+         "full_peers_seeing": 325.39
+        },
+        {
+         "starttime": "2026-07-18T00:00:00",
+         "endtime": "2026-08-10T23:59:59",
+         "full_peers_seeing": 328.56
+        },
+        {
+         "starttime": "2026-08-11T00:00:00",
+         "endtime": "2026-08-22T23:59:59",
+         "full_peers_seeing": 326.94
+        },
+        {
+         "starttime": "2026-08-23T00:00:00",
+         "endtime": "2026-09-03T23:59:59",
+         "full_peers_seeing": 282.53
+        }
+       ]
+      },
+      {
+       "prefix": "90.99.0.0/16",
+       "timelines": [
+        {
+         "starttime": "2019-04-14T00:00:00",
+         "endtime": "2019-04-25T23:59:59",
+         "full_peers_seeing": 225.5
+        },
+        {
+         "starttime": "2019-04-26T00:00:00",
+         "endtime": "2019-05-19T23:59:59",
+         "full_peers_seeing": 230.69
+        },
+        {
+         "starttime": "2019-05-20T00:00:00",
+         "endtime": "2019-06-12T23:59:59",
+         "full_peers_seeing": 234.39
+        },
+        {
+         "starttime": "2019-06-13T00:00:00",
+         "endtime": "2019-07-30T23:59:59",
+         "full_peers_seeing": 236.69
+        },
+        {
+         "starttime": "2019-07-31T00:00:00",
+         "endtime": "2019-08-11T23:59:59",
+         "full_peers_seeing": 238.56
+        },
+        {
+         "starttime": "2019-08-12T00:00:00",
+         "endtime": "2019-08-23T23:59:59",
+         "full_peers_seeing": 240.92
+        },
+        {
+         "starttime": "2019-08-24T00:00:00",
+         "endtime": "2019-09-04T23:59:59",
+         "full_peers_seeing": 242.56
+        },
+        {
+         "starttime": "2019-09-05T00:00:00",
+         "endtime": "2019-09-16T23:59:59",
+         "full_peers_seeing": 244.28
+        },
+        {
+         "starttime": "2019-09-17T00:00:00",
+         "endtime": "2019-10-10T23:59:59",
+         "full_peers_seeing": 247.75
+        },
+        {
+         "starttime": "2019-10-11T00:00:00",
+         "endtime": "2019-10-22T23:59:59",
+         "full_peers_seeing": 251.33
+        },
+        {
+         "starttime": "2019-10-23T00:00:00",
+         "endtime": "2019-11-03T23:59:59",
+         "full_peers_seeing": 255.08
+        },
+        {
+         "starttime": "2019-11-04T00:00:00",
+         "endtime": "2019-11-27T23:59:59",
+         "full_peers_seeing": 259.86
+        },
+        {
+         "starttime": "2019-11-28T00:00:00",
+         "endtime": "2019-12-09T23:59:59",
+         "full_peers_seeing": 263.14
+        },
+        {
+         "starttime": "2019-12-10T00:00:00",
+         "endtime": "2019-12-21T23:59:59",
+         "full_peers_seeing": 260.67
+        },
+        {
+         "starttime": "2019-12-22T00:00:00",
+         "endtime": "2020-01-02T23:59:59",
+         "full_peers_seeing": 263.19
+        },
+        {
+         "starttime": "2020-01-03T00:00:00",
+         "endtime": "2020-01-14T23:59:59",
+         "full_peers_seeing": 265.64
+        },
+        {
+         "starttime": "2020-01-15T00:00:00",
+         "endtime": "2020-01-26T23:59:59",
+         "full_peers_seeing": 267.61
+        },
+        {
+         "starttime": "2020-01-27T00:00:00",
+         "endtime": "2020-02-07T23:59:59",
+         "full_peers_seeing": 272.69
+        },
+        {
+         "starttime": "2020-02-08T00:00:00",
+         "endtime": "2020-03-02T23:59:59",
+         "full_peers_seeing": 277.19
+        },
+        {
+         "starttime": "2020-03-03T00:00:00",
+         "endtime": "2020-03-14T23:59:59",
+         "full_peers_seeing": 270.19
+        },
+        {
+         "starttime": "2020-03-15T00:00:00",
+         "endtime": "2020-03-26T23:59:59",
+         "full_peers_seeing": 274.83
+        },
+        {
+         "starttime": "2020-03-27T00:00:00",
+         "endtime": "2020-04-07T23:59:59",
+         "full_peers_seeing": 281.5
+        },
+        {
+         "starttime": "2020-04-08T00:00:00",
+         "endtime": "2020-04-19T23:59:59",
+         "full_peers_seeing": 288.67
+        },
+        {
+         "starttime": "2020-04-20T00:00:00",
+         "endtime": "2020-05-01T23:59:59",
+         "full_peers_seeing": 295.33
+        },
+        {
+         "starttime": "2020-05-02T00:00:00",
+         "endtime": "2020-05-13T23:59:59",
+         "full_peers_seeing": 301.81
+        },
+        {
+         "starttime": "2020-05-14T00:00:00",
+         "endtime": "2020-05-25T23:59:59",
+         "full_peers_seeing": 311.0
+        },
+        {
+         "starttime": "2020-05-26T00:00:00",
+         "endtime": "2020-06-18T23:59:59",
+         "full_peers_seeing": 306.61
+        },
+        {
+         "starttime": "2020-06-19T00:00:00",
+         "endtime": "2020-06-30T23:59:59",
+         "full_peers_seeing": 303.94
+        },
+        {
+         "starttime": "2020-07-01T00:00:00",
+         "endtime": "2020-07-12T23:59:59",
+         "full_peers_seeing": 305.92
+        },
+        {
+         "starttime": "2020-07-13T00:00:00",
+         "endtime": "2020-07-24T23:59:59",
+         "full_peers_seeing": 304.22
+        },
+        {
+         "starttime": "2020-07-25T00:00:00",
+         "endtime": "2020-08-05T23:59:59",
+         "full_peers_seeing": 311.28
+        },
+        {
+         "starttime": "2020-08-06T00:00:00",
+         "endtime": "2020-09-10T23:59:59",
+         "full_peers_seeing": 323.17
+        },
+        {
+         "starttime": "2020-09-11T00:00:00",
+         "endtime": "2020-10-04T23:59:59",
+         "full_peers_seeing": 325.39
+        },
+        {
+         "starttime": "2020-10-05T00:00:00",
+         "endtime": "2020-10-16T23:59:59",
+         "full_peers_seeing": 329.17
+        },
+        {
+         "starttime": "2020-10-17T00:00:00",
+         "endtime": "2020-10-28T23:59:59",
+         "full_peers_seeing": 331.0
+        },
+        {
+         "starttime": "2020-10-29T00:00:00",
+         "endtime": "2020-11-09T23:59:59",
+         "full_peers_seeing": 328.58
+        },
+        {
+         "starttime": "2020-11-10T00:00:00",
+         "endtime": "2020-11-21T23:59:59",
+         "full_peers_seeing": 320.25
+        },
+        {
+         "starttime": "2020-11-22T00:00:00",
+         "endtime": "2020-12-03T23:59:59",
+         "full_peers_seeing": 308.14
+        },
+        {
+         "starttime": "2020-12-04T00:00:00",
+         "endtime": "2020-12-15T23:59:59",
+         "full_peers_seeing": 316.75
+        },
+        {
+         "starttime": "2020-12-16T00:00:00",
+         "endtime": "2021-01-08T23:59:59",
+         "full_peers_seeing": 322.14
+        },
+        {
+         "starttime": "2021-01-09T00:00:00",
+         "endtime": "2021-01-20T23:59:59",
+         "full_peers_seeing": 320.19
+        },
+        {
+         "starttime": "2021-01-21T00:00:00",
+         "endtime": "2021-03-09T23:59:59",
+         "full_peers_seeing": 322.08
+        },
+        {
+         "starttime": "2021-03-10T00:00:00",
+         "endtime": "2021-03-21T23:59:59",
+         "full_peers_seeing": 324.56
+        },
+        {
+         "starttime": "2021-03-22T00:00:00",
+         "endtime": "2021-04-02T23:59:59",
+         "full_peers_seeing": 288.11
+        },
+        {
+         "starttime": "2025-08-16T00:00:00",
+         "endtime": "2025-09-08T23:59:59",
+         "full_peers_seeing": 22.13
+        },
+        {
+         "starttime": "2026-04-13T00:00:00",
+         "endtime": "2026-04-24T23:59:59",
+         "full_peers_seeing": 331.46
+        },
+        {
+         "starttime": "2026-04-25T00:00:00",
+         "endtime": "2026-05-06T23:59:59",
+         "full_peers_seeing": 329.08
+        },
+        {
+         "starttime": "2026-05-07T00:00:00",
+         "endtime": "2026-06-23T23:59:59",
+         "full_peers_seeing": 327.25
+        },
+        {
+         "starttime": "2026-06-24T00:00:00",
+         "endtime": "2026-07-17T23:59:59",
+         "full_peers_seeing": 325.39
+        },
+        {
+         "starttime": "2026-07-18T00:00:00",
+         "endtime": "2026-08-10T23:59:59",
+         "full_peers_seeing": 328.56
+        },
+        {
+         "starttime": "2026-08-11T00:00:00",
+         "endtime": "2026-10-21T00:00:00",
+         "full_peers_seeing": 326.94
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "origin": "3352",
+     "prefixes": [
+      {
+       "prefix": "90.0.0.0/7",
+       "timelines": [
+        {
+         "starttime": "2007-08-15T00:00:00",
+         "endtime": "2007-08-26T23:59:59",
+         "full_peers_seeing": 59.0
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "origin": "9121",
+     "prefixes": [
+      {
+       "prefix": "64.0.0.0/2",
+       "timelines": [
+        {
+         "starttime": "2004-10-05T00:00:00",
+         "endtime": "2004-10-16T23:59:59",
+         "full_peers_seeing": 34.0
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "origin": "19962",
+     "prefixes": [
+      {
+       "prefix": "90.0.0.0/8",
+       "timelines": [
+        {
+         "starttime": "2004-03-15T00:00:00",
+         "endtime": "2004-03-26T23:59:59",
+         "full_peers_seeing": 11.0
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "origin": "41128",
+     "prefixes": [
+      {
+       "prefix": "90.98.0.0/15",
+       "timelines": [
+        {
+         "starttime": "2026-02-24T00:00:00",
+         "endtime": "2026-03-07T23:59:59",
+         "full_peers_seeing": 288.42
+        },
+        {
+         "starttime": "2026-03-08T00:00:00",
+         "endtime": "2026-03-19T23:59:59",
+         "full_peers_seeing": 291.44
+        },
+        {
+         "starttime": "2026-04-01T00:00:00",
+         "endtime": "2026-04-12T23:59:59",
+         "full_peers_seeing": 327.0
+        },
+        {
+         "starttime": "2026-04-13T00:00:00",
+         "endtime": "2026-04-24T23:59:59",
+         "full_peers_seeing": 317.81
+        }
+       ]
+      },
+      {
+       "prefix": "90.98.0.0/16",
+       "timelines": [
+        {
+         "starttime": "2026-04-13T00:00:00",
+         "endtime": "2026-04-24T23:59:59",
+         "full_peers_seeing": 12.0
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "origin": "54113",
+     "prefixes": [
+      {
+       "prefix": "90.98.0.0/18",
+       "timelines": [
+        {
+         "starttime": "2026-09-28T00:00:00",
+         "endtime": "2026-10-21T00:00:00",
+         "full_peers_seeing": 324.36
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "resource": "90.98.0.0/15",
+   "query_starttime": "2000-08-01T00:00:00",
+   "query_endtime": "2026-10-21T00:00:00",
+   "time_granularity": 1036800,
+   "latest_max_ff_peers": {
+    "v4": 167,
+    "v6": 177
+   }
+  }
+ }
+}

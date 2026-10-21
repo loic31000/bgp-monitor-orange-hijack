@@ -34,7 +34,7 @@ def write_config(tmp_path: Path) -> Path:
 def test_check_config(capsys: pytest.CaptureFixture[str]) -> None:
     assert cli.main(["check-config", "-c", str(ROOT / "config.example.yaml")]) == 0
     out = capsys.readouterr().out
-    assert "Configuration valide" in out and "6 préfixe(s), 7 ASN" in out
+    assert "Configuration valide" in out and "7 préfixe(s), 7 ASN" in out
 
 
 def test_check_config_invalid(tmp_path: Path, capsys: pytest.CaptureFixture[str]) -> None:

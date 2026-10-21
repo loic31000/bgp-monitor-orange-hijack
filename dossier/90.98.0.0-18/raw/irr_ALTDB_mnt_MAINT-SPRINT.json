@@ -1,0 +1,665 @@
+{
+ "meta": {
+  "source": "whois whois.altdb.net:43",
+  "query": "-i mnt-by MAINT-SPRINT",
+  "fetched_at": "2026-10-21T08:04:11+00:00",
+  "sha256_data": "3d2def206f6436336b5def6154953d2d2d0d2e39d644b7ca00225920987c7bd5",
+  "tool": "bgpmon 3.0.0",
+  "note": ""
+ },
+ "data": {
+  "objects": [
+   {
+    "mntner": [
+     "MAINT-SPRINT"
+    ],
+    "descr": [
+     "Sprint"
+    ],
+    "admin-c": [
+     "SIE-ARIN"
+    ],
+    "tech-c": [
+     "SIE-ARIN"
+    ],
+    "mnt-by": [
+     "MAINT-SPRINT"
+    ],
+    "changed": [
+     "<masqué>@cogentco.com 20200213"
+    ],
+    "source": [
+     "ALTDB"
+    ]
+   },
+   {
+    "route": [
+     "208.32.128.0/17"
+    ],
+    "origin": [
+     "AS3643"
+    ],
+    "descr": [
+     "SprintLink"
+    ],
+    "mnt-by": [
+     "MAINT-SPRINT"
+    ],
+    "admin-c": [
+     "SIE-ARIN"
+    ],
+    "tech-c": [
+     "SIE-ARIN"
+    ],
+    "changed": [
+     "<masqué>@cogentco.com 20190324"
+    ],
+    "source": [
+     "ALTDB"
+    ]
+   },
+   {
+    "route": [
+     "208.32.128.0/17"
+    ],
+    "origin": [
+     "AS270118"
+    ],
+    "descr": [
+     "SprintLink"
+    ],
+    "mnt-by": [
+     "MAINT-SPRINT"
+    ],
+    "admin-c": [
+     "SIE-ARIN"
+    ],
+    "tech-c": [
+     "SIE-ARIN"
+    ],
+    "changed": [
+     "<masqué>@cogentco.com 20190324"
+    ],
+    "source": [
+     "ALTDB"
+    ]
+   },
+   {
+    "route": [
+     "208.32.64.0/18"
+    ],
+    "origin": [
+     "AS270118"
+    ],
+    "descr": [
+     "SprintLink"
+    ],
+    "mnt-by": [
+     "MAINT-SPRINT"
+    ],
+    "admin-c": [
+     "SIE-ARIN"
+    ],
+    "tech-c": [
+     "SIE-ARIN"
+    ],
+    "changed": [
+     "<masqué>@cogentco.com 20190324"
+    ],
+    "source": [
+     "ALTDB"
+    ]
+   },
+   {
+    "route": [
+     "208.32.64.0/18"
+    ],
+    "origin": [
+     "AS1802"
+    ],
+    "descr": [
+     "SprintLink"
+    ],
+    "mnt-by": [
+     "MAINT-SPRINT"
+    ],
+    "admin-c": [
+     "SIE-ARIN"
+    ],
+    "tech-c": [
+     "SIE-ARIN"
+    ],
+    "changed": [
+     "<masqué>@cogentco.com 20190324"
+    ],
+    "source": [
+     "ALTDB"
+    ]
+   },
+   {
+    "route": [
+     "208.32.64.0/24"
+    ],
+    "origin": [
+     "AS270118"
+    ],
+    "descr": [
+     "SprintLink"
+    ],
+    "mnt-by": [
+     "MAINT-SPRINT"
+    ],
+    "admin-c": [
+     "SIE-ARIN"
+    ],
+    "tech-c": [
+     "SIE-ARIN"
+    ],
+    "changed": [
+     "<masqué>@cogentco.com 20190324"
+    ],
+    "source": [
+     "ALTDB"
+    ]
+   },
+   {
+    "route": [
+     "208.32.64.0/24"
+    ],
+    "origin": [
+     "AS1802"
+    ],
+    "descr": [
+     "SprintLink"
+    ],
+    "mnt-by": [
+     "MAINT-SPRINT"
+    ],
+    "admin-c": [
+     "SIE-ARIN"
+    ],
+    "tech-c": [
+     "SIE-ARIN"
+    ],
+    "changed": [
+     "<masqué>@cogentco.com 20190324"
+    ],
+    "source": [
+     "ALTDB"
+    ]
+   },
+   {
+    "route": [
+     "208.12.0.0/16"
+    ],
+    "origin": [
+     "AS270118"
+    ],
+    "descr": [
+     "SprintLink"
+    ],
+    "mnt-by": [
+     "MAINT-SPRINT"
+    ],
+    "admin-c": [
+     "SIE-ARIN"
+    ],
+    "tech-c": [
+     "SIE-ARIN"
+    ],
+    "changed": [
+     "<masqué>@cogentco.com 20190324"
+    ],
+    "source": [
+     "ALTDB"
+    ]
+   },
+   {
+    "route": [
+     "208.12.0.0/16"
+    ],
+    "origin": [
+     "AS1802"
+    ],
+    "descr": [
+     "SprintLink"
+    ],
+    "mnt-by": [
+     "MAINT-SPRINT"
+    ],
+    "admin-c": [
+     "SIE-ARIN"
+    ],
+    "tech-c": [
+     "SIE-ARIN"
+    ],
+    "changed": [
+     "<masqué>@cogentco.com 20190324"
+    ],
+    "source": [
+     "ALTDB"
+    ]
+   },
+   {
+    "route": [
+     "208.9.0.0/16"
+    ],
+    "origin": [
+     "AS270118"
+    ],
+    "descr": [
+     "SprintLink"
+    ],
+    "mnt-by": [
+     "MAINT-SPRINT"
+    ],
+    "admin-c": [
+     "SIE-ARIN"
+    ],
+    "tech-c": [
+     "SIE-ARIN"
+    ],
+    "changed": [
+     "<masqué>@cogentco.com 20220324"
+    ],
+    "source": [
+     "ALTDB"
+    ]
+   },
+   {
+    "route": [
+     "208.9.0.0/16"
+    ],
+    "origin": [
+     "AS1802"
+    ],
+    "descr": [
+     "SprintLink"
+    ],
+    "mnt-by": [
+     "MAINT-SPRINT"
+    ],
+    "admin-c": [
+     "SIE-ARIN"
+    ],
+    "tech-c": [
+     "SIE-ARIN"
+    ],
+    "changed": [
+     "<masqué>@cogentco.com 20220324"
+    ],
+    "source": [
+     "ALTDB"
+    ]
+   },
+   {
+    "route": [
+     "204.96.192.0/18"
+    ],
+    "origin": [
+     "AS270118"
+    ],
+    "descr": [
+     "SprintLink"
+    ],
+    "mnt-by": [
+     "MAINT-SPRINT"
+    ],
+    "admin-c": [
+     "SIE-ARIN"
+    ],
+    "tech-c": [
+     "SIE-ARIN"
+    ],
+    "changed": [
+     "<masqué>@cogentco.com 20220324"
+    ],
+    "source": [
+     "ALTDB"
+    ]
+   },
+   {
+    "route": [
+     "198.68.0.0/16"
+    ],
+    "origin": [
+     "AS270118"
+    ],
+    "descr": [
+     "SprintLink"
+    ],
+    "mnt-by": [
+     "MAINT-SPRINT"
+    ],
+    "admin-c": [
+     "SIE-ARIN"
+    ],
+    "tech-c": [
+     "SIE-ARIN"
+    ],
+    "changed": [
+     "<masqué>@cogentco.com 20220324"
+    ],
+    "source": [
+     "ALTDB"
+    ]
+   },
+   {
+    "route": [
+     "204.182.192.0/18"
+    ],
+    "origin": [
+     "AS270118"
+    ],
+    "descr": [
+     "SprintLink"
+    ],
+    "mnt-by": [
+     "MAINT-SPRINT"
+    ],
+    "admin-c": [
+     "SIE-ARIN"
+    ],
+    "tech-c": [
+     "SIE-ARIN"
+    ],
+    "changed": [
+     "<masqué>@cogentco.com 20220324"
+    ],
+    "source": [
+     "ALTDB"
+    ]
+   },
+   {
+    "route": [
+     "204.182.128.0/18"
+    ],
+    "origin": [
+     "AS270118"
+    ],
+    "descr": [
+     "SprintLink"
+    ],
+    "mnt-by": [
+     "MAINT-SPRINT"
+    ],
+    "admin-c": [
+     "SIE-ARIN"
+    ],
+    "tech-c": [
+     "SIE-ARIN"
+    ],
+    "changed": [
+     "<masqué>@cogentco.com 20220324"
+    ],
+    "source": [
+     "ALTDB"
+    ]
+   },
+   {
+    "route": [
+     "199.3.192.0/18"
+    ],
+    "origin": [
+     "AS270118"
+    ],
+    "descr": [
+     "SprintLink"
+    ],
+    "mnt-by": [
+     "MAINT-SPRINT"
+    ],
+    "admin-c": [
+     "SIE-ARIN"
+    ],
+    "tech-c": [
+     "SIE-ARIN"
+    ],
+    "changed": [
+     "<masqué>@cogentco.com 20220324"
+    ],
+    "source": [
+     "ALTDB"
+    ]
+   },
+   {
+    "route": [
+     "144.232.64.0/18"
+    ],
+    "origin": [
+     "AS270118"
+    ],
+    "descr": [
+     "SprintLink"
+    ],
+    "mnt-by": [
+     "MAINT-SPRINT"
+    ],
+    "admin-c": [
+     "SIE-ARIN"
+    ],
+    "tech-c": [
+     "SIE-ARIN"
+    ],
+    "changed": [
+     "<masqué>@cogentco.com 20220324"
+    ],
+    "source": [
+     "ALTDB"
+    ]
+   },
+   {
+    "route": [
+     "199.160.64.0/18"
+    ],
+    "origin": [
+     "AS270118"
+    ],
+    "descr": [
+     "SprintLink"
+    ],
+    "mnt-by": [
+     "MAINT-SPRINT"
+    ],
+    "admin-c": [
+     "SIE-ARIN"
+    ],
+    "tech-c": [
+     "SIE-ARIN"
+    ],
+    "changed": [
+     "<masqué>@cogentco.com 20220324"
+    ],
+    "source": [
+     "ALTDB"
+    ]
+   },
+   {
+    "route": [
+     "195.123.64.0/19"
+    ],
+    "origin": [
+     "AS272055"
+    ],
+    "descr": [
+     "SprintLink - Repremendoso"
+    ],
+    "mnt-by": [
+     "MAINT-SPRINT"
+    ],
+    "admin-c": [
+     "SIE-ARIN"
+    ],
+    "tech-c": [
+     "SIE-ARIN"
+    ],
+    "changed": [
+     "<masqué>@cogentco.com 20220324"
+    ],
+    "source": [
+     "ALTDB"
+    ]
+   },
+   {
+    "route": [
+     "90.98.0.0/15"
+    ],
+    "origin": [
+     "AS270118"
+    ],
+    "descr": [
+     "SprintLink - FR Telco"
+    ],
+    "mnt-by": [
+     "MAINT-SPRINT"
+    ],
+    "admin-c": [
+     "SIE-ARIN"
+    ],
+    "tech-c": [
+     "SIE-ARIN"
+    ],
+    "changed": [
+     "<masqué>@cogentco.com 20220324"
+    ],
+    "source": [
+     "ALTDB"
+    ]
+   },
+   {
+    "route": [
+     "90.98.0.0/15"
+    ],
+    "origin": [
+     "AS41128"
+    ],
+    "descr": [
+     "SprintLink - FR Telco"
+    ],
+    "mnt-by": [
+     "MAINT-SPRINT"
+    ],
+    "admin-c": [
+     "SIE-ARIN"
+    ],
+    "tech-c": [
+     "SIE-ARIN"
+    ],
+    "changed": [
+     "<masqué>@cogentco.com 20220324"
+    ],
+    "source": [
+     "ALTDB"
+    ]
+   },
+   {
+    "route": [
+     "216.165.61.0/24"
+    ],
+    "origin": [
+     "AS270118"
+    ],
+    "descr": [
+     "SprintLink - FR Telco"
+    ],
+    "mnt-by": [
+     "MAINT-SPRINT"
+    ],
+    "admin-c": [
+     "SIE-ARIN"
+    ],
+    "tech-c": [
+     "SIE-ARIN"
+    ],
+    "changed": [
+     "<masqué>@cogentco.com 20220324"
+    ],
+    "source": [
+     "ALTDB"
+    ]
+   },
+   {
+    "as-set": [
+     "AS270118:AS-INTAKE"
+    ],
+    "descr": [
+     "Cogentco - Customer AS-SET for inbound filtering"
+    ],
+    "members": [
+     "AS270118",
+     "AS7303",
+     "AS19373",
+     "AS22047"
+    ],
+    "mnt-by": [
+     "MAINT-SPRINT"
+    ],
+    "admin-c": [
+     "SIE-ARIN"
+    ],
+    "tech-c": [
+     "SIE-ARIN"
+    ],
+    "changed": [
+     "<masqué>@cogentco.com 20220324"
+    ],
+    "source": [
+     "ALTDB"
+    ]
+   },
+   {
+    "route": [
+     "166.52.0.0/14"
+    ],
+    "origin": [
+     "AS270118"
+    ],
+    "descr": [
+     "SprintLink - MCS - Cogent AS174"
+    ],
+    "mnt-by": [
+     "MAINT-SPRINT"
+    ],
+    "admin-c": [
+     "SIE-ARIN"
+    ],
+    "tech-c": [
+     "SIE-ARIN"
+    ],
+    "changed": [
+     "<masqué>@cogentco.com 20220324"
+    ],
+    "source": [
+     "ALTDB"
+    ]
+   },
+   {
+    "route": [
+     "166.52.0.0/14"
+    ],
+    "origin": [
+     "AS22521"
+    ],
+    "descr": [
+     "SprintLink - MCS - Cogent AS174"
+    ],
+    "mnt-by": [
+     "MAINT-SPRINT"
+    ],
+    "admin-c": [
+     "SIE-ARIN"
+    ],
+    "tech-c": [
+     "SIE-ARIN"
+    ],
+    "changed": [
+     "<masqué>@cogentco.com 20220324"
+    ],
+    "source": [
+     "ALTDB"
+    ]
+   }
+  ],
+  "errors": []
+ }
+}

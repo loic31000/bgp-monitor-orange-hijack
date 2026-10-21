@@ -1,0 +1,41 @@
+{
+ "meta": {
+  "source": "whois whois.radb.net:43",
+  "query": "-s RADB -T mntner MAINT-AS54113",
+  "fetched_at": "2026-10-21T08:04:14+00:00",
+  "sha256_data": "acb4582917f5c1aa21ee463787a6463e5a84eae6216d28e92b77eadb0c35067a",
+  "tool": "bgpmon 3.0.0",
+  "note": ""
+ },
+ "data": {
+  "objects": [
+   {
+    "mntner": [
+     "MAINT-AS54113"
+    ],
+    "descr": [
+     "Fastly, Inc."
+    ],
+    "admin-c": [
+     "TECHOPS-FASTLY"
+    ],
+    "tech-c": [
+     "TECHOPS-FASTLY"
+    ],
+    "mnt-by": [
+     "MAINT-AS54113"
+    ],
+    "changed": [
+     "<masqué>@fastly.com 20251022 # 23:59 GMT"
+    ],
+    "source": [
+     "RADB"
+    ],
+    "last-modified": [
+     "2025-10-22T23:59:29Z"
+    ]
+   }
+  ],
+  "errors": []
+ }
+}

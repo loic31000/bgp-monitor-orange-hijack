@@ -1,0 +1,38 @@
+{
+ "meta": {
+  "source": "whois whois.altdb.net:43",
+  "query": "-T mntner MAINT-SPRINT",
+  "fetched_at": "2026-10-21T08:04:12+00:00",
+  "sha256_data": "80a854ef138253ec399a2c51d9f69e922de953fc64b270c8d599d51d64fc52f8",
+  "tool": "bgpmon 3.0.0",
+  "note": ""
+ },
+ "data": {
+  "objects": [
+   {
+    "mntner": [
+     "MAINT-SPRINT"
+    ],
+    "descr": [
+     "Sprint"
+    ],
+    "admin-c": [
+     "SIE-ARIN"
+    ],
+    "tech-c": [
+     "SIE-ARIN"
+    ],
+    "mnt-by": [
+     "MAINT-SPRINT"
+    ],
+    "changed": [
+     "<masqué>@cogentco.com 20200213"
+    ],
+    "source": [
+     "ALTDB"
+    ]
+   }
+  ],
+  "errors": []
+ }
+}

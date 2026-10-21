@@ -1,0 +1,127 @@
+{
+ "meta": {
+  "source": "https://web.archive.org/cdx/search/cdx",
+  "query": "archives de https://api.fastly.com/public-ip-list",
+  "fetched_at": "2026-10-21T08:06:06+00:00",
+  "sha256_data": "22fc394864373cd76f0b91726470a26de543b207110094ef5b1fe492a17b3235",
+  "tool": "bgpmon 3.0.0",
+  "note": ""
+ },
+ "data": [
+  {
+   "timestamp": "20240927142655",
+   "digest": "ONK4QC2EGSUZ7TEO5C5UP6XHL5FZORCX",
+   "overlapping_entries": []
+  },
+  {
+   "timestamp": "20241127015431",
+   "digest": "KTXR3UAKVL6J5K4GKH63ZD4VHHRZKZLK",
+   "overlapping_entries": []
+  },
+  {
+   "timestamp": "20241217204725",
+   "digest": "SSYWJWI2C7IYPOOFCWO5HVTVGBHGX544",
+   "overlapping_entries": []
+  },
+  {
+   "timestamp": "20250109002659",
+   "digest": "TLSBEZONYSH2SPFD5WQJTP7SIYVTNNNO",
+   "overlapping_entries": []
+  },
+  {
+   "timestamp": "20250130101925",
+   "digest": "XGC2KK3UQVWB6KGABKHH2E4HR4CEXBX3",
+   "overlapping_entries": []
+  },
+  {
+   "timestamp": "20250424182516",
+   "digest": "TFNXHG2DS5CHMY7JL6VEJATLBMVV7GRH",
+   "overlapping_entries": []
+  },
+  {
+   "timestamp": "20250528142418",
+   "digest": "A6INVB2HFVEKYZEQIL42FHGNOLWQ5WCC",
+   "overlapping_entries": []
+  },
+  {
+   "timestamp": "20250706105543",
+   "digest": "5AVIXYI7MC6FSPSR7WSTIXAKSN4TMNHU",
+   "overlapping_entries": []
+  },
+  {
+   "timestamp": "20250821133156",
+   "digest": "PJ4B42DA25SM33EBNIMPIXICS3UXSH4Q",
+   "overlapping_entries": []
+  },
+  {
+   "timestamp": "20251003051601",
+   "digest": "SSYWJWI2C7IYPOOFCWO5HVTVGBHGX544",
+   "overlapping_entries": []
+  },
+  {
+   "timestamp": "20251003094403",
+   "digest": "V7ROGLBDHRPYNEBT3N4FNZ64LKRH2GWF",
+   "overlapping_entries": []
+  },
+  {
+   "timestamp": "20251007022616",
+   "digest": "SSYWJWI2C7IYPOOFCWO5HVTVGBHGX544",
+   "overlapping_entries": []
+  },
+  {
+   "timestamp": "20251010221640",
+   "digest": "FYQCNBBPOOJIMPNPC5K5LXOPAD36FSIK",
+   "overlapping_entries": []
+  },
+  {
+   "timestamp": "20251114204228",
+   "digest": "NQQYMID4QZOBHSTARXYD344REGSUTSXA",
+   "overlapping_entries": []
+  },
+  {
+   "timestamp": "20251228001340",
+   "digest": "K45MTBF5AIWNBCETRLDYFCJW3O3ABTHZ",
+   "overlapping_entries": []
+  },
+  {
+   "timestamp": "20260210053027",
+   "digest": "SJ42GRYMDKSPDKBPM62CY6OHSQJ4YLNZ",
+   "overlapping_entries": []
+  },
+  {
+   "timestamp": "20260306105104",
+   "digest": "2LKFDGQRWQGHK4KGDHS3NLKQDF5CDAZB",
+   "overlapping_entries": []
+  },
+  {
+   "timestamp": "20260428102705",
+   "digest": "SSYWJWI2C7IYPOOFCWO5HVTVGBHGX544",
+   "overlapping_entries": []
+  },
+  {
+   "timestamp": "20260523175323",
+   "digest": "WSWEYS6752QYM5NN5F4OWXQTDLWOVHLS",
+   "overlapping_entries": []
+  },
+  {
+   "timestamp": "20260527222056",
+   "digest": "ILZIOYSOCXDN735QNHTBHGYWKTQN6VSQ",
+   "overlapping_entries": []
+  },
+  {
+   "timestamp": "20260709213643",
+   "digest": "GIMIHTPJCFTWLMXJVTLC4AGPHP3BATSX",
+   "overlapping_entries": []
+  },
+  {
+   "timestamp": "20260711225902",
+   "digest": "46II7DEKL6R7TPJ5IKFFBRLY5VAV4Y5N",
+   "overlapping_entries": []
+  },
+  {
+   "timestamp": "20260816021341",
+   "digest": "SSYWJWI2C7IYPOOFCWO5HVTVGBHGX544",
+   "overlapping_entries": []
+  }
+ ]
+}

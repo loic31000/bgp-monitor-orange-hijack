@@ -1,0 +1,35 @@
+{
+ "meta": {
+  "source": "whois whois.altdb.net:43",
+  "query": "-T route -M 90.98.0.0/15",
+  "fetched_at": "2026-10-21T08:04:07+00:00",
+  "sha256_data": "e6b0621f70caa2ec953506bdbfffcc91f6f46ffcc264296938a85cc82cb4f31c",
+  "tool": "bgpmon 3.0.0",
+  "note": ""
+ },
+ "data": {
+  "objects": [
+   {
+    "route": [
+     "90.99.0.0/16"
+    ],
+    "descr": [
+     "IPv4 Allow"
+    ],
+    "origin": [
+     "AS3215"
+    ],
+    "mnt-by": [
+     "MAINT-AS398775"
+    ],
+    "changed": [
+     "<masqué>@gmail.com 20241210"
+    ],
+    "source": [
+     "ALTDB"
+    ]
+   }
+  ],
+  "errors": []
+ }
+}

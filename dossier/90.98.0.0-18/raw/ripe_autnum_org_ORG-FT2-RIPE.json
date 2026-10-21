@@ -1,0 +1,5132 @@
+{
+ "meta": {
+  "source": "whois whois.ripe.net:43",
+  "query": "-r -T aut-num -i org ORG-FT2-RIPE",
+  "fetched_at": "2026-10-21T08:06:07+00:00",
+  "sha256_data": "ad2555a91332a0fe4e489b5845eaf707c64129ce0a7fee63ab46f6beddfc2f47",
+  "tool": "bgpmon 3.0.0",
+  "note": ""
+ },
+ "data": {
+  "objects": [
+   {
+    "aut-num": [
+     "AS16028"
+    ],
+    "as-name": [
+     "UNSPECIFIED"
+    ],
+    "descr": [
+     "Orange Caraibe",
+     "GP"
+    ],
+    "import": [
+     "from AS5511 action pref=10; accept AS5511",
+     "from AS3259 action pref=100; accept AS3259"
+    ],
+    "export": [
+     "to AS5511 announce AS16028",
+     "to AS3259 announce AS16028"
+    ],
+    "default": [
+     "to AS5511 action pref=10; networks ANY"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "admin-c": [
+     "OC2404-RIPE"
+    ],
+    "tech-c": [
+     "OC2404-RIPE"
+    ],
+    "status": [
+     "ASSIGNED"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-END-MNT",
+     "FT-BRX"
+    ],
+    "created": [
+     "1970-01-01T00:00:00Z"
+    ],
+    "last-modified": [
+     "2021-08-02T05:48:21Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "aut-num": [
+     "AS199140"
+    ],
+    "as-name": [
+     "ORE-AS"
+    ],
+    "remarks": [
+     "Orange Reunion Mobile"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "import": [
+     "from AS25186 accept ANY",
+     "from AS3215 accept ANY"
+    ],
+    "export": [
+     "to AS25186 announce AS199140",
+     "to AS3215 announce AS199140"
+    ],
+    "admin-c": [
+     "SROR1-RIPE"
+    ],
+    "tech-c": [
+     "SROR1-RIPE"
+    ],
+    "status": [
+     "ASSIGNED"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-END-MNT",
+     "FT-BRX"
+    ],
+    "created": [
+     "2012-08-21T12:10:55Z"
+    ],
+    "last-modified": [
+     "2018-09-04T11:15:13Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "aut-num": [
+     "AS2278"
+    ],
+    "as-name": [
+     "OrangeLabs"
+    ],
+    "descr": [
+     "Orange Labs OLPS"
+    ],
+    "import": [
+     "from AS3215 action pref=100; accept ANY"
+    ],
+    "export": [
+     "to AS3215 announce AS2278"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "admin-c": [
+     "ML2808-RIPE"
+    ],
+    "tech-c": [
+     "ML2808-RIPE"
+    ],
+    "status": [
+     "LEGACY"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-LEGACY-MNT",
+     "FT-BRX"
+    ],
+    "created": [
+     "2002-08-21T16:09:14Z"
+    ],
+    "last-modified": [
+     "2015-09-08T09:47:04Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "aut-num": [
+     "AS2279"
+    ],
+    "as-name": [
+     "FRANCE-TELECOM-AS"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "admin-c": [
+     "ML2808-RIPE"
+    ],
+    "tech-c": [
+     "ML2808-RIPE"
+    ],
+    "status": [
+     "LEGACY"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-LEGACY-MNT",
+     "FT-BRX"
+    ],
+    "created": [
+     "2002-08-21T16:09:15Z"
+    ],
+    "last-modified": [
+     "2017-08-31T07:59:16Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "aut-num": [
+     "AS2280"
+    ],
+    "as-name": [
+     "OCBHoney"
+    ],
+    "descr": [
+     "OCB public cloud network"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "admin-c": [
+     "OHEI1-RIPE"
+    ],
+    "tech-c": [
+     "OHEI1-RIPE"
+    ],
+    "status": [
+     "LEGACY"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-LEGACY-MNT",
+     "FT-BRX"
+    ],
+    "created": [
+     "2002-08-21T16:09:16Z"
+    ],
+    "last-modified": [
+     "2017-01-09T10:43:42Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "aut-num": [
+     "AS2281"
+    ],
+    "as-name": [
+     "OCB_HONEY_AMS"
+    ],
+    "descr": [
+     "OCB public cloud network"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "admin-c": [
+     "OHEI1-RIPE"
+    ],
+    "tech-c": [
+     "OHEI1-RIPE"
+    ],
+    "status": [
+     "LEGACY"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-LEGACY-MNT",
+     "FT-BRX"
+    ],
+    "created": [
+     "2002-08-21T16:09:17Z"
+    ],
+    "last-modified": [
+     "2020-05-06T14:26:32Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "aut-num": [
+     "AS2282"
+    ],
+    "as-name": [
+     "GILAS-DP"
+    ],
+    "descr": [
+     "PILM"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "admin-c": [
+     "OR2347-RIPE"
+    ],
+    "tech-c": [
+     "OR2346-RIPE"
+    ],
+    "status": [
+     "LEGACY"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-LEGACY-MNT",
+     "FT-BRX"
+    ],
+    "created": [
+     "2002-08-21T16:09:18Z"
+    ],
+    "last-modified": [
+     "2020-09-08T15:53:44Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "aut-num": [
+     "AS2283"
+    ],
+    "as-name": [
+     "OCNB"
+    ],
+    "descr": [
+     "OCNB Network"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "admin-c": [
+     "PHC757-RIPE"
+    ],
+    "tech-c": [
+     "OBS44-RIPE"
+    ],
+    "status": [
+     "LEGACY"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-LEGACY-MNT",
+     "FT-BRX"
+    ],
+    "created": [
+     "2002-08-21T16:09:19Z"
+    ],
+    "last-modified": [
+     "2020-09-14T13:48:20Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "aut-num": [
+     "AS2284"
+    ],
+    "as-name": [
+     "OCNB"
+    ],
+    "descr": [
+     "OCNB Network"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "admin-c": [
+     "PHC757-RIPE"
+    ],
+    "tech-c": [
+     "OBS44-RIPE"
+    ],
+    "status": [
+     "LEGACY"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-LEGACY-MNT",
+     "FT-BRX"
+    ],
+    "created": [
+     "2002-08-21T16:09:20Z"
+    ],
+    "last-modified": [
+     "2020-09-14T14:07:14Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "aut-num": [
+     "AS2285"
+    ],
+    "as-name": [
+     "OCB_HONEY_CDN_ASN"
+    ],
+    "descr": [
+     "OCB Orange Cloud Business CDN ASN"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "admin-c": [
+     "OHEI1-RIPE"
+    ],
+    "tech-c": [
+     "OHEI1-RIPE"
+    ],
+    "status": [
+     "LEGACY"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-LEGACY-MNT",
+     "FT-BRX"
+    ],
+    "created": [
+     "2002-08-21T16:09:21Z"
+    ],
+    "last-modified": [
+     "2021-03-16T14:16:42Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "aut-num": [
+     "AS2286"
+    ],
+    "as-name": [
+     "VICTORIA-SN-OL-AS"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "descr": [
+     "Victoria secure network Orange labs"
+    ],
+    "admin-c": [
+     "VA34140-RIPE"
+    ],
+    "tech-c": [
+     "VA34140-RIPE"
+    ],
+    "status": [
+     "LEGACY"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-LEGACY-MNT",
+     "FT-BRX"
+    ],
+    "created": [
+     "2002-08-21T16:09:22Z"
+    ],
+    "last-modified": [
+     "2022-02-02T13:04:02Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "aut-num": [
+     "AS2287"
+    ],
+    "as-name": [
+     "IOT-CADV-OBS-AS"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "admin-c": [
+     "IA7344-RIPE"
+    ],
+    "tech-c": [
+     "IA7345-RIPE"
+    ],
+    "status": [
+     "LEGACY"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-LEGACY-MNT",
+     "FT-BRX"
+    ],
+    "created": [
+     "2002-08-21T16:09:23Z"
+    ],
+    "last-modified": [
+     "2024-07-29T09:00:11Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "aut-num": [
+     "AS2288"
+    ],
+    "as-name": [
+     "OL-AS"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "admin-c": [
+     "NLB36-RIPE"
+    ],
+    "tech-c": [
+     "DA10624-RIPE"
+    ],
+    "status": [
+     "LEGACY"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-LEGACY-MNT",
+     "FT-BRX"
+    ],
+    "created": [
+     "2002-08-21T16:09:24Z"
+    ],
+    "last-modified": [
+     "2024-02-06T13:03:03Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "aut-num": [
+     "AS2289"
+    ],
+    "as-name": [
+     "FRANCE-TELECOM-AS"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "admin-c": [
+     "ML2808-RIPE"
+    ],
+    "tech-c": [
+     "ML2808-RIPE"
+    ],
+    "status": [
+     "LEGACY"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-LEGACY-MNT",
+     "FT-BRX"
+    ],
+    "created": [
+     "2002-08-21T16:09:25Z"
+    ],
+    "last-modified": [
+     "2017-08-31T08:05:36Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "aut-num": [
+     "AS2290"
+    ],
+    "as-name": [
+     "FRANCE-TELECOM-AS"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "admin-c": [
+     "PHC757-RIPE"
+    ],
+    "tech-c": [
+     "PHC757-RIPE"
+    ],
+    "status": [
+     "LEGACY"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-LEGACY-MNT",
+     "FT-BRX"
+    ],
+    "created": [
+     "2002-08-21T16:09:26Z"
+    ],
+    "last-modified": [
+     "2025-04-15T08:13:21Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "aut-num": [
+     "AS2291"
+    ],
+    "as-name": [
+     "OCNB"
+    ],
+    "descr": [
+     "OCNB Network"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "admin-c": [
+     "DR11800-RIPE"
+    ],
+    "tech-c": [
+     "RH11348-RIPE"
+    ],
+    "status": [
+     "LEGACY"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-LEGACY-MNT",
+     "FT-BRX"
+    ],
+    "created": [
+     "2002-08-21T16:09:27Z"
+    ],
+    "last-modified": [
+     "2025-11-24T16:22:05Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "aut-num": [
+     "AS2292"
+    ],
+    "as-name": [
+     "OCNB"
+    ],
+    "descr": [
+     "OCNB Network"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "admin-c": [
+     "DR11800-RIPE"
+    ],
+    "tech-c": [
+     "RH11348-RIPE"
+    ],
+    "status": [
+     "LEGACY"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-LEGACY-MNT",
+     "FT-BRX"
+    ],
+    "created": [
+     "2002-08-21T16:09:28Z"
+    ],
+    "last-modified": [
+     "2025-11-24T16:23:02Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "aut-num": [
+     "AS2293"
+    ],
+    "as-name": [
+     "FRANCE-TELECOM-AS"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "admin-c": [
+     "ML2808-RIPE"
+    ],
+    "tech-c": [
+     "ML2808-RIPE"
+    ],
+    "status": [
+     "LEGACY"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-LEGACY-MNT",
+     "FT-BRX"
+    ],
+    "created": [
+     "2002-08-21T16:09:29Z"
+    ],
+    "last-modified": [
+     "2017-08-31T08:07:40Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "aut-num": [
+     "AS2294"
+    ],
+    "as-name": [
+     "FRANCE-TELECOM-AS"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "admin-c": [
+     "ML2808-RIPE"
+    ],
+    "tech-c": [
+     "ML2808-RIPE"
+    ],
+    "status": [
+     "LEGACY"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-LEGACY-MNT",
+     "FT-BRX"
+    ],
+    "created": [
+     "2002-08-21T16:09:30Z"
+    ],
+    "last-modified": [
+     "2017-08-31T08:08:11Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "aut-num": [
+     "AS2295"
+    ],
+    "as-name": [
+     "FRANCE-TELECOM-AS"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "admin-c": [
+     "ML2808-RIPE"
+    ],
+    "tech-c": [
+     "ML2808-RIPE"
+    ],
+    "status": [
+     "LEGACY"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-LEGACY-MNT",
+     "FT-BRX"
+    ],
+    "created": [
+     "2002-08-21T16:09:31Z"
+    ],
+    "last-modified": [
+     "2017-08-31T08:08:42Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "aut-num": [
+     "AS2296"
+    ],
+    "as-name": [
+     "FRANCE-TELECOM-AS"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "admin-c": [
+     "ML2808-RIPE"
+    ],
+    "tech-c": [
+     "ML2808-RIPE"
+    ],
+    "status": [
+     "LEGACY"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-LEGACY-MNT",
+     "FT-BRX"
+    ],
+    "created": [
+     "2002-08-21T16:09:32Z"
+    ],
+    "last-modified": [
+     "2017-08-31T08:09:13Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "aut-num": [
+     "AS2297"
+    ],
+    "as-name": [
+     "FRANCE-TELECOM-AS"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "admin-c": [
+     "ML2808-RIPE"
+    ],
+    "tech-c": [
+     "ML2808-RIPE"
+    ],
+    "status": [
+     "LEGACY"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-LEGACY-MNT",
+     "FT-BRX"
+    ],
+    "created": [
+     "2002-08-21T16:09:33Z"
+    ],
+    "last-modified": [
+     "2017-08-31T08:09:44Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "aut-num": [
+     "AS2298"
+    ],
+    "as-name": [
+     "FRANCE-TELECOM-AS"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "admin-c": [
+     "ML2808-RIPE"
+    ],
+    "tech-c": [
+     "ML2808-RIPE"
+    ],
+    "status": [
+     "LEGACY"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-LEGACY-MNT",
+     "FT-BRX"
+    ],
+    "created": [
+     "2002-08-21T16:09:34Z"
+    ],
+    "last-modified": [
+     "2017-08-31T08:10:15Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "aut-num": [
+     "AS2299"
+    ],
+    "as-name": [
+     "FRANCE-TELECOM-AS"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "admin-c": [
+     "ML2808-RIPE"
+    ],
+    "tech-c": [
+     "ML2808-RIPE"
+    ],
+    "status": [
+     "LEGACY"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-LEGACY-MNT",
+     "FT-BRX"
+    ],
+    "created": [
+     "2002-08-21T16:09:35Z"
+    ],
+    "last-modified": [
+     "2017-08-31T08:10:46Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "aut-num": [
+     "AS2300"
+    ],
+    "as-name": [
+     "Orange-IPX"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "import": [
+     "from AS5511 accept any",
+     "from AS4862 accept any"
+    ],
+    "export": [
+     "to AS5511 announce AS2300",
+     "to AS4862 announce AS2300"
+    ],
+    "admin-c": [
+     "AO3173-RIPE"
+    ],
+    "tech-c": [
+     "NO21-RIPE"
+    ],
+    "status": [
+     "LEGACY"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-LEGACY-MNT",
+     "FT-BRX",
+     "FTRSI"
+    ],
+    "created": [
+     "2002-08-21T16:09:36Z"
+    ],
+    "last-modified": [
+     "2018-09-04T09:55:09Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "aut-num": [
+     "AS2301"
+    ],
+    "as-name": [
+     "FRANCE-TELECOM-AS"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "admin-c": [
+     "ML2808-RIPE"
+    ],
+    "tech-c": [
+     "ML2808-RIPE"
+    ],
+    "status": [
+     "LEGACY"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-LEGACY-MNT",
+     "FT-BRX"
+    ],
+    "created": [
+     "2002-08-21T16:09:37Z"
+    ],
+    "last-modified": [
+     "2017-08-31T08:11:17Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "aut-num": [
+     "AS2302"
+    ],
+    "as-name": [
+     "FRANCE-TELECOM-AS"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "admin-c": [
+     "ML2808-RIPE"
+    ],
+    "tech-c": [
+     "ML2808-RIPE"
+    ],
+    "status": [
+     "LEGACY"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-LEGACY-MNT",
+     "FT-BRX"
+    ],
+    "created": [
+     "2002-08-21T16:09:38Z"
+    ],
+    "last-modified": [
+     "2017-08-31T08:11:48Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "aut-num": [
+     "AS2303"
+    ],
+    "as-name": [
+     "FRANCE-TELECOM-AS"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "admin-c": [
+     "ML2808-RIPE"
+    ],
+    "tech-c": [
+     "ML2808-RIPE"
+    ],
+    "status": [
+     "LEGACY"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-LEGACY-MNT",
+     "FT-BRX"
+    ],
+    "created": [
+     "2002-08-21T16:09:39Z"
+    ],
+    "last-modified": [
+     "2017-08-31T08:12:19Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "aut-num": [
+     "AS2304"
+    ],
+    "as-name": [
+     "FRANCE-TELECOM-AS"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "admin-c": [
+     "ML2808-RIPE"
+    ],
+    "tech-c": [
+     "ML2808-RIPE"
+    ],
+    "status": [
+     "LEGACY"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-LEGACY-MNT",
+     "FT-BRX"
+    ],
+    "created": [
+     "2002-08-21T16:09:40Z"
+    ],
+    "last-modified": [
+     "2017-08-31T08:12:50Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "aut-num": [
+     "AS2305"
+    ],
+    "as-name": [
+     "FRANCE-TELECOM-AS"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "admin-c": [
+     "ML2808-RIPE"
+    ],
+    "tech-c": [
+     "ML2808-RIPE"
+    ],
+    "status": [
+     "LEGACY"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-LEGACY-MNT",
+     "FT-BRX"
+    ],
+    "created": [
+     "2002-08-21T16:09:41Z"
+    ],
+    "last-modified": [
+     "2017-08-31T08:13:21Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "aut-num": [
+     "AS2306"
+    ],
+    "as-name": [
+     "FRANCE-TELECOM-AS"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "admin-c": [
+     "ML2808-RIPE"
+    ],
+    "tech-c": [
+     "ML2808-RIPE"
+    ],
+    "status": [
+     "LEGACY"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-LEGACY-MNT",
+     "FT-BRX"
+    ],
+    "created": [
+     "2002-08-21T16:09:42Z"
+    ],
+    "last-modified": [
+     "2017-08-31T08:13:52Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "aut-num": [
+     "AS2307"
+    ],
+    "as-name": [
+     "FRANCE-TELECOM-AS"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "admin-c": [
+     "ML2808-RIPE"
+    ],
+    "tech-c": [
+     "ML2808-RIPE"
+    ],
+    "status": [
+     "LEGACY"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-LEGACY-MNT",
+     "FT-BRX"
+    ],
+    "created": [
+     "2002-08-21T16:09:43Z"
+    ],
+    "last-modified": [
+     "2017-08-31T08:14:23Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "aut-num": [
+     "AS2308"
+    ],
+    "as-name": [
+     "FRANCE-TELECOM-AS"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "admin-c": [
+     "ML2808-RIPE"
+    ],
+    "tech-c": [
+     "ML2808-RIPE"
+    ],
+    "status": [
+     "LEGACY"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-LEGACY-MNT",
+     "FT-BRX"
+    ],
+    "created": [
+     "2002-08-21T16:09:44Z"
+    ],
+    "last-modified": [
+     "2017-08-31T08:14:54Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "aut-num": [
+     "AS2309"
+    ],
+    "as-name": [
+     "FRANCE-TELECOM-AS"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "admin-c": [
+     "ML2808-RIPE"
+    ],
+    "tech-c": [
+     "ML2808-RIPE"
+    ],
+    "status": [
+     "LEGACY"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-LEGACY-MNT",
+     "FT-BRX"
+    ],
+    "created": [
+     "2002-08-21T16:09:45Z"
+    ],
+    "last-modified": [
+     "2017-08-31T08:15:25Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "aut-num": [
+     "AS2340"
+    ],
+    "as-name": [
+     "FRANCE-TELECOM-AS"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "admin-c": [
+     "ML2808-RIPE"
+    ],
+    "tech-c": [
+     "ML2808-RIPE"
+    ],
+    "status": [
+     "LEGACY"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-LEGACY-MNT",
+     "FT-BRX"
+    ],
+    "created": [
+     "2002-08-21T16:10:16Z"
+    ],
+    "last-modified": [
+     "2017-08-31T08:31:30Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "aut-num": [
+     "AS2341"
+    ],
+    "as-name": [
+     "FRANCE-TELECOM-AS"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "admin-c": [
+     "ML2808-RIPE"
+    ],
+    "tech-c": [
+     "ML2808-RIPE"
+    ],
+    "status": [
+     "LEGACY"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-LEGACY-MNT",
+     "FT-BRX"
+    ],
+    "created": [
+     "2002-08-21T16:10:17Z"
+    ],
+    "last-modified": [
+     "2017-08-31T08:32:01Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "aut-num": [
+     "AS2342"
+    ],
+    "as-name": [
+     "FRANCE-TELECOM-AS"
+    ],
+    "descr": [
+     "Direction de Systeme d'Information 33, Avenue Du Maine 75755 Paris Cedex 15 FR"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "admin-c": [
+     "RB1581-RIPE"
+    ],
+    "tech-c": [
+     "RB1581-RIPE"
+    ],
+    "status": [
+     "LEGACY"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-LEGACY-MNT",
+     "ERX-AS2342-MNT"
+    ],
+    "created": [
+     "2002-08-21T16:10:18Z"
+    ],
+    "last-modified": [
+     "2016-04-14T08:51:09Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "aut-num": [
+     "AS2343"
+    ],
+    "as-name": [
+     "FRANCE-TELECOM-AS"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "admin-c": [
+     "ML2808-RIPE"
+    ],
+    "tech-c": [
+     "ML2808-RIPE"
+    ],
+    "status": [
+     "LEGACY"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-LEGACY-MNT",
+     "FT-BRX"
+    ],
+    "created": [
+     "2002-08-21T16:10:19Z"
+    ],
+    "last-modified": [
+     "2017-08-31T08:33:04Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "aut-num": [
+     "AS2344"
+    ],
+    "as-name": [
+     "FRANCE-TELECOM-AS"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "admin-c": [
+     "ML2808-RIPE"
+    ],
+    "tech-c": [
+     "ML2808-RIPE"
+    ],
+    "status": [
+     "LEGACY"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-LEGACY-MNT",
+     "FT-BRX"
+    ],
+    "created": [
+     "2002-08-21T16:10:20Z"
+    ],
+    "last-modified": [
+     "2017-08-31T08:33:35Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "aut-num": [
+     "AS2345"
+    ],
+    "as-name": [
+     "FRANCE-TELECOM-AS"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "admin-c": [
+     "ML2808-RIPE"
+    ],
+    "tech-c": [
+     "ML2808-RIPE"
+    ],
+    "status": [
+     "LEGACY"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-LEGACY-MNT",
+     "FT-BRX"
+    ],
+    "created": [
+     "2002-08-21T16:10:21Z"
+    ],
+    "last-modified": [
+     "2017-08-31T08:34:06Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "aut-num": [
+     "AS2346"
+    ],
+    "as-name": [
+     "FRANCE-TELECOM-AS"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "admin-c": [
+     "ML2808-RIPE"
+    ],
+    "tech-c": [
+     "ML2808-RIPE"
+    ],
+    "status": [
+     "LEGACY"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-LEGACY-MNT",
+     "FT-BRX"
+    ],
+    "created": [
+     "2002-08-21T16:10:22Z"
+    ],
+    "last-modified": [
+     "2017-08-31T08:34:37Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "aut-num": [
+     "AS2347"
+    ],
+    "as-name": [
+     "FRANCE-TELECOM-AS"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "admin-c": [
+     "ML2808-RIPE"
+    ],
+    "tech-c": [
+     "ML2808-RIPE"
+    ],
+    "status": [
+     "LEGACY"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-LEGACY-MNT",
+     "FT-BRX"
+    ],
+    "created": [
+     "2002-08-21T16:10:23Z"
+    ],
+    "last-modified": [
+     "2017-08-31T08:35:08Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "aut-num": [
+     "AS2348"
+    ],
+    "as-name": [
+     "FRANCE-TELECOM-AS"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "admin-c": [
+     "ML2808-RIPE"
+    ],
+    "tech-c": [
+     "ML2808-RIPE"
+    ],
+    "status": [
+     "LEGACY"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-LEGACY-MNT",
+     "FT-BRX"
+    ],
+    "created": [
+     "2002-08-21T16:10:24Z"
+    ],
+    "last-modified": [
+     "2017-08-31T08:35:39Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "aut-num": [
+     "AS2349"
+    ],
+    "as-name": [
+     "FRANCE-TELECOM-AS"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "admin-c": [
+     "ML2808-RIPE"
+    ],
+    "tech-c": [
+     "ML2808-RIPE"
+    ],
+    "status": [
+     "LEGACY"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-LEGACY-MNT",
+     "FT-BRX"
+    ],
+    "created": [
+     "2002-08-21T16:10:25Z"
+    ],
+    "last-modified": [
+     "2017-08-31T08:36:10Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "aut-num": [
+     "AS2370"
+    ],
+    "as-name": [
+     "FRANCE-TELECOM-AS"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "admin-c": [
+     "ML2808-RIPE"
+    ],
+    "tech-c": [
+     "ML2808-RIPE"
+    ],
+    "status": [
+     "LEGACY"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-LEGACY-MNT",
+     "FT-BRX"
+    ],
+    "created": [
+     "2002-08-21T16:10:46Z"
+    ],
+    "last-modified": [
+     "2017-08-31T08:47:14Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "aut-num": [
+     "AS2371"
+    ],
+    "as-name": [
+     "FRANCE-TELECOM-AS"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "admin-c": [
+     "ML2808-RIPE"
+    ],
+    "tech-c": [
+     "ML2808-RIPE"
+    ],
+    "status": [
+     "LEGACY"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-LEGACY-MNT",
+     "FT-BRX"
+    ],
+    "created": [
+     "2002-08-21T16:10:47Z"
+    ],
+    "last-modified": [
+     "2017-08-31T08:47:46Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "aut-num": [
+     "AS2372"
+    ],
+    "as-name": [
+     "FRANCE-TELECOM-AS"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "admin-c": [
+     "ML2808-RIPE"
+    ],
+    "tech-c": [
+     "ML2808-RIPE"
+    ],
+    "status": [
+     "LEGACY"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-LEGACY-MNT",
+     "FT-BRX"
+    ],
+    "created": [
+     "2002-08-21T16:10:48Z"
+    ],
+    "last-modified": [
+     "2017-08-31T08:48:17Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "aut-num": [
+     "AS2373"
+    ],
+    "as-name": [
+     "FRANCE-TELECOM-AS"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "admin-c": [
+     "ML2808-RIPE"
+    ],
+    "tech-c": [
+     "ML2808-RIPE"
+    ],
+    "status": [
+     "LEGACY"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-LEGACY-MNT",
+     "FT-BRX"
+    ],
+    "created": [
+     "2002-08-21T16:10:49Z"
+    ],
+    "last-modified": [
+     "2017-08-31T08:48:48Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "aut-num": [
+     "AS2374"
+    ],
+    "as-name": [
+     "FRANCE-TELECOM-AS"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "admin-c": [
+     "ML2808-RIPE"
+    ],
+    "tech-c": [
+     "ML2808-RIPE"
+    ],
+    "status": [
+     "LEGACY"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-LEGACY-MNT",
+     "FT-BRX"
+    ],
+    "created": [
+     "2002-08-21T16:10:50Z"
+    ],
+    "last-modified": [
+     "2017-08-31T08:49:19Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "aut-num": [
+     "AS2375"
+    ],
+    "as-name": [
+     "FRANCE-TELECOM-AS"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "admin-c": [
+     "ML2808-RIPE"
+    ],
+    "tech-c": [
+     "ML2808-RIPE"
+    ],
+    "status": [
+     "LEGACY"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-LEGACY-MNT",
+     "FT-BRX"
+    ],
+    "created": [
+     "2002-08-21T16:10:51Z"
+    ],
+    "last-modified": [
+     "2017-08-31T08:49:50Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "aut-num": [
+     "AS2377"
+    ],
+    "as-name": [
+     "AS-SD_INTERNET"
+    ],
+    "descr": [
+     "Service Flexible Internet"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "admin-c": [
+     "PHC757-RIPE"
+    ],
+    "tech-c": [
+     "PHC757-RIPE"
+    ],
+    "status": [
+     "LEGACY"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-LEGACY-MNT",
+     "FT-BRX"
+    ],
+    "created": [
+     "2002-08-21T16:10:53Z"
+    ],
+    "last-modified": [
+     "2018-10-18T06:23:15Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "aut-num": [
+     "AS24600"
+    ],
+    "as-name": [
+     "WANADOOPORTAILS-AS"
+    ],
+    "descr": [
+     "Wanadoo Portails/Direction technique",
+     "Internet portals for offers multiples services"
+    ],
+    "import": [
+     "from AS3215 action pref=100; accept ANY",
+     "from AS5511 action pref=100; accept ANY"
+    ],
+    "export": [
+     "to AS3215 announce AS24600",
+     "to AS5511 announce AS24600"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "admin-c": [
+     "WPTR1-RIPE"
+    ],
+    "tech-c": [
+     "WPTR1-RIPE"
+    ],
+    "status": [
+     "ASSIGNED"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-END-MNT",
+     "FT-BRX"
+    ],
+    "created": [
+     "2002-01-15T13:41:57Z"
+    ],
+    "last-modified": [
+     "2018-09-04T09:53:17Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "aut-num": [
+     "AS25113"
+    ],
+    "as-name": [
+     "GLOBECAST"
+    ],
+    "import": [
+     "from AS6736 action pref=50; accept AS6736 AS21341 AS12660 AS25306",
+     "from AS15611 action pref=50; accept AS15611",
+     "from AS21341 action pref=50; accept AS21341 AS25306",
+     "from AS5511 action pref=100; accept ANY"
+    ],
+    "export": [
+     "to AS6736 announce AS25113",
+     "to AS15611 announce AS25113",
+     "to AS21341 announce ANY",
+     "to AS5511 announce AS25113 AS15611 AS6736 AS21341 AS12660 AS25306"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "remarks": [
+     "***********************************************",
+     "For Hacking, Spamming or Security problems remarks,",
+     "send mail to <masqué>@globecast.net",
+     "***********************************************"
+    ],
+    "admin-c": [
+     "EG2353-RIPE"
+    ],
+    "tech-c": [
+     "EG2353-RIPE"
+    ],
+    "status": [
+     "ASSIGNED"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-END-MNT",
+     "FT-BRX"
+    ],
+    "created": [
+     "2002-08-26T08:41:53Z"
+    ],
+    "last-modified": [
+     "2019-12-04T11:17:39Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "aut-num": [
+     "AS25186"
+    ],
+    "as-name": [
+     "TRANSIT-VPN-AS"
+    ],
+    "descr": [
+     "France Telecom Transpac's Transit VPN network"
+    ],
+    "import": [
+     "from AS3215 accept ANY",
+     "from AS13879 accept ANY",
+     "from AS8418 accept AS8418"
+    ],
+    "export": [
+     "to AS3215 announce AS25186",
+     "to AS13879 announce AS25186",
+     "to AS8418 announce AS25186",
+     "to AS16550 announce AS25186:AS-CUSTOMERS"
+    ],
+    "default": [
+     "to AS3215 networks ANY"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "admin-c": [
+     "PHC757-RIPE"
+    ],
+    "tech-c": [
+     "FTDI1-RIPE"
+    ],
+    "status": [
+     "ASSIGNED"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-END-MNT",
+     "OLEANE-NOC",
+     "PC80199-MNT",
+     "FT-BRX"
+    ],
+    "created": [
+     "2002-08-27T09:19:30Z"
+    ],
+    "last-modified": [
+     "2025-05-17T23:14:22Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "aut-num": [
+     "AS28708"
+    ],
+    "as-name": [
+     "ORANGEFR-PORTAL-AS"
+    ],
+    "descr": [
+     "DSI mutualized internet access"
+    ],
+    "import": [
+     "from AS3215 action pref=100; accept any",
+     "from AS5511 action pref=100; accept any"
+    ],
+    "export": [
+     "to AS3215 announce AS28708",
+     "to AS5511 announce AS28708"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "admin-c": [
+     "FTDD1-RIPE"
+    ],
+    "tech-c": [
+     "FTDD1-RIPE"
+    ],
+    "status": [
+     "ASSIGNED"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-END-MNT",
+     "FT-BRX"
+    ],
+    "created": [
+     "2003-02-05T09:08:42Z"
+    ],
+    "last-modified": [
+     "2017-11-15T09:20:33Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "aut-num": [
+     "AS2917"
+    ],
+    "as-name": [
+     "AS2917"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "import": [
+     "from AS13879  action pref=100;  accept AS13879",
+     "from AS25186  action pref=100;  accept AS25186"
+    ],
+    "export": [
+     "to AS13879  announce AS2917",
+     "to AS25186  announce AS2917"
+    ],
+    "admin-c": [
+     "PHC757-RIPE"
+    ],
+    "tech-c": [
+     "PHC757-RIPE"
+    ],
+    "status": [
+     "LEGACY"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-LEGACY-MNT",
+     "RAIN-TRANSPAC"
+    ],
+    "created": [
+     "2002-04-29T17:39:44Z"
+    ],
+    "last-modified": [
+     "2016-04-14T10:23:47Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "aut-num": [
+     "AS3215"
+    ],
+    "as-name": [
+     "AS3215"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "remarks": [
+     "France Telecom - Orange",
+     "IP Backbone for Enterprise and french consumers",
+     "----------------------------import------------------------------",
+     "-----------------------------export------------------------------",
+     "-----------------------------------------------------------------",
+     "Communities to control traffic",
+     "(settable by BGP customers)",
+     "",
+     "Please contact <masqué>@orange.com before applying",
+     "",
+     "Community Definition",
+     "-----------------------------------------------------------------",
+     "3215:481 Do not announce to OPENTRANSIT",
+     "AS5511 (Upstream)",
+     "3215:400 Prepend one AS when announing OPENTRANSIT",
+     "3215:401 Prepend two AS when announing OPENTRANSIT",
+     "",
+     "3215:483 Do not announce to PARIX NAP",
+     "(see Peers with cost of 290)",
+     "3215:411 Prepend two AS when announing PARIX NAP",
+     "-----------------------------------------------------------------",
+     "Please send peering requests to <masqué>@orange.com"
+    ],
+    "import": [
+     "from AS5511 action pref=430; accept ANY",
+     "from AS5511 action pref=305; accept AS-OPENTRANSIT",
+     "from AS2486 action pref=290; accept AS2486",
+     "from AS2917 action pref=290; accept AS-OLEANE",
+     "from AS3573 action pref=200; accept AS3573",
+     "from AS4589 action pref=290; accept AS-EASYNET",
+     "from AS5410 action pref=290; accept AS-T-ONLINEFRANCE",
+     "from AS5436 action pref=290; accept AS5436",
+     "from AS8220 action pref=290; accept AS-COLTFR",
+     "from AS8228 action pref=290; accept AS-CEGETEL",
+     "from AS8918 action pref=290; accept AS-CARRIERONE",
+     "from AS12322 action pref=290; accept AS-PROXAD",
+     "from AS12876 action pref=290; accept AS-TISCALIFR",
+     "from AS13193 action pref=290; accept AS-NERIM",
+     "from AS15557 action pref=290; accept AS-LDCOMNET",
+     "from AS6 action pref=200; accept AS6",
+     "from AS1301 action pref=200; accept AS1301",
+     "from AS1708 action pref=200; accept AS1708",
+     "from AS2103 action pref=200; accept AS2103",
+     "from AS2129 action pref=200; accept AS2129",
+     "from AS2187 action pref=200; accept AS2187",
+     "from AS2188 action pref=200; accept AS2188",
+     "from AS2278 action pref=200; accept AS2278",
+     "from AS3259 action pref=200; accept AS3259",
+     "from AS3295 action pref=200; accept AS3295",
+     "from AS3296 action pref=200; accept AS3296",
+     "from AS3298 action pref=200; accept AS3298",
+     "from AS5377 action pref=200; accept AS-MARLINK",
+     "from AS8255 action pref=200; accept AS8255",
+     "from AS8362 action pref=200; accept AS8362",
+     "from AS8677 action pref=200; accept AS8677",
+     "from AS8891 action pref=200; accept AS8891",
+     "from AS8908 action pref=200; accept AS8908",
+     "from AS9089 action pref=200; accept AS9089",
+     "from AS9159 action pref=200; accept AS9159",
+     "from AS9180 action pref=200; accept AS9180",
+     "from AS12318 action pref=200; accept AS12318",
+     "from AS12601 action pref=200; accept AS12601",
+     "from AS12645 action pref=200; accept AS12645",
+     "from AS12744 action pref=200; accept AS12744",
+     "from AS12826 action pref=200; accept AS12826",
+     "from AS13223 action pref=200; accept AS13223",
+     "from AS15401 action pref=200; accept AS15401",
+     "from AS15499 action pref=200; accept AS15499",
+     "from AS15846 action pref=200; accept AS15846",
+     "from AS16017 action pref=200; accept AS16017",
+     "from AS16057 action pref=200; accept AS16057",
+     "from AS16071 action pref=200; accept AS16071",
+     "from AS16077 action pref=200; accept AS16077",
+     "from AS16101 action pref=200; accept AS16101",
+     "from AS16236 action pref=200; accept AS16236",
+     "from AS16254 action pref=200; accept AS16254",
+     "from AS20541 action pref=200; accept AS20541",
+     "from AS20563 action pref=200; accept AS20563",
+     "from AS20672 action pref=200; accept AS20672",
+     "from AS20926 action pref=200; accept AS20926",
+     "from AS21203 action pref=200; accept AS21203",
+     "from AS21272 action pref=200; accept AS21272",
+     "from AS21304 action pref=200; accept AS21304",
+     "from AS25442 action pref=200; accept AS25442",
+     "from AS28768 action pref=200; accept AS-XSALTO",
+     "from AS29057 action pref=200; accept AS29057",
+     "from AS29199 action pref=200; accept AS29199",
+     "from AS29313 action pref=200; accept AS29313",
+     "from AS29322 action pref=200; accept AS29322",
+     "from AS31180 action pref=200; accept AS31180",
+     "from AS31629 action pref=200; accept AS31629",
+     "from AS31660 action pref=200; accept AS31660",
+     "from AS33930 action pref=200; accept AS33930",
+     "from AS33945 action pref=200; accept AS33945",
+     "from AS34000 action pref=200; accept AS34000",
+     "from AS34064 action pref=200; accept AS34064",
+     "from AS34493 action pref=200; accept AS34493",
+     "from AS34572 action pref=200; accept AS34572",
+     "from AS35012 action pref=200; accept AS35012",
+     "from AS35152 action pref=200; accept AS35152",
+     "from AS35169 action pref=200; accept AS35169",
+     "from AS35315 action pref=200; accept AS35315",
+     "from AS35420 action pref=200; accept AS35420",
+     "from AS35676 action pref=200; accept AS35676",
+     "from AS38926 action pref=200; accept AS38926",
+     "from AS39509 action pref=200; accept AS39509",
+     "from AS39552 action pref=200; accept AS39552",
+     "from AS39534 action pref=200; accept AS39534",
+     "from AS39694 action pref=200; accept AS39694",
+     "from AS39771 action pref=200; accept AS39771",
+     "from AS39899 action pref=200; accept AS39899",
+     "from AS39931 action pref=200; accept AS39931",
+     "from AS41402 action pref=200; accept AS41402",
+     "from AS42369 action pref=200; accept AS-CORESYSTEM",
+     "from AS42795 action pref=200; accept AS42795",
+     "from AS43249 action pref=200; accept AS43249",
+     "from AS44527 action pref=200; accept AS44527",
+     "from AS44842 action pref=200; accept AS44842",
+     "from AS44850 action pref=200; accept AS44850",
+     "from AS45039 action pref=200; accept AS45039",
+     "from AS47127 action pref=200; accept AS47127",
+     "from AS47233 action pref=200; accept AS47233",
+     "from AS47420 action pref=200; accept AS47420",
+     "from AS47818 action pref=200; accept AS47818",
+     "from AS48125 action pref=200; accept AS48125",
+     "from AS48613 action pref=200; accept AS48613",
+     "from AS48702 action pref=200; accept AS48702",
+     "from AS48782 action pref=200; accept AS48782",
+     "from AS49566 action pref=200; accept AS49566",
+     "from AS50758 action pref=200; accept AS50758",
+     "from AS50982 action pref=200; accept AS50982",
+     "from AS51822 action pref=200; accept AS51822",
+     "from AS51870 action pref=200; accept AS51870",
+     "from AS52039 action pref=200; accept AS52039",
+     "from AS56774 action pref=200; accept AS56774",
+     "from AS57348 action pref=200; accept AS57348",
+     "from AS58004 action pref=200; accept AS58004",
+     "from AS58029 action pref=200; accept AS58029",
+     "from AS59518 action pref=200; accept AS59518",
+     "from AS60174 action pref=200; accept AS60174",
+     "from AS60595 action pref=200; accept AS60595",
+     "from AS60620 action pref=200; accept AS60620",
+     "from AS60686 action pref=200; accept AS60686",
+     "from AS60697 action pref=200; accept AS60697",
+     "from AS60749 action pref=200; accept AS60749",
+     "from AS196670 action pref=200; accept AS196670",
+     "from AS196869 action pref=200; accept AS196869",
+     "from AS197369 action pref=200; accept AS197369",
+     "from AS197384 action pref=200; accept AS197384",
+     "from AS197638 action pref=200; accept AS197638",
+     "from AS197788 action pref=200; accept AS197788",
+     "from AS198060 action pref=200; accept AS198060",
+     "from AS198340 action pref=200; accept AS198340",
+     "from AS198641 action pref=200; accept AS198641",
+     "from AS198952 action pref=200; accept AS198952",
+     "from AS199565 action pref=200; accept AS199565",
+     "from AS200589 action pref=200; accept AS200589",
+     "from AS201072 action pref=200; accept AS201072",
+     "from AS201393 action pref=200; accept AS201393",
+     "from AS201974 action pref=200; accept AS201974",
+     "from AS202669 action pref=200; accept AS202669",
+     "from AS202898 action pref=200; accept AS202898",
+     "from AS203984 action pref=200; accept AS203984",
+     "from AS204207 action pref=200; accept AS204207",
+     "from AS204321 action pref=200; accept AS204321",
+     "from AS205862 action pref=200; accept AS205862",
+     "from AS209092 action pref=200; accept AS209092",
+     "from AS206086 action pref=200; accept AS206086",
+     "from AS206709 action pref=200; accept AS206709",
+     "from AS206713 action pref=200; accept AS206713",
+     "from AS207430 action pref=200; accept AS207430",
+     "from AS208482 action pref=200; accept AS206713",
+     "from AS208678 action pref=200; accept AS208678",
+     "from AS208820 action pref=200; accept AS208820",
+     "from AS209165 action pref=200; accept AS209165",
+     "from AS209678 action pref=200; accept AS209678",
+     "from AS211073 action pref=200; accept AS211073",
+     "from AS212012 action pref=200; accept AS212012",
+     "from AS212039 action pref=200; accept AS212039",
+     "from AS212208 action pref=200; accept AS212208",
+     "from AS212976 action pref=200; accept AS212976",
+     "from AS27822 action pref=200; accept AS27822"
+    ],
+    "export": [
+     "to AS5511 announce AS-FTFR",
+     "to AS2486 announce AS-FTFR",
+     "to AS2917 announce AS-RAIN",
+     "to AS3573 announce ANY",
+     "to AS4589 announce AS-FTFR",
+     "to AS5410 announce AS-FTFR",
+     "to AS5436 announce AS-FTFR",
+     "to AS8220 announce AS-FTFR",
+     "to AS8228 announce AS-FTFR",
+     "to AS8918 announce AS-RAIN",
+     "to AS12322 announce AS-FTFR",
+     "to AS12876 announce AS-FTFR",
+     "to AS13193 announce AS-FTFR",
+     "to AS15557 announce AS-FTFR",
+     "to AS6 announce ANY",
+     "to AS1301 announce ANY",
+     "to AS1708 announce ANY",
+     "to AS2103 announce ANY",
+     "to AS2129 announce ANY",
+     "to AS2187 announce ANY",
+     "to AS2188 announce ANY",
+     "to AS2278 announce ANY",
+     "to AS3259 announce ANY",
+     "to AS3295 announce ANY",
+     "to AS3296 announce ANY",
+     "to AS3298 announce ANY",
+     "to AS5377 announce ANY",
+     "to AS8255 announce ANY",
+     "to AS8362 announce ANY",
+     "to AS8677 announce ANY",
+     "to AS8891 announce ANY",
+     "to AS8908 announce ANY",
+     "to AS9089 announce ANY",
+     "to AS9159 announce ANY",
+     "to AS9180 announce ANY",
+     "to AS12318 announce ANY",
+     "to AS12601 announce ANY",
+     "to AS12645 announce ANY",
+     "to AS12744 announce ANY",
+     "to AS12826 announce ANY",
+     "to AS13223 announce ANY",
+     "to AS15401 announce ANY",
+     "to AS15499 announce ANY",
+     "to AS15846 announce ANY",
+     "to AS16017 announce ANY",
+     "to AS16057 announce ANY",
+     "to AS16071 announce ANY",
+     "to AS16077 announce ANY",
+     "to AS16101 announce ANY",
+     "to AS16236 announce ANY",
+     "to AS16254 announce ANY",
+     "to AS20541 announce ANY",
+     "to AS20563 announce ANY",
+     "to AS20672 announce ANY",
+     "to AS20926 announce ANY",
+     "to AS21203 announce ANY",
+     "to AS21272 announce ANY",
+     "to AS21304 announce ANY",
+     "to AS25442 announce ANY",
+     "to AS28768 announce ANY",
+     "to AS29057 announce ANY",
+     "to AS29199 announce ANY",
+     "to AS29313 announce ANY",
+     "to AS29322 announce ANY",
+     "to AS31180 announce ANY",
+     "to AS31629 announce ANY",
+     "to AS31660 announce ANY",
+     "to AS33930 announce ANY",
+     "to AS33945 announce ANY",
+     "to AS34000 announce ANY",
+     "to AS34064 announce ANY",
+     "to AS34493 announce ANY",
+     "to AS34572 announce ANY",
+     "to AS35012 announce ANY",
+     "to AS35152 announce ANY",
+     "to AS35169 announce ANY",
+     "to AS35315 announce ANY",
+     "to AS35420 announce ANY",
+     "to AS35676 announce ANY",
+     "to AS38926 announce ANY",
+     "to AS39509 announce ANY",
+     "to AS39534 announce ANY",
+     "to AS39552 announce ANY",
+     "to AS39694 announce ANY",
+     "to AS39771 announce ANY",
+     "to AS39899 announce ANY",
+     "to AS39931 announce ANY",
+     "to AS41402 announce ANY",
+     "to AS42369 announce ANY",
+     "to AS42795 announce ANY",
+     "to AS43249 announce ANY",
+     "to AS44527 announce ANY",
+     "to AS44842 announce ANY",
+     "to AS44850 announce ANY",
+     "to AS45039 announce ANY",
+     "to AS47127 announce ANY",
+     "to AS47233 announce ANY",
+     "to AS47420 announce ANY",
+     "to AS47818 announce ANY",
+     "to AS48125 announce ANY",
+     "to AS48613 announce ANY",
+     "to AS48702 announce ANY",
+     "to AS48782 announce ANY",
+     "to AS49566 announce ANY",
+     "to AS50758 announce ANY",
+     "to AS50982 announce ANY",
+     "to AS51822 announce ANY",
+     "to AS51870 announce ANY",
+     "to AS52039 announce ANY",
+     "to AS56774 announce ANY",
+     "to AS57348 announce ANY",
+     "to AS58004 announce ANY",
+     "to AS58029 announce ANY",
+     "to AS59518 announce ANY",
+     "to AS60174 announce ANY",
+     "to AS60595 announce ANY",
+     "to AS60620 announce ANY",
+     "to AS60686 announce ANY",
+     "to AS60697 announce ANY",
+     "to AS60749 announce ANY",
+     "to AS196670 announce ANY",
+     "to AS196869 announce ANY",
+     "to AS197369 announce ANY",
+     "to AS197384 announce ANY",
+     "to AS197638 announce ANY",
+     "to AS197788 announce ANY",
+     "to AS198060 announce ANY",
+     "to AS198340 announce ANY",
+     "to AS198641 announce ANY",
+     "to AS198952 announce ANY",
+     "to AS199565 announce ANY",
+     "to AS200589 announce ANY",
+     "to AS201072 announce ANY",
+     "to AS201393 announce ANY",
+     "to AS201974 announce ANY",
+     "to AS202669 announce ANY",
+     "to AS202898 announce ANY",
+     "to AS203984 announce ANY",
+     "to AS204207 announce ANY",
+     "to AS204321 announce ANY",
+     "to AS205862 announce ANY",
+     "to AS209092 announce ANY",
+     "to AS206086 announce ANY",
+     "to AS206709 announce ANY",
+     "to AS206713 announce ANY",
+     "to AS207430 announce ANY",
+     "to AS208482 announce ANY",
+     "to AS208678 announce ANY",
+     "to AS208820 announce ANY",
+     "to AS209165 announce ANY",
+     "to AS209678 announce ANY",
+     "to AS211073 announce ANY",
+     "to AS212012 announce ANY",
+     "to AS212039 announce ANY",
+     "to AS212208 announce ANY",
+     "to AS212976 announce ANY",
+     "to AS27822 announce ANY"
+    ],
+    "admin-c": [
+     "AA7763-RIPE"
+    ],
+    "tech-c": [
+     "AA7763-RIPE",
+     "SRR9-RIPE"
+    ],
+    "status": [
+     "ASSIGNED"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-END-MNT",
+     "FT-BRX",
+     "RAIN-TRANSPAC"
+    ],
+    "created": [
+     "2002-09-10T12:43:53Z"
+    ],
+    "last-modified": [
+     "2025-03-11T14:11:53Z"
+    ],
+    "source": [
+     "RIPE # Filtered"
+    ]
+   },
+   {
+    "aut-num": [
+     "AS41128"
+    ],
+    "as-name": [
+     "ORANGEFR-GRX-AS"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "import": [
+     "from AS2300 action pref=100; accept any",
+     "from AS8228 action pref=100; accept any",
+     "from AS12844 action pref=100; accept any"
+    ],
+    "export": [
+     "to AS2300 announce AS41128",
+     "to AS8228 announce AS41128",
+     "to AS12844 announce AS41128"
+    ],
+    "admin-c": [
+     "PV3682-RIPE"
+    ],
+    "tech-c": [
+     "HT403-RIPE",
+     "ER1049-RIPE"
+    ],
+    "status": [
+     "ASSIGNED"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-END-MNT",
+     "FT-BRX"
+    ],
+    "created": [
+     "2006-06-19T12:50:30Z"
+    ],
+    "last-modified": [
+     "2018-09-04T10:16:47Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "aut-num": [
+     "AS5511"
+    ],
+    "as-name": [
+     "Opentransit"
+    ],
+    "remarks": [
+     "Orange - Worldwide IP Backbone",
+     "**********************************",
+     "------------------------------------------------------",
+     "BGP Community Strings",
+     "------------------------------------------------------",
+     "BGP Communities to control local preference inside Opentransit",
+     "(available for BGP customers)",
+     "------------------------------------------------------",
+     "Customers LP=100, Peers LP=85, Content Providers LP=150",
+     "5511:0 Set NEXT_HOP=Null0. Traffic to host prefix is dropped",
+     "5511:70 Set LOCAL_PREF=70 instead of default 100",
+     "5511:80 Set LOCAL_PREF=80 instead of default 100",
+     "5511:90 Set LOCAL_PREF=90 instead of default 100",
+     "Default LOCAL_PREF= 100",
+     "------------------------------------------------------",
+     "BGP Communties for prepend and selective prepends",
+     "Add to AS_PATH: x=0 reject route, x=1 (5511), x=2 (5511 5511)",
+     "",
+     "5511:100x TUNE announce to US peers",
+     "5511:151x TUNE announce to AS2914 NTT",
+     "5511:152x TUNE announce to AS7018 ATT/Worldnet",
+     "5511:153x TUNE announce to AS6461 Zayo",
+     "5511:154x TUNE announce to AS6453 Tata",
+     "5511:155x TUNE announce to AS1239 Sprint",
+     "5511:156x TUNE announce to AS1299 Arelion",
+     "5511:159x TUNE announce to AS3356 Lumen",
+     "5511:160x TUNE announce to AS701 Verizon",
+     "5511:161x TUNE announce to AS3320 DTAG",
+     "5511:163x TUNE announce to AS174 Cogent",
+     "5511:164x TUNE announce to AS3257 GTT",
+     "5511:165x TUNE announce to AS4134 China Telecom",
+     "5511:200x TUNE to European peers",
+     "5511:300x TUNE to Asian peers",
+     "5511:302x TUNE to Asian domestic peers",
+     "5511:310x TUNE to Asian peers connected in US",
+     "------------------------------------------------------",
+     "5511:999 BGP community append to all customer routes",
+     "------------------------------------------------------",
+     "BGP geographic communities (connecting region)",
+     "For customers and peers",
+     "------------------------------------------------------",
+     "# REGION CARIBBEAN",
+     "5511:30100 Caribbean",
+     "5511:560 Caribbean Customers (Deprecated)",
+     "5511:700 Caribbean Peer & contents (Deprecated)",
+     "# Region Caribbean - France Caribbean",
+     "5511:30101 France Caribbean",
+     "5511:541 France Caribbean (Deprecated)",
+     "5511:30607 Lamentin",
+     "5511:30610 Pointe-a-Pitre",
+     "# REGION EASTERN AFRICA",
+     "5511:30106 Eastern Africa",
+     "5511:640 Eastern Africa Customers (Deprecated)",
+     "5511:730 Eastern Africa Peer & contents (Deprecated)",
+     "# Region Eastern Africa - Djibouti",
+     "5511:30107 Djibouti",
+     "5511:653 Djibouti (Deprecated)",
+     "5511:30108 Djibouti datacenter",
+     "# Region Eastern Africa - Kenya",
+     "5511:30110 Kenya",
+     "5511:649 Kenya (Deprecated)",
+     "5511:30111 Mombasa",
+     "5511:30114 Nairobi Africa DC NBO1",
+     "# Region Eastern Africa - Madagascar",
+     "5511:30116 Madagascar",
+     "5511:30117 Antananarivo",
+     "5511:30119 Taomasina",
+     "# REGION EASTERN ASIA",
+     "5511:30121 Eastern Asia",
+     "5511:600 Eastern Asia Customers (Deprecated)",
+     "5511:720 Eastern Asia Peer & contents (Deprecated)",
+     "# Region Eastern Asia - Japan",
+     "5511:30122 Japan",
+     "5511:30123 Tokyo NTT TK5",
+     "5511:603 Tokyo NTT TK5 (Deprecated)",
+     "5511:30125 Osaka",
+     "5511:604 Osaka (Deprecated)",
+     "5511:30128 Tokyo Equinix TY2",
+     "5511:603 Tokyo Equinix TY2 (Deprecated)",
+     "# Region Eastern Asia - PRC",
+     "5511:30132 PRC",
+     "5511:30133 Hong-Kong",
+     "5511:601 Hong-Kong (Deprecated)",
+     "5511:30137 Hong-Kong - HKCOLO Data Center - MEGA-I",
+     "5511:601 Hong-Kong - HKCOLO Data Center - MEGA-I (Deprecated)",
+     "# REGION EASTERN EUROPE",
+     "5511:30139 Eastern Europe",
+     "5511:500 Eastern Europe Customers (Deprecated)",
+     "5511:710 Eastern Europe Peer & contents (Deprecated)",
+     "# Region Eastern Europe - Bulgaria",
+     "5511:30140 Bulgaria",
+     "5511:512 Bulgaria (Deprecated)",
+     "5511:30141 Sofia",
+     "# Region Eastern Europe - Czechia",
+     "5511:30143 Czechia",
+     "5511:513 Czechia (Deprecated)",
+     "5511:30144 Prague",
+     "# Region Eastern Europe - Hungary",
+     "5511:30146 Hungary",
+     "5511:533 Hungary (Deprecated)",
+     "5511:30147 Budapest",
+     "# Region Eastern Europe - Poland",
+     "5511:30149 Poland",
+     "5511:531 Poland (Deprecated)",
+     "5511:30612 Warsaw",
+     "# Region Eastern Europe - Romania",
+     "5511:30155 Romania",
+     "5511:530 Romania (Deprecated)",
+     "5511:30617 Bucharest",
+     "# Region Eastern Europe - Russia",
+     "5511:30159 Russia",
+     "5511:535 Russia (Deprecated)",
+     "5511:30160 St Petersburg",
+     "5511:30162 Moscow",
+     "# Region Eastern Europe - Slovakia",
+     "5511:30164 Slovakia",
+     "5511:529 Slovakia (Deprecated)",
+     "5511:30169 Bratislava",
+     "# REGION MIDDLE AFRICA",
+     "5511:30173 Middle Africa",
+     "5511:640 Middle Africa Customers (Deprecated)",
+     "5511:730 Middle Africa Peer & contents (Deprecated)",
+     "# Region Middle Africa - Cameroon",
+     "5511:30174 Cameroon",
+     "5511:30175 Douala",
+     "5511:30177 Yaounde",
+     "# Region Middle Africa - Democratic Republic of the Congo",
+     "5511:30179 Democratic Republic of the Congo",
+     "5511:30180 Kinshasa",
+     "5511:30182 Lubumbashi",
+     "# REGION NORTHERN AFRICA",
+     "5511:30184 Northern Africa",
+     "5511:640 Northern Africa Customers (Deprecated)",
+     "5511:730 Northern Africa Peer & contents (Deprecated)",
+     "# Region Northern Africa - Morocco",
+     "5511:30185 Morocco",
+     "5511:30186 Casablanca",
+     "5511:30188 Rabat",
+     "# Region Northern Africa - Tunisia",
+     "5511:30190 Tunisia",
+     "5511:30191 Tunis",
+     "# REGION NORTHERN AMERICA (EAST)",
+     "5511:30194 Northern America (East)",
+     "5511:540 Northern America (East) Customers (Deprecated)",
+     "5511:700 Northern America (East) Peer & contents (Deprecated)",
+     "# Region Northern America (East) - United States of America",
+     "5511:30195 United States of America",
+     "5511:30198 Ashburn Equinix DC3 DC11",
+     "5511:542 Ashburn Equinix DC3 DC11 (Deprecated)",
+     "5511:30504 Atlanta",
+     "5511:542 Atlanta (Deprecated)",
+     "5511:30621 Concord",
+     "5511:30623 Chicago Equinix CH1/2/4",
+     "5511:542 Chicago Equinix CH1/2/4 (Deprecated)",
+     "5511:30204 Dallas",
+     "5511:543 Dallas (Deprecated)",
+     "5511:30207 Houston",
+     "5511:30507 OakHill",
+     "5511:542 OakHill (Deprecated)",
+     "5511:30209 Jacksonville",
+     "5511:542 Jacksonville (Deprecated)",
+     "5511:30509 Secaucus",
+     "5511:542 Secaucus (Deprecated)",
+     "5511:30211 Miami",
+     "5511:542 Miami (Deprecated)",
+     "5511:30589 New-York",
+     "5511:542 New-York (Deprecated)",
+     "5511:30512 Chicago Digital Reality CHI1",
+     "5511:542 Chicago Digital Reality CHI1 (Deprecated)",
+     "5511:30626 Alpharetta",
+     "5511:30514 Philadelphia",
+     "5511:542 Philadelphia (Deprecated)",
+     "# REGION NORTHERN AMERICA (WEST)",
+     "5511:30218 Northern America (West)",
+     "5511:540 Northern America (West) Customers (Deprecated)",
+     "5511:700 Northern America (West) Peer & contents (Deprecated)",
+     "# Region Northern America (West) - United States of America",
+     "5511:30219 United States of America",
+     "5511:30516 Los Angeles CoreSite LA2",
+     "5511:543 Los Angeles CoreSite LA2 (Deprecated)",
+     "5511:30518 Centennial",
+     "5511:543 Centennial (Deprecated)",
+     "5511:30220 Los Angeles Equinix LA1",
+     "5511:543 Los Angeles Equinix LA1 (Deprecated)",
+     "5511:30224 Palo Alto",
+     "5511:543 Palo Alto (Deprecated)",
+     "5511:30520 Seattle",
+     "5511:543 Seattle (Deprecated)",
+     "5511:30226 San Jose",
+     "5511:543 San Jose (Deprecated)",
+     "# REGION NORTHERN EUROPE",
+     "5511:30228 Northern Europe",
+     "5511:500 Northern Europe Customers (Deprecated)",
+     "5511:710 Northern Europe Peer & contents (Deprecated)",
+     "# Region Northern Europe - Denmark",
+     "5511:30523 Denmark",
+     "5511:30524 Copenhagen AtlasEdge DC",
+     "5511:534 Copenhagen AtlasEdge DC (Deprecated)",
+     "5511:30605 Ballerup Interxion CPH1 CPH2",
+     "# Region Northern Europe - Norway",
+     "5511:30526 Norway",
+     "5511:30527 Oslo",
+     "5511:536 Oslo (Deprecated)",
+     "# Region Northern Europe - Sweden",
+     "5511:30229 Sweden",
+     "5511:30230 Stockholm",
+     "5511:516 Stockholm (Deprecated)",
+     "# Region Northern Europe - United Kingdom of Great Britain and Northern Ireland",
+     "5511:30232 United Kingdom of Great Britain and Northern Ireland",
+     "5511:515 United Kingdom of Great Britain and Northern Ireland (Deprecated)",
+     "5511:30530 Slough Equinix LD5",
+     "5511:537 Slough Equinix LD5 (Deprecated)",
+     "5511:30532 London",
+     "5511:30233 London Orange - Equinix LD8",
+     "5511:30535 London Telehouse",
+     "# REGION OCEANIA",
+     "5511:30237 Oceania",
+     "5511:680 Oceania Customers (Deprecated)",
+     "5511:680 Oceania Peer & contents (Deprecated)",
+     "# Region Oceania - Australia",
+     "5511:30238 Australia",
+     "5511:681 Australia (Deprecated)",
+     "5511:30239 Sydney",
+     "# REGION SOUTH-EASTERN ASIA",
+     "5511:30241 South-eastern Asia",
+     "5511:600 South-eastern Asia Customers (Deprecated)",
+     "5511:720 South-eastern Asia Peer & contents (Deprecated)",
+     "# Region South-eastern Asia - Singapore",
+     "5511:30242 Singapore",
+     "5511:602 Singapore (Deprecated)",
+     "5511:30243 Singapore ORANGE - Equinix SG1",
+     "5511:30247 Singapore Equinix SG3",
+     "5511:30249 Singapore ESR Chai Chee",
+     "# REGION SOUTHERN AFRICA",
+     "5511:30251 Southern Africa",
+     "5511:640 Southern Africa Customers (Deprecated)",
+     "5511:730 Southern Africa Peer & contents (Deprecated)",
+     "# Region Southern Africa - Reunion Island",
+     "5511:30537 Reunion Island",
+     "5511:686 Reunion Island (Deprecated)",
+     "5511:30538 Reunion Island",
+     "# Region Southern Africa - South Africa",
+     "5511:30252 South Africa",
+     "5511:645 South Africa (Deprecated)",
+     "5511:30253 Cape Town",
+     "5511:30255 Johannesburg",
+     "# REGION SOUTHERN AMERICA",
+     "5511:30541 Southern America",
+     "5511:590 Southern America Customers (Deprecated)",
+     "5511:700 Southern America Peer & contents (Deprecated)",
+     "# Region Southern America - Brazil",
+     "5511:30542 Brazil",
+     "5511:30543 Rio de Janeiro",
+     "5511:591 Rio de Janeiro (Deprecated)",
+     "5511:30545 Sao Paulo",
+     "5511:592 Sao Paulo (Deprecated)",
+     "# REGION SOUTHERN EUROPE",
+     "5511:30257 Southern Europe",
+     "5511:500 Southern Europe Customers (Deprecated)",
+     "5511:710 Southern Europe Peer & contents (Deprecated)",
+     "# Region Southern Europe - Portugal",
+     "5511:30258 Portugal",
+     "5511:527 Portugal (Deprecated)",
+     "5511:30259 Lisbon",
+     "# Region Southern Europe - Spain",
+     "5511:30262 Spain",
+     "5511:518 Spain (Deprecated)",
+     "5511:30263 Alicante",
+     "5511:30266 Almeria",
+     "5511:30629 Barcelona",
+     "5511:30272 Bilbao",
+     "5511:30274 Burgos",
+     "5511:30276 Las Palmas de Gran Canaria",
+     "5511:30278 Castellon",
+     "5511:30280 Corunna",
+     "5511:30282 Girona",
+     "5511:30285 Granada",
+     "5511:30288 Jerez",
+     "5511:30290 Jaen",
+     "5511:30292 Madrid",
+     "5511:30301 Malaga",
+     "5511:30303 Palma",
+     "5511:30305 Merida",
+     "5511:30307 Murcia",
+     "5511:30309 Oviedo",
+     "5511:30311 Sevilla",
+     "5511:30314 San Sebastian",
+     "5511:30316 Sevilla",
+     "5511:30318 Tarragona",
+     "5511:30320 Santa Cruz de Tenerife",
+     "5511:30322 Valencia",
+     "5511:30324 Valencia",
+     "5511:30326 Vigo",
+     "5511:30328 Vitoria",
+     "5511:30330 Valencia",
+     "5511:30332 Valladolid",
+     "5511:30335 Zaragoza",
+     "# Region Southern Europe - italy",
+     "5511:30338 italy",
+     "5511:532 italy (Deprecated)",
+     "5511:30339 Milan",
+     "5511:30341 Rome",
+     "# REGION WESTERN AFRICA",
+     "5511:30343 Western Africa",
+     "5511:640 Western Africa Customers (Deprecated)",
+     "5511:730 Western Africa Peer & contents (Deprecated)",
+     "# Region Western Africa - Burkina Faso",
+     "5511:30344 Burkina Faso",
+     "5511:643 Burkina Faso (Deprecated)",
+     "5511:30345 Bobo-Dioulasso",
+     "5511:30347 Ouagadougou",
+     "5511:30350 Zagtouli",
+     "# Region Western Africa - Ghana",
+     "5511:30352 Ghana",
+     "5511:654 Ghana (Deprecated)",
+     "5511:30353 Accra",
+     "# Region Western Africa - Guinea",
+     "5511:30356 Guinea",
+     "5511:647 Guinea (Deprecated)",
+     "5511:30357 Conakry",
+     "# Region Western Africa - Ivory Coast",
+     "5511:30360 Ivory Coast",
+     "5511:641 Ivory Coast (Deprecated)",
+     "5511:30361 Abidjan",
+     "5511:30368 Daloa",
+     "5511:30370 Ouangolo",
+     "5511:30373 Pogo",
+     "5511:30375 Yamoussoukro",
+     "5511:30377 Yamoussoukro",
+     "# Region Western Africa - Liberia",
+     "5511:30570 Liberia",
+     "5511:30571 Monrovia-Roberts",
+     "# Region Western Africa - Mali",
+     "5511:30379 Mali",
+     "5511:644 Mali (Deprecated)",
+     "5511:30387 Bamako",
+     "5511:30577 Kenieba",
+     "5511:30395 Sikasso",
+     "5511:30397 Kayes",
+     "# Region Western Africa - Nigeria",
+     "5511:30399 Nigeria",
+     "5511:30400 Lagos",
+     "5511:642 Lagos (Deprecated)",
+     "# Region Western Africa - Senegal",
+     "5511:30403 Senegal",
+     "5511:646 Senegal (Deprecated)",
+     "5511:30404 Dakar",
+     "5511:30408 Kidira",
+     "5511:30410 Kaolac",
+     "5511:30412 Thies",
+     "5511:30414 Tumba",
+     "# REGION WESTERN ASIA",
+     "5511:30416 Western Asia",
+     "5511:650 Western Asia Customers (Deprecated)",
+     "5511:720 Western Asia Peer & contents (Deprecated)",
+     "# Region Western Asia - Jordan",
+     "5511:30417 Jordan",
+     "5511:651 Jordan (Deprecated)",
+     "5511:30418 Amman",
+     "# Region Western Asia - United Arab Emirates",
+     "5511:30424 United Arab Emirates",
+     "5511:652 United Arab Emirates (Deprecated)",
+     "5511:30425 Dubai",
+     "# REGION WESTERN EUROPE",
+     "5511:30428 Western Europe",
+     "5511:500 Western Europe Customers (Deprecated)",
+     "5511:710 Western Europe Peer & contents (Deprecated)",
+     "# Region Western Europe - Austria",
+     "5511:30429 Austria",
+     "5511:523 Austria (Deprecated)",
+     "5511:30430 Vienna",
+     "# Region Western Europe - Belgium",
+     "5511:30432 Belgium",
+     "5511:511 Belgium (Deprecated)",
+     "5511:30433 Brussels ORANGE",
+     "5511:30548 Brussels Interxion BRU1",
+     "# Region Western Europe - France",
+     "5511:30436 France",
+     "5511:30442 Bagnolet ORANGE",
+     "5511:501 Bagnolet ORANGE (Deprecated)",
+     "5511:30568 Bordeaux Equinix BX1",
+     "5511:30449 Clichy Global Switch",
+     "5511:510 Clichy Global Switch (Deprecated)",
+     "5511:30550 Aubervilliers ORANGE",
+     "5511:505 Aubervilliers ORANGE (Deprecated)",
+     "5511:30552 Lille ORANGE",
+     "5511:538 Lille ORANGE (Deprecated)",
+     "5511:30554 Lyon ORANGE - Jaguar & SFR",
+     "5511:509 Lyon ORANGE - Jaguar & SFR (Deprecated)",
+     "5511:30597 Marseille ORANGE - Interxion MRS1 & 2",
+     "5511:507 Marseille ORANGE - Interxion MRS1 & 2 (Deprecated)",
+     "5511:30458 Paris - TeleHouse2 - Equinix PA3 - Interxion PAR5 & PAR7",
+     "5511:504 Paris - TeleHouse2 - Equinix PA3 - Interxion PAR5 & PAR7 (Deprecated)",
+     "5511:30643 Bercenay ORANGE",
+     "5511:506 Bercenay ORANGE (Deprecated)",
+     "5511:30646 Reims",
+     "5511:503 Reims (Deprecated)",
+     "5511:30649 Val de Reuil",
+     "5511:508 Val de Reuil (Deprecated)",
+     "5511:30478 Vitry sur Seine SCALEWAY",
+     "5511:504 Vitry sur Seine SCALEWAY (Deprecated)",
+     "5511:30480 Paris Pastourelle ORANGE",
+     "5511:502 Paris Pastourelle ORANGE (Deprecated)",
+     "# Region Western Europe - Germany",
+     "5511:30482 Germany",
+     "5511:521 Germany (Deprecated)",
+     "5511:30483 Frankfurt Interxion FRA4",
+     "5511:30557 Frankfurt ORANGE",
+     "5511:30574 Frankfurt Interxion FRA15",
+     "5511:30652 Frankfurt Equinix FRA5",
+     "5511:30559 Frankfurt Interxion FRA13",
+     "5511:30561 Frankfurt Itenos FRA1",
+     "# Region Western Europe - Netherlands",
+     "5511:30486 Netherlands",
+     "5511:514 Netherlands (Deprecated)",
+     "5511:30487 Amsterdam Equinix AM2&3 - Interxion AMS9 - IronMountain AMS1",
+     "5511:30579 Amsterdam ORANGE",
+     "# Region Western Europe - Switzerland",
+     "5511:30492 Switzerland",
+     "5511:520 Switzerland (Deprecated)",
+     "5511:30564 Geneva ORANGE - CERN",
+     "5511:30496 Zurich",
+     "------------------------------------------------------",
+     "Well-known BGP communities",
+     "65535:65281 or NO_EXPORT. As defined in RFC1997",
+     "65535:65282 or NO_ADVERTISE. As defined in RFC1997",
+     "65535:65284 or NOPEER. As defined in RFC1997",
+     "------------------------------------------------------",
+     "Ops issues <masqué>@orange.com",
+     "Looking Glass https://looking-glass.opentransit.net/",
+     "Peering requests <masqué>@orange.com",
+     "https://wholesale.orange.com/international/en/our-solutions/ip-transit.html",
+     "Security issues <masqué>@orange.com",
+     "For AUP see our peering policy (there is a document embedded within the PDF file)",
+     "https://wholesale.orange.com/international/en/our-solutions/ip-transit.html",
+     "------------------------------------------------------",
+     ""
+    ],
+    "import": [
+     "from AS174 action pref=85; accept AS174:AS-COGENT",
+     "from AS513 action pref=100; accept AS-CERNEXT",
+     "from AS701 action pref=75; accept AS701",
+     "from AS702 action pref=85; accept AS702:RS-EURO AS702:RS-CUSTOMER",
+     "from AS714 action pref=150; accept AS714",
+     "from AS1136 action pref=100; accept AS-KPNNL",
+     "from AS1273 action pref=85; accept AS-CW",
+     "from AS1280 action pref=85; accept AS1280",
+     "from AS1299 action pref=85; accept AS-TELIANET",
+     "from AS1547 action pref=100; accept AS1547",
+     "from AS1836 action pref=100; accept AS1836",
+     "from AS2200 action pref=100; accept AS2200",
+     "from AS2280 action pref=150; accept AS2280",
+     "from AS2281 action pref=150; accept AS2281",
+     "from AS2285 action pref=150; accept AS2285",
+     "from AS2287 action pref=100; accept AS2287",
+     "from AS2376 action pref=150; accept AS2376",
+     "from AS2497 action pref=100; accept AS2497",
+     "from AS2609 action pref=100; accept AS2609",
+     "from AS2647 action pref=100; accept AS2647",
+     "from AS2686 action pref=85; accept AS-IGNEMEA",
+     "from AS2860 action pref=100; accept AS-NOVIS",
+     "from AS2874 action pref=100; accept AS2874",
+     "from AS2914 action pref=85; accept AS2914:AS-GLOBAL",
+     "from AS3204 action pref=100; accept AS3204",
+     "from AS3214 action pref=150; accept AS-XTOM",
+     "from AS3215 action pref=100; accept AS-FTFR",
+     "from AS3223 action pref=100; accept AS3223",
+     "from AS3257 action pref=85; accept AS-TINET",
+     "from AS3303 action pref=85; accept AS-SWCMGLOBAL",
+     "from AS3320 action pref=85; accept AS3320:AS-DTAG",
+     "from AS3356 action pref=85; accept AS-Level3-customers-NA",
+     "from AS3399 action pref=150; accept AS3399",
+     "from AS3491 action pref=85; accept AS-CAIS",
+     "from AS4004 action pref=100; accept AS-OBS-UK",
+     "from AS4134 action pref=85; accept AS-CN",
+     "from AS4637 action pref=85; accept AS-REACH-CUSTOMERS",
+     "from AS4651 action pref=100; accept AS-CAT-IIG",
+     "from AS4761 action pref=100; accept AS4761",
+     "from AS4788 action pref=100; accept AS4788",
+     "from AS4800 action pref=100; accept AS4800",
+     "from AS4817 action pref=100; accept AS4817",
+     "from AS4826 action pref=100; accept AS4826",
+     "from AS4837 action pref=100; accept AS4837",
+     "from AS4849 action pref=100; accept AS-S3C",
+     "from AS4862 action pref=100; accept AS-EQUANT-ASIA",
+     "from AS5377 action pref=100; accept AS5377",
+     "from AS5400 action pref=85; accept AS-BT-EU",
+     "from AS5459 action pref=85; accept AS-LINX",
+     "from AS5583 action pref=100; accept AS-OBS-BENELUX",
+     "from AS5617 action pref=100; accept AS-TPNET",
+     "from AS5713 action pref=100; accept AS5713",
+     "from AS6057 action pref=100; accept AS6057",
+     "from AS6204 action pref=150; accept AS6204",
+     "from AS6233 action pref=100; accept AS6233",
+     "from AS6447 action pref=85; accept AS6447",
+     "from AS6453 action pref=85; accept AS-GLOBEINTERNET",
+     "from AS6461 action pref=85; accept AS6461",
+     "from AS6507 action pref=150; accept AS6507",
+     "from AS6661 action pref=100; accept AS-PTLU",
+     "from AS6696 action pref=100; accept AS6696",
+     "from AS6713 action pref=100; accept AS6713",
+     "from AS6752 action pref=100; accept AS6752",
+     "from AS6762 action pref=85; accept AS-SEABONE",
+     "from AS6774 action pref=100; accept AS6774:AS-BICS-TRANSIT",
+     "from AS6830 action pref=85; accept AS-AORTA",
+     "from AS6853 action pref=100; accept AS-OBS-SOUTHEUR",
+     "from AS6939 action pref=85; accept AS6939",
+     "from AS7018 action pref=85; accept AS-ATTWORLDNET",
+     "from AS7500 action pref=85; accept AS7500",
+     "from AS7568 action pref=100; accept AS7568",
+     "from AS7713 action pref=100; accept AS7713",
+     "from AS7922 action pref=100; accept AS7922",
+     "from AS8075 action pref=85; accept AS8075",
+     "from AS8220 action pref=100; accept AS8220",
+     "from AS8304 action pref=100; accept AS-ECRITEL",
+     "from AS8309 action pref=100; accept AS8309",
+     "from AS8346 action pref=100; accept AS8346",
+     "from AS8362 action pref=100; accept AS8362",
+     "from AS8426 action pref=100; accept AS8426",
+     "from AS8452 action pref=100; accept AS8452",
+     "from AS8528 action pref=100; accept AS8528",
+     "from AS8554 action pref=100; accept AS-TAS",
+     "from AS8677 action pref=100; accept AS-ATOSWORLDLINE",
+     "from AS8681 action pref=100; accept AS-JERSEYTELECOM",
+     "from AS8697 action pref=100; accept AS-JTC",
+     "from AS8723 action pref=150; accept AS8723",
+     "from AS8781 action pref=100; accept AS8781",
+     "from AS8849 action pref=100; accept AS8849",
+     "from AS8860 action pref=100; accept AS8860",
+     "from AS8895 action pref=100; accept AS8895:AS-KACST",
+     "from AS8928 action pref=100; accept RS-INTEROUTE",
+     "from AS8953 action pref=100; accept AS-ORANGERO",
+     "from AS8966 action pref=100; accept AS8966",
+     "from AS9002 action pref=150; accept AS9002",
+     "from AS9009 action pref=150; accept AS9009",
+     "from AS9299 action pref=100; accept AS9299",
+     "from AS9304 action pref=100; accept AS9304",
+     "from AS9381 action pref=100; accept AS9381",
+     "from AS9500 action pref=100; accept AS9500",
+     "from AS9680 action pref=85; accept AS-HINET",
+     "from AS9873 action pref=100; accept AS9873",
+     "from AS10031 action pref=100; accept AS10031",
+     "from AS10122 action pref=100; accept AS10122",
+     "from AS10282 action pref=100; accept AS-OBS-CEEUR",
+     "from AS10764 action pref=85; accept AS10764",
+     "from AS10991 action pref=150; accept AS10991",
+     "from AS11537 action pref=85; accept AS11537",
+     "from AS11816 action pref=100; accept AS11816",
+     "from AS11960 action pref=100; accept AS11960",
+     "from AS12389 action pref=100; accept AS12389",
+     "from AS12392 action pref=100; accept AS12392",
+     "from AS12455 action pref=100; accept AS12455",
+     "from AS12479 action pref=100; accept AS12479",
+     "from AS12552 action pref=100; accept AS-IPO",
+     "from AS12576 action pref=100; accept AS12576",
+     "from AS12654 action pref=100; accept AS12654",
+     "from AS12684 action pref=100; accept AS12684",
+     "from AS12709 action pref=100; accept AS-MELITA",
+     "from AS12778 action pref=100; accept AS-NETSI",
+     "from AS12807 action pref=150; accept AS12807",
+     "from AS12811 action pref=100; accept AS12811",
+     "from AS12826 action pref=150; accept AS12826",
+     "from AS12876 action pref=150; accept AS12876",
+     "from AS12956 action pref=85; accept AS-TDATANET",
+     "from AS12975 action pref=100; accept AS-PALTEL",
+     "from AS12989 action pref=150; accept AS12989",
+     "from AS13004 action pref=100; accept AS13004",
+     "from AS13150 action pref=100; accept AS13150",
+     "from AS13194 action pref=100; accept AS13194",
+     "from AS13335 action pref=100; accept AS-CLOUDFLARE",
+     "from AS13445 action pref=150; accept AS13445",
+     "from AS14630 action pref=150; accept AS14630",
+     "from AS14907 action pref=150; accept AS14907",
+     "from AS15169 action pref=85; accept AS-GOOGLE",
+     "from AS15383 action pref=100; accept AS15383",
+     "from AS15436 action pref=100; accept AS-WITBE",
+     "from AS15681 action pref=100; accept AS15681",
+     "from AS15802 action pref=100; accept AS15802",
+     "from AS15808 action pref=100; accept AS15808",
+     "from AS15962 action pref=100; accept AS15962:AS-OSK-DNI",
+     "from AS16058 action pref=100; accept AS16058",
+     "from AS16178 action pref=100; accept AS16178",
+     "from AS16189 action pref=150; accept AS16189",
+     "from AS16265 action pref=100; accept AS-LEASEWEB",
+     "from AS16276 action pref=100; accept AS-OVH",
+     "from AS16509 action pref=150; accept AS16509",
+     "from AS17379 action pref=100; accept AS17379:AS-CUSTOMERS",
+     "from AS17639 action pref=100; accept AS17639",
+     "from AS17650 action pref=150; accept AS17650",
+     "from AS17670 action pref=150; accept AS17670",
+     "from AS17976 action pref=100; accept AS17976",
+     "from AS18059 action pref=100; accept AS18059",
+     "from AS18403 action pref=100; accept AS18403",
+     "from AS19551 action pref=100; accept AS19551",
+     "from AS19679 action pref=150; accept AS19679",
+     "from AS20253 action pref=150; accept AS20253",
+     "from AS20562 action pref=100; accept AS20562",
+     "from AS20764 action pref=100; accept AS-RASCOM",
+     "from AS20765 action pref=100; accept AS20765",
+     "from AS20773 action pref=100; accept AS20773",
+     "from AS20940 action pref=150; accept AS-AKAMAI",
+     "from AS20986 action pref=150; accept AS20986",
+     "from AS21003 action pref=100; accept AS21003",
+     "from AS21357 action pref=150; accept AS21357",
+     "from AS21859 action pref=150; accept AS21859",
+     "from AS22355 action pref=100; accept AS22355",
+     "from AS22808 action pref=100; accept AS22808",
+     "from AS22822 action pref=100; accept AS22822",
+     "from AS23889 action pref=100; accept AS23889",
+     "from AS24203 action pref=100; accept AS24203",
+     "from AS24429 action pref=150; accept AS24429",
+     "from AS24600 action pref=100; accept AS24600",
+     "from AS24785 action pref=100; accept AS24785",
+     "from AS24863 action pref=100; accept AS24863",
+     "from AS24875 action pref=150; accept AS24875",
+     "from AS25091 action pref=100; accept AS-IP-MAX",
+     "from AS25113 action pref=150; accept AS25113",
+     "from AS25144 action pref=100; accept AS-TELEKOM-SRPSKE",
+     "from AS25215 action pref=100; accept AS25215",
+     "from AS25593 action pref=100; accept AS-LINKBYNET",
+     "from AS25818 action pref=100; accept AS25818",
+     "from AS27775 action pref=100; accept AS27775",
+     "from AS28007 action pref=100; accept AS28007",
+     "from AS28118 action pref=100; accept AS28118",
+     "from AS28683 action pref=100; accept AS28683",
+     "from AS28708 action pref=100; accept AS28708",
+     "from AS28855 action pref=100; accept AS28855",
+     "from AS29049 action pref=100; accept AS29049",
+     "from AS29110 action pref=100; accept AS29110",
+     "from AS29119 action pref=100; accept AS29119",
+     "from AS29283 action pref=100; accept AS29283",
+     "from AS29386 action pref=100; accept AS29386",
+     "from AS29535 action pref=100; accept AS29535",
+     "from AS29544 action pref=100; accept AS29544",
+     "from AS29571 action pref=100; accept AS29571",
+     "from AS29605 action pref=100; accept AS29605",
+     "from AS29608 action pref=100; accept AS-W2MY",
+     "from AS29664 action pref=100; accept RS-VANCO-PAR",
+     "from AS30781 action pref=150; accept AS-JAGUAR",
+     "from AS30844 action pref=100; accept AS30844",
+     "from AS30889 action pref=100; accept AS-WAYCOM",
+     "from AS30985 action pref=100; accept AS-IKATELNET",
+     "from AS30990 action pref=100; accept AS30990",
+     "from AS31083 action pref=100; accept AS31083",
+     "from AS31167 action pref=100; accept AS31167",
+     "from AS31216 action pref=100; accept AS-BSOCOM",
+     "from AS31287 action pref=100; accept AS31287",
+     "from AS31313 action pref=100; accept AS-STS-RO",
+     "from AS31435 action pref=100; accept AS-STS-RO",
+     "from AS31490 action pref=100; accept AS31490",
+     "from AS31500 action pref=100; accept AS31500",
+     "from AS32261 action pref=150; accept AS32261",
+     "from AS32590 action pref=150; accept AS32590",
+     "from AS32787 action pref=150; accept AS-PROLE",
+     "from AS32934 action pref=100; accept AS-FACEBOOK",
+     "from AS33353 action pref=100; accept AS-SONY-CGEI AS-GAIKAI",
+     "from AS33392 action pref=100; accept AS33392",
+     "from AS33745 action pref=100; accept AS33745",
+     "from AS33774 action pref=100; accept AS33774",
+     "from AS33848 action pref=100; accept AS33848",
+     "from AS34002 action pref=150; accept AS34002",
+     "from AS34177 action pref=100; accept AS34177",
+     "from AS34224 action pref=100; accept AS34224",
+     "from AS34306 action pref=100; accept AS34306",
+     "from AS34362 action pref=100; accept AS-VLT-HR",
+     "from AS34444 action pref=100; accept AS34444",
+     "from AS34549 action pref=100; accept AS-MEER",
+     "from AS34569 action pref=100; accept AS34569",
+     "from AS34659 action pref=100; accept AS34659",
+     "from AS34769 action pref=100; accept AS34769",
+     "from AS35133 action pref=100; accept AS35133",
+     "from AS35676 action pref=100; accept AS35676",
+     "from AS35753 action pref=100; accept AS35753",
+     "from AS35819 action pref=100; accept AS35819",
+     "from AS36040 action pref=100; accept AS36040",
+     "from AS36864 action pref=100; accept AS36864",
+     "from AS36879 action pref=100; accept AS36879",
+     "from AS36880 action pref=100; accept AS36880",
+     "from AS36891 action pref=100; accept AS36891",
+     "from AS36912 action pref=100; accept AS36912",
+     "from AS36925 action pref=100; accept AS36925",
+     "from AS36939 action pref=100; accept AS36939",
+     "from AS36947 action pref=100; accept AS-AT-PEERN",
+     "from AS36963 action pref=100; accept AS36963",
+     "from AS37035 action pref=100; accept AS37035",
+     "from AS37037 action pref=100; accept AS37037",
+     "from AS37054 action pref=100; accept AS37054",
+     "from AS37090 action pref=100; accept AS37090",
+     "from AS37126 action pref=100; accept AS-BELL-FIBER",
+     "from AS37164 action pref=100; accept AS37164",
+     "from AS37173 action pref=100; accept AS37173",
+     "from AS37204 action pref=100; accept AS37204",
+     "from AS37292 action pref=100; accept AS37292",
+     "from AS37309 action pref=100; accept AS37309",
+     "from AS37323 action pref=100; accept AS37323",
+     "from AS37363 action pref=100; accept AS37363",
+     "from AS37385 action pref=100; accept AS37385",
+     "from AS37447 action pref=100; accept AS37447",
+     "from AS37460 action pref=100; accept AS37460",
+     "from AS37461 action pref=100; accept AS37461",
+     "from AS37492 action pref=100; accept AS37492",
+     "from AS37503 action pref=100; accept AS37503",
+     "from AS37552 action pref=100; accept AS37552",
+     "from AS37557 action pref=100; accept AS37557",
+     "from AS37571 action pref=150; accept AS37571",
+     "from AS37577 action pref=100; accept AS37577",
+     "from AS37582 action pref=100; accept AS37582",
+     "from AS37662 action pref=100; accept AS37662",
+     "from AS37680 action pref=100; accept AS37680",
+     "from AS37721 action pref=100; accept AS37721",
+     "from AS37739 action pref=100; accept AS-ABANTU",
+     "from AS38040 action pref=100; accept AS38040",
+     "from AS38082 action pref=100; accept AS38082",
+     "from AS38166 action pref=100; accept AS38166",
+     "from AS38278 action pref=150; accept AS38278",
+     "from AS39072 action pref=150; accept AS39072",
+     "from AS39180 action pref=100; accept AS39180",
+     "from AS39286 action pref=100; accept AS39286",
+     "from AS39386 action pref=100; accept AS39386",
+     "from AS39505 action pref=100; accept AS39505",
+     "from AS39521 action pref=100; accept AS39521",
+     "from AS39724 action pref=100; accept AS39724",
+     "from AS39801 action pref=100; accept AS39801",
+     "from AS39855 action pref=150; accept AS39855",
+     "from AS41041 action pref=100; accept AS41041",
+     "from AS41690 action pref=150; accept AS-DAILYMOTION",
+     "from AS41951 action pref=150; accept AS41951",
+     "from AS42020 action pref=100; accept AS42020",
+     "from AS42295 action pref=100; accept AS42295:AS-TBISS",
+     "from AS42555 action pref=100; accept AS42555",
+     "from AS42739 action pref=100; accept AS42739",
+     "from AS42881 action pref=100; accept AS42881",
+     "from AS43128 action pref=100; accept AS43128",
+     "from AS43205 action pref=100; accept AS43205",
+     "from AS43338 action pref=150; accept AS43338",
+     "from AS43342 action pref=100; accept AS43342",
+     "from AS43440 action pref=150; accept AS43440",
+     "from AS43515 action pref=100; accept AS43515",
+     "from AS43717 action pref=100; accept AS43717",
+     "from AS43722 action pref=100; accept AS43722",
+     "from AS43766 action pref=100; accept AS43766",
+     "from AS43930 action pref=150; accept AS43930",
+     "from AS43996 action pref=150; accept AS43996",
+     "from AS44306 action pref=100; accept AS-OMONIA",
+     "from AS44901 action pref=100; accept as-belcloud",
+     "from AS45102 action pref=100; accept AS45102",
+     "from AS45430 action pref=100; accept AS45430",
+     "from AS45489 action pref=100; accept AS-SLT-GLOBAL",
+     "from AS45543 action pref=100; accept AS45543",
+     "from AS45629 action pref=100; accept AS45629",
+     "from AS45796 action pref=100; accept AS45796",
+     "from AS45879 action pref=100; accept AS45879",
+     "from AS45903 action pref=100; accept AS45903",
+     "from AS47377 action pref=100; accept AS47377",
+     "from AS47794 action pref=100; accept AS47794",
+     "from AS47872 action pref=100; accept AS47872",
+     "from AS47887 action pref=100; accept AS47887",
+     "from AS48237 action pref=100; accept AS48237",
+     "from AS48314 action pref=100; accept AS-IP-PROJECTS",
+     "from AS48813 action pref=150; accept AS48813",
+     "from AS49121 action pref=100; accept AS-INFTELE",
+     "from AS49274 action pref=100; accept AS49274",
+     "from AS49434 action pref=150; accept AS-HHOSTING",
+     "from AS49666 action pref=100; accept AS49666",
+     "from AS49677 action pref=100; accept AS49677",
+     "from AS49763 action pref=150; accept AS49763",
+     "from AS49981 action pref=150; accept AS49981",
+     "from AS50144 action pref=150; accept AS50144",
+     "from AS50509 action pref=100; accept AS50509",
+     "from AS50583 action pref=100; accept AS50583",
+     "from AS50624 action pref=150; accept AS50624",
+     "from AS50629 action pref=100; accept AS50629",
+     "from AS50812 action pref=150; accept AS50812",
+     "from AS51110 action pref=100; accept AS51110",
+     "from AS51154 action pref=150; accept AS51154",
+     "from AS51406 action pref=100; accept AS51406",
+     "from AS51582 action pref=100; accept AS51582",
+     "from AS51790 action pref=100; accept AS-SIEL",
+     "from AS52412 action pref=100; accept AS52412",
+     "from AS52468 action pref=100; accept AS52468",
+     "from AS54113 action pref=100; accept AS54113",
+     "from AS55256 action pref=150; accept AS55256",
+     "from AS55259 action pref=150; accept AS55259",
+     "from AS55482 action pref=100; accept AS55482",
+     "from AS55685 action pref=150; accept AS55685",
+     "from AS56286 action pref=100; accept AS56286",
+     "from AS56987 action pref=100; accept AS-ABACLOUDA",
+     "from AS57050 action pref=100; accept AS57050",
+     "from AS57242 action pref=100; accept AS57242:AS-Martyinchuk",
+     "from AS57344 action pref=100; accept AS57344",
+     "from AS57463 action pref=100; accept AS57463",
+     "from AS57717 action pref=150; accept AS57717",
+     "from AS57793 action pref=100; accept AS57793",
+     "from AS57839 action pref=100; accept AS57839",
+     "from AS57866 action pref=100; accept AS57866",
+     "from AS57902 action pref=100; accept AS57902",
+     "from AS57976 action pref=150; accept AS57976",
+     "from AS58011 action pref=100; accept AS58011",
+     "from AS58470 action pref=100; accept AS58470",
+     "from AS59378 action pref=100; accept AS59378",
+     "from AS59432 action pref=100; accept AS59432",
+     "from AS59711 action pref=100; accept AS59711",
+     "from AS59866 action pref=100; accept AS59866",
+     "from AS59877 action pref=100; accept AS59877",
+     "from AS60015 action pref=150; accept AS60015",
+     "from AS60022 action pref=100; accept AS-SONA",
+     "from AS60068 action pref=100; accept AS60068",
+     "from AS60261 action pref=150; accept AS60261",
+     "from AS60345 action pref=100; accept AS60345",
+     "from AS60388 action pref=100; accept AS-SIGMA-TELECOM",
+     "from AS60447 action pref=100; accept AS-I-NET",
+     "from AS60486 action pref=100; accept AS-SWISSNET",
+     "from AS60733 action pref=100; accept AS60733",
+     "from AS60781 action pref=150; accept AS60781",
+     "from AS60940 action pref=150; accept AS60940",
+     "from AS62000 action pref=150; accept AS62000",
+     "from AS62041 action pref=150; accept AS62041",
+     "from AS62044 action pref=150; accept AS62044",
+     "from AS62294 action pref=100; accept AS62294",
+     "from AS62390 action pref=150; accept AS62390",
+     "from AS63440 action pref=100; accept AS63440",
+     "from AS63981 action pref=100; accept AS63981",
+     "from AS64160 action pref=100; accept AS64160",
+     "from AS132203 action pref=150; accept AS132203",
+     "from AS132602 action pref=100; accept AS132602",
+     "from AS132829 action pref=100; accept AS132829",
+     "from AS136041 action pref=100; accept AS136041",
+     "from AS136513 action pref=100; accept AS136513",
+     "from AS136907 action pref=150; accept AS136907",
+     "from AS137831 action pref=150; accept AS137831",
+     "from AS138005 action pref=150; accept AS138005",
+     "from AS138915 action pref=150; accept AS138915",
+     "from AS138997 action pref=100; accept AS138997",
+     "from AS139057 action pref=100; accept AS139057",
+     "from AS139341 action pref=150; accept AS-ACE",
+     "from AS196670 action pref=100; accept AS196670",
+     "from AS196745 action pref=100; accept AS196745",
+     "from AS197205 action pref=100; accept AS197205",
+     "from AS197500 action pref=150; accept AS197500",
+     "from AS198330 action pref=150; accept AS198330",
+     "from AS198551 action pref=100; accept AS198551",
+     "from AS198825 action pref=100; accept AS198825",
+     "from AS199221 action pref=150; accept AS199221",
+     "from AS199400 action pref=100; accept AS199400:AS-SOLYTRO",
+     "from AS199426 action pref=150; accept AS199426",
+     "from AS199524 action pref=150; accept AS199524",
+     "from AS199749 action pref=100; accept AS199749",
+     "from AS200308 action pref=100; accept AS200308",
+     "from AS200449 action pref=150; accept AS200449",
+     "from AS200462 action pref=100; accept AS-ETH",
+     "from AS200596 action pref=100; accept AS200596",
+     "from AS200995 action pref=100; accept AS200995",
+     "from AS201004 action pref=100; accept AS201004",
+     "from AS201133 action pref=100; accept as-verdina",
+     "from AS201188 action pref=100; accept AS201188",
+     "from AS201420 action pref=100; accept AS201420",
+     "from AS201679 action pref=100; accept AS201679",
+     "from AS201958 action pref=100; accept AS201958",
+     "from AS202045 action pref=150; accept AS202045",
+     "from AS202617 action pref=100; accept AS202617",
+     "from AS203182 action pref=100; accept AS203182:AS-DIGITURK",
+     "from AS203410 action pref=150; accept AS203410:AS-COLOBIX",
+     "from AS203446 action pref=150; accept AS-Alex0220",
+     "from AS203513 action pref=150; accept AS203513",
+     "from AS203532 action pref=150; accept AS203532",
+     "from AS204202 action pref=100; accept AS204202",
+     "from AS204596 action pref=100; accept AS204596",
+     "from AS205113 action pref=150; accept AS205113",
+     "from AS205714 action pref=100; accept AS205714",
+     "from AS205874 action pref=100; accept AS205874",
+     "from AS205988 action pref=150; accept AS205988",
+     "from AS206002 action pref=150; accept AS206002",
+     "from AS206146 action pref=100; accept AS206146",
+     "from AS206244 action pref=100; accept AS206244:AS-CY-FIRSTNET",
+     "from AS206383 action pref=100; accept AS206383:AS-VOXLAN",
+     "from AS206924 action pref=100; accept AS-BENJOJO",
+     "from AS207147 action pref=100; accept AS207147",
+     "from AS207348 action pref=100; accept AS207348",
+     "from AS207410 action pref=100; accept AS207410",
+     "from AS208374 action pref=100; accept AS208374",
+     "from AS208660 action pref=100; accept AS208660",
+     "from AS209163 action pref=100; accept AS209163",
+     "from AS209304 action pref=100; accept AS209304",
+     "from AS209564 action pref=100; accept AS209564:AS-NICKNAME",
+     "from AS209768 action pref=100; accept AS209768",
+     "from AS209815 action pref=100; accept AS209815",
+     "from AS209823 action pref=100; accept AS209823",
+     "from AS211239 action pref=100; accept AS211239:AS-FIRSTNET",
+     "from AS211826 action pref=150; accept AS211826",
+     "from AS211827 action pref=100; accept AS211827",
+     "from AS211846 action pref=100; accept AS211846",
+     "from AS212087 action pref=150; accept AS212087",
+     "from AS212416 action pref=100; accept AS212416",
+     "from AS212477 action pref=150; accept AS212477",
+     "from AS212708 action pref=150; accept AS212708",
+     "from AS213018 action pref=100; accept AS213018",
+     "from AS213039 action pref=100; accept AS213039:AS-MIKRAMIX",
+     "from AS213205 action pref=100; accept AS213205:AS-COOOLBE",
+     "from AS213373 action pref=150; accept AS213373",
+     "from AS214667 action pref=100; accept AS214667",
+     "from AS215467 action pref=100; accept AS215467:AS-SKHRON",
+     "from AS215787 action pref=150; accept AS215787",
+     "from AS215853 action pref=100; accept AS215853:AS-BONFORTUNA",
+     "from AS215955 action pref=100; accept AS215955",
+     "from AS271956 action pref=100; accept AS271956",
+     "from AS327708 action pref=100; accept AS327708",
+     "from AS327769 action pref=100; accept AS327769",
+     "from AS327782 action pref=150; accept AS-PROLE",
+     "from AS328126 action pref=150; accept AS328126",
+     "from AS328317 action pref=100; accept AS328317",
+     "from AS328488 action pref=100; accept AS328488",
+     "from AS328528 action pref=100; accept AS328528",
+     "from AS328549 action pref=100; accept AS328549",
+     "from AS328722 action pref=100; accept AS328722",
+     "from AS328748 action pref=100; accept AS-AGILESP",
+     "from AS328850 action pref=100; accept AS328850",
+     "from AS328867 action pref=150; accept AS328867",
+     "from AS328997 action pref=150; accept AS328997",
+     "from AS329006 action pref=150; accept AS329006",
+     "from AS329118 action pref=100; accept AS329118",
+     "from AS393559 action pref=100; accept AS393559",
+     "from AS394684 action pref=100; accept AS394684",
+     "from AS395915 action pref=150; accept AS395915",
+     "from AS396986 action pref=150; accept AS396986",
+     "from AS397100 action pref=100; accept AS397100",
+     "from AS397601 action pref=100; accept AS397601",
+     "from AS398705 action pref=150; accept AS398705",
+     "from AS400687 action pref=100; accept AS400687:AS-SOLYTRO",
+     "from AS400696 action pref=150; accept AS400696"
+    ],
+    "export": [
+     "to AS174 announce AS-OPENTRANSIT",
+     "to AS286 announce AS-OPENTRANSIT",
+     "to AS701 announce AS-OPENTRANSIT",
+     "to AS702 announce AS-OPENTRANSIT",
+     "to AS714 announce AS-OPENTRANSIT",
+     "to AS1136 announce ANY",
+     "to AS1273 announce AS-OPENTRANSIT",
+     "to AS1280 announce AS-OPENTRANSIT",
+     "to AS1299 announce AS-OPENTRANSIT",
+     "to AS1547 announce ANY",
+     "to AS1836 announce ANY",
+     "to AS2200 announce ANY",
+     "to AS2280 announce ANY",
+     "to AS2281 announce ANY",
+     "to AS2285 announce ANY",
+     "to AS2287 announce ANY",
+     "to AS2376 announce ANY",
+     "to AS2472 announce ANY",
+     "to AS2497 announce ANY",
+     "to AS2609 announce ANY",
+     "to AS2647 announce ANY",
+     "to AS2686 announce AS-OPENTRANSIT",
+     "to AS2860 announce ANY",
+     "to AS2874 announce ANY",
+     "to AS2914 announce AS-OPENTRANSIT",
+     "to AS3204 announce ANY",
+     "to AS3214 announce ANY",
+     "to AS3215 announce ANY",
+     "to AS3223 announce ANY",
+     "to AS3257 announce AS-OPENTRANSIT",
+     "to AS3303 announce ANY",
+     "to AS3320 announce AS-OPENTRANSIT",
+     "to AS3356 announce AS-OPENTRANSIT",
+     "to AS3399 announce ANY",
+     "to AS3491 announce AS-OPENTRANSIT",
+     "to AS3557 announce AS-OPENTRANSIT",
+     "to AS3561 announce AS-OPENTRANSIT",
+     "to AS4004 announce ANY",
+     "to AS4134 announce AS-OPENTRANSIT",
+     "to AS4637 announce AS-OPENTRANSIT",
+     "to AS4651 announce ANY",
+     "to AS4761 announce ANY",
+     "to AS4788 announce ANY",
+     "to AS4800 announce ANY",
+     "to AS4817 announce ANY",
+     "to AS4826 announce ANY",
+     "to AS4837 announce ANY",
+     "to AS4849 announce ANY",
+     "to AS4862 announce ANY",
+     "to AS5377 announce ANY",
+     "to AS5400 announce AS-OPENTRANSIT",
+     "to AS5459 announce AS-OPENTRANSIT",
+     "to AS5583 announce ANY",
+     "to AS5617 announce ANY",
+     "to AS5713 announce ANY",
+     "to AS6057 announce ANY",
+     "to AS6204 announce ANY",
+     "to AS6233 announce ANY",
+     "to AS6447 announce AS-OPENTRANSIT",
+     "to AS6453 announce AS-OPENTRANSIT",
+     "to AS6461 announce AS-OPENTRANSIT",
+     "to AS6507 announce ANY",
+     "to AS6661 announce ANY",
+     "to AS6696 announce ANY",
+     "to AS6713 announce ANY",
+     "to AS6752 announce ANY",
+     "to AS6762 announce AS-OPENTRANSIT",
+     "to AS6774 announce ANY",
+     "to AS6830 announce AS-OPENTRANSIT",
+     "to AS6853 announce ANY",
+     "to AS6939 announce AS-OPENTRANSIT",
+     "to AS7018 announce AS-OPENTRANSIT",
+     "to AS7270 announce ANY",
+     "to AS7500 announce AS-OPENTRANSIT",
+     "to AS7568 announce ANY",
+     "to AS7713 announce ANY",
+     "to AS7922 announce ANY",
+     "to AS8069 announce ANY",
+     "to AS8075 announce AS-OPENTRANSIT",
+     "to AS8220 announce ANY",
+     "to AS8304 announce ANY",
+     "to AS8309 announce ANY",
+     "to AS8346 announce ANY",
+     "to AS8362 announce ANY",
+     "to AS8426 announce ANY",
+     "to AS8452 announce ANY",
+     "to AS8528 announce ANY",
+     "to AS8554 announce ANY",
+     "to AS8677 announce ANY",
+     "to AS8681 announce ANY",
+     "to AS8697 announce ANY",
+     "to AS8723 announce ANY",
+     "to AS8781 announce ANY",
+     "to AS8849 announce ANY",
+     "to AS8860 announce ANY",
+     "to AS8895 announce ANY",
+     "to AS8928 announce ANY",
+     "to AS8953 announce ANY",
+     "to AS8966 announce ANY",
+     "to AS9002 announce AS-OPENTRANSIT",
+     "to AS9009 announce ANY",
+     "to AS9299 announce ANY",
+     "to AS9304 announce ANY",
+     "to AS9381 announce ANY",
+     "to AS9500 announce ANY",
+     "to AS9680 announce AS-OPENTRANSIT",
+     "to AS9873 announce ANY",
+     "to AS10031 announce ANY",
+     "to AS10122 announce ANY",
+     "to AS10282 announce ANY",
+     "to AS10310 announce AS-OPENTRANSIT",
+     "to AS10764 announce AS-OPENTRANSIT",
+     "to AS10991 announce ANY",
+     "to AS11537 announce AS-OPENTRANSIT",
+     "to AS11816 announce ANY",
+     "to AS11960 announce ANY",
+     "to AS12386 announce ANY",
+     "to AS12389 announce ANY",
+     "to AS12392 announce ANY",
+     "to AS12455 announce ANY",
+     "to AS12479 announce ANY",
+     "to AS12552 announce ANY",
+     "to AS12576 announce ANY",
+     "to AS12601 announce ANY",
+     "to AS12654 announce AS-OPENTRANSIT",
+     "to AS12684 announce ANY",
+     "to AS12709 announce ANY",
+     "to AS12744 announce ANY",
+     "to AS12778 announce ANY",
+     "to AS12807 announce ANY",
+     "to AS12811 announce ANY",
+     "to AS12826 announce ANY",
+     "to AS12876 announce ANY",
+     "to AS12956 announce AS-OPENTRANSIT",
+     "to AS12975 announce ANY",
+     "to AS12989 announce ANY",
+     "to AS13004 announce ANY",
+     "to AS13150 announce ANY",
+     "to AS13194 announce ANY",
+     "to AS13335 announce ANY",
+     "to AS13445 announce ANY",
+     "to AS14630 announce ANY",
+     "to AS14907 announce ANY",
+     "to AS15169 announce AS-OPENTRANSIT",
+     "to AS15383 announce ANY",
+     "to AS15436 announce ANY",
+     "to AS15681 announce ANY",
+     "to AS15704 announce ANY",
+     "to AS15706 announce ANY",
+     "to AS15802 announce ANY",
+     "to AS15808 announce ANY",
+     "to AS15962 announce ANY",
+     "to AS16058 announce ANY",
+     "to AS16178 announce ANY",
+     "to AS16189 announce ANY",
+     "to AS16265 announce ANY",
+     "to AS16276 announce ANY",
+     "to AS16509 announce AS-OPENTRANSIT",
+     "to AS17379 announce ANY",
+     "to AS17557 announce ANY",
+     "to AS17639 announce ANY",
+     "to AS17650 announce ANY",
+     "to AS17670 announce ANY",
+     "to AS17927 announce ANY",
+     "to AS17976 announce ANY",
+     "to AS18059 announce ANY",
+     "to AS18403 announce ANY",
+     "to AS19551 announce ANY",
+     "to AS19679 announce ANY",
+     "to AS20253 announce AS-OPENTRANSIT",
+     "to AS20562 announce ANY",
+     "to AS20764 announce ANY",
+     "to AS20765 announce ANY",
+     "to AS20773 announce ANY",
+     "to AS20940 announce AS-OPENTRANSIT",
+     "to AS20986 announce ANY",
+     "to AS21003 announce ANY",
+     "to AS21217 announce ANY",
+     "to AS21357 announce ANY",
+     "to AS21859 announce ANY",
+     "to AS22355 announce ANY",
+     "to AS22808 announce ANY",
+     "to AS22822 announce ANY",
+     "to AS23889 announce ANY",
+     "to AS24203 announce ANY",
+     "to AS24429 announce ANY",
+     "to AS24600 announce ANY",
+     "to AS24785 announce ANY",
+     "to AS24863 announce ANY",
+     "to AS24875 announce ANY",
+     "to AS25091 announce ANY",
+     "to AS25113 announce ANY",
+     "to AS25144 announce ANY",
+     "to AS25215 announce ANY",
+     "to AS25593 announce ANY",
+     "to AS25818 announce ANY",
+     "to AS27717 announce ANY",
+     "to AS27775 announce ANY",
+     "to AS28007 announce ANY",
+     "to AS28118 announce ANY",
+     "to AS28683 announce ANY",
+     "to AS28708 announce ANY",
+     "to AS28855 announce ANY",
+     "to AS29049 announce ANY",
+     "to AS29110 announce ANY",
+     "to AS29119 announce ANY",
+     "to AS29283 announce ANY",
+     "to AS29386 announce ANY",
+     "to AS29535 announce ANY",
+     "to AS29544 announce ANY",
+     "to AS29571 announce ANY",
+     "to AS29605 announce ANY",
+     "to AS29608 announce ANY",
+     "to AS29664 announce ANY",
+     "to AS30781 announce ANY",
+     "to AS30844 announce ANY",
+     "to AS30889 announce ANY",
+     "to AS30985 announce ANY",
+     "to AS30990 announce ANY",
+     "to AS31083 announce ANY",
+     "to AS31167 announce ANY",
+     "to AS31216 announce ANY",
+     "to AS31287 announce ANY",
+     "to AS31313 announce ANY",
+     "to AS31435 announce ANY",
+     "to AS31490 announce ANY",
+     "to AS31500 announce ANY",
+     "to AS32261 announce ANY",
+     "to AS32590 announce ANY",
+     "to AS32787 announce ANY",
+     "to AS32934 announce ANY",
+     "to AS33353 announce ANY",
+     "to AS33392 announce ANY",
+     "to AS33745 announce ANY",
+     "to AS33774 announce ANY",
+     "to AS33848 announce ANY",
+     "to AS34002 announce ANY",
+     "to AS34177 announce ANY",
+     "to AS34224 announce ANY",
+     "to AS34306 announce ANY",
+     "to AS34362 announce ANY",
+     "to AS34444 announce ANY",
+     "to AS34549 announce ANY",
+     "to AS34569 announce ANY",
+     "to AS34659 announce ANY",
+     "to AS34769 announce ANY",
+     "to AS35133 announce ANY",
+     "to AS35676 announce ANY",
+     "to AS35753 announce ANY",
+     "to AS35819 announce ANY",
+     "to AS36040 announce AS-OPENTRANSIT",
+     "to AS36864 announce ANY",
+     "to AS36879 announce ANY",
+     "to AS36880 announce ANY",
+     "to AS36891 announce ANY",
+     "to AS36912 announce ANY",
+     "to AS36925 announce ANY",
+     "to AS36939 announce ANY",
+     "to AS36947 announce ANY",
+     "to AS36963 announce ANY",
+     "to AS37035 announce ANY",
+     "to AS37037 announce ANY",
+     "to AS37054 announce ANY",
+     "to AS37090 announce ANY",
+     "to AS37126 announce ANY",
+     "to AS37164 announce ANY",
+     "to AS37173 announce ANY",
+     "to AS37204 announce ANY",
+     "to AS37292 announce ANY",
+     "to AS37309 announce ANY",
+     "to AS37323 announce ANY",
+     "to AS37363 announce ANY",
+     "to AS37385 announce ANY",
+     "to AS37447 announce ANY",
+     "to AS37460 announce ANY",
+     "to AS37461 announce ANY",
+     "to AS37492 announce ANY",
+     "to AS37503 announce ANY",
+     "to AS37552 announce ANY",
+     "to AS37557 announce ANY",
+     "to AS37571 announce ANY",
+     "to AS37577 announce ANY",
+     "to AS37582 announce ANY",
+     "to AS37662 announce ANY",
+     "to AS37680 announce ANY",
+     "to AS37721 announce ANY",
+     "to AS37739 announce ANY",
+     "to AS38040 announce ANY",
+     "to AS38082 announce ANY",
+     "to AS38166 announce ANY",
+     "to AS38278 announce ANY",
+     "to AS39072 announce ANY",
+     "to AS39180 announce ANY",
+     "to AS39286 announce ANY",
+     "to AS39386 announce ANY",
+     "to AS39505 announce ANY",
+     "to AS39521 announce ANY",
+     "to AS39724 announce ANY",
+     "to AS39801 announce ANY",
+     "to AS39855 announce ANY",
+     "to AS41041 announce ANY",
+     "to AS41690 announce ANY",
+     "to AS41951 announce ANY",
+     "to AS42020 announce ANY",
+     "to AS42295 announce ANY",
+     "to AS42555 announce ANY",
+     "to AS42739 announce ANY",
+     "to AS42881 announce ANY",
+     "to AS43128 announce ANY",
+     "to AS43205 announce ANY",
+     "to AS43338 announce ANY",
+     "to AS43342 announce ANY",
+     "to AS43440 announce ANY",
+     "to AS43515 announce ANY",
+     "to AS43717 announce ANY",
+     "to AS43722 announce ANY",
+     "to AS43766 announce ANY",
+     "to AS43930 announce ANY",
+     "to AS43996 announce ANY",
+     "to AS44306 announce ANY",
+     "to AS44901 announce ANY",
+     "to AS45102 announce ANY",
+     "to AS45430 announce ANY",
+     "to AS45489 announce ANY",
+     "to AS45543 announce ANY",
+     "to AS45629 announce ANY",
+     "to AS45796 announce ANY",
+     "to AS45879 announce ANY",
+     "to AS45903 announce ANY",
+     "to AS47377 announce ANY",
+     "to AS47794 announce ANY",
+     "to AS47872 announce ANY",
+     "to AS47887 announce ANY",
+     "to AS48237 announce ANY",
+     "to AS48314 announce ANY",
+     "to AS48813 announce ANY",
+     "to AS49121 announce ANY",
+     "to AS49274 announce ANY",
+     "to AS49434 announce ANY",
+     "to AS49666 announce ANY",
+     "to AS49677 announce ANY",
+     "to AS49763 announce ANY",
+     "to AS49981 announce ANY",
+     "to AS50144 announce AS-OPENTRANSIT",
+     "to AS50509 announce ANY",
+     "to AS50583 announce ANY",
+     "to AS50624 announce ANY",
+     "to AS50629 announce ANY",
+     "to AS50812 announce ANY",
+     "to AS51110 announce ANY",
+     "to AS51154 announce ANY",
+     "to AS51406 announce ANY",
+     "to AS51582 announce ANY",
+     "to AS51790 announce ANY",
+     "to AS52412 announce ANY",
+     "to AS52468 announce ANY",
+     "to AS54113 announce ANY",
+     "to AS55256 announce ANY",
+     "to AS55259 announce ANY",
+     "to AS55482 announce ANY",
+     "to AS55685 announce ANY",
+     "to AS56286 announce ANY",
+     "to AS56987 announce ANY",
+     "to AS57050 announce ANY",
+     "to AS57242 announce ANY",
+     "to AS57344 announce ANY",
+     "to AS57463 announce ANY",
+     "to AS57717 announce ANY",
+     "to AS57793 announce ANY",
+     "to AS57839 announce ANY",
+     "to AS57866 announce ANY",
+     "to AS57902 announce ANY",
+     "to AS57976 announce AS-OPENTRANSIT",
+     "to AS58011 announce ANY",
+     "to AS58470 announce ANY",
+     "to AS59378 announce ANY",
+     "to AS59432 announce ANY",
+     "to AS59711 announce ANY",
+     "to AS59866 announce ANY",
+     "to AS59877 announce ANY",
+     "to AS60015 announce ANY",
+     "to AS60022 announce ANY",
+     "to AS60068 announce ANY",
+     "to AS60261 announce ANY",
+     "to AS60345 announce ANY",
+     "to AS60388 announce ANY",
+     "to AS60447 announce ANY",
+     "to AS60486 announce ANY",
+     "to AS60733 announce ANY",
+     "to AS60781 announce ANY",
+     "to AS60940 announce ANY",
+     "to AS62000 announce ANY",
+     "to AS62041 announce ANY",
+     "to AS62044 announce ANY",
+     "to AS62294 announce ANY",
+     "to AS62390 announce ANY",
+     "to AS63440 announce ANY",
+     "to AS63981 announce ANY",
+     "to AS64160 announce ANY",
+     "to AS132203 announce AS-OPENTRANSIT",
+     "to AS132602 announce ANY",
+     "to AS132829 announce ANY",
+     "to AS136041 announce ANY",
+     "to AS136513 announce ANY",
+     "to AS136907 announce ANY",
+     "to AS137831 announce ANY",
+     "to AS138005 announce ANY",
+     "to AS138915 announce ANY",
+     "to AS138997 announce ANY",
+     "to AS139057 announce ANY",
+     "to AS139341 announce ANY",
+     "to AS196670 announce ANY",
+     "to AS196745 announce ANY",
+     "to AS197205 announce ANY",
+     "to AS197500 announce ANY",
+     "to AS198330 announce ANY",
+     "to AS198551 announce ANY",
+     "to AS198825 announce ANY",
+     "to AS199221 announce ANY",
+     "to AS199400 announce ANY",
+     "to AS199426 announce ANY",
+     "to AS199524 announce ANY",
+     "to AS199749 announce ANY",
+     "to AS200308 announce ANY",
+     "to AS200449 announce ANY",
+     "to AS200462 announce ANY",
+     "to AS200596 announce ANY",
+     "to AS200995 announce ANY",
+     "to AS201004 announce ANY",
+     "to AS201133 announce ANY",
+     "to AS201188 announce ANY",
+     "to AS201420 announce ANY",
+     "to AS201679 announce ANY",
+     "to AS201958 announce ANY",
+     "to AS202045 announce ANY",
+     "to AS202617 announce ANY",
+     "to AS203182 announce ANY",
+     "to AS203410 announce ANY",
+     "to AS203446 announce ANY",
+     "to AS203513 announce ANY",
+     "to AS203532 announce ANY",
+     "to AS204202 announce ANY",
+     "to AS204596 announce ANY",
+     "to AS205113 announce ANY",
+     "to AS205714 announce ANY",
+     "to AS205874 announce ANY",
+     "to AS205988 announce ANY",
+     "to AS206002 announce ANY",
+     "to AS206146 announce ANY",
+     "to AS206244 announce ANY",
+     "to AS206383 announce ANY",
+     "to AS206924 announce ANY",
+     "to AS207147 announce ANY",
+     "to AS207348 announce ANY",
+     "to AS207410 announce ANY",
+     "to AS208374 announce ANY",
+     "to AS208660 announce ANY",
+     "to AS209163 announce ANY",
+     "to AS209304 announce ANY",
+     "to AS209564 announce ANY",
+     "to AS209768 announce ANY",
+     "to AS209815 announce ANY",
+     "to AS209823 announce ANY",
+     "to AS211239 announce ANY",
+     "to AS211826 announce ANY",
+     "to AS211827 announce ANY",
+     "to AS211846 announce ANY",
+     "to AS212087 announce ANY",
+     "to AS212416 announce ANY",
+     "to AS212477 announce ANY",
+     "to AS212708 announce ANY",
+     "to AS213018 announce ANY",
+     "to AS213039 announce ANY",
+     "to AS213205 announce ANY",
+     "to AS213373 announce ANY",
+     "to AS214667 announce ANY",
+     "to AS215467 announce ANY",
+     "to AS215787 announce ANY",
+     "to AS215853 announce ANY",
+     "to AS215955 announce ANY",
+     "to AS271956 announce ANY",
+     "to AS327708 announce ANY",
+     "to AS327769 announce ANY",
+     "to AS327782 announce ANY",
+     "to AS328126 announce ANY",
+     "to AS328317 announce ANY",
+     "to AS328488 announce ANY",
+     "to AS328528 announce ANY",
+     "to AS328549 announce ANY",
+     "to AS328722 announce ANY",
+     "to AS328748 announce ANY",
+     "to AS328850 announce ANY",
+     "to AS328867 announce ANY",
+     "to AS328997 announce ANY",
+     "to AS329006 announce ANY",
+     "to AS329118 announce ANY",
+     "to AS393559 announce ANY",
+     "to AS394684 announce ANY",
+     "to AS395915 announce AS-OPENTRANSIT",
+     "to AS396986 announce ANY",
+     "to AS397100 announce ANY",
+     "to AS397601 announce ANY",
+     "to AS398705 announce ANY",
+     "to AS400687 announce ANY",
+     "to AS400696 announce ANY"
+    ],
+    "mp-import": [
+     "afi ipv6.unicast from AS174 accept AS174:AS-COGENT",
+     "afi ipv6.unicast from AS286 accept AS-KPN",
+     "afi ipv6.unicast from AS513 accept AS-CERNEXT",
+     "afi ipv6.unicast from AS701 accept ANY",
+     "afi ipv6.unicast from AS702 accept AS702:RS-EURO",
+     "afi ipv6.unicast from AS714 accept AS714",
+     "afi ipv6.unicast from AS1136 accept AS-KPNNL",
+     "afi ipv6.unicast from AS1273 accept AS-CW",
+     "afi ipv6.unicast from AS1280 accept AS1280",
+     "afi ipv6.unicast from AS1299 accept AS-TELIANET",
+     "afi ipv6.unicast from AS1547 accept AS1547",
+     "afi ipv6.unicast from AS1836 accept AS1836",
+     "afi ipv6.unicast from AS2200 accept AS2200",
+     "afi ipv6.unicast from AS2280 accept AS2280",
+     "afi ipv6.unicast from AS2281 accept AS2281",
+     "afi ipv6.unicast from AS2285 accept AS2285",
+     "afi ipv6.unicast from AS2287 accept AS2287",
+     "afi ipv6.unicast from AS2376 accept AS2376",
+     "afi ipv6.unicast from AS2497 accept AS2497",
+     "afi ipv6.unicast from AS2609 accept AS2609",
+     "afi ipv6.unicast from AS2647 accept AS2647",
+     "afi ipv6.unicast from AS2686 accept AS-IGNEMEA",
+     "afi ipv6.unicast from AS2874 accept AS2874",
+     "afi ipv6.unicast from AS2914 accept AS2914:AS-GLOBAL-v6",
+     "afi ipv6.unicast from AS3204 accept AS3204",
+     "afi ipv6.unicast from AS3214 accept AS-XTOM",
+     "afi ipv6.unicast from AS3215 accept AS-FTFR",
+     "afi ipv6.unicast from AS3223 accept AS3223",
+     "afi ipv6.unicast from AS3257 accept AS-TINET",
+     "afi ipv6.unicast from AS3303 accept AS-SWCMGLOBAL",
+     "afi ipv6.unicast from AS3320 accept AS-DTAG",
+     "afi ipv6.unicast from AS3356 accept ANY",
+     "afi ipv6.unicast from AS3399 accept AS3399",
+     "afi ipv6.unicast from AS3491 accept AS-CAIS",
+     "afi ipv6.unicast from AS3549 accept AS-GBLX",
+     "afi ipv6.unicast from AS3561 accept AS-SAVVIS-TRANSIT",
+     "afi ipv6.unicast from AS4004 accept AS-OBS-UK",
+     "afi ipv6.unicast from AS4637 accept AS-REACH-CUSTOMERS",
+     "afi ipv6.unicast from AS4651 accept AS-CAT-IIG",
+     "afi ipv6.unicast from AS4761 accept AS4761",
+     "afi ipv6.unicast from AS4788 accept AS4788",
+     "afi ipv6.unicast from AS4800 accept AS4800",
+     "afi ipv6.unicast from AS4817 accept AS4817",
+     "afi ipv6.unicast from AS4826 accept AS4826",
+     "afi ipv6.unicast from AS4837 accept AS4837",
+     "afi ipv6.unicast from AS4849 accept AS-S3C",
+     "afi ipv6.unicast from AS5377 accept AS5377",
+     "afi ipv6.unicast from AS5400 accept AS-BT-EU",
+     "afi ipv6.unicast from AS5459 accept AS-LINX",
+     "afi ipv6.unicast from AS5583 accept AS-OBS-BENELUX",
+     "afi ipv6.unicast from AS5617 accept AS-TPNET",
+     "afi ipv6.unicast from AS5713 accept AS5713",
+     "afi ipv6.unicast from AS6057 accept AS6057",
+     "afi ipv6.unicast from AS6204 accept AS6204",
+     "afi ipv6.unicast from AS6233 accept AS6233",
+     "afi ipv6.unicast from AS6453 accept AS-GLOBEINTERNET",
+     "afi ipv6.unicast from AS6461 accept AS-ABOVE",
+     "afi ipv6.unicast from AS6507 accept AS6507",
+     "afi ipv6.unicast from AS6661 accept AS-PTLU",
+     "afi ipv6.unicast from AS6696 accept AS6696",
+     "afi ipv6.unicast from AS6713 accept AS6713",
+     "afi ipv6.unicast from AS6752 accept AS6752",
+     "afi ipv6.unicast from AS6762 accept AS-SEABONE",
+     "afi ipv6.unicast from AS6774 accept AS6774:AS-BICS-TRANSIT",
+     "afi ipv6.unicast from AS6830 accept AS-AORTA",
+     "afi ipv6.unicast from AS6853 accept AS-OBS-SOUTHEUR",
+     "afi ipv6.unicast from AS6939 accept AS6939",
+     "afi ipv6.unicast from AS7018 accept AS-ATTWORLDNET",
+     "afi ipv6.unicast from AS7568 accept AS7568",
+     "afi ipv6.unicast from AS7713 accept AS7713",
+     "afi ipv6.unicast from AS7922 accept AS7922",
+     "afi ipv6.unicast from AS8220 accept AS8220",
+     "afi ipv6.unicast from AS8304 accept AS-ECRITEL",
+     "afi ipv6.unicast from AS8309 accept AS8309",
+     "afi ipv6.unicast from AS8346 accept AS8346",
+     "afi ipv6.unicast from AS8362 accept AS8362",
+     "afi ipv6.unicast from AS8426 accept AS8426",
+     "afi ipv6.unicast from AS8452 accept AS8452",
+     "afi ipv6.unicast from AS8554 accept AS-TAS",
+     "afi ipv6.unicast from AS8677 accept AS-ATOSWORLDLINE",
+     "afi ipv6.unicast from AS8697 accept AS-JTC",
+     "afi ipv6.unicast from AS8723 accept AS8723",
+     "afi ipv6.unicast from AS8781 accept AS8781",
+     "afi ipv6.unicast from AS8849 accept AS8849",
+     "afi ipv6.unicast from AS8860 accept AS8860",
+     "afi ipv6.unicast from AS8928 accept AS-INTEROUTE",
+     "afi ipv6.unicast from AS8953 accept AS-ORANGERO",
+     "afi ipv6.unicast from AS8966 accept AS8966",
+     "afi ipv6.unicast from AS9002 accept AS9002",
+     "afi ipv6.unicast from AS9009 accept AS9009",
+     "afi ipv6.unicast from AS9299 accept AS9299",
+     "afi ipv6.unicast from AS9304 accept AS9304",
+     "afi ipv6.unicast from AS9381 accept AS9381",
+     "afi ipv6.unicast from AS9500 accept AS9500",
+     "afi ipv6.unicast from AS9680 accept AS-HINET",
+     "afi ipv6.unicast from AS9873 accept AS9873",
+     "afi ipv6.unicast from AS10031 accept AS10031",
+     "afi ipv6.unicast from AS10122 accept AS10122",
+     "afi ipv6.unicast from AS10282 accept AS-OBS-CEEUR",
+     "afi ipv6.unicast from AS10991 accept AS10991",
+     "afi ipv6.unicast from AS11960 accept AS11960",
+     "afi ipv6.unicast from AS12389 accept AS12389",
+     "afi ipv6.unicast from AS12392 accept AS12392",
+     "afi ipv6.unicast from AS12455 accept AS12455",
+     "afi ipv6.unicast from AS12552 accept AS-IPO",
+     "afi ipv6.unicast from AS12684 accept AS12684",
+     "afi ipv6.unicast from AS12709 accept AS-MELITA",
+     "afi ipv6.unicast from AS12778 accept AS-NETSI",
+     "afi ipv6.unicast from AS12807 accept AS12807",
+     "afi ipv6.unicast from AS12811 accept AS12811",
+     "afi ipv6.unicast from AS12826 accept AS12826",
+     "afi ipv6.unicast from AS12876 accept AS12876",
+     "afi ipv6.unicast from AS12956 accept AS-TDATANET",
+     "afi ipv6.unicast from AS12975 accept AS-PALTEL",
+     "afi ipv6.unicast from AS12989 accept AS12989",
+     "afi ipv6.unicast from AS13004 accept AS13004",
+     "afi ipv6.unicast from AS13150 accept AS13150",
+     "afi ipv6.unicast from AS13194 accept AS13194",
+     "afi ipv6.unicast from AS13335 accept AS-CLOUDFLARE",
+     "afi ipv6.unicast from AS13445 accept AS13445",
+     "afi ipv6.unicast from AS14630 accept AS14630",
+     "afi ipv6.unicast from AS14907 accept AS14907",
+     "afi ipv6.unicast from AS15383 accept AS15383",
+     "afi ipv6.unicast from AS15436 accept AS-WITBE",
+     "afi ipv6.unicast from AS15681 accept AS15681",
+     "afi ipv6.unicast from AS15802 accept AS15802",
+     "afi ipv6.unicast from AS15962 accept AS15962:AS-OSK-DNI",
+     "afi ipv6.unicast from AS16058 accept AS16058",
+     "afi ipv6.unicast from AS16178 accept AS16178",
+     "afi ipv6.unicast from AS16276 accept AS-OVH",
+     "afi ipv6.unicast from AS16509 accept AS16509",
+     "afi ipv6.unicast from AS17639 accept AS17639",
+     "afi ipv6.unicast from AS17650 accept AS17650",
+     "afi ipv6.unicast from AS17670 accept AS17670",
+     "afi ipv6.unicast from AS17976 accept AS17976",
+     "afi ipv6.unicast from AS18059 accept AS18059",
+     "afi ipv6.unicast from AS18403 accept AS18403",
+     "afi ipv6.unicast from AS19551 accept AS19551",
+     "afi ipv6.unicast from AS19679 accept AS19679",
+     "afi ipv6.unicast from AS20253 accept AS20253",
+     "afi ipv6.unicast from AS20562 accept AS20562",
+     "afi ipv6.unicast from AS20764 accept AS-RASCOM",
+     "afi ipv6.unicast from AS20765 accept AS20765",
+     "afi ipv6.unicast from AS20773 accept AS20773",
+     "afi ipv6.unicast from AS20940 accept AS-AKAMAI",
+     "afi ipv6.unicast from AS20986 accept AS20986",
+     "afi ipv6.unicast from AS21217 accept AS21217",
+     "afi ipv6.unicast from AS21357 accept AS21357",
+     "afi ipv6.unicast from AS21859 accept AS21859",
+     "afi ipv6.unicast from AS22355 accept AS22355",
+     "afi ipv6.unicast from AS23889 accept AS23889",
+     "afi ipv6.unicast from AS24203 accept AS24203",
+     "afi ipv6.unicast from AS24429 accept AS24429",
+     "afi ipv6.unicast from AS24600 accept AS24600",
+     "afi ipv6.unicast from AS24785 accept AS24785",
+     "afi ipv6.unicast from AS24875 accept AS24875",
+     "afi ipv6.unicast from AS25091 accept AS-IP-MAX",
+     "afi ipv6.unicast from AS25113 accept AS25113",
+     "afi ipv6.unicast from AS25144 accept AS-TELEKOM-SRPSKE",
+     "afi ipv6.unicast from AS25215 accept AS25215",
+     "afi ipv6.unicast from AS25593 accept AS-LINKBYNET",
+     "afi ipv6.unicast from AS25818 accept AS25818",
+     "afi ipv6.unicast from AS27775 accept AS27775",
+     "afi ipv6.unicast from AS28007 accept AS28007",
+     "afi ipv6.unicast from AS28683 accept AS28683",
+     "afi ipv6.unicast from AS28708 accept AS28708",
+     "afi ipv6.unicast from AS28855 accept AS28855",
+     "afi ipv6.unicast from AS29049 accept AS29049",
+     "afi ipv6.unicast from AS29110 accept AS29110",
+     "afi ipv6.unicast from AS29119 accept AS29119",
+     "afi ipv6.unicast from AS29283 accept AS29283",
+     "afi ipv6.unicast from AS29386 accept AS29386",
+     "afi ipv6.unicast from AS29535 accept AS29535",
+     "afi ipv6.unicast from AS29571 accept AS29571",
+     "afi ipv6.unicast from AS29605 accept AS29605",
+     "afi ipv6.unicast from AS29608 accept AS-W2MY AS-OCCAID6",
+     "afi ipv6.unicast from AS30781 accept AS-JAGUAR",
+     "afi ipv6.unicast from AS30844 accept AS30844",
+     "afi ipv6.unicast from AS30889 accept AS-WAYCOM",
+     "afi ipv6.unicast from AS30985 accept AS-IKATELNET",
+     "afi ipv6.unicast from AS31083 accept AS31083",
+     "afi ipv6.unicast from AS31167 accept AS31167",
+     "afi ipv6.unicast from AS31216 accept AS-BSOCOM",
+     "afi ipv6.unicast from AS31287 accept AS31287",
+     "afi ipv6.unicast from AS31313 accept AS-STS-RO",
+     "afi ipv6.unicast from AS31490 accept AS31490",
+     "afi ipv6.unicast from AS31500 accept AS31500",
+     "afi ipv6.unicast from AS32261 accept AS32261",
+     "afi ipv6.unicast from AS32590 accept AS32590",
+     "afi ipv6.unicast from AS32787 accept AS-PROLE",
+     "afi ipv6.unicast from AS32934 accept AS-FACEBOOK",
+     "afi ipv6.unicast from AS33392 accept AS33392",
+     "afi ipv6.unicast from AS33848 accept AS33848",
+     "afi ipv6.unicast from AS34019 accept AS-HIVANE",
+     "afi ipv6.unicast from AS34177 accept AS34177",
+     "afi ipv6.unicast from AS34224 accept AS34224",
+     "afi ipv6.unicast from AS34362 accept AS-VLT-HR",
+     "afi ipv6.unicast from AS34549 accept AS-MEER",
+     "afi ipv6.unicast from AS34569 accept AS34569",
+     "afi ipv6.unicast from AS35133 accept AS35133",
+     "afi ipv6.unicast from AS35676 accept AS35676",
+     "afi ipv6.unicast from AS35753 accept AS35753",
+     "afi ipv6.unicast from AS36864 accept AS36864",
+     "afi ipv6.unicast from AS36891 accept AS36891",
+     "afi ipv6.unicast from AS36912 accept AS36912",
+     "afi ipv6.unicast from AS36925 accept AS36925",
+     "afi ipv6.unicast from AS36939 accept AS36939",
+     "afi ipv6.unicast from AS36947 accept AS-AT-PEERN",
+     "afi ipv6.unicast from AS36963 accept AS36963",
+     "afi ipv6.unicast from AS37035 accept AS37035",
+     "afi ipv6.unicast from AS37054 accept AS37054",
+     "afi ipv6.unicast from AS37090 accept AS37090",
+     "afi ipv6.unicast from AS37126 accept AS-BELL-FIBER",
+     "afi ipv6.unicast from AS37164 accept AS37164",
+     "afi ipv6.unicast from AS37204 accept AS37204",
+     "afi ipv6.unicast from AS37309 accept AS37309",
+     "afi ipv6.unicast from AS37363 accept AS37363",
+     "afi ipv6.unicast from AS37447 accept AS37447",
+     "afi ipv6.unicast from AS37461 accept AS37461",
+     "afi ipv6.unicast from AS37492 accept AS37492",
+     "afi ipv6.unicast from AS37503 accept AS37503",
+     "afi ipv6.unicast from AS37552 accept AS37552",
+     "afi ipv6.unicast from AS37571 accept AS37571",
+     "afi ipv6.unicast from AS37577 accept AS37577",
+     "afi ipv6.unicast from AS37662 accept AS37662",
+     "afi ipv6.unicast from AS37680 accept AS37680",
+     "afi ipv6.unicast from AS37721 accept AS37721",
+     "afi ipv6.unicast from AS37739 accept AS-ABANTU",
+     "afi ipv6.unicast from AS38040 accept AS38040",
+     "afi ipv6.unicast from AS38082 accept AS38082",
+     "afi ipv6.unicast from AS38166 accept AS38166",
+     "afi ipv6.unicast from AS38278 accept AS38278",
+     "afi ipv6.unicast from AS39072 accept AS39072",
+     "afi ipv6.unicast from AS39180 accept AS39180",
+     "afi ipv6.unicast from AS39286 accept AS39286",
+     "afi ipv6.unicast from AS39386 accept AS39386",
+     "afi ipv6.unicast from AS39505 accept AS39505",
+     "afi ipv6.unicast from AS39521 accept AS39521",
+     "afi ipv6.unicast from AS39724 accept AS39724",
+     "afi ipv6.unicast from AS39801 accept AS39801",
+     "afi ipv6.unicast from AS39855 accept AS39855",
+     "afi ipv6.unicast from AS41041 accept AS41041",
+     "afi ipv6.unicast from AS42020 accept AS42020",
+     "afi ipv6.unicast from AS42295 accept AS42295:AS-TBISS",
+     "afi ipv6.unicast from AS42555 accept AS42555",
+     "afi ipv6.unicast from AS42739 accept AS42739",
+     "afi ipv6.unicast from AS43128 accept AS43128",
+     "afi ipv6.unicast from AS43205 accept AS43205",
+     "afi ipv6.unicast from AS43440 accept AS43440",
+     "afi ipv6.unicast from AS43717 accept AS43717",
+     "afi ipv6.unicast from AS43766 accept AS43766",
+     "afi ipv6.unicast from AS43930 accept AS43930",
+     "afi ipv6.unicast from AS43996 accept AS43996",
+     "afi ipv6.unicast from AS44306 accept AS-OMONIA",
+     "afi ipv6.unicast from AS44901 accept as-belcloud",
+     "afi ipv6.unicast from AS45102 accept AS45102",
+     "afi ipv6.unicast from AS45430 accept AS45430",
+     "afi ipv6.unicast from AS45489 accept AS-SLT-GLOBAL",
+     "afi ipv6.unicast from AS45543 accept AS45543",
+     "afi ipv6.unicast from AS45629 accept AS45629",
+     "afi ipv6.unicast from AS45796 accept AS45796",
+     "afi ipv6.unicast from AS45879 accept AS45879",
+     "afi ipv6.unicast from AS45903 accept AS45903",
+     "afi ipv6.unicast from AS47377 accept AS47377",
+     "afi ipv6.unicast from AS47794 accept AS47794",
+     "afi ipv6.unicast from AS47872 accept AS47872",
+     "afi ipv6.unicast from AS47887 accept AS47887",
+     "afi ipv6.unicast from AS48237 accept AS48237",
+     "afi ipv6.unicast from AS48314 accept AS-IP-PROJECTS",
+     "afi ipv6.unicast from AS48813 accept AS48813",
+     "afi ipv6.unicast from AS49121 accept AS-INFTELE",
+     "afi ipv6.unicast from AS49274 accept AS49274",
+     "afi ipv6.unicast from AS49434 accept AS-HHOSTING",
+     "afi ipv6.unicast from AS49666 accept AS49666",
+     "afi ipv6.unicast from AS49677 accept AS49677",
+     "afi ipv6.unicast from AS49763 accept AS49763",
+     "afi ipv6.unicast from AS49981 accept AS49981",
+     "afi ipv6.unicast from AS50144 accept AS50144",
+     "afi ipv6.unicast from AS50509 accept AS50509",
+     "afi ipv6.unicast from AS50583 accept AS50583",
+     "afi ipv6.unicast from AS50624 accept AS50624",
+     "afi ipv6.unicast from AS50629 accept AS50629",
+     "afi ipv6.unicast from AS50812 accept AS50812",
+     "afi ipv6.unicast from AS51154 accept AS51154",
+     "afi ipv6.unicast from AS51406 accept AS51406",
+     "afi ipv6.unicast from AS51582 accept AS51582",
+     "afi ipv6.unicast from AS51790 accept AS-SIEL",
+     "afi ipv6.unicast from AS52412 accept AS52412",
+     "afi ipv6.unicast from AS52468 accept AS52468",
+     "afi ipv6.unicast from AS54113 accept AS54113",
+     "afi ipv6.unicast from AS55256 accept AS55256",
+     "afi ipv6.unicast from AS55259 accept AS55259",
+     "afi ipv6.unicast from AS55482 accept AS55482",
+     "afi ipv6.unicast from AS55685 accept AS55685",
+     "afi ipv6.unicast from AS56286 accept AS56286",
+     "afi ipv6.unicast from AS56987 accept AS-ABACLOUDA",
+     "afi ipv6.unicast from AS57050 accept AS57050",
+     "afi ipv6.unicast from AS57242 accept AS57242:AS-Martyinchuk",
+     "afi ipv6.unicast from AS57344 accept AS57344",
+     "afi ipv6.unicast from AS57463 accept AS57463",
+     "afi ipv6.unicast from AS57717 accept AS57717",
+     "afi ipv6.unicast from AS57793 accept AS57793",
+     "afi ipv6.unicast from AS57839 accept AS57839",
+     "afi ipv6.unicast from AS57866 accept AS57866",
+     "afi ipv6.unicast from AS57902 accept AS57902",
+     "afi ipv6.unicast from AS57976 accept AS57976",
+     "afi ipv6.unicast from AS58011 accept AS58011",
+     "afi ipv6.unicast from AS58470 accept AS58470",
+     "afi ipv6.unicast from AS59378 accept AS59378",
+     "afi ipv6.unicast from AS59432 accept AS59432",
+     "afi ipv6.unicast from AS59711 accept AS59711",
+     "afi ipv6.unicast from AS59866 accept AS59866",
+     "afi ipv6.unicast from AS59877 accept AS59877",
+     "afi ipv6.unicast from AS60015 accept AS60015",
+     "afi ipv6.unicast from AS60022 accept AS-SONA-V6",
+     "afi ipv6.unicast from AS60068 accept AS60068",
+     "afi ipv6.unicast from AS60261 accept AS60261",
+     "afi ipv6.unicast from AS60345 accept AS60345",
+     "afi ipv6.unicast from AS60388 accept AS-SIGMA-TELECOM-V6",
+     "afi ipv6.unicast from AS60447 accept AS-I-NET",
+     "afi ipv6.unicast from AS60486 accept AS-SWISSNET",
+     "afi ipv6.unicast from AS60733 accept AS60733",
+     "afi ipv6.unicast from AS60781 accept AS60781",
+     "afi ipv6.unicast from AS60940 accept AS60940",
+     "afi ipv6.unicast from AS62000 accept AS62000",
+     "afi ipv6.unicast from AS62041 accept AS62041",
+     "afi ipv6.unicast from AS62044 accept AS62044",
+     "afi ipv6.unicast from AS62294 accept AS62294",
+     "afi ipv6.unicast from AS62390 accept AS62390",
+     "afi ipv6.unicast from AS63440 accept AS63440",
+     "afi ipv6.unicast from AS63981 accept AS63981",
+     "afi ipv6.unicast from AS64160 accept AS64160",
+     "afi ipv6.unicast from AS132203 accept AS132203",
+     "afi ipv6.unicast from AS132602 accept AS132602",
+     "afi ipv6.unicast from AS132829 accept AS132829",
+     "afi ipv6.unicast from AS136041 accept AS136041",
+     "afi ipv6.unicast from AS136513 accept AS136513",
+     "afi ipv6.unicast from AS136907 accept AS136907",
+     "afi ipv6.unicast from AS137831 accept AS137831",
+     "afi ipv6.unicast from AS138005 accept AS138005",
+     "afi ipv6.unicast from AS138915 accept AS138915",
+     "afi ipv6.unicast from AS138997 accept AS138997",
+     "afi ipv6.unicast from AS139057 accept AS139057",
+     "afi ipv6.unicast from AS139341 accept AS-ACE",
+     "afi ipv6.unicast from AS196670 accept AS196670",
+     "afi ipv6.unicast from AS196745 accept AS196745",
+     "afi ipv6.unicast from AS197205 accept AS197205",
+     "afi ipv6.unicast from AS197500 accept AS197500",
+     "afi ipv6.unicast from AS198330 accept AS198330",
+     "afi ipv6.unicast from AS198551 accept AS198551",
+     "afi ipv6.unicast from AS198825 accept AS198825",
+     "afi ipv6.unicast from AS199221 accept AS199221",
+     "afi ipv6.unicast from AS199400 accept AS199400:AS-SOLYTRO",
+     "afi ipv6.unicast from AS199426 accept AS199426",
+     "afi ipv6.unicast from AS199524 accept AS199524",
+     "afi ipv6.unicast from AS199749 accept AS199749",
+     "afi ipv6.unicast from AS200308 accept AS200308",
+     "afi ipv6.unicast from AS200449 accept AS200449",
+     "afi ipv6.unicast from AS200462 accept AS-ETH",
+     "afi ipv6.unicast from AS200596 accept AS200596",
+     "afi ipv6.unicast from AS200995 accept AS200995",
+     "afi ipv6.unicast from AS201004 accept AS201004",
+     "afi ipv6.unicast from AS201133 accept as-verdina",
+     "afi ipv6.unicast from AS201188 accept AS201188",
+     "afi ipv6.unicast from AS201420 accept AS201420",
+     "afi ipv6.unicast from AS201679 accept AS201679",
+     "afi ipv6.unicast from AS201958 accept AS201958",
+     "afi ipv6.unicast from AS202045 accept AS202045",
+     "afi ipv6.unicast from AS202617 accept AS202617",
+     "afi ipv6.unicast from AS202818 accept AS202818",
+     "afi ipv6.unicast from AS203410 accept AS203410:AS-COLOBIX",
+     "afi ipv6.unicast from AS203446 accept AS-Alex0220",
+     "afi ipv6.unicast from AS203513 accept AS203513",
+     "afi ipv6.unicast from AS203532 accept AS203532",
+     "afi ipv6.unicast from AS204202 accept AS204202",
+     "afi ipv6.unicast from AS204596 accept AS204596",
+     "afi ipv6.unicast from AS205113 accept AS205113",
+     "afi ipv6.unicast from AS205714 accept AS205714",
+     "afi ipv6.unicast from AS205874 accept AS205874",
+     "afi ipv6.unicast from AS205988 accept AS205988",
+     "afi ipv6.unicast from AS206002 accept AS206002",
+     "afi ipv6.unicast from AS206146 accept AS206146",
+     "afi ipv6.unicast from AS206244 accept AS206244:AS-CY-FIRSTNET",
+     "afi ipv6.unicast from AS206383 accept AS206383:AS-VOXLAN",
+     "afi ipv6.unicast from AS206924 accept AS-BENJOJO",
+     "afi ipv6.unicast from AS207147 accept AS207147",
+     "afi ipv6.unicast from AS207348 accept AS207348",
+     "afi ipv6.unicast from AS207410 accept AS207410",
+     "afi ipv6.unicast from AS208374 accept AS208374",
+     "afi ipv6.unicast from AS208660 accept AS208660",
+     "afi ipv6.unicast from AS209163 accept AS209163",
+     "afi ipv6.unicast from AS209304 accept AS209304",
+     "afi ipv6.unicast from AS209564 accept AS209564:AS-NICKNAME",
+     "afi ipv6.unicast from AS209768 accept AS209768",
+     "afi ipv6.unicast from AS209815 accept AS209815",
+     "afi ipv6.unicast from AS209823 accept AS209823",
+     "afi ipv6.unicast from AS211239 accept AS211239:AS-FIRSTNET",
+     "afi ipv6.unicast from AS211826 accept AS211826",
+     "afi ipv6.unicast from AS211827 accept AS211827",
+     "afi ipv6.unicast from AS211846 accept AS211846",
+     "afi ipv6.unicast from AS212087 accept AS212087",
+     "afi ipv6.unicast from AS212416 accept AS212416",
+     "afi ipv6.unicast from AS212477 accept AS212477",
+     "afi ipv6.unicast from AS212708 accept AS212708",
+     "afi ipv6.unicast from AS213018 accept AS213018",
+     "afi ipv6.unicast from AS213039 accept AS213039:AS-MIKRAMIX",
+     "afi ipv6.unicast from AS213205 accept AS213205:AS-COOOLBE",
+     "afi ipv6.unicast from AS213373 accept AS213373",
+     "afi ipv6.unicast from AS214667 accept AS214667",
+     "afi ipv6.unicast from AS215467 accept AS215467:AS-SKHRON",
+     "afi ipv6.unicast from AS215787 accept AS215787",
+     "afi ipv6.unicast from AS215853 accept AS215853:AS-BONFORTUNA",
+     "afi ipv6.unicast from AS215955 accept AS215955",
+     "afi ipv6.unicast from AS271956 accept AS271956",
+     "afi ipv6.unicast from AS327708 accept AS327708",
+     "afi ipv6.unicast from AS327769 accept AS327769",
+     "afi ipv6.unicast from AS327782 accept AS-PROLE",
+     "afi ipv6.unicast from AS328317 accept AS328317",
+     "afi ipv6.unicast from AS328488 accept AS328488",
+     "afi ipv6.unicast from AS328528 accept AS328528",
+     "afi ipv6.unicast from AS328549 accept AS328549",
+     "afi ipv6.unicast from AS328722 accept AS328722",
+     "afi ipv6.unicast from AS328748 accept AS-AGILESP",
+     "afi ipv6.unicast from AS328850 accept AS328850",
+     "afi ipv6.unicast from AS328867 accept AS328867",
+     "afi ipv6.unicast from AS328997 accept AS328997",
+     "afi ipv6.unicast from AS329006 accept AS329006",
+     "afi ipv6.unicast from AS329118 accept AS329118",
+     "afi ipv6.unicast from AS393559 accept AS393559",
+     "afi ipv6.unicast from AS394684 accept AS394684",
+     "afi ipv6.unicast from AS395915 accept AS395915",
+     "afi ipv6.unicast from AS396986 accept AS396986",
+     "afi ipv6.unicast from AS397100 accept AS397100",
+     "afi ipv6.unicast from AS397601 accept AS397601",
+     "afi ipv6.unicast from AS398705 accept AS398705",
+     "afi ipv6.unicast from AS400687 accept AS400687:AS-SOLYTRO",
+     "afi ipv6.unicast from AS400696 accept AS400696"
+    ],
+    "mp-export": [
+     "afi ipv6.unicast to AS174 announce AS-OPENTRANSIT",
+     "afi ipv6.unicast to AS209 announce AS-OPENTRANSIT",
+     "afi ipv6.unicast to AS286 announce AS-OPENTRANSIT",
+     "afi ipv6.unicast to AS513 announce ANY",
+     "afi ipv6.unicast to AS701 announce AS-OPENTRANSIT",
+     "afi ipv6.unicast to AS702 announce AS-OPENTRANSIT",
+     "afi ipv6.unicast to AS714 announce AS-OPENTRANSIT",
+     "afi ipv6.unicast to AS1136 announce ANY",
+     "afi ipv6.unicast to AS1257 announce AS-OPENTRANSIT",
+     "afi ipv6.unicast to AS1273 announce AS-OPENTRANSIT",
+     "afi ipv6.unicast to AS1280 announce AS-OPENTRANSIT",
+     "afi ipv6.unicast to AS1299 announce AS-OPENTRANSIT",
+     "afi ipv6.unicast to AS1547 announce ANY",
+     "afi ipv6.unicast to AS1836 announce ANY",
+     "afi ipv6.unicast to AS2200 announce ANY",
+     "afi ipv6.unicast to AS2280 announce ANY",
+     "afi ipv6.unicast to AS2281 announce ANY",
+     "afi ipv6.unicast to AS2285 announce ANY",
+     "afi ipv6.unicast to AS2287 announce ANY",
+     "afi ipv6.unicast to AS2376 announce ANY",
+     "afi ipv6.unicast to AS2497 announce ANY",
+     "afi ipv6.unicast to AS2609 announce ANY",
+     "afi ipv6.unicast to AS2647 announce ANY",
+     "afi ipv6.unicast to AS2686 announce AS-OPENTRANSIT",
+     "afi ipv6.unicast to AS2874 announce ANY",
+     "afi ipv6.unicast to AS2914 announce AS-OPENTRANSIT",
+     "afi ipv6.unicast to AS3204 announce ANY",
+     "afi ipv6.unicast to AS3214 announce ANY",
+     "afi ipv6.unicast to AS3215 announce ANY",
+     "afi ipv6.unicast to AS3223 announce ANY",
+     "afi ipv6.unicast to AS3257 announce AS-OPENTRANSIT",
+     "afi ipv6.unicast to AS3303 announce ANY",
+     "afi ipv6.unicast to AS3320 announce AS-OPENTRANSIT",
+     "afi ipv6.unicast to AS3356 announce AS-OPENTRANSIT",
+     "afi ipv6.unicast to AS3399 announce ANY",
+     "afi ipv6.unicast to AS3491 announce AS-OPENTRANSIT",
+     "afi ipv6.unicast to AS3549 announce AS-OPENTRANSIT",
+     "afi ipv6.unicast to AS3561 announce AS-OPENTRANSIT",
+     "afi ipv6.unicast to AS4004 announce ANY",
+     "afi ipv6.unicast to AS4637 announce AS-OPENTRANSIT",
+     "afi ipv6.unicast to AS4651 announce ANY",
+     "afi ipv6.unicast to AS4761 announce ANY",
+     "afi ipv6.unicast to AS4788 announce ANY",
+     "afi ipv6.unicast to AS4800 announce ANY",
+     "afi ipv6.unicast to AS4817 announce ANY",
+     "afi ipv6.unicast to AS4826 announce ANY",
+     "afi ipv6.unicast to AS4837 announce ANY",
+     "afi ipv6.unicast to AS4849 announce ANY",
+     "afi ipv6.unicast to AS5377 announce ANY",
+     "afi ipv6.unicast to AS5400 announce AS-OPENTRANSIT",
+     "afi ipv6.unicast to AS5459 announce AS-OPENTRANSIT",
+     "afi ipv6.unicast to AS5583 announce ANY",
+     "afi ipv6.unicast to AS5617 announce ANY",
+     "afi ipv6.unicast to AS5713 announce ANY",
+     "afi ipv6.unicast to AS6057 announce ANY",
+     "afi ipv6.unicast to AS6204 announce ANY",
+     "afi ipv6.unicast to AS6233 announce ANY",
+     "afi ipv6.unicast to AS6461 announce AS-OPENTRANSIT",
+     "afi ipv6.unicast to AS6507 announce ANY",
+     "afi ipv6.unicast to AS6661 announce ANY",
+     "afi ipv6.unicast to AS6696 announce ANY",
+     "afi ipv6.unicast to AS6713 announce ANY",
+     "afi ipv6.unicast to AS6752 announce ANY",
+     "afi ipv6.unicast to AS6762 announce AS-OPENTRANSIT",
+     "afi ipv6.unicast to AS6774 announce ANY",
+     "afi ipv6.unicast to AS6830 announce AS-OPENTRANSIT",
+     "afi ipv6.unicast to AS6853 announce ANY",
+     "afi ipv6.unicast to AS6939 announce AS-OPENTRANSIT",
+     "afi ipv6.unicast to AS7018 announce AS-OPENTRANSIT",
+     "afi ipv6.unicast to AS7568 announce ANY",
+     "afi ipv6.unicast to AS7713 announce ANY",
+     "afi ipv6.unicast to AS7922 announce ANY",
+     "afi ipv6.unicast to AS8220 announce ANY",
+     "afi ipv6.unicast to AS8304 announce ANY",
+     "afi ipv6.unicast to AS8309 announce ANY",
+     "afi ipv6.unicast to AS8346 announce ANY",
+     "afi ipv6.unicast to AS8362 announce ANY",
+     "afi ipv6.unicast to AS8426 announce ANY",
+     "afi ipv6.unicast to AS8452 announce ANY",
+     "afi ipv6.unicast to AS8554 announce ANY",
+     "afi ipv6.unicast to AS8677 announce ANY",
+     "afi ipv6.unicast to AS8697 announce ANY",
+     "afi ipv6.unicast to AS8723 announce ANY",
+     "afi ipv6.unicast to AS8781 announce ANY",
+     "afi ipv6.unicast to AS8849 announce ANY",
+     "afi ipv6.unicast to AS8860 announce ANY",
+     "afi ipv6.unicast to AS8928 announce ANY",
+     "afi ipv6.unicast to AS8953 announce ANY",
+     "afi ipv6.unicast to AS8966 announce ANY",
+     "afi ipv6.unicast to AS9002 announce AS-OPENTRANSIT",
+     "afi ipv6.unicast to AS9009 announce ANY",
+     "afi ipv6.unicast to AS9299 announce ANY",
+     "afi ipv6.unicast to AS9304 announce ANY",
+     "afi ipv6.unicast to AS9381 announce ANY",
+     "afi ipv6.unicast to AS9500 announce ANY",
+     "afi ipv6.unicast to AS9680 announce AS-OPENTRANSIT",
+     "afi ipv6.unicast to AS9873 announce ANY",
+     "afi ipv6.unicast to AS10031 announce ANY",
+     "afi ipv6.unicast to AS10122 announce ANY",
+     "afi ipv6.unicast to AS10282 announce ANY",
+     "afi ipv6.unicast to AS10991 announce ANY",
+     "afi ipv6.unicast to AS11960 announce ANY",
+     "afi ipv6.unicast to AS12389 announce ANY",
+     "afi ipv6.unicast to AS12392 announce ANY",
+     "afi ipv6.unicast to AS12455 announce ANY",
+     "afi ipv6.unicast to AS12552 announce ANY",
+     "afi ipv6.unicast to AS12684 announce ANY",
+     "afi ipv6.unicast to AS12709 announce ANY",
+     "afi ipv6.unicast to AS12778 announce ANY",
+     "afi ipv6.unicast to AS12807 announce ANY",
+     "afi ipv6.unicast to AS12811 announce ANY",
+     "afi ipv6.unicast to AS12826 announce ANY",
+     "afi ipv6.unicast to AS12876 announce ANY",
+     "afi ipv6.unicast to AS12956 announce AS-OPENTRANSIT",
+     "afi ipv6.unicast to AS12975 announce ANY",
+     "afi ipv6.unicast to AS12989 announce ANY",
+     "afi ipv6.unicast to AS13004 announce ANY",
+     "afi ipv6.unicast to AS13150 announce ANY",
+     "afi ipv6.unicast to AS13194 announce ANY",
+     "afi ipv6.unicast to AS13335 announce ANY",
+     "afi ipv6.unicast to AS13445 announce ANY",
+     "afi ipv6.unicast to AS14630 announce ANY",
+     "afi ipv6.unicast to AS14907 announce ANY",
+     "afi ipv6.unicast to AS15383 announce ANY",
+     "afi ipv6.unicast to AS15436 announce ANY",
+     "afi ipv6.unicast to AS15681 announce ANY",
+     "afi ipv6.unicast to AS15704 announce ANY",
+     "afi ipv6.unicast to AS15802 announce ANY",
+     "afi ipv6.unicast to AS15962 announce ANY",
+     "afi ipv6.unicast to AS16058 announce ANY",
+     "afi ipv6.unicast to AS16178 announce ANY",
+     "afi ipv6.unicast to AS16276 announce ANY",
+     "afi ipv6.unicast to AS16509 announce AS-OPENTRANSIT",
+     "afi ipv6.unicast to AS17639 announce ANY",
+     "afi ipv6.unicast to AS17650 announce ANY",
+     "afi ipv6.unicast to AS17670 announce ANY",
+     "afi ipv6.unicast to AS17976 announce ANY",
+     "afi ipv6.unicast to AS18059 announce ANY",
+     "afi ipv6.unicast to AS18403 announce ANY",
+     "afi ipv6.unicast to AS19551 announce ANY",
+     "afi ipv6.unicast to AS19679 announce ANY",
+     "afi ipv6.unicast to AS20253 announce AS-OPENTRANSIT",
+     "afi ipv6.unicast to AS20562 announce ANY",
+     "afi ipv6.unicast to AS20764 announce ANY",
+     "afi ipv6.unicast to AS20765 announce ANY",
+     "afi ipv6.unicast to AS20773 announce ANY",
+     "afi ipv6.unicast to AS20940 announce AS-OPENTRANSIT",
+     "afi ipv6.unicast to AS20986 announce ANY",
+     "afi ipv6.unicast to AS21217 announce ANY",
+     "afi ipv6.unicast to AS21357 announce ANY",
+     "afi ipv6.unicast to AS21859 announce ANY",
+     "afi ipv6.unicast to AS22355 announce ANY",
+     "afi ipv6.unicast to AS23889 announce ANY",
+     "afi ipv6.unicast to AS24203 announce ANY",
+     "afi ipv6.unicast to AS24429 announce ANY",
+     "afi ipv6.unicast to AS24600 announce ANY",
+     "afi ipv6.unicast to AS24785 announce ANY",
+     "afi ipv6.unicast to AS24875 announce ANY",
+     "afi ipv6.unicast to AS25091 announce ANY",
+     "afi ipv6.unicast to AS25113 announce ANY",
+     "afi ipv6.unicast to AS25144 announce ANY",
+     "afi ipv6.unicast to AS25215 announce ANY",
+     "afi ipv6.unicast to AS25593 announce ANY",
+     "afi ipv6.unicast to AS25818 announce ANY",
+     "afi ipv6.unicast to AS27775 announce ANY",
+     "afi ipv6.unicast to AS28007 announce ANY",
+     "afi ipv6.unicast to AS28683 announce ANY",
+     "afi ipv6.unicast to AS28708 announce ANY",
+     "afi ipv6.unicast to AS28855 announce ANY",
+     "afi ipv6.unicast to AS29049 announce ANY",
+     "afi ipv6.unicast to AS29110 announce ANY",
+     "afi ipv6.unicast to AS29119 announce ANY",
+     "afi ipv6.unicast to AS29283 announce ANY",
+     "afi ipv6.unicast to AS29386 announce ANY",
+     "afi ipv6.unicast to AS29535 announce ANY",
+     "afi ipv6.unicast to AS29571 announce ANY",
+     "afi ipv6.unicast to AS29605 announce ANY",
+     "afi ipv6.unicast to AS29608 announce ANY",
+     "afi ipv6.unicast to AS30071 announce ANY",
+     "afi ipv6.unicast to AS30781 announce ANY",
+     "afi ipv6.unicast to AS30844 announce ANY",
+     "afi ipv6.unicast to AS30889 announce ANY",
+     "afi ipv6.unicast to AS30985 announce ANY",
+     "afi ipv6.unicast to AS31083 announce ANY",
+     "afi ipv6.unicast to AS31167 announce ANY",
+     "afi ipv6.unicast to AS31216 announce ANY",
+     "afi ipv6.unicast to AS31287 announce ANY",
+     "afi ipv6.unicast to AS31313 announce ANY",
+     "afi ipv6.unicast to AS31435 announce ANY",
+     "afi ipv6.unicast to AS31490 announce ANY",
+     "afi ipv6.unicast to AS31500 announce ANY",
+     "afi ipv6.unicast to AS32261 announce ANY",
+     "afi ipv6.unicast to AS32590 announce ANY",
+     "afi ipv6.unicast to AS32787 announce ANY",
+     "afi ipv6.unicast to AS32934 announce ANY",
+     "afi ipv6.unicast to AS33392 announce ANY",
+     "afi ipv6.unicast to AS33848 announce ANY",
+     "afi ipv6.unicast to AS34019 announce ANY",
+     "afi ipv6.unicast to AS34177 announce ANY",
+     "afi ipv6.unicast to AS34224 announce ANY",
+     "afi ipv6.unicast to AS34362 announce ANY",
+     "afi ipv6.unicast to AS34549 announce ANY",
+     "afi ipv6.unicast to AS34569 announce ANY",
+     "afi ipv6.unicast to AS35133 announce ANY",
+     "afi ipv6.unicast to AS35676 announce ANY",
+     "afi ipv6.unicast to AS35753 announce ANY",
+     "afi ipv6.unicast to AS36864 announce ANY",
+     "afi ipv6.unicast to AS36891 announce ANY",
+     "afi ipv6.unicast to AS36912 announce ANY",
+     "afi ipv6.unicast to AS36925 announce ANY",
+     "afi ipv6.unicast to AS36939 announce ANY",
+     "afi ipv6.unicast to AS36947 announce ANY",
+     "afi ipv6.unicast to AS36963 announce ANY",
+     "afi ipv6.unicast to AS37035 announce ANY",
+     "afi ipv6.unicast to AS37054 announce ANY",
+     "afi ipv6.unicast to AS37090 announce ANY",
+     "afi ipv6.unicast to AS37126 announce ANY",
+     "afi ipv6.unicast to AS37164 announce ANY",
+     "afi ipv6.unicast to AS37204 announce ANY",
+     "afi ipv6.unicast to AS37309 announce ANY",
+     "afi ipv6.unicast to AS37363 announce ANY",
+     "afi ipv6.unicast to AS37447 announce ANY",
+     "afi ipv6.unicast to AS37461 announce ANY",
+     "afi ipv6.unicast to AS37492 announce ANY",
+     "afi ipv6.unicast to AS37503 announce ANY",
+     "afi ipv6.unicast to AS37552 announce ANY",
+     "afi ipv6.unicast to AS37571 announce ANY",
+     "afi ipv6.unicast to AS37577 announce ANY",
+     "afi ipv6.unicast to AS37662 announce ANY",
+     "afi ipv6.unicast to AS37680 announce ANY",
+     "afi ipv6.unicast to AS37721 announce ANY",
+     "afi ipv6.unicast to AS37739 announce ANY",
+     "afi ipv6.unicast to AS38040 announce ANY",
+     "afi ipv6.unicast to AS38082 announce ANY",
+     "afi ipv6.unicast to AS38166 announce ANY",
+     "afi ipv6.unicast to AS38278 announce ANY",
+     "afi ipv6.unicast to AS39072 announce ANY",
+     "afi ipv6.unicast to AS39180 announce ANY",
+     "afi ipv6.unicast to AS39286 announce ANY",
+     "afi ipv6.unicast to AS39386 announce ANY",
+     "afi ipv6.unicast to AS39505 announce ANY",
+     "afi ipv6.unicast to AS39521 announce ANY",
+     "afi ipv6.unicast to AS39724 announce ANY",
+     "afi ipv6.unicast to AS39801 announce ANY",
+     "afi ipv6.unicast to AS39855 announce ANY",
+     "afi ipv6.unicast to AS41041 announce ANY",
+     "afi ipv6.unicast to AS42020 announce ANY",
+     "afi ipv6.unicast to AS42295 announce ANY",
+     "afi ipv6.unicast to AS42555 announce ANY",
+     "afi ipv6.unicast to AS42739 announce ANY",
+     "afi ipv6.unicast to AS43128 announce ANY",
+     "afi ipv6.unicast to AS43205 announce ANY",
+     "afi ipv6.unicast to AS43440 announce ANY",
+     "afi ipv6.unicast to AS43717 announce ANY",
+     "afi ipv6.unicast to AS43766 announce ANY",
+     "afi ipv6.unicast to AS43930 announce ANY",
+     "afi ipv6.unicast to AS43996 announce ANY",
+     "afi ipv6.unicast to AS44306 announce ANY",
+     "afi ipv6.unicast to AS44901 announce ANY",
+     "afi ipv6.unicast to AS45102 announce ANY",
+     "afi ipv6.unicast to AS45430 announce ANY",
+     "afi ipv6.unicast to AS45489 announce ANY",
+     "afi ipv6.unicast to AS45543 announce ANY",
+     "afi ipv6.unicast to AS45629 announce ANY",
+     "afi ipv6.unicast to AS45796 announce ANY",
+     "afi ipv6.unicast to AS45879 announce ANY",
+     "afi ipv6.unicast to AS45903 announce ANY",
+     "afi ipv6.unicast to AS47377 announce ANY",
+     "afi ipv6.unicast to AS47794 announce ANY",
+     "afi ipv6.unicast to AS47872 announce ANY",
+     "afi ipv6.unicast to AS47887 announce ANY",
+     "afi ipv6.unicast to AS48237 announce ANY",
+     "afi ipv6.unicast to AS48314 announce ANY",
+     "afi ipv6.unicast to AS48813 announce ANY",
+     "afi ipv6.unicast to AS49121 announce ANY",
+     "afi ipv6.unicast to AS49274 announce ANY",
+     "afi ipv6.unicast to AS49434 announce ANY",
+     "afi ipv6.unicast to AS49666 announce ANY",
+     "afi ipv6.unicast to AS49677 announce ANY",
+     "afi ipv6.unicast to AS49763 announce ANY",
+     "afi ipv6.unicast to AS49981 announce ANY",
+     "afi ipv6.unicast to AS50144 announce AS-OPENTRANSIT",
+     "afi ipv6.unicast to AS50509 announce ANY",
+     "afi ipv6.unicast to AS50583 announce ANY",
+     "afi ipv6.unicast to AS50624 announce ANY",
+     "afi ipv6.unicast to AS50629 announce ANY",
+     "afi ipv6.unicast to AS50812 announce ANY",
+     "afi ipv6.unicast to AS51154 announce ANY",
+     "afi ipv6.unicast to AS51406 announce ANY",
+     "afi ipv6.unicast to AS51582 announce ANY",
+     "afi ipv6.unicast to AS51790 announce ANY",
+     "afi ipv6.unicast to AS52412 announce ANY",
+     "afi ipv6.unicast to AS52468 announce ANY",
+     "afi ipv6.unicast to AS54113 announce ANY",
+     "afi ipv6.unicast to AS55256 announce ANY",
+     "afi ipv6.unicast to AS55259 announce ANY",
+     "afi ipv6.unicast to AS55482 announce ANY",
+     "afi ipv6.unicast to AS55685 announce ANY",
+     "afi ipv6.unicast to AS56286 announce ANY",
+     "afi ipv6.unicast to AS56987 announce ANY",
+     "afi ipv6.unicast to AS57050 announce ANY",
+     "afi ipv6.unicast to AS57242 announce ANY",
+     "afi ipv6.unicast to AS57344 announce ANY",
+     "afi ipv6.unicast to AS57463 announce ANY",
+     "afi ipv6.unicast to AS57717 announce ANY",
+     "afi ipv6.unicast to AS57793 announce ANY",
+     "afi ipv6.unicast to AS57839 announce ANY",
+     "afi ipv6.unicast to AS57866 announce ANY",
+     "afi ipv6.unicast to AS57902 announce ANY",
+     "afi ipv6.unicast to AS57976 announce AS-OPENTRANSIT",
+     "afi ipv6.unicast to AS58011 announce ANY",
+     "afi ipv6.unicast to AS58470 announce ANY",
+     "afi ipv6.unicast to AS59378 announce ANY",
+     "afi ipv6.unicast to AS59432 announce ANY",
+     "afi ipv6.unicast to AS59711 announce ANY",
+     "afi ipv6.unicast to AS59866 announce ANY",
+     "afi ipv6.unicast to AS59877 announce ANY",
+     "afi ipv6.unicast to AS60015 announce ANY",
+     "afi ipv6.unicast to AS60022 announce ANY",
+     "afi ipv6.unicast to AS60068 announce ANY",
+     "afi ipv6.unicast to AS60261 announce ANY",
+     "afi ipv6.unicast to AS60345 announce ANY",
+     "afi ipv6.unicast to AS60388 announce ANY",
+     "afi ipv6.unicast to AS60447 announce ANY",
+     "afi ipv6.unicast to AS60486 announce ANY",
+     "afi ipv6.unicast to AS60733 announce ANY",
+     "afi ipv6.unicast to AS60781 announce ANY",
+     "afi ipv6.unicast to AS60940 announce ANY",
+     "afi ipv6.unicast to AS62000 announce ANY",
+     "afi ipv6.unicast to AS62041 announce ANY",
+     "afi ipv6.unicast to AS62044 announce ANY",
+     "afi ipv6.unicast to AS62294 announce ANY",
+     "afi ipv6.unicast to AS62390 announce ANY",
+     "afi ipv6.unicast to AS63440 announce ANY",
+     "afi ipv6.unicast to AS63981 announce ANY",
+     "afi ipv6.unicast to AS64160 announce ANY",
+     "afi ipv6.unicast to AS132203 announce AS-OPENTRANSIT",
+     "afi ipv6.unicast to AS132602 announce ANY",
+     "afi ipv6.unicast to AS132829 announce ANY",
+     "afi ipv6.unicast to AS136041 announce ANY",
+     "afi ipv6.unicast to AS136513 announce ANY",
+     "afi ipv6.unicast to AS136907 announce ANY",
+     "afi ipv6.unicast to AS137831 announce ANY",
+     "afi ipv6.unicast to AS138005 announce ANY",
+     "afi ipv6.unicast to AS138915 announce ANY",
+     "afi ipv6.unicast to AS138997 announce ANY",
+     "afi ipv6.unicast to AS139057 announce ANY",
+     "afi ipv6.unicast to AS139341 announce ANY",
+     "afi ipv6.unicast to AS196670 announce ANY",
+     "afi ipv6.unicast to AS196745 announce ANY",
+     "afi ipv6.unicast to AS197205 announce ANY",
+     "afi ipv6.unicast to AS197500 announce ANY",
+     "afi ipv6.unicast to AS198330 announce ANY",
+     "afi ipv6.unicast to AS198551 announce ANY",
+     "afi ipv6.unicast to AS198825 announce ANY",
+     "afi ipv6.unicast to AS199221 announce ANY",
+     "afi ipv6.unicast to AS199400 announce ANY",
+     "afi ipv6.unicast to AS199426 announce ANY",
+     "afi ipv6.unicast to AS199524 announce ANY",
+     "afi ipv6.unicast to AS199749 announce ANY",
+     "afi ipv6.unicast to AS200308 announce ANY",
+     "afi ipv6.unicast to AS200449 announce ANY",
+     "afi ipv6.unicast to AS200462 announce ANY",
+     "afi ipv6.unicast to AS200596 announce ANY",
+     "afi ipv6.unicast to AS200995 announce ANY",
+     "afi ipv6.unicast to AS201004 announce ANY",
+     "afi ipv6.unicast to AS201133 announce ANY",
+     "afi ipv6.unicast to AS201188 announce ANY",
+     "afi ipv6.unicast to AS201420 announce ANY",
+     "afi ipv6.unicast to AS201679 announce ANY",
+     "afi ipv6.unicast to AS201958 announce ANY",
+     "afi ipv6.unicast to AS202045 announce ANY",
+     "afi ipv6.unicast to AS202617 announce ANY",
+     "afi ipv6.unicast to AS203182 announce ANY",
+     "afi ipv6.unicast to AS203410 announce ANY",
+     "afi ipv6.unicast to AS203446 announce ANY",
+     "afi ipv6.unicast to AS203513 announce ANY",
+     "afi ipv6.unicast to AS203532 announce ANY",
+     "afi ipv6.unicast to AS204202 announce ANY",
+     "afi ipv6.unicast to AS204596 announce ANY",
+     "afi ipv6.unicast to AS205113 announce ANY",
+     "afi ipv6.unicast to AS205714 announce ANY",
+     "afi ipv6.unicast to AS205874 announce ANY",
+     "afi ipv6.unicast to AS205988 announce ANY",
+     "afi ipv6.unicast to AS206002 announce ANY",
+     "afi ipv6.unicast to AS206146 announce ANY",
+     "afi ipv6.unicast to AS206244 announce ANY",
+     "afi ipv6.unicast to AS206383 announce ANY",
+     "afi ipv6.unicast to AS206924 announce ANY",
+     "afi ipv6.unicast to AS207147 announce ANY",
+     "afi ipv6.unicast to AS207348 announce ANY",
+     "afi ipv6.unicast to AS207410 announce ANY",
+     "afi ipv6.unicast to AS208374 announce ANY",
+     "afi ipv6.unicast to AS208660 announce ANY",
+     "afi ipv6.unicast to AS209163 announce ANY",
+     "afi ipv6.unicast to AS209304 announce ANY",
+     "afi ipv6.unicast to AS209564 announce ANY",
+     "afi ipv6.unicast to AS209768 announce ANY",
+     "afi ipv6.unicast to AS209815 announce ANY",
+     "afi ipv6.unicast to AS209823 announce ANY",
+     "afi ipv6.unicast to AS211239 announce ANY",
+     "afi ipv6.unicast to AS211826 announce ANY",
+     "afi ipv6.unicast to AS211827 announce ANY",
+     "afi ipv6.unicast to AS211846 announce ANY",
+     "afi ipv6.unicast to AS212087 announce ANY",
+     "afi ipv6.unicast to AS212416 announce ANY",
+     "afi ipv6.unicast to AS212477 announce ANY",
+     "afi ipv6.unicast to AS212708 announce ANY",
+     "afi ipv6.unicast to AS213018 announce ANY",
+     "afi ipv6.unicast to AS213039 announce ANY",
+     "afi ipv6.unicast to AS213205 announce ANY",
+     "afi ipv6.unicast to AS213373 announce ANY",
+     "afi ipv6.unicast to AS214667 announce ANY",
+     "afi ipv6.unicast to AS215467 announce ANY",
+     "afi ipv6.unicast to AS215787 announce ANY",
+     "afi ipv6.unicast to AS215853 announce ANY",
+     "afi ipv6.unicast to AS215955 announce ANY",
+     "afi ipv6.unicast to AS271956 announce ANY",
+     "afi ipv6.unicast to AS327708 announce ANY",
+     "afi ipv6.unicast to AS327769 announce ANY",
+     "afi ipv6.unicast to AS327782 announce ANY",
+     "afi ipv6.unicast to AS328317 announce ANY",
+     "afi ipv6.unicast to AS328488 announce ANY",
+     "afi ipv6.unicast to AS328528 announce ANY",
+     "afi ipv6.unicast to AS328549 announce ANY",
+     "afi ipv6.unicast to AS328722 announce ANY",
+     "afi ipv6.unicast to AS328748 announce ANY",
+     "afi ipv6.unicast to AS328850 announce ANY",
+     "afi ipv6.unicast to AS328867 announce ANY",
+     "afi ipv6.unicast to AS328997 announce ANY",
+     "afi ipv6.unicast to AS329006 announce ANY",
+     "afi ipv6.unicast to AS329118 announce ANY",
+     "afi ipv6.unicast to AS393559 announce ANY",
+     "afi ipv6.unicast to AS394684 announce ANY",
+     "afi ipv6.unicast to AS395915 announce AS-OPENTRANSIT",
+     "afi ipv6.unicast to AS396986 announce ANY",
+     "afi ipv6.unicast to AS397100 announce ANY",
+     "afi ipv6.unicast to AS397601 announce ANY",
+     "afi ipv6.unicast to AS398705 announce ANY",
+     "afi ipv6.unicast to AS400687 announce ANY",
+     "afi ipv6.unicast to AS400696 announce ANY"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "admin-c": [
+     "AO3173-RIPE"
+    ],
+    "tech-c": [
+     "NO21-RIPE",
+     "NO21-RIPE"
+    ],
+    "status": [
+     "ASSIGNED"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-END-MNT",
+     "FTRSI",
+     "FT-BRX"
+    ],
+    "created": [
+     "2002-09-17T12:21:21Z"
+    ],
+    "last-modified": [
+     "2026-10-15T09:33:45Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "aut-num": [
+     "AS5583"
+    ],
+    "as-name": [
+     "ORANGE-BUSINESS-SERVICES-BENELUX"
+    ],
+    "descr": [
+     "Orange Business Services (formerly Equant) AS for BENELUX"
+    ],
+    "remarks": [
+     "===================================================================",
+     "Upstream AS",
+     "===================================================================",
+     "===================================================================",
+     "Peer AS",
+     "===================================================================",
+     "A) Peering with other OBS AS",
+     "B) Major partners",
+     "C) External peers",
+     "===================================================================",
+     "Customer AS",
+     "===================================================================",
+     "===================================================================",
+     "for ops issues, contact <masqué>@orange.com",
+     "for peering requests, contact <masqué>@orange.com",
+     "for security issues, contact <masqué>@orange.com",
+     "==================================================================="
+    ],
+    "import": [
+     "from AS5511 action pref=100; accept ANY",
+     "from AS4004 action pref=110; accept AS-OBS-WORLD",
+     "from AS10282 action pref=110; accept AS-OBS-WORLD",
+     "from AS1680 action pref=105; accept AS1680",
+     "from AS5713 action pref=105; accept AS5713",
+     "from AS9121 action pref=105; accept AS9121",
+     "from AS39273 action pref=105; accept AS39273",
+     "from AS55256 action pref=105; accept AS55256",
+     "from AS6777 action pref=105; accept ANY",
+     "from AS42 action pref=105; accept AS42",
+     "from AS112 action pref=105; accept AS112",
+     "from AS174 action pref=105; accept AS174",
+     "from AS286 action pref=105; accept AS-KQ",
+     "from AS702 action pref=105; accept AS-UUNETNL",
+     "from AS1103 action pref=105; accept AS-SURFNET",
+     "from AS2119 action pref=105; accept AS2119",
+     "from AS2529 action pref=105; accept AS-DEMON",
+     "from AS2602 action pref=105; accept AS2602",
+     "from AS2603 action pref=105; accept AS2603",
+     "from AS2611 action pref=105; accept AS-BELNET",
+     "from AS2686 action pref=105; accept AS-IGNEMEA",
+     "from AS2818 action pref=105; accept AS-BBC",
+     "from AS3209 action pref=105; accept AS-ARCORGLOBAL",
+     "from AS3216 action pref=105; accept AS3216",
+     "from AS3265 action pref=105; accept AS-ACCESSFORALL",
+     "from AS3292 action pref=105; accept AS-TDCNET",
+     "from AS3300 action pref=105; accept AS-INFONET",
+     "from AS3333 action pref=105; accept AS3333",
+     "from AS3347 action pref=105; accept AS3347",
+     "from AS3491 action pref=105; accept AS3491",
+     "from AS3856 action pref=105; accept AS3856",
+     "from AS4589 action pref=105; accept AS-EASYNET",
+     "from AS5089 action pref=105; accept AS-NTLI",
+     "from AS5390 action pref=105; accept AS-EURONETNL",
+     "from AS5413 action pref=105; accept AS-XARANET AS-XARANETEU",
+     "from AS5430 action pref=105; accept AS-FREENETDE",
+     "from AS5463 action pref=105; accept AS5463",
+     "from AS5466 action pref=105; accept AS-EIRCOM",
+     "from AS6320 action pref=105; accept AS-TELECOMPLETE",
+     "from AS6327 action pref=105; accept AS6327",
+     "from AS6461 action pref=105; accept AS-MFNX",
+     "from AS6667 action pref=105; accept AS6667",
+     "from AS6730 action pref=105; accept AS-GLOBAL",
+     "from AS6774 action pref=105; accept AS-BELBONETOPEERS",
+     "from AS6805 action pref=105; accept AS-TDDE",
+     "from AS6939 action pref=105; accept AS6939",
+     "from AS8220 action pref=105; accept AS-COLT",
+     "from AS8422 action pref=105; accept AS8422",
+     "from AS8426 action pref=105; accept AS8426",
+     "from AS8447 action pref=105; accept AS8447",
+     "from AS8560 action pref=105; accept AS-SCHLUND",
+     "from AS8582 action pref=105; accept AS-SUPPORT",
+     "from AS8586 action pref=105; accept AS-REDNET",
+     "from AS8608 action pref=105; accept AS-QINIP",
+     "from AS8632 action pref=105; accept AS8632",
+     "from AS8657 action pref=105; accept AS-CPRM",
+     "from AS8708 action pref=105; accept AS-RDSNET",
+     "from AS8737 action pref=105; accept AS-8737",
+     "from AS8897 action pref=105; accept AS8897",
+     "from AS8918 action pref=105; accept AS-CARRIERONE",
+     "from AS8928 action pref=105; accept AS-INTEROUTE",
+     "from AS8954 action pref=105; accept AS-INTOUCHPEERS",
+     "from AS8966 action pref=105; accept AS8966",
+     "from AS9002 action pref=105; accept AS9002",
+     "from AS9008 action pref=105; accept AS9008",
+     "from AS9009 action pref=105; accept AS9009",
+     "from AS9145 action pref=105; accept AS-EWETEL",
+     "from AS9150 action pref=105; accept AS-INTERCONNECT",
+     "from AS12414 action pref=105; accept AS-SOLCON",
+     "from AS12496 action pref=105; accept AS-IDNETUK",
+     "from AS12654 action pref=105; accept AS12654",
+     "from AS12713 action pref=105; accept AS12713",
+     "from AS12859 action pref=105; accept AS-BIT",
+     "from AS12871 action pref=105; accept AS12871",
+     "from AS12989 action pref=105; accept AS12989",
+     "from AS13030 action pref=105; accept AS-INIT7",
+     "from AS13127 action pref=105; accept AS-VERSATEL",
+     "from AS13237 action pref=105; accept AS-LNCAMSIX",
+     "from AS13646 action pref=105; accept AS-PRIORITY",
+     "from AS13768 action pref=105; accept AS13768",
+     "from AS15169 action pref=105; accept AS15169",
+     "from AS15412 action pref=105; accept AS-FLAGP",
+     "from AS15426 action pref=105; accept AS-XENOSITE",
+     "from AS15598 action pref=105; accept AS15598",
+     "from AS15600 action pref=105; accept AS15600",
+     "from AS15830 action pref=105; accept AS15830",
+     "from AS15879 action pref=105; accept AS-IS",
+     "from AS15965 action pref=105; accept AS15965",
+     "from AS16150 action pref=105; accept AS16150",
+     "from AS16243 action pref=105; accept AS16243",
+     "from AS19151 action pref=105; accept AS19151",
+     "from AS20481 action pref=105; accept AS20481",
+     "from AS20495 action pref=105; accept AS20495",
+     "from AS20504 action pref=105; accept AS20504",
+     "from AS20507 action pref=105; accept AS-INTERNLNET",
+     "from AS20562 action pref=105; accept AS-OPENPEERING",
+     "from AS20640 action pref=105; accept AS-TITANNET",
+     "from AS20847 action pref=105; accept AS-INTROWEB",
+     "from AS20932 action pref=105; accept AS20932",
+     "from AS20940 action pref=105; accept AS-AKAMAI",
+     "from AS20953 action pref=105; accept AS20953",
+     "from AS21155 action pref=105; accept AS-PROSERVE",
+     "from AS21221 action pref=105; accept AS-INFOPACT",
+     "from AS21478 action pref=105; accept AS21478",
+     "from AS22822 action pref=105; accept AS22822",
+     "from AS24167 action pref=105; accept AS24167",
+     "from AS24730 action pref=105; accept AS-NETHOLDING",
+     "from AS24875 action pref=105; accept AS-AVIRA",
+     "from AS25074 action pref=105; accept AS25074",
+     "from AS25152 action pref=105; accept AS25152",
+     "from AS25182 action pref=105; accept AS25182",
+     "from AS29686 action pref=105; accept AS29686",
+     "from AS31216 action pref=105; accept AS31216",
+     "from AS31251 action pref=105; accept AS31251",
+     "from AS36623 action pref=105; accept AS36623",
+     "from AS41095 action pref=105; accept AS41095",
+     "from AS288 action pref=120; accept AS288",
+     "from AS14381 action pref=120; accept AS14381",
+     "from AS15352 action pref=120; accept AS15352",
+     "from AS25024 action pref=120; accept AS25024"
+    ],
+    "export": [
+     "to AS5511 announce AS-OBS-BENELUX",
+     "to AS4004 announce AS-OBS-WORLD",
+     "to AS10282 announce AS-OBS-WORLD",
+     "to AS1680 announce AS5583",
+     "to AS5713 announce AS5583",
+     "to AS9121 announce AS5583",
+     "to AS39273 announce AS5583",
+     "to AS55256 announce AS-OBS-BENELUX",
+     "to AS6777 announce AS-OBS-BENELUX",
+     "to AS42 announce AS-OBS-BENELUX",
+     "to AS112 announce AS-OBS-BENELUX",
+     "to AS174 announce AS-OBS-BENELUX",
+     "to AS286 announce AS-OBS-BENELUX",
+     "to AS702 announce AS-OBS-BENELUX",
+     "to AS1103 announce AS-OBS-BENELUX",
+     "to AS2119 announce AS-OBS-BENELUX",
+     "to AS2529 announce AS-OBS-BENELUX",
+     "to AS2602 announce AS-OBS-BENELUX",
+     "to AS2603 announce AS-OBS-BENELUX",
+     "to AS2611 announce AS-OBS-BENELUX",
+     "to AS2686 announce AS-OBS-BENELUX",
+     "to AS2818 announce AS-OBS-BENELUX",
+     "to AS3209 announce AS-OBS-BENELUX",
+     "to AS3216 announce AS-OBS-BENELUX",
+     "to AS3265 announce AS-OBS-BENELUX",
+     "to AS3292 announce AS-OBS-BENELUX",
+     "to AS3300 announce AS-OBS-BENELUX",
+     "to AS3333 announce AS-OBS-BENELUX",
+     "to AS3347 announce AS-OBS-BENELUX",
+     "to AS3491 announce AS-OBS-BENELUX",
+     "to AS3856 announce AS-OBS-BENELUX",
+     "to AS4589 announce AS-OBS-BENELUX",
+     "to AS5089 announce AS-OBS-BENELUX",
+     "to AS5390 announce AS-OBS-BENELUX",
+     "to AS5413 announce AS-OBS-BENELUX",
+     "to AS5430 announce AS-OBS-BENELUX",
+     "to AS5463 announce AS-OBS-BENELUX",
+     "to AS5466 announce AS-OBS-BENELUX",
+     "to AS6320 announce AS-OBS-BENELUX",
+     "to AS6327 announce AS-OBS-BENELUX",
+     "to AS6461 announce AS-OBS-BENELUX",
+     "to AS6667 announce AS-OBS-BENELUX",
+     "to AS6730 announce AS-OBS-BENELUX",
+     "to AS6774 announce AS-OBS-BENELUX",
+     "to AS6805 announce AS-OBS-BENELUX",
+     "to AS6939 announce AS-OBS-BENELUX",
+     "to AS8220 announce AS-OBS-BENELUX",
+     "to AS8422 announce AS-OBS-BENELUX",
+     "to AS8426 announce AS-OBS-BENELUX",
+     "to AS8447 announce AS-OBS-BENELUX",
+     "to AS8560 announce AS-OBS-BENELUX",
+     "to AS8582 announce AS-OBS-BENELUX",
+     "to AS8586 announce AS-OBS-BENELUX",
+     "to AS8608 announce AS-OBS-BENELUX",
+     "to AS8632 announce AS-OBS-BENELUX",
+     "to AS8657 announce AS-OBS-BENELUX",
+     "to AS8708 announce AS-OBS-BENELUX",
+     "to AS8737 announce AS-OBS-BENELUX",
+     "to AS8897 announce AS-OBS-BENELUX",
+     "to AS8918 announce AS-OBS-BENELUX",
+     "to AS8928 announce AS-OBS-BENELUX",
+     "to AS8954 announce AS-OBS-BENELUX",
+     "to AS8966 announce AS-OBS-BENELUX",
+     "to AS9002 announce AS-OBS-BENELUX",
+     "to AS9008 announce AS-OBS-BENELUX",
+     "to AS9009 announce AS-OBS-BENELUX",
+     "to AS9143 announce AS-OBS-BENELUX",
+     "to AS9145 announce AS-OBS-BENELUX",
+     "to AS9150 announce AS-OBS-BENELUX",
+     "to AS12414 announce AS-OBS-BENELUX",
+     "to AS12496 announce AS-OBS-BENELUX",
+     "to AS12654 announce AS-OBS-BENELUX",
+     "to AS12713 announce AS-OBS-BENELUX",
+     "to AS12859 announce AS-OBS-BENELUX",
+     "to AS12871 announce AS-OBS-BENELUX",
+     "to AS12989 announce AS-OBS-BENELUX",
+     "to AS13030 announce AS-OBS-BENELUX",
+     "to AS13127 announce AS-OBS-BENELUX",
+     "to AS13237 announce AS-OBS-BENELUX",
+     "to AS13646 announce AS-OBS-BENELUX",
+     "to AS13768 announce AS-OBS-BENELUX",
+     "to AS15169 announce AS-OBS-BENELUX",
+     "to AS15412 announce AS-OBS-BENELUX",
+     "to AS15426 announce AS-OBS-BENELUX",
+     "to AS15598 announce AS-OBS-BENELUX",
+     "to AS15600 announce AS-OBS-BENELUX",
+     "to AS15830 announce AS-OBS-BENELUX",
+     "to AS15879 announce AS-OBS-BENELUX",
+     "to AS15965 announce AS-OBS-BENELUX",
+     "to AS16150 announce AS-OBS-BENELUX",
+     "to AS16243 announce AS-OBS-BENELUX",
+     "to AS19151 announce AS-OBS-BENELUX",
+     "to AS20481 announce AS-OBS-BENELUX",
+     "to AS20495 announce AS-OBS-BENELUX",
+     "to AS20504 announce AS-OBS-BENELUX",
+     "to AS20507 announce AS-OBS-BENELUX",
+     "to AS20562 announce AS-OBS-BENELUX",
+     "to AS20640 announce AS-OBS-BENELUX",
+     "to AS20847 announce AS-OBS-BENELUX",
+     "to AS20932 announce AS-OBS-BENELUX",
+     "to AS20940 announce AS-OBS-BENELUX",
+     "to AS20953 announce AS-OBS-BENELUX",
+     "to AS21155 announce AS-OBS-BENELUX",
+     "to AS21221 announce AS-OBS-BENELUX",
+     "to AS21478 announce AS-OBS-BENELUX",
+     "to AS22822 announce AS-OBS-BENELUX",
+     "to AS24167 announce AS-OBS-BENELUX",
+     "to AS24730 announce AS-OBS-BENELUX",
+     "to AS24875 announce AS-OBS-BENELUX",
+     "to AS25074 announce AS-OBS-BENELUX",
+     "to AS25152 announce AS-OBS-BENELUX",
+     "to AS25182 announce AS-OBS-BENELUX",
+     "to AS29686 announce AS-OBS-BENELUX",
+     "to AS31216 announce AS-OBS-BENELUX",
+     "to AS31251 announce AS-OBS-BENELUX",
+     "to AS36623 announce AS-OBS-BENELUX",
+     "to AS41095 announce AS-OBS-BENELUX",
+     "to AS288 announce ANY",
+     "to AS14381 announce ANY",
+     "to AS15352 announce ANY",
+     "to AS25024 announce ANY"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "admin-c": [
+     "OBS2018-RIPE"
+    ],
+    "tech-c": [
+     "OBS2018-RIPE"
+    ],
+    "status": [
+     "ASSIGNED"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-END-MNT",
+     "AS5583-MNT"
+    ],
+    "created": [
+     "2002-08-23T12:15:04Z"
+    ],
+    "last-modified": [
+     "2026-07-16T09:32:46Z"
+    ],
+    "source": [
+     "RIPE # Filtered"
+    ]
+   },
+   {
+    "aut-num": [
+     "AS8891"
+    ],
+    "as-name": [
+     "UNSPECIFIED"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "descr": [
+     "FT/BGP/DM"
+    ],
+    "import": [
+     "from AS2917 action pref=10; accept ANY",
+     "from AS3215 action pref=10; accept ANY"
+    ],
+    "export": [
+     "to AS2917 announce AS8891",
+     "to AS3215 announce AS8891"
+    ],
+    "default": [
+     "to AS2917 action pref=100; networks ANY"
+    ],
+    "admin-c": [
+     "OH251-RIPE"
+    ],
+    "tech-c": [
+     "OH251-RIPE"
+    ],
+    "status": [
+     "ASSIGNED"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-END-MNT",
+     "OLEANE-NOC"
+    ],
+    "created": [
+     "1970-01-01T00:00:00Z"
+    ],
+    "last-modified": [
+     "2017-11-15T09:13:57Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   }
+  ],
+  "errors": []
+ }
+}

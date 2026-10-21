@@ -1,0 +1,84 @@
+{
+ "meta": {
+  "source": "whois whois.radb.net:43",
+  "query": "-s RADB -T aut-num AS54113",
+  "fetched_at": "2026-10-21T08:04:16+00:00",
+  "sha256_data": "e408fa05ef60e8324b891a925bcf70e4ef94595745bab5e5bf61d0edee274ed2",
+  "tool": "bgpmon 3.0.0",
+  "note": ""
+ },
+ "data": {
+  "objects": [
+   {
+    "aut-num": [
+     "AS54113"
+    ],
+    "as-name": [
+     "Fastly"
+    ],
+    "descr": [
+     "Fastly, Inc."
+    ],
+    "mp-import": [
+     "afi ipv4.unicast from AS174   accept ANY",
+     "afi ipv6.unicast from AS174   accept ANY",
+     "afi ipv4.unicast from AS4826   accept ANY",
+     "afi ipv4.unicast from AS1221   accept ANY",
+     "afi ipv4.unicast from AS3356   accept ANY",
+     "afi ipv6.unicast from AS3356   accept ANY",
+     "afi ipv4.unicast from AS4637   accept ANY",
+     "afi ipv6.unicast from AS4637   accept ANY",
+     "afi ipv4.unicast from AS7922   accept ANY",
+     "afi ipv6.unicast from AS7922   accept ANY",
+     "afi ipv4.unicast from AS2914   accept ANY",
+     "afi ipv6.unicast from AS2914   accept ANY",
+     "afi ipv4.unicast from AS1299   accept ANY",
+     "afi ipv6.unicast from AS1299   accept ANY",
+     "afi ipv4.unicast from AS3549   accept ANY",
+     "afi ipv4.unicast from AS10026   accept ANY",
+     "afi ipv4.unicast from AS9834   accept ANY",
+     "afi ipv4.unicast from AS9439   accept ANY"
+    ],
+    "mp-export": [
+     "afi ipv4.unicast to AS174   announce AS54113",
+     "afi ipv6.unicast to AS174   announce AS54113",
+     "afi ipv4.unicast to AS4826   announce AS54113",
+     "afi ipv4.unicast to AS1221   announce AS54113",
+     "afi ipv4.unicast to AS3356   announce AS54113",
+     "afi ipv6.unicast to AS3356   announce AS54113",
+     "afi ipv4.unicast to AS4637   announce AS54113",
+     "afi ipv6.unicast to AS4637   announce AS54113",
+     "afi ipv4.unicast to AS7922   announce AS54113",
+     "afi ipv6.unicast to AS7922   announce AS54113",
+     "afi ipv4.unicast to AS2914   announce AS54113",
+     "afi ipv6.unicast to AS2914   announce AS54113",
+     "afi ipv4.unicast to AS1299   announce AS54113",
+     "afi ipv6.unicast to AS1299   announce AS54113",
+     "afi ipv4.unicast to AS3549   announce AS54113",
+     "afi ipv4.unicast to AS10026   announce AS54113",
+     "afi ipv4.unicast to AS9834   announce AS54113",
+     "afi ipv4.unicast to AS9439   announce AS54113"
+    ],
+    "admin-c": [
+     "TECHOPS-FASTLY"
+    ],
+    "tech-c": [
+     "TECHOPS-FASTLY"
+    ],
+    "mnt-by": [
+     "MAINT-AS54113"
+    ],
+    "changed": [
+     "<masqué>@fastly.com 20251022 # 23:48 GMT"
+    ],
+    "source": [
+     "RADB"
+    ],
+    "last-modified": [
+     "2025-10-22T23:48:57Z"
+    ]
+   }
+  ],
+  "errors": []
+ }
+}

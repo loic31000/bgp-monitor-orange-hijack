@@ -1,0 +1,2495 @@
+{
+ "meta": {
+  "source": "whois whois.ripe.net:43",
+  "query": "-r -T inetnum -i org ORG-FT2-RIPE",
+  "fetched_at": "2026-10-21T08:06:06+00:00",
+  "sha256_data": "77261e0f1cbab77ab76ab028a474df6044e4eb7c3e8dadefde024c63aa9c7fa9",
+  "tool": "bgpmon 3.0.0",
+  "note": ""
+ },
+ "data": {
+  "objects": [
+   {
+    "inetnum": [
+     "1.178.224.0 - 1.178.255.255"
+    ],
+    "netname": [
+     "FR-TELECOM-20100625"
+    ],
+    "country": [
+     "FR"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "admin-c": [
+     "HC5303-RIPE"
+    ],
+    "tech-c": [
+     "BRX1-RIPE"
+    ],
+    "status": [
+     "ALLOCATED PA"
+    ],
+    "mnt-by": [
+     "FT-BRX",
+     "RIPE-NCC-HM-MNT"
+    ],
+    "created": [
+     "2026-10-15T09:21:07Z"
+    ],
+    "last-modified": [
+     "2026-10-15T09:21:07Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "inetnum": [
+     "109.208.0.0 - 109.223.255.255"
+    ],
+    "netname": [
+     "FR-TELECOM-20091007"
+    ],
+    "country": [
+     "FR"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "admin-c": [
+     "HC5303-RIPE"
+    ],
+    "tech-c": [
+     "BRX1-RIPE"
+    ],
+    "status": [
+     "ALLOCATED PA"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-HM-MNT",
+     "FT-BRX"
+    ],
+    "mnt-lower": [
+     "RAIN-TRANSPAC",
+     "FT-BRX"
+    ],
+    "mnt-routes": [
+     "FT-BRX",
+     "RAIN-TRANSPAC"
+    ],
+    "mnt-domains": [
+     "RAIN-TRANSPAC",
+     "FT-BRX"
+    ],
+    "created": [
+     "2009-10-07T06:18:38Z"
+    ],
+    "last-modified": [
+     "2026-02-03T07:36:53Z"
+    ],
+    "source": [
+     "RIPE # Filtered"
+    ]
+   },
+   {
+    "inetnum": [
+     "161.105.0.0 - 161.105.255.255"
+    ],
+    "netname": [
+     "FR-INNOV1"
+    ],
+    "descr": [
+     "Orange S.A.",
+     "44 avenue de la R�publique",
+     "92326 Chatillon Cedex"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "country": [
+     "FR"
+    ],
+    "admin-c": [
+     "OA3682-RIPE"
+    ],
+    "tech-c": [
+     "OA3682-RIPE"
+    ],
+    "status": [
+     "LEGACY"
+    ],
+    "mnt-by": [
+     "FT-BRX"
+    ],
+    "mnt-lower": [
+     "FT-BRX"
+    ],
+    "mnt-routes": [
+     "FT-BRX"
+    ],
+    "created": [
+     "2002-04-11T13:27:42Z"
+    ],
+    "last-modified": [
+     "2025-07-09T15:05:46Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "inetnum": [
+     "161.105.0.0 - 161.106.255.255"
+    ],
+    "netname": [
+     "FR-CNET"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "country": [
+     "FR"
+    ],
+    "admin-c": [
+     "AF5788-RIPE"
+    ],
+    "tech-c": [
+     "PS3687-RIPE",
+     "PG3660-RIPE"
+    ],
+    "status": [
+     "LEGACY"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-LEGACY-MNT",
+     "FT-BRX"
+    ],
+    "mnt-lower": [
+     "FT-BRX"
+    ],
+    "mnt-routes": [
+     "FT-BRX"
+    ],
+    "created": [
+     "2026-02-16T10:46:34Z"
+    ],
+    "last-modified": [
+     "2026-02-16T10:46:34Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "inetnum": [
+     "161.106.0.0 - 161.106.255.255"
+    ],
+    "netname": [
+     "FR-INNOV2"
+    ],
+    "descr": [
+     "Orange S.A.",
+     "44 avenue de la R�publique",
+     "92326 Chatillon Cedex"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "country": [
+     "FR"
+    ],
+    "admin-c": [
+     "OA3682-RIPE"
+    ],
+    "tech-c": [
+     "OA3682-RIPE"
+    ],
+    "status": [
+     "LEGACY"
+    ],
+    "mnt-by": [
+     "FT-BRX"
+    ],
+    "mnt-lower": [
+     "FT-BRX"
+    ],
+    "mnt-routes": [
+     "FT-BRX"
+    ],
+    "remarks": [
+     "changed: <masqué>@renater.fr 20020328",
+     "changed: <masqué>@renater.fr 20080709",
+     "changed: <masqué>@ripe.net 20150420"
+    ],
+    "created": [
+     "2002-04-11T13:27:42Z"
+    ],
+    "last-modified": [
+     "2025-07-09T15:06:35Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "inetnum": [
+     "192.144.74.0 - 192.144.74.255"
+    ],
+    "netname": [
+     "CNET13"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "country": [
+     "FR"
+    ],
+    "admin-c": [
+     "OA3682-RIPE"
+    ],
+    "tech-c": [
+     "OA3682-RIPE"
+    ],
+    "status": [
+     "LEGACY"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-LEGACY-MNT",
+     "FT-BRX"
+    ],
+    "mnt-lower": [
+     "FT-BRX"
+    ],
+    "mnt-routes": [
+     "FT-BRX"
+    ],
+    "created": [
+     "2001-11-02T14:06:14Z"
+    ],
+    "last-modified": [
+     "2024-08-01T12:48:54Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "inetnum": [
+     "192.144.76.0 - 192.144.76.255"
+    ],
+    "netname": [
+     "CNET15"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "descr": [
+     "Orange SA",
+     "Orange Gardens 44 avenue de la R�publique",
+     "CS 50010 92326 Ch�tillon Cedex France"
+    ],
+    "country": [
+     "FR"
+    ],
+    "admin-c": [
+     "OA3682-RIPE"
+    ],
+    "tech-c": [
+     "OA3682-RIPE"
+    ],
+    "status": [
+     "LEGACY"
+    ],
+    "mnt-by": [
+     "FT-BRX"
+    ],
+    "mnt-lower": [
+     "FT-BRX"
+    ],
+    "mnt-routes": [
+     "FT-BRX"
+    ],
+    "created": [
+     "2005-02-18T16:36:59Z"
+    ],
+    "last-modified": [
+     "2024-08-14T07:19:20Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "inetnum": [
+     "192.144.76.0 - 192.144.77.255"
+    ],
+    "netname": [
+     "CNET"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "descr": [
+     "Orange SA",
+     "Orange Gardens 44 avenue de la R�publique",
+     "CS 50010 92326 Ch�tillon Cedex France"
+    ],
+    "country": [
+     "FR"
+    ],
+    "admin-c": [
+     "BRX1-RIPE"
+    ],
+    "tech-c": [
+     "BRX1-RIPE"
+    ],
+    "status": [
+     "LEGACY"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-LEGACY-MNT",
+     "FT-BRX"
+    ],
+    "mnt-lower": [
+     "FT-BRX"
+    ],
+    "mnt-routes": [
+     "FT-BRX"
+    ],
+    "created": [
+     "2002-04-11T13:23:07Z"
+    ],
+    "last-modified": [
+     "2024-11-06T09:19:47Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "inetnum": [
+     "192.144.77.0 - 192.144.77.255"
+    ],
+    "netname": [
+     "FR-INNOV3"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "descr": [
+     "Orange SA",
+     "44 avenue de la R�publique",
+     "92326 Ch�tillon Cedex"
+    ],
+    "country": [
+     "FR"
+    ],
+    "admin-c": [
+     "OA3682-RIPE"
+    ],
+    "tech-c": [
+     "OA3682-RIPE"
+    ],
+    "status": [
+     "LEGACY"
+    ],
+    "mnt-by": [
+     "FT-BRX"
+    ],
+    "mnt-lower": [
+     "FT-BRX"
+    ],
+    "mnt-routes": [
+     "FT-BRX"
+    ],
+    "created": [
+     "2005-02-18T16:37:05Z"
+    ],
+    "last-modified": [
+     "2025-07-09T15:04:11Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "inetnum": [
+     "192.190.131.0 - 192.190.132.255"
+    ],
+    "netname": [
+     "SEPT-NET"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "country": [
+     "FR"
+    ],
+    "admin-c": [
+     "AR3866-RIPE"
+    ],
+    "tech-c": [
+     "AR3866-RIPE"
+    ],
+    "status": [
+     "LEGACY"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-LEGACY-MNT",
+     "FT-BRX"
+    ],
+    "mnt-lower": [
+     "FT-BRX"
+    ],
+    "mnt-routes": [
+     "FT-BRX"
+    ],
+    "created": [
+     "2026-01-09T10:51:31Z"
+    ],
+    "last-modified": [
+     "2026-01-09T10:51:31Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "inetnum": [
+     "192.190.233.0 - 192.190.233.255"
+    ],
+    "netname": [
+     "SEPT-NET9"
+    ],
+    "descr": [
+     "Orange S.A."
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "country": [
+     "FR"
+    ],
+    "admin-c": [
+     "AR3866-RIPE",
+     "HH264-RIPE"
+    ],
+    "tech-c": [
+     "AR3866-RIPE",
+     "HH264-RIPE"
+    ],
+    "status": [
+     "LEGACY"
+    ],
+    "mnt-by": [
+     "FT-BRX"
+    ],
+    "mnt-lower": [
+     "FT-BRX"
+    ],
+    "mnt-routes": [
+     "FT-BRX"
+    ],
+    "created": [
+     "2002-04-12T13:55:23Z"
+    ],
+    "last-modified": [
+     "2015-12-08T15:27:06Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "inetnum": [
+     "192.190.233.0 - 192.190.236.255"
+    ],
+    "netname": [
+     "SEPT-NET"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "country": [
+     "FR"
+    ],
+    "admin-c": [
+     "AR3866-RIPE",
+     "HH264-RIPE"
+    ],
+    "tech-c": [
+     "AR3866-RIPE",
+     "HH264-RIPE"
+    ],
+    "status": [
+     "LEGACY"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-LEGACY-MNT",
+     "FT-BRX"
+    ],
+    "mnt-lower": [
+     "FT-BRX"
+    ],
+    "mnt-routes": [
+     "FT-BRX"
+    ],
+    "created": [
+     "2015-12-08T15:27:06Z"
+    ],
+    "last-modified": [
+     "2016-04-14T09:40:49Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "inetnum": [
+     "192.190.234.0 - 192.190.234.255"
+    ],
+    "netname": [
+     "SEPT-NET10"
+    ],
+    "descr": [
+     "Orange S.A."
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "country": [
+     "FR"
+    ],
+    "admin-c": [
+     "AR3866-RIPE",
+     "HH264-RIPE"
+    ],
+    "tech-c": [
+     "AR3866-RIPE",
+     "HH264-RIPE"
+    ],
+    "status": [
+     "LEGACY"
+    ],
+    "mnt-by": [
+     "FT-BRX"
+    ],
+    "mnt-lower": [
+     "FT-BRX"
+    ],
+    "mnt-routes": [
+     "FT-BRX"
+    ],
+    "created": [
+     "2002-04-12T13:55:23Z"
+    ],
+    "last-modified": [
+     "2015-12-08T15:27:06Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "inetnum": [
+     "192.190.235.0 - 192.190.235.255"
+    ],
+    "netname": [
+     "SEPT-NET11"
+    ],
+    "descr": [
+     "Orange S.A."
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "country": [
+     "FR"
+    ],
+    "admin-c": [
+     "AR3866-RIPE",
+     "HH264-RIPE"
+    ],
+    "tech-c": [
+     "AR3866-RIPE",
+     "HH264-RIPE"
+    ],
+    "status": [
+     "LEGACY"
+    ],
+    "mnt-by": [
+     "FT-BRX"
+    ],
+    "mnt-lower": [
+     "FT-BRX"
+    ],
+    "mnt-routes": [
+     "FT-BRX"
+    ],
+    "created": [
+     "2002-04-12T13:55:24Z"
+    ],
+    "last-modified": [
+     "2015-12-08T15:27:06Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "inetnum": [
+     "192.190.236.0 - 192.190.236.255"
+    ],
+    "netname": [
+     "SEPT-NET12"
+    ],
+    "descr": [
+     "Orange S.A."
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "country": [
+     "FR"
+    ],
+    "admin-c": [
+     "AR3866-RIPE",
+     "HH264-RIPE"
+    ],
+    "tech-c": [
+     "AR3866-RIPE",
+     "HH264-RIPE"
+    ],
+    "status": [
+     "LEGACY"
+    ],
+    "mnt-by": [
+     "FT-BRX"
+    ],
+    "mnt-lower": [
+     "FT-BRX"
+    ],
+    "mnt-routes": [
+     "FT-BRX"
+    ],
+    "created": [
+     "2002-04-12T13:55:24Z"
+    ],
+    "last-modified": [
+     "2015-12-08T15:27:06Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "inetnum": [
+     "192.44.60.0 - 192.44.60.255"
+    ],
+    "netname": [
+     "CNET-GRENOBLE"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "country": [
+     "FR"
+    ],
+    "admin-c": [
+     "SS5458-RIPE",
+     "JL3508-RIPE"
+    ],
+    "tech-c": [
+     "SS5458-RIPE",
+     "JL3508-RIPE"
+    ],
+    "status": [
+     "LEGACY"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-LEGACY-MNT",
+     "FT-BRX"
+    ],
+    "mnt-lower": [
+     "FT-BRX"
+    ],
+    "mnt-routes": [
+     "FT-BRX"
+    ],
+    "created": [
+     "2002-04-12T15:36:13Z"
+    ],
+    "last-modified": [
+     "2016-04-14T08:30:51Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "inetnum": [
+     "193.105.90.0 - 193.105.90.255"
+    ],
+    "netname": [
+     "FR-RADEQUA"
+    ],
+    "descr": [
+     "Network Management"
+    ],
+    "country": [
+     "FR"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "admin-c": [
+     "PHC757-RIPE"
+    ],
+    "tech-c": [
+     "PHC757-RIPE",
+     "CSI100-RIPE"
+    ],
+    "status": [
+     "ASSIGNED PI"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-END-MNT",
+     "RAIN-TRANSPAC"
+    ],
+    "mnt-routes": [
+     "RAIN-TRANSPAC"
+    ],
+    "mnt-domains": [
+     "RAIN-TRANSPAC"
+    ],
+    "created": [
+     "2002-09-06T11:02:43Z"
+    ],
+    "last-modified": [
+     "2016-04-14T08:16:52Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "inetnum": [
+     "193.248.0.0 - 193.253.255.255"
+    ],
+    "netname": [
+     "FR-TELECOM-248-253"
+    ],
+    "country": [
+     "FR"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "admin-c": [
+     "HC5303-RIPE"
+    ],
+    "tech-c": [
+     "BRX1-RIPE"
+    ],
+    "status": [
+     "ALLOCATED PA"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-HM-MNT",
+     "FT-BRX"
+    ],
+    "mnt-lower": [
+     "FT-BRX"
+    ],
+    "mnt-routes": [
+     "FT-BRX"
+    ],
+    "created": [
+     "1970-01-01T00:00:00Z"
+    ],
+    "last-modified": [
+     "2026-02-03T07:36:53Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "inetnum": [
+     "194.2.0.0 - 194.2.73.255"
+    ],
+    "netname": [
+     "FR-TELECOM-930927"
+    ],
+    "country": [
+     "FR"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "admin-c": [
+     "HC5303-RIPE"
+    ],
+    "tech-c": [
+     "BRX1-RIPE"
+    ],
+    "status": [
+     "ALLOCATED PA"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-HM-MNT",
+     "FT-BRX"
+    ],
+    "mnt-lower": [
+     "OLEANE-NOC",
+     "FT-BRX",
+     "RAIN-TRANSPAC"
+    ],
+    "mnt-routes": [
+     "FT-BRX",
+     "OLEANE-NOC",
+     "RAIN-TRANSPAC"
+    ],
+    "mnt-irt": [
+     "IRT-OBS"
+    ],
+    "created": [
+     "2017-05-22T11:23:31Z"
+    ],
+    "last-modified": [
+     "2026-02-03T07:36:53Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "inetnum": [
+     "194.2.156.0 - 194.3.135.255"
+    ],
+    "netname": [
+     "FR-TELECOM-930927"
+    ],
+    "country": [
+     "FR"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "admin-c": [
+     "HC5303-RIPE"
+    ],
+    "tech-c": [
+     "BRX1-RIPE"
+    ],
+    "status": [
+     "ALLOCATED PA"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-HM-MNT",
+     "FT-BRX"
+    ],
+    "mnt-lower": [
+     "OLEANE-NOC",
+     "FT-BRX",
+     "RAIN-TRANSPAC"
+    ],
+    "mnt-routes": [
+     "FT-BRX",
+     "OLEANE-NOC",
+     "RAIN-TRANSPAC"
+    ],
+    "mnt-irt": [
+     "IRT-OBS"
+    ],
+    "created": [
+     "2017-05-22T11:23:31Z"
+    ],
+    "last-modified": [
+     "2026-02-03T07:36:54Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "inetnum": [
+     "194.2.76.0 - 194.2.76.255"
+    ],
+    "netname": [
+     "FR-TELECOM-930927"
+    ],
+    "country": [
+     "FR"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "admin-c": [
+     "HC5303-RIPE"
+    ],
+    "tech-c": [
+     "BRX1-RIPE"
+    ],
+    "status": [
+     "ALLOCATED PA"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-HM-MNT",
+     "FT-BRX"
+    ],
+    "mnt-lower": [
+     "OLEANE-NOC",
+     "FT-BRX",
+     "RAIN-TRANSPAC"
+    ],
+    "mnt-routes": [
+     "FT-BRX",
+     "OLEANE-NOC",
+     "RAIN-TRANSPAC"
+    ],
+    "mnt-irt": [
+     "IRT-OBS"
+    ],
+    "created": [
+     "2017-05-22T11:23:31Z"
+    ],
+    "last-modified": [
+     "2026-02-03T07:36:54Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "inetnum": [
+     "194.2.78.0 - 194.2.87.255"
+    ],
+    "netname": [
+     "FR-TELECOM-930927"
+    ],
+    "country": [
+     "FR"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "admin-c": [
+     "HC5303-RIPE"
+    ],
+    "tech-c": [
+     "BRX1-RIPE"
+    ],
+    "status": [
+     "ALLOCATED PA"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-HM-MNT",
+     "FT-BRX"
+    ],
+    "mnt-lower": [
+     "OLEANE-NOC",
+     "FT-BRX",
+     "RAIN-TRANSPAC"
+    ],
+    "mnt-routes": [
+     "FT-BRX",
+     "OLEANE-NOC",
+     "RAIN-TRANSPAC"
+    ],
+    "mnt-irt": [
+     "IRT-OBS"
+    ],
+    "created": [
+     "2017-05-22T11:23:31Z"
+    ],
+    "last-modified": [
+     "2026-02-03T07:36:54Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "inetnum": [
+     "194.2.96.0 - 194.2.154.255"
+    ],
+    "netname": [
+     "FR-TELECOM-930927"
+    ],
+    "country": [
+     "FR"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "admin-c": [
+     "HC5303-RIPE"
+    ],
+    "tech-c": [
+     "BRX1-RIPE"
+    ],
+    "status": [
+     "ALLOCATED PA"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-HM-MNT",
+     "FT-BRX"
+    ],
+    "mnt-lower": [
+     "OLEANE-NOC",
+     "FT-BRX",
+     "RAIN-TRANSPAC"
+    ],
+    "mnt-routes": [
+     "FT-BRX",
+     "OLEANE-NOC",
+     "RAIN-TRANSPAC"
+    ],
+    "mnt-irt": [
+     "IRT-OBS"
+    ],
+    "created": [
+     "2017-05-22T11:23:31Z"
+    ],
+    "last-modified": [
+     "2026-02-03T07:36:54Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "inetnum": [
+     "194.206.0.0 - 194.206.255.255"
+    ],
+    "netname": [
+     "FR-TELECOM-194-206"
+    ],
+    "country": [
+     "FR"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "admin-c": [
+     "HC5303-RIPE"
+    ],
+    "tech-c": [
+     "BRX1-RIPE"
+    ],
+    "status": [
+     "ALLOCATED PA"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-HM-MNT",
+     "FT-BRX"
+    ],
+    "mnt-lower": [
+     "OLEANE-NOC",
+     "FT-BRX",
+     "RAIN-TRANSPAC"
+    ],
+    "mnt-routes": [
+     "RAIN-TRANSPAC",
+     "FT-BRX"
+    ],
+    "mnt-irt": [
+     "IRT-OBS"
+    ],
+    "created": [
+     "2002-06-14T14:33:59Z"
+    ],
+    "last-modified": [
+     "2026-02-03T07:36:54Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "inetnum": [
+     "194.250.0.0 - 194.250.255.255"
+    ],
+    "netname": [
+     "FR-TELECOM-960304"
+    ],
+    "country": [
+     "FR"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "admin-c": [
+     "HC5303-RIPE"
+    ],
+    "tech-c": [
+     "BRX1-RIPE"
+    ],
+    "status": [
+     "ALLOCATED PA"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-HM-MNT",
+     "FT-BRX"
+    ],
+    "mnt-lower": [
+     "OLEANE-NOC",
+     "FT-BRX",
+     "RAIN-TRANSPAC"
+    ],
+    "mnt-routes": [
+     "RAIN-TRANSPAC",
+     "FT-BRX"
+    ],
+    "mnt-irt": [
+     "IRT-OBS"
+    ],
+    "created": [
+     "2002-06-14T14:34:04Z"
+    ],
+    "last-modified": [
+     "2026-02-03T07:36:54Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "inetnum": [
+     "194.3.137.0 - 194.3.255.255"
+    ],
+    "netname": [
+     "FR-TELECOM-930927"
+    ],
+    "country": [
+     "FR"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "admin-c": [
+     "HC5303-RIPE"
+    ],
+    "tech-c": [
+     "BRX1-RIPE"
+    ],
+    "status": [
+     "ALLOCATED PA"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-HM-MNT",
+     "FT-BRX"
+    ],
+    "mnt-lower": [
+     "OLEANE-NOC",
+     "FT-BRX",
+     "RAIN-TRANSPAC"
+    ],
+    "mnt-routes": [
+     "FT-BRX",
+     "OLEANE-NOC",
+     "RAIN-TRANSPAC"
+    ],
+    "mnt-irt": [
+     "IRT-OBS"
+    ],
+    "created": [
+     "2017-05-22T11:14:22Z"
+    ],
+    "last-modified": [
+     "2026-02-03T07:36:54Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "inetnum": [
+     "194.51.0.0 - 194.51.255.255"
+    ],
+    "netname": [
+     "FR-TELECOM-951019"
+    ],
+    "country": [
+     "FR"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "admin-c": [
+     "HC5303-RIPE"
+    ],
+    "tech-c": [
+     "BRX1-RIPE"
+    ],
+    "status": [
+     "ALLOCATED PA"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-HM-MNT",
+     "FT-BRX"
+    ],
+    "mnt-lower": [
+     "OLEANE-NOC",
+     "FT-BRX",
+     "RAIN-TRANSPAC"
+    ],
+    "mnt-routes": [
+     "RAIN-TRANSPAC",
+     "FT-BRX"
+    ],
+    "mnt-irt": [
+     "IRT-OBS"
+    ],
+    "created": [
+     "2002-06-14T14:33:19Z"
+    ],
+    "last-modified": [
+     "2026-02-03T07:36:54Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "inetnum": [
+     "195.101.0.0 - 195.101.255.255"
+    ],
+    "netname": [
+     "FR-TELECOM-970307"
+    ],
+    "country": [
+     "FR"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "admin-c": [
+     "HC5303-RIPE"
+    ],
+    "tech-c": [
+     "BRX1-RIPE"
+    ],
+    "status": [
+     "ALLOCATED PA"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-HM-MNT",
+     "FT-BRX"
+    ],
+    "mnt-lower": [
+     "OLEANE-NOC",
+     "FT-BRX",
+     "RAIN-TRANSPAC"
+    ],
+    "mnt-routes": [
+     "RAIN-TRANSPAC",
+     "FT-BRX"
+    ],
+    "mnt-irt": [
+     "IRT-OBS"
+    ],
+    "created": [
+     "2002-06-14T14:34:23Z"
+    ],
+    "last-modified": [
+     "2026-02-03T07:36:55Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "inetnum": [
+     "195.25.0.0 - 195.25.255.255"
+    ],
+    "netname": [
+     "FR-TELECOM-961101"
+    ],
+    "country": [
+     "FR"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "admin-c": [
+     "HC5303-RIPE"
+    ],
+    "tech-c": [
+     "BRX1-RIPE"
+    ],
+    "status": [
+     "ALLOCATED PA"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-HM-MNT",
+     "FT-BRX"
+    ],
+    "mnt-lower": [
+     "OLEANE-NOC",
+     "FT-BRX",
+     "RAIN-TRANSPAC"
+    ],
+    "mnt-routes": [
+     "FT-BRX",
+     "OLEANE-NOC",
+     "RAIN-TRANSPAC"
+    ],
+    "mnt-irt": [
+     "IRT-OBS"
+    ],
+    "created": [
+     "2002-04-02T08:46:50Z"
+    ],
+    "last-modified": [
+     "2026-02-03T07:36:55Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "inetnum": [
+     "195.6.0.0 - 195.6.255.255"
+    ],
+    "netname": [
+     "FR-TELECOM-960730"
+    ],
+    "country": [
+     "FR"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "admin-c": [
+     "HC5303-RIPE"
+    ],
+    "tech-c": [
+     "BRX1-RIPE"
+    ],
+    "status": [
+     "ALLOCATED PA"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-HM-MNT",
+     "FT-BRX"
+    ],
+    "mnt-lower": [
+     "OLEANE-NOC",
+     "FT-BRX",
+     "RAIN-TRANSPAC"
+    ],
+    "mnt-routes": [
+     "RAIN-TRANSPAC",
+     "FT-BRX"
+    ],
+    "mnt-irt": [
+     "IRT-OBS"
+    ],
+    "created": [
+     "2002-06-14T14:34:16Z"
+    ],
+    "last-modified": [
+     "2026-02-03T07:36:55Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "inetnum": [
+     "2.3.0.0 - 2.15.255.255"
+    ],
+    "netname": [
+     "FR-TELECOM-20100712"
+    ],
+    "country": [
+     "FR"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "admin-c": [
+     "HC5303-RIPE"
+    ],
+    "tech-c": [
+     "BRX1-RIPE"
+    ],
+    "status": [
+     "ALLOCATED PA"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-HM-MNT",
+     "FT-BRX"
+    ],
+    "mnt-lower": [
+     "RAIN-TRANSPAC",
+     "FT-BRX"
+    ],
+    "mnt-routes": [
+     "FT-BRX",
+     "RAIN-TRANSPAC"
+    ],
+    "mnt-domains": [
+     "RAIN-TRANSPAC",
+     "FT-BRX"
+    ],
+    "created": [
+     "2024-05-30T10:30:26Z"
+    ],
+    "last-modified": [
+     "2026-02-03T07:36:55Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "inetnum": [
+     "212.234.0.0 - 212.234.255.255"
+    ],
+    "netname": [
+     "FR-TELECOM-980416"
+    ],
+    "country": [
+     "FR"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "admin-c": [
+     "HC5303-RIPE"
+    ],
+    "tech-c": [
+     "BRX1-RIPE"
+    ],
+    "status": [
+     "ALLOCATED PA"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-HM-MNT",
+     "FT-BRX"
+    ],
+    "mnt-lower": [
+     "OLEANE-NOC",
+     "FT-BRX",
+     "RAIN-TRANSPAC"
+    ],
+    "mnt-routes": [
+     "RAIN-TRANSPAC",
+     "FT-BRX"
+    ],
+    "mnt-irt": [
+     "IRT-OBS"
+    ],
+    "created": [
+     "2002-06-14T14:34:33Z"
+    ],
+    "last-modified": [
+     "2026-02-03T07:36:55Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "inetnum": [
+     "213.56.0.0 - 213.56.255.255"
+    ],
+    "netname": [
+     "FR-TELECOM-990802"
+    ],
+    "country": [
+     "FR"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "admin-c": [
+     "HC5303-RIPE"
+    ],
+    "tech-c": [
+     "BRX1-RIPE"
+    ],
+    "status": [
+     "ALLOCATED PA"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-HM-MNT",
+     "FT-BRX"
+    ],
+    "mnt-lower": [
+     "OLEANE-NOC",
+     "FT-BRX",
+     "RAIN-TRANSPAC"
+    ],
+    "mnt-routes": [
+     "FT-BRX",
+     "OLEANE-NOC",
+     "RAIN-TRANSPAC"
+    ],
+    "mnt-irt": [
+     "IRT-OBS"
+    ],
+    "created": [
+     "2002-04-02T08:47:11Z"
+    ],
+    "last-modified": [
+     "2026-02-03T07:36:55Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "inetnum": [
+     "217.108.0.0 - 217.109.255.255"
+    ],
+    "netname": [
+     "FR-TELECOM-20001222"
+    ],
+    "country": [
+     "FR"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "admin-c": [
+     "HC5303-RIPE"
+    ],
+    "tech-c": [
+     "BRX1-RIPE"
+    ],
+    "status": [
+     "ALLOCATED PA"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-HM-MNT",
+     "FT-BRX"
+    ],
+    "mnt-lower": [
+     "OLEANE-NOC",
+     "FT-BRX",
+     "RAIN-TRANSPAC"
+    ],
+    "mnt-routes": [
+     "RAIN-TRANSPAC",
+     "FT-BRX"
+    ],
+    "mnt-irt": [
+     "IRT-OBS"
+    ],
+    "created": [
+     "2002-06-14T14:34:40Z"
+    ],
+    "last-modified": [
+     "2026-02-03T07:36:55Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "inetnum": [
+     "217.128.0.0 - 217.128.255.255"
+    ],
+    "netname": [
+     "FR-TELECOM-20010115"
+    ],
+    "country": [
+     "FR"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "admin-c": [
+     "HC5303-RIPE"
+    ],
+    "tech-c": [
+     "BRX1-RIPE"
+    ],
+    "status": [
+     "ALLOCATED PA"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-HM-MNT",
+     "FT-BRX"
+    ],
+    "mnt-routes": [
+     "FT-BRX"
+    ],
+    "created": [
+     "1970-01-01T00:00:00Z"
+    ],
+    "last-modified": [
+     "2026-02-03T07:36:56Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "inetnum": [
+     "217.167.0.0 - 217.167.255.255"
+    ],
+    "netname": [
+     "FR-TELECOM-20010406"
+    ],
+    "country": [
+     "FR"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "admin-c": [
+     "HC5303-RIPE"
+    ],
+    "tech-c": [
+     "BRX1-RIPE"
+    ],
+    "status": [
+     "ALLOCATED PA"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-HM-MNT",
+     "FT-BRX"
+    ],
+    "mnt-lower": [
+     "OLEANE-NOC",
+     "FT-BRX",
+     "RAIN-TRANSPAC"
+    ],
+    "mnt-routes": [
+     "RAIN-TRANSPAC",
+     "FT-BRX"
+    ],
+    "mnt-irt": [
+     "IRT-OBS"
+    ],
+    "created": [
+     "2002-06-14T14:34:47Z"
+    ],
+    "last-modified": [
+     "2026-02-03T07:36:56Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "inetnum": [
+     "62.160.0.0 - 62.161.255.255"
+    ],
+    "netname": [
+     "FR-TELECOM-970501"
+    ],
+    "country": [
+     "FR"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "admin-c": [
+     "HC5303-RIPE"
+    ],
+    "tech-c": [
+     "BRX1-RIPE"
+    ],
+    "status": [
+     "ALLOCATED PA"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-HM-MNT",
+     "FT-BRX"
+    ],
+    "mnt-lower": [
+     "OLEANE-NOC",
+     "FT-BRX",
+     "RAIN-TRANSPAC"
+    ],
+    "mnt-routes": [
+     "FT-BRX",
+     "OLEANE-NOC",
+     "RAIN-TRANSPAC"
+    ],
+    "mnt-irt": [
+     "IRT-OBS"
+    ],
+    "created": [
+     "2002-04-02T08:46:58Z"
+    ],
+    "last-modified": [
+     "2026-02-03T07:36:56Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "inetnum": [
+     "80.8.0.0 - 80.15.255.255"
+    ],
+    "netname": [
+     "FR-TELECOM-20010503"
+    ],
+    "country": [
+     "FR"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "admin-c": [
+     "HC5303-RIPE"
+    ],
+    "tech-c": [
+     "BRX1-RIPE"
+    ],
+    "status": [
+     "ALLOCATED PA"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-HM-MNT",
+     "FT-BRX"
+    ],
+    "mnt-lower": [
+     "RAIN-TRANSPAC",
+     "FT-BRX"
+    ],
+    "mnt-domains": [
+     "FT-BRX"
+    ],
+    "mnt-routes": [
+     "RAIN-TRANSPAC",
+     "FT-BRX"
+    ],
+    "created": [
+     "1970-01-01T00:00:00Z"
+    ],
+    "last-modified": [
+     "2026-02-03T07:36:56Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "inetnum": [
+     "81.248.0.0 - 81.255.255.255"
+    ],
+    "netname": [
+     "FR-TELECOM-20030213"
+    ],
+    "country": [
+     "FR"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "admin-c": [
+     "HC5303-RIPE"
+    ],
+    "tech-c": [
+     "BRX1-RIPE"
+    ],
+    "status": [
+     "ALLOCATED PA"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-HM-MNT",
+     "FT-BRX"
+    ],
+    "mnt-lower": [
+     "RAIN-TRANSPAC",
+     "FT-BRX"
+    ],
+    "mnt-routes": [
+     "FT-BRX",
+     "RAIN-TRANSPAC"
+    ],
+    "created": [
+     "2003-02-13T09:42:13Z"
+    ],
+    "last-modified": [
+     "2026-02-03T07:36:56Z"
+    ],
+    "source": [
+     "RIPE # Filtered"
+    ]
+   },
+   {
+    "inetnum": [
+     "81.48.0.0 - 81.55.255.255"
+    ],
+    "netname": [
+     "FR-TELECOM-20020325"
+    ],
+    "country": [
+     "FR"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "admin-c": [
+     "HC5303-RIPE"
+    ],
+    "tech-c": [
+     "BRX1-RIPE"
+    ],
+    "status": [
+     "ALLOCATED PA"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-HM-MNT",
+     "FT-BRX"
+    ],
+    "mnt-lower": [
+     "RAIN-TRANSPAC",
+     "FT-BRX"
+    ],
+    "mnt-routes": [
+     "FT-BRX",
+     "RAIN-TRANSPAC"
+    ],
+    "created": [
+     "2002-09-16T09:14:35Z"
+    ],
+    "last-modified": [
+     "2026-02-03T07:36:56Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "inetnum": [
+     "81.80.0.0 - 81.80.255.255"
+    ],
+    "netname": [
+     "FR-TELECOM-20020326"
+    ],
+    "country": [
+     "FR"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "admin-c": [
+     "HC5303-RIPE"
+    ],
+    "tech-c": [
+     "BRX1-RIPE"
+    ],
+    "status": [
+     "ALLOCATED PA"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-HM-MNT",
+     "FT-BRX"
+    ],
+    "mnt-lower": [
+     "OLEANE-NOC",
+     "FT-BRX",
+     "RAIN-TRANSPAC"
+    ],
+    "mnt-routes": [
+     "RAIN-TRANSPAC",
+     "FT-BRX"
+    ],
+    "mnt-irt": [
+     "IRT-OBS"
+    ],
+    "created": [
+     "2002-06-14T14:33:08Z"
+    ],
+    "last-modified": [
+     "2026-02-03T07:36:56Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "inetnum": [
+     "82.120.0.0 - 82.127.255.255"
+    ],
+    "netname": [
+     "FR-TELECOM-20031021"
+    ],
+    "country": [
+     "FR"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "admin-c": [
+     "HC5303-RIPE"
+    ],
+    "tech-c": [
+     "BRX1-RIPE"
+    ],
+    "status": [
+     "ALLOCATED PA"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-HM-MNT",
+     "FT-BRX"
+    ],
+    "mnt-lower": [
+     "RAIN-TRANSPAC",
+     "FT-BRX"
+    ],
+    "mnt-routes": [
+     "FT-BRX",
+     "RAIN-TRANSPAC"
+    ],
+    "created": [
+     "2003-10-21T10:19:57Z"
+    ],
+    "last-modified": [
+     "2026-02-03T07:36:56Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "inetnum": [
+     "83.112.0.0 - 83.115.255.255"
+    ],
+    "netname": [
+     "FR-TELECOM-20031212"
+    ],
+    "country": [
+     "FR"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "admin-c": [
+     "HC5303-RIPE"
+    ],
+    "tech-c": [
+     "BRX1-RIPE"
+    ],
+    "status": [
+     "ALLOCATED PA"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-HM-MNT",
+     "FT-BRX"
+    ],
+    "mnt-lower": [
+     "RAIN-TRANSPAC",
+     "FT-BRX"
+    ],
+    "mnt-routes": [
+     "FT-BRX",
+     "RAIN-TRANSPAC"
+    ],
+    "created": [
+     "2003-12-12T13:11:32Z"
+    ],
+    "last-modified": [
+     "2026-02-03T07:36:56Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "inetnum": [
+     "83.192.0.0 - 83.207.255.255"
+    ],
+    "netname": [
+     "FR-TELECOM-20031212"
+    ],
+    "country": [
+     "FR"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "admin-c": [
+     "HC5303-RIPE"
+    ],
+    "tech-c": [
+     "BRX1-RIPE"
+    ],
+    "status": [
+     "ALLOCATED PA"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-HM-MNT",
+     "FT-BRX"
+    ],
+    "mnt-lower": [
+     "RAIN-TRANSPAC",
+     "FT-BRX"
+    ],
+    "mnt-routes": [
+     "FT-BRX",
+     "RAIN-TRANSPAC"
+    ],
+    "created": [
+     "2003-12-12T13:11:01Z"
+    ],
+    "last-modified": [
+     "2026-02-03T07:36:57Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "inetnum": [
+     "86.192.0.0 - 86.225.255.255"
+    ],
+    "netname": [
+     "FR-TELECOM-20050302"
+    ],
+    "country": [
+     "FR"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "admin-c": [
+     "HC5303-RIPE"
+    ],
+    "tech-c": [
+     "BRX1-RIPE"
+    ],
+    "status": [
+     "ALLOCATED PA"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-HM-MNT",
+     "FT-BRX"
+    ],
+    "mnt-lower": [
+     "RAIN-TRANSPAC",
+     "FT-BRX"
+    ],
+    "mnt-routes": [
+     "FT-BRX",
+     "RAIN-TRANSPAC"
+    ],
+    "created": [
+     "2026-05-22T09:25:34Z"
+    ],
+    "last-modified": [
+     "2026-05-22T09:25:34Z"
+    ],
+    "source": [
+     "RIPE # Filtered"
+    ]
+   },
+   {
+    "inetnum": [
+     "86.227.0.0 - 86.231.255.255"
+    ],
+    "netname": [
+     "FR-TELECOM-20050302"
+    ],
+    "country": [
+     "FR"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "admin-c": [
+     "HC5303-RIPE"
+    ],
+    "tech-c": [
+     "BRX1-RIPE"
+    ],
+    "status": [
+     "ALLOCATED PA"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-HM-MNT",
+     "FT-BRX"
+    ],
+    "mnt-lower": [
+     "RAIN-TRANSPAC",
+     "FT-BRX"
+    ],
+    "mnt-routes": [
+     "FT-BRX",
+     "RAIN-TRANSPAC"
+    ],
+    "created": [
+     "2026-05-22T09:25:33Z"
+    ],
+    "last-modified": [
+     "2026-05-22T09:25:33Z"
+    ],
+    "source": [
+     "RIPE # Filtered"
+    ]
+   },
+   {
+    "inetnum": [
+     "86.233.0.0 - 86.255.255.255"
+    ],
+    "netname": [
+     "FR-TELECOM-20050302"
+    ],
+    "country": [
+     "FR"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "admin-c": [
+     "HC5303-RIPE"
+    ],
+    "tech-c": [
+     "BRX1-RIPE"
+    ],
+    "status": [
+     "ALLOCATED PA"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-HM-MNT",
+     "FT-BRX"
+    ],
+    "mnt-lower": [
+     "RAIN-TRANSPAC",
+     "FT-BRX"
+    ],
+    "mnt-routes": [
+     "FT-BRX",
+     "RAIN-TRANSPAC"
+    ],
+    "created": [
+     "2025-02-21T11:06:19Z"
+    ],
+    "last-modified": [
+     "2026-02-03T07:36:57Z"
+    ],
+    "source": [
+     "RIPE # Filtered"
+    ]
+   },
+   {
+    "inetnum": [
+     "90.0.0.0 - 90.71.255.255"
+    ],
+    "netname": [
+     "FR-TELECOM-20060302"
+    ],
+    "country": [
+     "FR"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "admin-c": [
+     "HC5303-RIPE"
+    ],
+    "tech-c": [
+     "BRX1-RIPE"
+    ],
+    "status": [
+     "ALLOCATED PA"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-HM-MNT",
+     "FT-BRX"
+    ],
+    "mnt-lower": [
+     "RAIN-TRANSPAC",
+     "FT-BRX"
+    ],
+    "mnt-routes": [
+     "FT-BRX",
+     "RAIN-TRANSPAC"
+    ],
+    "created": [
+     "2024-07-22T11:04:09Z"
+    ],
+    "last-modified": [
+     "2026-02-03T07:36:57Z"
+    ],
+    "source": [
+     "RIPE # Filtered"
+    ]
+   },
+   {
+    "inetnum": [
+     "90.73.0.0 - 90.95.255.255"
+    ],
+    "netname": [
+     "FR-TELECOM-20060302"
+    ],
+    "country": [
+     "FR"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "admin-c": [
+     "HC5303-RIPE"
+    ],
+    "tech-c": [
+     "BRX1-RIPE"
+    ],
+    "status": [
+     "ALLOCATED PA"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-HM-MNT",
+     "FT-BRX"
+    ],
+    "mnt-lower": [
+     "RAIN-TRANSPAC",
+     "FT-BRX"
+    ],
+    "mnt-routes": [
+     "FT-BRX",
+     "RAIN-TRANSPAC"
+    ],
+    "created": [
+     "2026-05-22T09:25:33Z"
+    ],
+    "last-modified": [
+     "2026-05-22T09:25:33Z"
+    ],
+    "source": [
+     "RIPE # Filtered"
+    ]
+   },
+   {
+    "inetnum": [
+     "90.97.128.0 - 90.97.255.255"
+    ],
+    "netname": [
+     "FR-TELECOM-20060302"
+    ],
+    "country": [
+     "FR"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "admin-c": [
+     "HC5303-RIPE"
+    ],
+    "tech-c": [
+     "BRX1-RIPE"
+    ],
+    "status": [
+     "ALLOCATED PA"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-HM-MNT",
+     "FT-BRX"
+    ],
+    "mnt-lower": [
+     "RAIN-TRANSPAC",
+     "FT-BRX"
+    ],
+    "mnt-routes": [
+     "FT-BRX",
+     "RAIN-TRANSPAC"
+    ],
+    "created": [
+     "2026-09-03T07:43:08Z"
+    ],
+    "last-modified": [
+     "2026-09-03T07:43:08Z"
+    ],
+    "source": [
+     "RIPE # Filtered"
+    ]
+   },
+   {
+    "inetnum": [
+     "90.99.0.0 - 90.127.255.255"
+    ],
+    "netname": [
+     "FR-TELECOM-20060302"
+    ],
+    "country": [
+     "FR"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "admin-c": [
+     "HC5303-RIPE"
+    ],
+    "tech-c": [
+     "BRX1-RIPE"
+    ],
+    "status": [
+     "ALLOCATED PA"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-HM-MNT",
+     "FT-BRX"
+    ],
+    "mnt-lower": [
+     "RAIN-TRANSPAC",
+     "FT-BRX"
+    ],
+    "mnt-routes": [
+     "FT-BRX",
+     "RAIN-TRANSPAC"
+    ],
+    "created": [
+     "2026-09-03T07:43:08Z"
+    ],
+    "last-modified": [
+     "2026-09-03T07:43:08Z"
+    ],
+    "source": [
+     "RIPE # Filtered"
+    ]
+   },
+   {
+    "inetnum": [
+     "91.123.112.0 - 91.123.127.255"
+    ],
+    "netname": [
+     "CHD-NET"
+    ],
+    "country": [
+     "FR"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "admin-c": [
+     "CHD9-RIPE"
+    ],
+    "tech-c": [
+     "CHD9-RIPE"
+    ],
+    "status": [
+     "ASSIGNED PI"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-END-MNT",
+     "FT-BRX"
+    ],
+    "mnt-routes": [
+     "FT-BRX"
+    ],
+    "mnt-domains": [
+     "FT-BRX"
+    ],
+    "created": [
+     "2007-03-06T11:49:05Z"
+    ],
+    "last-modified": [
+     "2016-04-14T09:13:08Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   },
+   {
+    "inetnum": [
+     "92.128.0.0 - 92.181.223.255"
+    ],
+    "netname": [
+     "FR-TELECOM-20070712"
+    ],
+    "country": [
+     "FR"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "admin-c": [
+     "HC5303-RIPE"
+    ],
+    "tech-c": [
+     "BRX1-RIPE"
+    ],
+    "status": [
+     "ALLOCATED PA"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-HM-MNT",
+     "FT-BRX"
+    ],
+    "mnt-lower": [
+     "RAIN-TRANSPAC",
+     "FT-BRX"
+    ],
+    "mnt-routes": [
+     "FT-BRX",
+     "RAIN-TRANSPAC"
+    ],
+    "mnt-domains": [
+     "RAIN-TRANSPAC",
+     "FT-BRX"
+    ],
+    "created": [
+     "2026-10-14T11:25:55Z"
+    ],
+    "last-modified": [
+     "2026-10-14T11:25:55Z"
+    ],
+    "source": [
+     "RIPE # Filtered"
+    ]
+   },
+   {
+    "inetnum": [
+     "92.182.0.0 - 92.191.255.255"
+    ],
+    "netname": [
+     "FR-TELECOM-20070712"
+    ],
+    "country": [
+     "FR"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "admin-c": [
+     "HC5303-RIPE"
+    ],
+    "tech-c": [
+     "BRX1-RIPE"
+    ],
+    "status": [
+     "ALLOCATED PA"
+    ],
+    "mnt-by": [
+     "RIPE-NCC-HM-MNT",
+     "FT-BRX"
+    ],
+    "mnt-lower": [
+     "RAIN-TRANSPAC",
+     "FT-BRX"
+    ],
+    "mnt-routes": [
+     "FT-BRX",
+     "RAIN-TRANSPAC"
+    ],
+    "mnt-domains": [
+     "RAIN-TRANSPAC",
+     "FT-BRX"
+    ],
+    "created": [
+     "2026-10-14T11:25:55Z"
+    ],
+    "last-modified": [
+     "2026-10-14T11:25:55Z"
+    ],
+    "source": [
+     "RIPE # Filtered"
+    ]
+   }
+  ],
+  "errors": []
+ }
+}

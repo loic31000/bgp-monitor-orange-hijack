@@ -1,0 +1,73 @@
+{
+ "meta": {
+  "source": "DNS-over-HTTPS https://cloudflare-dns.com/dns-query",
+  "query": "NS ['0.98.90.in-addr.arpa', '90.in-addr.arpa', '98.90.in-addr.arpa'] ; PTR échantillon",
+  "fetched_at": "2026-10-21T08:04:31+00:00",
+  "sha256_data": "8f8a9b949fe44fe24d810d5f905111f02ddf489c725cdc70fee679a4be756deb",
+  "tool": "bgpmon 3.0.0",
+  "note": ""
+ },
+ "data": {
+  "ns": {
+   "0.98.90.in-addr.arpa": {
+    "status": 3,
+    "answer": [],
+    "authority": [
+     "pri.authdns.ripe.net."
+    ]
+   },
+   "90.in-addr.arpa": {
+    "status": 0,
+    "answer": [
+     "ns3.lacnic.net.",
+     "ns3.afrinic.net.",
+     "ns4.apnic.net.",
+     "pri.authdns.ripe.net.",
+     "rirns.arin.net."
+    ],
+    "authority": []
+   },
+   "98.90.in-addr.arpa": {
+    "status": 3,
+    "answer": [],
+    "authority": [
+     "pri.authdns.ripe.net."
+    ]
+   }
+  },
+  "ptr": {
+   "90.98.0.1": {
+    "status": 3,
+    "answer": []
+   },
+   "90.98.8.1": {
+    "status": 3,
+    "answer": []
+   },
+   "90.98.16.1": {
+    "status": 3,
+    "answer": []
+   },
+   "90.98.24.1": {
+    "status": 3,
+    "answer": []
+   },
+   "90.98.32.1": {
+    "status": 3,
+    "answer": []
+   },
+   "90.98.40.1": {
+    "status": 3,
+    "answer": []
+   },
+   "90.98.48.1": {
+    "status": 3,
+    "answer": []
+   },
+   "90.98.56.1": {
+    "status": 3,
+    "answer": []
+   }
+  }
+ }
+}

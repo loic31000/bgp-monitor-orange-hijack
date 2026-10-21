@@ -1,0 +1,67 @@
+{
+ "meta": {
+  "source": "whois whois.altdb.net:43",
+  "query": "-T route -x 90.98.0.0/15",
+  "fetched_at": "2026-10-21T08:04:07+00:00",
+  "sha256_data": "1bb05aae7340323b97eab81896071d00b9889795bd260be6e3e3624b828b2ec7",
+  "tool": "bgpmon 3.0.0",
+  "note": ""
+ },
+ "data": {
+  "objects": [
+   {
+    "route": [
+     "90.98.0.0/15"
+    ],
+    "origin": [
+     "AS41128"
+    ],
+    "descr": [
+     "SprintLink - FR Telco"
+    ],
+    "mnt-by": [
+     "MAINT-SPRINT"
+    ],
+    "admin-c": [
+     "SIE-ARIN"
+    ],
+    "tech-c": [
+     "SIE-ARIN"
+    ],
+    "changed": [
+     "<masqué>@cogentco.com 20220324"
+    ],
+    "source": [
+     "ALTDB"
+    ]
+   },
+   {
+    "route": [
+     "90.98.0.0/15"
+    ],
+    "origin": [
+     "AS270118"
+    ],
+    "descr": [
+     "SprintLink - FR Telco"
+    ],
+    "mnt-by": [
+     "MAINT-SPRINT"
+    ],
+    "admin-c": [
+     "SIE-ARIN"
+    ],
+    "tech-c": [
+     "SIE-ARIN"
+    ],
+    "changed": [
+     "<masqué>@cogentco.com 20220324"
+    ],
+    "source": [
+     "ALTDB"
+    ]
+   }
+  ],
+  "errors": []
+ }
+}

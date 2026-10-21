@@ -1,0 +1,51 @@
+{
+ "meta": {
+  "source": "whois whois.ripe.net:43",
+  "query": "-r -T inetnum 90.98.0.0/18",
+  "fetched_at": "2026-10-21T08:04:15+00:00",
+  "sha256_data": "0aa0383f609718da08958f601104ee8920fd86e0a306dc717b02a61754c73425",
+  "tool": "bgpmon 3.0.0",
+  "note": ""
+ },
+ "data": {
+  "objects": [
+   {
+    "inetnum": [
+     "90.98.0.0 - 90.98.255.255"
+    ],
+    "netname": [
+     "US-FASTLY-20060302"
+    ],
+    "country": [
+     "US"
+    ],
+    "org": [
+     "ORG-FI26-RIPE"
+    ],
+    "admin-c": [
+     "FRA59-RIPE"
+    ],
+    "tech-c": [
+     "FRA59-RIPE"
+    ],
+    "status": [
+     "ALLOCATED PA"
+    ],
+    "mnt-by": [
+     "FASTLY",
+     "RIPE-NCC-HM-MNT"
+    ],
+    "created": [
+     "2026-09-03T07:43:08Z"
+    ],
+    "last-modified": [
+     "2026-09-03T07:43:08Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   }
+  ],
+  "errors": []
+ }
+}

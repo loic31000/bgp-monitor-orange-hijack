@@ -1,0 +1,506 @@
+[
+ {
+  "file": "raw/routing_status_prefix.json",
+  "source": "RIPEstat https://stat.ripe.net/data/",
+  "query": "routing-status resource=90.98.0.0/18",
+  "fetched_at": "2026-10-21T08:01:17+00:00",
+  "sha256_data": "f2cbbcc38cd6b9fc19266506ff6f687e04558c9cf9b67a1bbd0e07429c7488f6",
+  "tool": "bgpmon 3.0.0",
+  "note": ""
+ },
+ {
+  "file": "raw/routing_status_covering.json",
+  "source": "RIPEstat https://stat.ripe.net/data/",
+  "query": "routing-status resource=90.98.0.0/15",
+  "fetched_at": "2026-10-21T08:01:18+00:00",
+  "sha256_data": "1c473cc3de1742449c6f137b9f06c5468aaa6eaf67cf1f6f28cf17b7aa73571f",
+  "tool": "bgpmon 3.0.0",
+  "note": ""
+ },
+ {
+  "file": "raw/routing_history_full.json",
+  "source": "RIPEstat https://stat.ripe.net/data/",
+  "query": "routing-history resource=90.98.0.0/15",
+  "fetched_at": "2026-10-21T08:01:19+00:00",
+  "sha256_data": "d16de62aede2b4eb4e75997c4c44abef3b7d5d50c21f66337f59e4f755e8e28d",
+  "tool": "bgpmon 3.0.0",
+  "note": ""
+ },
+ {
+  "file": "raw/routing_history_400d.json",
+  "source": "RIPEstat https://stat.ripe.net/data/",
+  "query": "routing-history resource=90.98.0.0/15 starttime=2025-09-16T08:01 endtime=2026-10-21T08:01",
+  "fetched_at": "2026-10-21T08:01:20+00:00",
+  "sha256_data": "b1e3f3471bc7a66af77e1972bcd2b750a408eb41634c345125c02e9413cdcc40",
+  "tool": "bgpmon 3.0.0",
+  "note": ""
+ },
+ {
+  "file": "raw/routing_history_appearance.json",
+  "source": "RIPEstat https://stat.ripe.net/data/",
+  "query": "routing-history resource=90.98.0.0/18 starttime=2026-10-03T00:00 endtime=2026-10-07T00:00",
+  "fetched_at": "2026-10-21T08:01:20+00:00",
+  "sha256_data": "305aa5f1b9cbc9ea6e21ff773894a8941b03160c8425625d210f5ac77b2ae6c0",
+  "tool": "bgpmon 3.0.0",
+  "note": ""
+ },
+ {
+  "file": "raw/bgplay_appearance.json",
+  "source": "RIPEstat https://stat.ripe.net/data/",
+  "query": "bgplay resource=90.98.0.0/18 starttime=2026-10-05T00:00 endtime=2026-10-06T08:00",
+  "fetched_at": "2026-10-21T08:01:21+00:00",
+  "sha256_data": "7209f8109ef4076bbfff8715dad874a32a45e5e680c97cd021b32a1e9e1093bb",
+  "tool": "bgpmon 3.0.0",
+  "note": "Termes masqués après relecture (données personnelles)."
+ },
+ {
+  "file": "raw/routing_history_withdrawal_0.json",
+  "source": "RIPEstat https://stat.ripe.net/data/",
+  "query": "routing-history resource=90.98.0.0/16 starttime=2026-08-30T23:59 endtime=2026-09-04T23:59",
+  "fetched_at": "2026-10-21T08:01:21+00:00",
+  "sha256_data": "d43d1e254aa9f23fd03b8144c0cce641cb900b72efcf702cbd491dfe31bfaeb0",
+  "tool": "bgpmon 3.0.0",
+  "note": ""
+ },
+ {
+  "file": "raw/bgplay_withdrawal_0.json",
+  "source": "RIPEstat https://stat.ripe.net/data/",
+  "query": "bgplay resource=90.98.0.0/16 starttime=2026-09-01T07:59 endtime=2026-09-02T15:59",
+  "fetched_at": "2026-10-21T08:01:23+00:00",
+  "sha256_data": "dbbca936b8d540603b98aea37718946dd868ad8cca591e4cec5aa3880d75eedd",
+  "tool": "bgpmon 3.0.0",
+  "note": "Termes masqués après relecture (données personnelles)."
+ },
+ {
+  "file": "raw/routing_history_withdrawal_1.json",
+  "source": "RIPEstat https://stat.ripe.net/data/",
+  "query": "routing-history resource=90.98.0.0/15 starttime=2026-04-18T23:59 endtime=2026-04-23T23:59",
+  "fetched_at": "2026-10-21T08:01:23+00:00",
+  "sha256_data": "39089aacb26d83f2f95a55686f3b2cf59367c3f5e87e9e2ea314e839f71a4fdf",
+  "tool": "bgpmon 3.0.0",
+  "note": ""
+ },
+ {
+  "file": "raw/bgplay_withdrawal_1.json",
+  "source": "RIPEstat https://stat.ripe.net/data/",
+  "query": "bgplay resource=90.98.0.0/15 starttime=2026-04-20T23:59 endtime=2026-04-22T07:59",
+  "fetched_at": "2026-10-21T08:01:24+00:00",
+  "sha256_data": "a177de95819debe5b96bba216b1fbd6946054c978018c4f3f7e72cd2644f3daf",
+  "tool": "bgpmon 3.0.0",
+  "note": "Termes masqués après relecture (données personnelles)."
+ },
+ {
+  "file": "raw/routing_history_withdrawal_2.json",
+  "source": "RIPEstat https://stat.ripe.net/data/",
+  "query": "routing-history resource=90.98.0.0/15 starttime=2026-03-07T23:59 endtime=2026-03-12T23:59",
+  "fetched_at": "2026-10-21T08:01:24+00:00",
+  "sha256_data": "a0e71c7cc6fa068f558dbfbe8a88b44c5521a7b2068910350752c33df1277f42",
+  "tool": "bgpmon 3.0.0",
+  "note": ""
+ },
+ {
+  "file": "raw/bgplay_withdrawal_2.json",
+  "source": "RIPEstat https://stat.ripe.net/data/",
+  "query": "bgplay resource=90.98.0.0/15 starttime=2026-03-09T23:59 endtime=2026-03-11T07:59",
+  "fetched_at": "2026-10-21T08:01:25+00:00",
+  "sha256_data": "938e34f75dceac3d1945089a80d3fc155acc8dd0050b7cf0728c0b9bfeed0c76",
+  "tool": "bgpmon 3.0.0",
+  "note": "Termes masqués après relecture (données personnelles)."
+ },
+ {
+  "file": "raw/bgp_state_prefix.json",
+  "source": "RIPEstat https://stat.ripe.net/data/",
+  "query": "bgp-state resource=90.98.0.0/18",
+  "fetched_at": "2026-10-21T08:01:26+00:00",
+  "sha256_data": "610ac7aadb4c972171791e056a3ddfdcc0a158e59680e46c7b29f4072bf7bc4b",
+  "tool": "bgpmon 3.0.0",
+  "note": ""
+ },
+ {
+  "file": "raw/announced_prefixes_asn.json",
+  "source": "RIPEstat https://stat.ripe.net/data/",
+  "query": "announced-prefixes resource=AS54113",
+  "fetched_at": "2026-10-21T08:01:27+00:00",
+  "sha256_data": "2aa4f4e98a652fd0123d695ff29c464abcd0e208e925f702cf2f294a4ef73cb5",
+  "tool": "bgpmon 3.0.0",
+  "note": ""
+ },
+ {
+  "file": "raw/bgp_state_reference_0.json",
+  "source": "RIPEstat https://stat.ripe.net/data/",
+  "query": "bgp-state resource=151.101.0.0/16",
+  "fetched_at": "2026-10-21T08:01:28+00:00",
+  "sha256_data": "1bc469e8e8ab49b42a165c2917e8d4727b9db78f15cbc5b17f84328ffa8f3415",
+  "tool": "bgpmon 3.0.0",
+  "note": ""
+ },
+ {
+  "file": "raw/bgp_state_reference_1.json",
+  "source": "RIPEstat https://stat.ripe.net/data/",
+  "query": "bgp-state resource=199.232.0.0/16",
+  "fetched_at": "2026-10-21T08:01:29+00:00",
+  "sha256_data": "e3c342da4ccf1cda939fb9d7b7351c0fdba022d4d31a39049d50b01637ead7b3",
+  "tool": "bgpmon 3.0.0",
+  "note": ""
+ },
+ {
+  "file": "raw/bgp_state_reference_2.json",
+  "source": "RIPEstat https://stat.ripe.net/data/",
+  "query": "bgp-state resource=146.75.0.0/17",
+  "fetched_at": "2026-10-21T08:01:29+00:00",
+  "sha256_data": "d406de4089721d48b6059b60ea969942588ca2676429e2d31652be3f2833e321",
+  "tool": "bgpmon 3.0.0",
+  "note": ""
+ },
+ {
+  "file": "raw/bgp_state_reference_3.json",
+  "source": "RIPEstat https://stat.ripe.net/data/",
+  "query": "bgp-state resource=146.75.128.0/17",
+  "fetched_at": "2026-10-21T08:01:30+00:00",
+  "sha256_data": "1d33b808143cae4747c316f19020d4e37039468f449104ba3bf986efc3bb44c6",
+  "tool": "bgpmon 3.0.0",
+  "note": ""
+ },
+ {
+  "file": "raw/bgp_state_reference_4.json",
+  "source": "RIPEstat https://stat.ripe.net/data/",
+  "query": "bgp-state resource=167.82.0.0/17",
+  "fetched_at": "2026-10-21T08:01:31+00:00",
+  "sha256_data": "1395436279672fa3406e528a21b1fa93fac25b98e0fc04f132f912997ab8baf3",
+  "tool": "bgpmon 3.0.0",
+  "note": ""
+ },
+ {
+  "file": "raw/bgp_state_reference_5.json",
+  "source": "RIPEstat https://stat.ripe.net/data/",
+  "query": "bgp-state resource=140.248.0.0/18",
+  "fetched_at": "2026-10-21T08:01:34+00:00",
+  "sha256_data": "0c75e377c49a4295c0d207043b1018e220c4313c258d8faa08032a572312111c",
+  "tool": "bgpmon 3.0.0",
+  "note": ""
+ },
+ {
+  "file": "raw/rpki_validation.json",
+  "source": "RIPEstat https://stat.ripe.net/data/",
+  "query": "rpki-validation resource=54113 prefix=90.98.0.0/18",
+  "fetched_at": "2026-10-21T08:01:36+00:00",
+  "sha256_data": "c810658f02cb691dea0c833649e6083913775135f106ce109f0c4639cf2ba796",
+  "tool": "bgpmon 3.0.0",
+  "note": ""
+ },
+ {
+  "file": "raw/roa_archive.json",
+  "source": "Archives RPKI du RIPE NCC (ftp.ripe.net/rpki)",
+  "query": "ROA recouvrant 90.98.0.0/15, dates ['2026-02-20', '2026-04-15', '2026-04-19', '2026-04-20', '2026-04-21', '2026-04-23', '2026-06-01', '2026-08-15', '2026-08-24', '2026-08-25', '2026-09-01', '2026-09-04', '2026-10-04', '2026-10-06', '2026-10-20']",
+  "fetched_at": "2026-10-21T08:03:36+00:00",
+  "sha256_data": "9695741ade2f9f88ce43c8af0de131f67f2cc0f117c5d1786613b27e00e88ace",
+  "tool": "bgpmon 3.0.0",
+  "note": ""
+ },
+ {
+  "file": "raw/irr_RADB_exact.json",
+  "source": "whois whois.radb.net:43",
+  "query": "-s RADB -T route -x 90.98.0.0/18",
+  "fetched_at": "2026-10-21T08:03:36+00:00",
+  "sha256_data": "1fdce2988e08f1c9bde5b915564a4a5f2fb20703c4023b86212b6fe8eef79154",
+  "tool": "bgpmon 3.0.0",
+  "note": ""
+ },
+ {
+  "file": "raw/irr_RADB_covering.json",
+  "source": "whois whois.radb.net:43",
+  "query": "-s RADB -T route -x 90.98.0.0/15",
+  "fetched_at": "2026-10-21T08:03:37+00:00",
+  "sha256_data": "2d494700e7ca8424194d691f0fc69ffc21d49d3f5f30446bdf61cc578d551989",
+  "tool": "bgpmon 3.0.0",
+  "note": ""
+ },
+ {
+  "file": "raw/irr_RADB_more.json",
+  "source": "whois whois.radb.net:43",
+  "query": "-s RADB -T route -M 90.98.0.0/15",
+  "fetched_at": "2026-10-21T08:03:37+00:00",
+  "sha256_data": "2b4ea379ac69a43a9745c82f9c8173238dfe948d76e7360984b52180d58d7278",
+  "tool": "bgpmon 3.0.0",
+  "note": ""
+ },
+ {
+  "file": "raw/irr_RADB_less.json",
+  "source": "whois whois.radb.net:43",
+  "query": "-s RADB -T route -l 90.98.0.0/18",
+  "fetched_at": "2026-10-21T08:04:05+00:00",
+  "sha256_data": "2d494700e7ca8424194d691f0fc69ffc21d49d3f5f30446bdf61cc578d551989",
+  "tool": "bgpmon 3.0.0",
+  "note": ""
+ },
+ {
+  "file": "raw/irr_ALTDB_exact.json",
+  "source": "whois whois.altdb.net:43",
+  "query": "-T route -x 90.98.0.0/18",
+  "fetched_at": "2026-10-21T08:04:06+00:00",
+  "sha256_data": "2d494700e7ca8424194d691f0fc69ffc21d49d3f5f30446bdf61cc578d551989",
+  "tool": "bgpmon 3.0.0",
+  "note": ""
+ },
+ {
+  "file": "raw/irr_ALTDB_covering.json",
+  "source": "whois whois.altdb.net:43",
+  "query": "-T route -x 90.98.0.0/15",
+  "fetched_at": "2026-10-21T08:04:07+00:00",
+  "sha256_data": "1bb05aae7340323b97eab81896071d00b9889795bd260be6e3e3624b828b2ec7",
+  "tool": "bgpmon 3.0.0",
+  "note": ""
+ },
+ {
+  "file": "raw/irr_ALTDB_more.json",
+  "source": "whois whois.altdb.net:43",
+  "query": "-T route -M 90.98.0.0/15",
+  "fetched_at": "2026-10-21T08:04:07+00:00",
+  "sha256_data": "e6b0621f70caa2ec953506bdbfffcc91f6f46ffcc264296938a85cc82cb4f31c",
+  "tool": "bgpmon 3.0.0",
+  "note": ""
+ },
+ {
+  "file": "raw/irr_ALTDB_less.json",
+  "source": "whois whois.altdb.net:43",
+  "query": "-T route -l 90.98.0.0/18",
+  "fetched_at": "2026-10-21T08:04:08+00:00",
+  "sha256_data": "1bb05aae7340323b97eab81896071d00b9889795bd260be6e3e3624b828b2ec7",
+  "tool": "bgpmon 3.0.0",
+  "note": ""
+ },
+ {
+  "file": "raw/irr_RIPE_exact.json",
+  "source": "whois whois.ripe.net:43",
+  "query": "-r -T route -x 90.98.0.0/18",
+  "fetched_at": "2026-10-21T08:04:08+00:00",
+  "sha256_data": "e1ac376adf1d590c102f5581ae4261c94eae89d8faf272066150b42fb3962f83",
+  "tool": "bgpmon 3.0.0",
+  "note": ""
+ },
+ {
+  "file": "raw/irr_RIPE_covering.json",
+  "source": "whois whois.ripe.net:43",
+  "query": "-r -T route -x 90.98.0.0/15",
+  "fetched_at": "2026-10-21T08:04:09+00:00",
+  "sha256_data": "e1ac376adf1d590c102f5581ae4261c94eae89d8faf272066150b42fb3962f83",
+  "tool": "bgpmon 3.0.0",
+  "note": ""
+ },
+ {
+  "file": "raw/irr_RIPE_more.json",
+  "source": "whois whois.ripe.net:43",
+  "query": "-r -T route -M 90.98.0.0/15",
+  "fetched_at": "2026-10-21T08:04:09+00:00",
+  "sha256_data": "e1ac376adf1d590c102f5581ae4261c94eae89d8faf272066150b42fb3962f83",
+  "tool": "bgpmon 3.0.0",
+  "note": ""
+ },
+ {
+  "file": "raw/irr_RIPE_less.json",
+  "source": "whois whois.ripe.net:43",
+  "query": "-r -T route -l 90.98.0.0/18",
+  "fetched_at": "2026-10-21T08:04:09+00:00",
+  "sha256_data": "e1ac376adf1d590c102f5581ae4261c94eae89d8faf272066150b42fb3962f83",
+  "tool": "bgpmon 3.0.0",
+  "note": ""
+ },
+ {
+  "file": "raw/irr_ALTDB_mnt_MAINT-AS398775.json",
+  "source": "whois whois.altdb.net:43",
+  "query": "-i mnt-by MAINT-AS398775",
+  "fetched_at": "2026-10-21T08:04:10+00:00",
+  "sha256_data": "65f5564137c637745163fe3892921b28d1a109297fdaf3499908406dad05e18c",
+  "tool": "bgpmon 3.0.0",
+  "note": "Termes masqués après relecture (données personnelles)."
+ },
+ {
+  "file": "raw/irr_ALTDB_mntner_MAINT-AS398775.json",
+  "source": "whois whois.altdb.net:43",
+  "query": "-T mntner MAINT-AS398775",
+  "fetched_at": "2026-10-21T08:04:10+00:00",
+  "sha256_data": "2d494700e7ca8424194d691f0fc69ffc21d49d3f5f30446bdf61cc578d551989",
+  "tool": "bgpmon 3.0.0",
+  "note": ""
+ },
+ {
+  "file": "raw/irr_ALTDB_mnt_MAINT-SPRINT.json",
+  "source": "whois whois.altdb.net:43",
+  "query": "-i mnt-by MAINT-SPRINT",
+  "fetched_at": "2026-10-21T08:04:11+00:00",
+  "sha256_data": "3d2def206f6436336b5def6154953d2d2d0d2e39d644b7ca00225920987c7bd5",
+  "tool": "bgpmon 3.0.0",
+  "note": ""
+ },
+ {
+  "file": "raw/irr_ALTDB_mntner_MAINT-SPRINT.json",
+  "source": "whois whois.altdb.net:43",
+  "query": "-T mntner MAINT-SPRINT",
+  "fetched_at": "2026-10-21T08:04:12+00:00",
+  "sha256_data": "80a854ef138253ec399a2c51d9f69e922de953fc64b270c8d599d51d64fc52f8",
+  "tool": "bgpmon 3.0.0",
+  "note": ""
+ },
+ {
+  "file": "raw/irr_RADB_mnt_MAINT-AS54113.json",
+  "source": "whois whois.radb.net:43",
+  "query": "-s RADB -i mnt-by MAINT-AS54113",
+  "fetched_at": "2026-10-21T08:04:13+00:00",
+  "sha256_data": "5430d3911e38c06996dac7aad97d812316780468e089b361a56a9c7775bbb45e",
+  "tool": "bgpmon 3.0.0",
+  "note": ""
+ },
+ {
+  "file": "raw/irr_RADB_mntner_MAINT-AS54113.json",
+  "source": "whois whois.radb.net:43",
+  "query": "-s RADB -T mntner MAINT-AS54113",
+  "fetched_at": "2026-10-21T08:04:14+00:00",
+  "sha256_data": "acb4582917f5c1aa21ee463787a6463e5a84eae6216d28e92b77eadb0c35067a",
+  "tool": "bgpmon 3.0.0",
+  "note": ""
+ },
+ {
+  "file": "raw/ripe_inetnum.json",
+  "source": "whois whois.ripe.net:43",
+  "query": "-r -T inetnum 90.98.0.0/18",
+  "fetched_at": "2026-10-21T08:04:15+00:00",
+  "sha256_data": "0aa0383f609718da08958f601104ee8920fd86e0a306dc717b02a61754c73425",
+  "tool": "bgpmon 3.0.0",
+  "note": ""
+ },
+ {
+  "file": "raw/ripe_inetnum_more.json",
+  "source": "whois whois.ripe.net:43",
+  "query": "-r -T inetnum -M 90.98.0.0/18",
+  "fetched_at": "2026-10-21T08:04:15+00:00",
+  "sha256_data": "e1ac376adf1d590c102f5581ae4261c94eae89d8faf272066150b42fb3962f83",
+  "tool": "bgpmon 3.0.0",
+  "note": ""
+ },
+ {
+  "file": "raw/ripe_org_ORG-FI26-RIPE.json",
+  "source": "whois whois.ripe.net:43",
+  "query": "-r ORG-FI26-RIPE",
+  "fetched_at": "2026-10-21T08:04:15+00:00",
+  "sha256_data": "359a265a788306e8bf2336fdf8c06aa0914399e3ccf145ed0463224353aecd3a",
+  "tool": "bgpmon 3.0.0",
+  "note": ""
+ },
+ {
+  "file": "raw/ripe_historical_inetnum.json",
+  "source": "RIPEstat https://stat.ripe.net/data/",
+  "query": "historical-whois resource=90.98.0.0 - 90.98.255.255",
+  "fetched_at": "2026-10-21T08:04:16+00:00",
+  "sha256_data": "0cc09d829a7260a61b0eff9d17679dd0af88d8f0ea065b5c29616b6181a8bc21",
+  "tool": "bgpmon 3.0.0",
+  "note": ""
+ },
+ {
+  "file": "raw/autnum_AS54113_RADB.json",
+  "source": "whois whois.radb.net:43",
+  "query": "-s RADB -T aut-num AS54113",
+  "fetched_at": "2026-10-21T08:04:16+00:00",
+  "sha256_data": "e408fa05ef60e8324b891a925bcf70e4ef94595745bab5e5bf61d0edee274ed2",
+  "tool": "bgpmon 3.0.0",
+  "note": ""
+ },
+ {
+  "file": "raw/autnum_AS54113_RIPE.json",
+  "source": "whois whois.ripe.net:43",
+  "query": "-r -T aut-num AS54113",
+  "fetched_at": "2026-10-21T08:04:17+00:00",
+  "sha256_data": "e1ac376adf1d590c102f5581ae4261c94eae89d8faf272066150b42fb3962f83",
+  "tool": "bgpmon 3.0.0",
+  "note": ""
+ },
+ {
+  "file": "raw/autnum_AS5511_RIPE.json",
+  "source": "whois whois.ripe.net:43",
+  "query": "-r -T aut-num AS5511",
+  "fetched_at": "2026-10-21T08:04:17+00:00",
+  "sha256_data": "d9e2a29f062a960a7c01d90703526b89125e402e5d587c18a378dafd74f8ee5b",
+  "tool": "bgpmon 3.0.0",
+  "note": ""
+ },
+ {
+  "file": "raw/ripe_historical_AS5511.json",
+  "source": "RIPEstat https://stat.ripe.net/data/",
+  "query": "historical-whois resource=AS5511",
+  "fetched_at": "2026-10-21T08:04:18+00:00",
+  "sha256_data": "51b944eca2c0cff0f906123a2d742ef6bafa1aeb78bc3d9b8ba4de68a75e26d0",
+  "tool": "bgpmon 3.0.0",
+  "note": ""
+ },
+ {
+  "file": "raw/ripe_transfers.json",
+  "source": "https://ftp.ripe.net/pub/stats/ripencc/transfers/transfers_latest.json",
+  "query": "transferts recouvrant 90.98.0.0/15 ou impliquant « Orange S.A. »",
+  "fetched_at": "2026-10-21T08:04:30+00:00",
+  "sha256_data": "2876e759719c207a82de0feeae9f6bf0c8f6eab57ab72a0e4548bd1bd7fc74d7",
+  "tool": "bgpmon 3.0.0",
+  "note": "Extrait filtré ; le fichier complet contient des noms de personnes physiques sans rapport et n'est pas conservé."
+ },
+ {
+  "file": "raw/dns_reverse.json",
+  "source": "DNS-over-HTTPS https://cloudflare-dns.com/dns-query",
+  "query": "NS ['0.98.90.in-addr.arpa', '90.in-addr.arpa', '98.90.in-addr.arpa'] ; PTR échantillon",
+  "fetched_at": "2026-10-21T08:04:31+00:00",
+  "sha256_data": "8f8a9b949fe44fe24d810d5f905111f02ddf489c725cdc70fee679a4be756deb",
+  "tool": "bgpmon 3.0.0",
+  "note": ""
+ },
+ {
+  "file": "raw/provider_list.json",
+  "source": "https://api.fastly.com/public-ip-list",
+  "query": "liste publiée par l'opérateur",
+  "fetched_at": "2026-10-21T08:04:31+00:00",
+  "sha256_data": "15d5d0fedd23604bbaab673ecf540045ca25cf4b21c07502869aa2a77662e25d",
+  "tool": "bgpmon 3.0.0",
+  "note": ""
+ },
+ {
+  "file": "raw/provider_list_wayback.json",
+  "source": "https://web.archive.org/cdx/search/cdx",
+  "query": "archives de https://api.fastly.com/public-ip-list",
+  "fetched_at": "2026-10-21T08:06:06+00:00",
+  "sha256_data": "22fc394864373cd76f0b91726470a26de543b207110094ef5b1fe492a17b3235",
+  "tool": "bgpmon 3.0.0",
+  "note": ""
+ },
+ {
+  "file": "raw/ripe_inetnum_org_ORG-FT2-RIPE.json",
+  "source": "whois whois.ripe.net:43",
+  "query": "-r -T inetnum -i org ORG-FT2-RIPE",
+  "fetched_at": "2026-10-21T08:06:06+00:00",
+  "sha256_data": "77261e0f1cbab77ab76ab028a474df6044e4eb7c3e8dadefde024c63aa9c7fa9",
+  "tool": "bgpmon 3.0.0",
+  "note": ""
+ },
+ {
+  "file": "raw/ripe_autnum_org_ORG-FT2-RIPE.json",
+  "source": "whois whois.ripe.net:43",
+  "query": "-r -T aut-num -i org ORG-FT2-RIPE",
+  "fetched_at": "2026-10-21T08:06:07+00:00",
+  "sha256_data": "ad2555a91332a0fe4e489b5845eaf707c64129ce0a7fee63ab46f6beddfc2f47",
+  "tool": "bgpmon 3.0.0",
+  "note": ""
+ },
+ {
+  "file": "raw/holder_scan_ORG-FT2-RIPE.json",
+  "source": "whois RIPE + RIPEstat routing-status/as-overview",
+  "query": "espace de ORG-FT2-RIPE",
+  "fetched_at": "2026-10-21T08:08:44+00:00",
+  "sha256_data": "44d761d6e12bcdf6474011bdc274ee170456617815f4347097e1952ee401bae0",
+  "tool": "bgpmon 3.0.0",
+  "note": "Empreinte recalculée (normalisation des clés numériques)."
+ },
+ {
+  "file": "raw/transferred_blocks_routing.json",
+  "source": "RIPEstat routing-status",
+  "query": "blocs cédés par « Orange S.A. »",
+  "fetched_at": "2026-10-21T08:09:51+00:00",
+  "sha256_data": "64a2d505b87b1bf80521a4ce075fb225326c7961e3676490c42e4bc0fbc44d37",
+  "tool": "bgpmon 3.0.0",
+  "note": ""
+ }
+]

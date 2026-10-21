@@ -1,0 +1,16 @@
+{
+ "meta": {
+  "source": "whois whois.ripe.net:43",
+  "query": "-r -T route -M 90.98.0.0/15",
+  "fetched_at": "2026-10-21T08:04:09+00:00",
+  "sha256_data": "e1ac376adf1d590c102f5581ae4261c94eae89d8faf272066150b42fb3962f83",
+  "tool": "bgpmon 3.0.0",
+  "note": ""
+ },
+ "data": {
+  "objects": [],
+  "errors": [
+   "%ERROR:101: no entries found"
+  ]
+ }
+}

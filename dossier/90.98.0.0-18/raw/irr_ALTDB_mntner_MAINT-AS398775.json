@@ -1,0 +1,14 @@
+{
+ "meta": {
+  "source": "whois whois.altdb.net:43",
+  "query": "-T mntner MAINT-AS398775",
+  "fetched_at": "2026-10-21T08:04:10+00:00",
+  "sha256_data": "2d494700e7ca8424194d691f0fc69ffc21d49d3f5f30446bdf61cc578d551989",
+  "tool": "bgpmon 3.0.0",
+  "note": ""
+ },
+ "data": {
+  "objects": [],
+  "errors": []
+ }
+}
