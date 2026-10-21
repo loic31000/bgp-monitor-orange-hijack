@@ -1,0 +1,49 @@
+{
+ "meta": {
+  "source": "RIPEstat https://stat.ripe.net/data/",
+  "query": "routing-status resource=90.98.0.0/15",
+  "fetched_at": "2026-10-21T08:01:18+00:00",
+  "sha256_data": "1c473cc3de1742449c6f137b9f06c5468aaa6eaf67cf1f6f28cf17b7aa73571f",
+  "tool": "bgpmon 3.0.0",
+  "note": ""
+ },
+ "data": {
+  "messages": [],
+  "data": {
+   "first_seen": {
+    "prefix": "90.98.0.0/15",
+    "origin": "41128",
+    "time": "2026-02-25T08:00:00"
+   },
+   "last_seen": {
+    "prefix": "90.98.0.0/15",
+    "origin": "41128",
+    "time": "2026-04-21T16:00:00"
+   },
+   "visibility": {
+    "v4": {
+     "ris_peers_seeing": 0,
+     "total_ris_peers": 164
+    },
+    "v6": {
+     "ris_peers_seeing": 0,
+     "total_ris_peers": 0
+    }
+   },
+   "origins": [],
+   "less_specifics": [],
+   "more_specifics": [
+    {
+     "prefix": "90.99.0.0/16",
+     "origin": 3215
+    },
+    {
+     "prefix": "90.98.0.0/18",
+     "origin": 54113
+    }
+   ],
+   "resource": "90.98.0.0/15",
+   "query_time": "2026-10-21T00:00:00"
+  }
+ }
+}

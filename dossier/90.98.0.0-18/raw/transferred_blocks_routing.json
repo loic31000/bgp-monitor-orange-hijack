@@ -1,0 +1,103 @@
+{
+ "meta": {
+  "source": "RIPEstat routing-status",
+  "query": "blocs cédés par « Orange S.A. »",
+  "fetched_at": "2026-10-21T08:09:51+00:00",
+  "sha256_data": "64a2d505b87b1bf80521a4ce075fb225326c7961e3676490c42e4bc0fbc44d37",
+  "tool": "bgpmon 3.0.0",
+  "note": ""
+ },
+ "data": [
+  {
+   "date": "2023-11-09T19:00:00Z",
+   "recipient": "Oracle Svenska AB",
+   "block": "2.0.0.0/15",
+   "origins_exact": [],
+   "more_specific_origins": [],
+   "more_specific_count": 0
+  },
+  {
+   "date": "2024-05-30T19:00:00Z",
+   "recipient": "Oracle Svenska AB",
+   "block": "2.2.0.0/16",
+   "origins_exact": [],
+   "more_specific_origins": [],
+   "more_specific_count": 0
+  },
+  {
+   "date": "2024-07-22T19:00:00Z",
+   "recipient": "Bleu SAS",
+   "block": "90.72.0.0/16",
+   "origins_exact": [
+    2376
+   ],
+   "more_specific_origins": [],
+   "more_specific_count": 0
+  },
+  {
+   "date": "2024-07-22T19:00:00Z",
+   "recipient": "Bleu SAS",
+   "block": "90.97.0.0/17",
+   "origins_exact": [
+    2376
+   ],
+   "more_specific_origins": [],
+   "more_specific_count": 0
+  },
+  {
+   "date": "2025-02-21T19:00:00Z",
+   "recipient": "Bleu SAS",
+   "block": "86.232.0.0/16",
+   "origins_exact": [
+    2376
+   ],
+   "more_specific_origins": [],
+   "more_specific_count": 0
+  },
+  {
+   "date": "2026-05-22T19:00:00Z",
+   "recipient": "NET AND GRID RESEARCH, LLC",
+   "block": "86.226.0.0/16",
+   "origins_exact": [],
+   "more_specific_origins": [
+    6079,
+    7459
+   ],
+   "more_specific_count": 32
+  },
+  {
+   "date": "2026-05-22T19:00:00Z",
+   "recipient": "NET AND GRID RESEARCH, LLC",
+   "block": "90.96.0.0/16",
+   "origins_exact": [],
+   "more_specific_origins": [
+    6079,
+    7029,
+    7459,
+    13335,
+    22773,
+    54004,
+    215294
+   ],
+   "more_specific_count": 47
+  },
+  {
+   "date": "2026-09-03T19:00:00Z",
+   "recipient": "Fastly, Inc.",
+   "block": "90.98.0.0/16",
+   "origins_exact": [],
+   "more_specific_origins": [
+    54113
+   ],
+   "more_specific_count": 1
+  },
+  {
+   "date": "2026-10-14T19:00:00Z",
+   "recipient": "Orange Espagne SA",
+   "block": "92.181.224.0/19",
+   "origins_exact": [],
+   "more_specific_origins": [],
+   "more_specific_count": 0
+  }
+ ]
+}

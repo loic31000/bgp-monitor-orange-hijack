@@ -1,0 +1,130 @@
+{
+ "meta": {
+  "source": "RIPEstat https://stat.ripe.net/data/",
+  "query": "historical-whois resource=90.98.0.0 - 90.98.255.255",
+  "fetched_at": "2026-10-21T08:04:16+00:00",
+  "sha256_data": "0cc09d829a7260a61b0eff9d17679dd0af88d8f0ea065b5c29616b6181a8bc21",
+  "tool": "bgpmon 3.0.0",
+  "note": ""
+ },
+ "data": {
+  "messages": [],
+  "data": {
+   "terms_and_conditions": "https://docs.db.ripe.net/terms-conditions.html",
+   "num_versions": 1,
+   "resource": "90.98.0.0 - 90.98.255.255",
+   "versions": [
+    {
+     "from_time": "2026-09-03T07:43:08",
+     "to_time": "2026-10-21T08:04:00",
+     "version": 1
+    }
+   ],
+   "database": "RIPE",
+   "type": "inetnum",
+   "objects": [
+    {
+     "type": "inetnum",
+     "key": "90.98.0.0 - 90.98.255.255",
+     "attributes": [
+      {
+       "attribute": "inetnum",
+       "value": "90.98.0.0 - 90.98.255.255"
+      },
+      {
+       "attribute": "netname",
+       "value": "US-FASTLY-20060302"
+      },
+      {
+       "attribute": "country",
+       "value": "US"
+      },
+      {
+       "attribute": "org",
+       "value": "ORG-FI26-RIPE"
+      },
+      {
+       "attribute": "admin-c",
+       "value": "FRA59-RIPE"
+      },
+      {
+       "attribute": "tech-c",
+       "value": "FRA59-RIPE"
+      },
+      {
+       "attribute": "status",
+       "value": "ALLOCATED PA"
+      },
+      {
+       "attribute": "mnt-by",
+       "value": "FASTLY"
+      },
+      {
+       "attribute": "mnt-by",
+       "value": "RIPE-NCC-HM-MNT"
+      },
+      {
+       "attribute": "created",
+       "value": "2026-09-03T07:43:08Z"
+      },
+      {
+       "attribute": "last-modified",
+       "value": "2026-09-03T07:43:08Z"
+      },
+      {
+       "attribute": "source",
+       "value": "RIPE"
+      }
+     ],
+     "from_time": "2026-09-03T07:43:08",
+     "version": 1,
+     "latest": true,
+     "deleted": false
+    }
+   ],
+   "referencing": [
+    [
+     {
+      "type": "mntner",
+      "key": "RIPE-NCC-HM-MNT",
+      "from_time": "2026-01-14T08:51:32",
+      "version": 23,
+      "latest": true
+     }
+    ],
+    [
+     {
+      "type": "organisation",
+      "key": "ORG-FI26-RIPE",
+      "from_time": "2026-08-03T14:05:16",
+      "version": 17,
+      "latest": true
+     }
+    ],
+    [
+     {
+      "type": "mntner",
+      "key": "FASTLY",
+      "from_time": "2026-06-25T22:14:46",
+      "version": 10,
+      "latest": true
+     }
+    ],
+    [
+     {
+      "type": "role",
+      "key": "FRA59-RIPE",
+      "from_time": "2014-09-25T15:10:14",
+      "version": 3,
+      "latest": true
+     }
+    ]
+   ],
+   "referenced_by": [],
+   "access": "standard",
+   "suggestions": [],
+   "version": "2026-10-21T08:04:00",
+   "cache": null
+  }
+ }
+}

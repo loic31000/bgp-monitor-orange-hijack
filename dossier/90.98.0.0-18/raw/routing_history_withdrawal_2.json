@@ -1,0 +1,50 @@
+{
+ "meta": {
+  "source": "RIPEstat https://stat.ripe.net/data/",
+  "query": "routing-history resource=90.98.0.0/15 starttime=2026-03-07T23:59 endtime=2026-03-12T23:59",
+  "fetched_at": "2026-10-21T08:01:24+00:00",
+  "sha256_data": "a0e71c7cc6fa068f558dbfbe8a88b44c5521a7b2068910350752c33df1277f42",
+  "tool": "bgpmon 3.0.0",
+  "note": ""
+ },
+ "data": {
+  "messages": [
+   [
+    "info",
+    "Results exclude routes with very low visibility (less than 10 RIS full-feed peers seeing)."
+   ]
+  ],
+  "data": {
+   "by_origin": [
+    {
+     "origin": "41128",
+     "prefixes": [
+      {
+       "prefix": "90.98.0.0/15",
+       "timelines": [
+        {
+         "starttime": "2026-03-08T00:00:00",
+         "endtime": "2026-03-10T15:59:59",
+         "full_peers_seeing": 292.0
+        },
+        {
+         "starttime": "2026-03-10T16:00:00",
+         "endtime": "2026-03-10T23:59:59",
+         "full_peers_seeing": 290
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "resource": "90.98.0.0/15",
+   "query_starttime": "2026-03-07T23:59:00",
+   "query_endtime": "2026-03-12T23:59:00",
+   "time_granularity": 28800,
+   "latest_max_ff_peers": {
+    "v4": 167,
+    "v6": 177
+   }
+  }
+ }
+}

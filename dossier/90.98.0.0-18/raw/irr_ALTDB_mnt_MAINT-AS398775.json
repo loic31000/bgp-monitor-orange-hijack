@@ -1,0 +1,1455 @@
+{
+ "meta": {
+  "source": "whois whois.altdb.net:43",
+  "query": "-i mnt-by MAINT-AS398775",
+  "fetched_at": "2026-10-21T08:04:10+00:00",
+  "sha256_data": "65f5564137c637745163fe3892921b28d1a109297fdaf3499908406dad05e18c",
+  "tool": "bgpmon 3.0.0",
+  "note": "Termes masqués après relecture (données personnelles)."
+ },
+ "data": {
+  "objects": [
+   {
+    "route": [
+     "198.244.32.0/22"
+    ],
+    "descr": [
+     "IPv4 Approval"
+    ],
+    "origin": [
+     "AS60558"
+    ],
+    "mnt-by": [
+     "MAINT-AS398775"
+    ],
+    "changed": [
+     "<masqué>@gmail.com 20241210"
+    ],
+    "source": [
+     "ALTDB"
+    ]
+   },
+   {
+    "route": [
+     "198.244.32.0/22"
+    ],
+    "descr": [
+     "IPv4 Approval"
+    ],
+    "origin": [
+     "AS26561"
+    ],
+    "mnt-by": [
+     "MAINT-AS398775"
+    ],
+    "changed": [
+     "<masqué>@gmail.com 20241210"
+    ],
+    "source": [
+     "ALTDB"
+    ]
+   },
+   {
+    "as-set": [
+     "AS-MYLIR"
+    ],
+    "descr": [
+     "AS-SET for NetRidge (AS26561)"
+    ],
+    "members": [
+     "AS26561"
+    ],
+    "mnt-by": [
+     "MAINT-AS398775"
+    ],
+    "changed": [
+     "<masqué>@gmail.com 20241210"
+    ],
+    "source": [
+     "ALTDB"
+    ]
+   },
+   {
+    "as-set": [
+     "AS-NetRidge"
+    ],
+    "descr": [
+     "AS-SET for NetRidge (AS26561)"
+    ],
+    "members": [
+     "AS26561, AS398770, AS9394, AS327952"
+    ],
+    "mnt-by": [
+     "MAINT-AS398775"
+    ],
+    "changed": [
+     "<masqué>@gmail.com 20241210"
+    ],
+    "source": [
+     "ALTDB"
+    ]
+   },
+   {
+    "route": [
+     "149.102.208.0/20"
+    ],
+    "descr": [
+     "IPv4 Approval"
+    ],
+    "origin": [
+     "AS398770"
+    ],
+    "mnt-by": [
+     "MAINT-AS398775"
+    ],
+    "changed": [
+     "<masqué>@gmail.com 20241210"
+    ],
+    "source": [
+     "ALTDB"
+    ]
+   },
+   {
+    "route": [
+     "212.20.152.0/21"
+    ],
+    "descr": [
+     "IPv4 Approval"
+    ],
+    "origin": [
+     "AS398770"
+    ],
+    "mnt-by": [
+     "MAINT-AS398775"
+    ],
+    "changed": [
+     "<masqué>@gmail.com 20241210"
+    ],
+    "source": [
+     "ALTDB"
+    ]
+   },
+   {
+    "route": [
+     "129.56.0.0/16"
+    ],
+    "descr": [
+     "IPv4 Approval"
+    ],
+    "origin": [
+     "AS398770"
+    ],
+    "mnt-by": [
+     "MAINT-AS398775"
+    ],
+    "changed": [
+     "<masqué>@gmail.com 20241210"
+    ],
+    "source": [
+     "ALTDB"
+    ]
+   },
+   {
+    "route": [
+     "57.14.0.0/15"
+    ],
+    "descr": [
+     "IPv4 Approval"
+    ],
+    "origin": [
+     "AS398770"
+    ],
+    "mnt-by": [
+     "MAINT-AS398775"
+    ],
+    "changed": [
+     "<masqué>@gmail.com 20241210"
+    ],
+    "source": [
+     "ALTDB"
+    ]
+   },
+   {
+    "route": [
+     "205.210.171.0/24"
+    ],
+    "descr": [
+     "IPv4 Approval"
+    ],
+    "origin": [
+     "AS398770"
+    ],
+    "mnt-by": [
+     "MAINT-AS398775"
+    ],
+    "changed": [
+     "<masqué>@gmail.com 20241210"
+    ],
+    "source": [
+     "ALTDB"
+    ]
+   },
+   {
+    "route": [
+     "205.210.172.0/22"
+    ],
+    "descr": [
+     "IPv4 Approval"
+    ],
+    "origin": [
+     "AS398770"
+    ],
+    "mnt-by": [
+     "MAINT-AS398775"
+    ],
+    "changed": [
+     "<masqué>@gmail.com 20241210"
+    ],
+    "source": [
+     "ALTDB"
+    ]
+   },
+   {
+    "route": [
+     "205.210.171.0/24"
+    ],
+    "descr": [
+     "IPv4 Approval"
+    ],
+    "origin": [
+     "AS26561"
+    ],
+    "mnt-by": [
+     "MAINT-AS398775"
+    ],
+    "changed": [
+     "<masqué>@gmail.com 20241210"
+    ],
+    "source": [
+     "ALTDB"
+    ]
+   },
+   {
+    "route": [
+     "205.210.172.0/22"
+    ],
+    "descr": [
+     "IPv4 Approval"
+    ],
+    "origin": [
+     "AS26561"
+    ],
+    "mnt-by": [
+     "MAINT-AS398775"
+    ],
+    "changed": [
+     "<masqué>@gmail.com 20241210"
+    ],
+    "source": [
+     "ALTDB"
+    ]
+   },
+   {
+    "route": [
+     "192.197.229.0/24"
+    ],
+    "descr": [
+     "IPv4 Approval"
+    ],
+    "origin": [
+     "AS26561"
+    ],
+    "mnt-by": [
+     "MAINT-AS398775"
+    ],
+    "changed": [
+     "<masqué>@gmail.com 20241210"
+    ],
+    "source": [
+     "ALTDB"
+    ]
+   },
+   {
+    "route": [
+     "23.164.153.0/24"
+    ],
+    "descr": [
+     "IPv4 Deny"
+    ],
+    "origin": [
+     "AS26561"
+    ],
+    "mnt-by": [
+     "MAINT-AS398775"
+    ],
+    "changed": [
+     "<masqué>@gmail.com 20241210"
+    ],
+    "source": [
+     "ALTDB"
+    ]
+   },
+   {
+    "route": [
+     "205.159.26.0/24"
+    ],
+    "descr": [
+     "IPv4 Allow"
+    ],
+    "origin": [
+     "AS398770"
+    ],
+    "mnt-by": [
+     "MAINT-AS398775"
+    ],
+    "changed": [
+     "<masqué>@gmail.com 20241210"
+    ],
+    "source": [
+     "ALTDB"
+    ]
+   },
+   {
+    "route": [
+     "192.139.74.0/24"
+    ],
+    "descr": [
+     "IPv4 Allow"
+    ],
+    "origin": [
+     "AS26561"
+    ],
+    "mnt-by": [
+     "MAINT-AS398775"
+    ],
+    "changed": [
+     "<masqué>@gmail.com 20241210"
+    ],
+    "source": [
+     "ALTDB"
+    ]
+   },
+   {
+    "route": [
+     "186.65.72.0/21"
+    ],
+    "descr": [
+     "IPv4 Allow"
+    ],
+    "origin": [
+     "AS398770"
+    ],
+    "mnt-by": [
+     "MAINT-AS398775"
+    ],
+    "changed": [
+     "<masqué>@gmail.com 20241210"
+    ],
+    "source": [
+     "ALTDB"
+    ]
+   },
+   {
+    "route": [
+     "64.98.38.0/24"
+    ],
+    "descr": [
+     "IPv4 Allow"
+    ],
+    "origin": [
+     "AS32133"
+    ],
+    "mnt-by": [
+     "MAINT-AS398775"
+    ],
+    "changed": [
+     "<masqué>@gmail.com 20241210"
+    ],
+    "source": [
+     "ALTDB"
+    ]
+   },
+   {
+    "route": [
+     "192.197.229.0/24"
+    ],
+    "descr": [
+     "IPv4 Allow"
+    ],
+    "origin": [
+     "AS265803"
+    ],
+    "mnt-by": [
+     "MAINT-AS398775"
+    ],
+    "changed": [
+     "<masqué>@gmail.com 20241210"
+    ],
+    "source": [
+     "ALTDB"
+    ]
+   },
+   {
+    "route": [
+     "192.139.74.0/24"
+    ],
+    "descr": [
+     "IPv4 Allow"
+    ],
+    "origin": [
+     "AS16471"
+    ],
+    "mnt-by": [
+     "MAINT-AS398775"
+    ],
+    "changed": [
+     "<masqué>@gmail.com 20241210"
+    ],
+    "source": [
+     "ALTDB"
+    ]
+   },
+   {
+    "route": [
+     "205.210.172.0/22"
+    ],
+    "descr": [
+     "IPv4 Allow"
+    ],
+    "origin": [
+     "AS16471"
+    ],
+    "mnt-by": [
+     "MAINT-AS398775"
+    ],
+    "changed": [
+     "<masqué>@gmail.com 20241210"
+    ],
+    "source": [
+     "ALTDB"
+    ]
+   },
+   {
+    "route": [
+     "192.197.229.0/24"
+    ],
+    "descr": [
+     "IPv4 Allow"
+    ],
+    "origin": [
+     "AS16471"
+    ],
+    "mnt-by": [
+     "MAINT-AS398775"
+    ],
+    "changed": [
+     "<masqué>@gmail.com 20241210"
+    ],
+    "source": [
+     "ALTDB"
+    ]
+   },
+   {
+    "route": [
+     "129.56.0.0/16"
+    ],
+    "descr": [
+     "IPv4 Allow"
+    ],
+    "origin": [
+     "AS327952"
+    ],
+    "mnt-by": [
+     "MAINT-AS398775"
+    ],
+    "changed": [
+     "<masqué>@gmail.com 20241210"
+    ],
+    "source": [
+     "ALTDB"
+    ]
+   },
+   {
+    "route": [
+     "192.197.229.0/24"
+    ],
+    "descr": [
+     "IPv4 Allow"
+    ],
+    "origin": [
+     "AS268521"
+    ],
+    "mnt-by": [
+     "MAINT-AS398775"
+    ],
+    "changed": [
+     "<masqué>@gmail.com 20241210"
+    ],
+    "source": [
+     "ALTDB"
+    ]
+   },
+   {
+    "route": [
+     "205.210.172.0/22"
+    ],
+    "descr": [
+     "IPv4 Allow"
+    ],
+    "origin": [
+     "AS268521"
+    ],
+    "mnt-by": [
+     "MAINT-AS398775"
+    ],
+    "changed": [
+     "<masqué>@gmail.com 20241210"
+    ],
+    "source": [
+     "ALTDB"
+    ]
+   },
+   {
+    "route": [
+     "205.233.194.0/24"
+    ],
+    "descr": [
+     "IPv4 Allow"
+    ],
+    "origin": [
+     "AS268521"
+    ],
+    "mnt-by": [
+     "MAINT-AS398775"
+    ],
+    "changed": [
+     "<masqué>@gmail.com 20241210"
+    ],
+    "source": [
+     "ALTDB"
+    ]
+   },
+   {
+    "route": [
+     "204.225.153.0/24"
+    ],
+    "descr": [
+     "IPv4 Allow"
+    ],
+    "origin": [
+     "AS268521"
+    ],
+    "mnt-by": [
+     "MAINT-AS398775"
+    ],
+    "changed": [
+     "<masqué>@gmail.com 20241210"
+    ],
+    "source": [
+     "ALTDB"
+    ]
+   },
+   {
+    "route": [
+     "142.95.0.0/16"
+    ],
+    "descr": [
+     "IPv4 Allow"
+    ],
+    "origin": [
+     "AS268521"
+    ],
+    "mnt-by": [
+     "MAINT-AS398775"
+    ],
+    "changed": [
+     "<masqué>@gmail.com 20241210"
+    ],
+    "source": [
+     "ALTDB"
+    ]
+   },
+   {
+    "route": [
+     "204.194.64.0/21"
+    ],
+    "descr": [
+     "IPv4 Allow"
+    ],
+    "origin": [
+     "AS26561"
+    ],
+    "mnt-by": [
+     "MAINT-AS398775"
+    ],
+    "changed": [
+     "<masqué>@gmail.com 20241210"
+    ],
+    "source": [
+     "ALTDB"
+    ]
+   },
+   {
+    "route": [
+     "90.99.0.0/16"
+    ],
+    "descr": [
+     "IPv4 Allow"
+    ],
+    "origin": [
+     "AS3215"
+    ],
+    "mnt-by": [
+     "MAINT-AS398775"
+    ],
+    "changed": [
+     "<masqué>@gmail.com 20241210"
+    ],
+    "source": [
+     "ALTDB"
+    ]
+   },
+   {
+    "as-set": [
+     "AS-<masqué>"
+    ],
+    "descr": [
+     "AS-<masqué> customers and downstreams"
+    ],
+    "members": [
+     "AS398770",
+     "AS9394",
+     "AS327952",
+     "AS6186",
+     "AS32491",
+     "AS3215",
+     "AS26561"
+    ],
+    "mnt-by": [
+     "MAINT-AS398775"
+    ],
+    "changed": [
+     "<masqué>@gmail.com 20241210"
+    ],
+    "source": [
+     "ALTDB"
+    ]
+   },
+   {
+    "route": [
+     "206.220.4.0/22"
+    ],
+    "descr": [
+     "IPv4 Allow"
+    ],
+    "origin": [
+     "AS26561"
+    ],
+    "mnt-by": [
+     "MAINT-AS398775"
+    ],
+    "changed": [
+     "<masqué>@gmail.com 20241210"
+    ],
+    "source": [
+     "ALTDB"
+    ]
+   },
+   {
+    "route": [
+     "206.251.56.0/24"
+    ],
+    "descr": [
+     "IPv4"
+    ],
+    "origin": [
+     "AS26561"
+    ],
+    "mnt-by": [
+     "MAINT-AS398775"
+    ],
+    "changed": [
+     "<masqué>@gmail.com 20241210"
+    ],
+    "source": [
+     "ALTDB"
+    ]
+   },
+   {
+    "route": [
+     "206.251.57.0/24"
+    ],
+    "descr": [
+     "IPv4"
+    ],
+    "origin": [
+     "AS26561"
+    ],
+    "mnt-by": [
+     "MAINT-AS398775"
+    ],
+    "changed": [
+     "<masqué>@gmail.com 20241210"
+    ],
+    "source": [
+     "ALTDB"
+    ]
+   },
+   {
+    "route": [
+     "206.251.58.0/24"
+    ],
+    "descr": [
+     "IPv4"
+    ],
+    "origin": [
+     "AS26561"
+    ],
+    "mnt-by": [
+     "MAINT-AS398775"
+    ],
+    "changed": [
+     "<masqué>@gmail.com 20241210"
+    ],
+    "source": [
+     "ALTDB"
+    ]
+   },
+   {
+    "route": [
+     "206.251.59.0/24"
+    ],
+    "descr": [
+     "IPv4"
+    ],
+    "origin": [
+     "AS26561"
+    ],
+    "mnt-by": [
+     "MAINT-AS398775"
+    ],
+    "changed": [
+     "<masqué>@gmail.com 20241210"
+    ],
+    "source": [
+     "ALTDB"
+    ]
+   },
+   {
+    "route": [
+     "206.251.56.0/22"
+    ],
+    "descr": [
+     "IPv4"
+    ],
+    "origin": [
+     "AS26561"
+    ],
+    "mnt-by": [
+     "MAINT-AS398775"
+    ],
+    "changed": [
+     "<masqué>@gmail.com 20241210"
+    ],
+    "source": [
+     "ALTDB"
+    ]
+   },
+   {
+    "route": [
+     "206.251.56.0/23"
+    ],
+    "descr": [
+     "IPv4"
+    ],
+    "origin": [
+     "AS26561"
+    ],
+    "mnt-by": [
+     "MAINT-AS398775"
+    ],
+    "changed": [
+     "<masqué>@gmail.com 20241210"
+    ],
+    "source": [
+     "ALTDB"
+    ]
+   },
+   {
+    "route": [
+     "206.251.58.0/23"
+    ],
+    "descr": [
+     "IPv4"
+    ],
+    "origin": [
+     "AS26561"
+    ],
+    "mnt-by": [
+     "MAINT-AS398775"
+    ],
+    "changed": [
+     "<masqué>@gmail.com 20241210"
+    ],
+    "source": [
+     "ALTDB"
+    ]
+   },
+   {
+    "route": [
+     "198.202.223.0/24"
+    ],
+    "descr": [
+     "IPv4"
+    ],
+    "origin": [
+     "AS245"
+    ],
+    "mnt-by": [
+     "MAINT-AS398775"
+    ],
+    "changed": [
+     "<masqué>@gmail.com 20241210"
+    ],
+    "source": [
+     "ALTDB"
+    ]
+   },
+   {
+    "route": [
+     "198.183.238.0/24"
+    ],
+    "descr": [
+     "IPv4"
+    ],
+    "origin": [
+     "AS245"
+    ],
+    "mnt-by": [
+     "MAINT-AS398775"
+    ],
+    "changed": [
+     "<masqué>@gmail.com 20241210"
+    ],
+    "source": [
+     "ALTDB"
+    ]
+   },
+   {
+    "route": [
+     "198.180.189.0/24"
+    ],
+    "descr": [
+     "IPv4"
+    ],
+    "origin": [
+     "AS245"
+    ],
+    "mnt-by": [
+     "MAINT-AS398775"
+    ],
+    "changed": [
+     "<masqué>@gmail.com 20241210"
+    ],
+    "source": [
+     "ALTDB"
+    ]
+   },
+   {
+    "route": [
+     "192.80.44.0/24"
+    ],
+    "descr": [
+     "IPv4"
+    ],
+    "origin": [
+     "AS245"
+    ],
+    "mnt-by": [
+     "MAINT-AS398775"
+    ],
+    "changed": [
+     "<masqué>@gmail.com 20241210"
+    ],
+    "source": [
+     "ALTDB"
+    ]
+   },
+   {
+    "route": [
+     "199.116.64.0/21"
+    ],
+    "descr": [
+     "IPv4"
+    ],
+    "origin": [
+     "AS54497"
+    ],
+    "mnt-by": [
+     "MAINT-AS398775"
+    ],
+    "changed": [
+     "<masqué>@gmail.com 20241210"
+    ],
+    "source": [
+     "ALTDB"
+    ]
+   },
+   {
+    "route": [
+     "198.252.32.0/19"
+    ],
+    "descr": [
+     "IPv4"
+    ],
+    "origin": [
+     "AS3502"
+    ],
+    "mnt-by": [
+     "MAINT-AS398775"
+    ],
+    "changed": [
+     "<masqué>@gmail.com 20241210"
+    ],
+    "source": [
+     "ALTDB"
+    ]
+   },
+   {
+    "route": [
+     "198.252.32.0/19"
+    ],
+    "descr": [
+     "IPv4"
+    ],
+    "origin": [
+     "AS54497"
+    ],
+    "mnt-by": [
+     "MAINT-AS398775"
+    ],
+    "changed": [
+     "<masqué>@gmail.com 20241210"
+    ],
+    "source": [
+     "ALTDB"
+    ]
+   },
+   {
+    "route": [
+     "160.104.0.0/16"
+    ],
+    "descr": [
+     "IPv4"
+    ],
+    "origin": [
+     "AS26561"
+    ],
+    "mnt-by": [
+     "MAINT-AS398775"
+    ],
+    "changed": [
+     "<masqué>@gmail.com 20241210"
+    ],
+    "source": [
+     "ALTDB"
+    ]
+   },
+   {
+    "route": [
+     "136.230.0.0/16"
+    ],
+    "descr": [
+     "IPv4"
+    ],
+    "origin": [
+     "AS26561"
+    ],
+    "mnt-by": [
+     "MAINT-AS398775"
+    ],
+    "changed": [
+     "<masqué>@gmail.com 20241210"
+    ],
+    "source": [
+     "ALTDB"
+    ]
+   },
+   {
+    "route": [
+     "129.56.0.0/16"
+    ],
+    "descr": [
+     "IPv4"
+    ],
+    "origin": [
+     "AS26561"
+    ],
+    "mnt-by": [
+     "MAINT-AS398775"
+    ],
+    "changed": [
+     "<masqué>@gmail.com 20241210"
+    ],
+    "source": [
+     "ALTDB"
+    ]
+   },
+   {
+    "route": [
+     "130.222.0.0/16"
+    ],
+    "descr": [
+     "IPv4"
+    ],
+    "origin": [
+     "AS26561"
+    ],
+    "mnt-by": [
+     "MAINT-AS398775"
+    ],
+    "changed": [
+     "<masqué>@gmail.com 20241210"
+    ],
+    "source": [
+     "ALTDB"
+    ]
+   },
+   {
+    "route": [
+     "160.104.0.0/16"
+    ],
+    "descr": [
+     "IPv4"
+    ],
+    "origin": [
+     "AS245"
+    ],
+    "mnt-by": [
+     "MAINT-AS398775"
+    ],
+    "changed": [
+     "<masqué>@gmail.com 20241210"
+    ],
+    "source": [
+     "ALTDB"
+    ]
+   },
+   {
+    "route": [
+     "130.222.0.0/16"
+    ],
+    "descr": [
+     "IPv4"
+    ],
+    "origin": [
+     "AS245"
+    ],
+    "mnt-by": [
+     "MAINT-AS398775"
+    ],
+    "changed": [
+     "<masqué>@gmail.com 20241210"
+    ],
+    "source": [
+     "ALTDB"
+    ]
+   },
+   {
+    "route": [
+     "136.230.0.0/16"
+    ],
+    "descr": [
+     "IPv4"
+    ],
+    "origin": [
+     "AS245"
+    ],
+    "mnt-by": [
+     "MAINT-AS398775"
+    ],
+    "changed": [
+     "<masqué>@gmail.com 20241210"
+    ],
+    "source": [
+     "ALTDB"
+    ]
+   },
+   {
+    "route": [
+     "146.3.0.0/16"
+    ],
+    "descr": [
+     "IPv4"
+    ],
+    "origin": [
+     "AS26186"
+    ],
+    "mnt-by": [
+     "MAINT-AS398775"
+    ],
+    "changed": [
+     "<masqué>@gmail.com 20241210"
+    ],
+    "source": [
+     "ALTDB"
+    ]
+   },
+   {
+    "route": [
+     "146.3.0.0/16"
+    ],
+    "descr": [
+     "IPv4"
+    ],
+    "origin": [
+     "AS6186"
+    ],
+    "mnt-by": [
+     "MAINT-AS398775"
+    ],
+    "changed": [
+     "<masqué>@gmail.com 20241210"
+    ],
+    "source": [
+     "ALTDB"
+    ]
+   },
+   {
+    "route": [
+     "160.104.0.0/16"
+    ],
+    "descr": [
+     "IPv4"
+    ],
+    "origin": [
+     "AS6186"
+    ],
+    "mnt-by": [
+     "MAINT-AS398775"
+    ],
+    "changed": [
+     "<masqué>@gmail.com 20241210"
+    ],
+    "source": [
+     "ALTDB"
+    ]
+   },
+   {
+    "route": [
+     "204.175.0.0/16"
+    ],
+    "descr": [
+     "IPv4"
+    ],
+    "origin": [
+     "AS54580"
+    ],
+    "mnt-by": [
+     "MAINT-AS398775"
+    ],
+    "changed": [
+     "<masqué>@gmail.com 20241210"
+    ],
+    "source": [
+     "ALTDB"
+    ]
+   },
+   {
+    "as-set": [
+     "AS54580:AS-ASSet"
+    ],
+    "descr": [
+     "AS"
+    ],
+    "members": [
+     "AS398770",
+     "AS54580"
+    ],
+    "mnt-by": [
+     "MAINT-AS398775"
+    ],
+    "changed": [
+     "<masqué>@netridge.com 20200202"
+    ],
+    "source": [
+     "ALTDB"
+    ]
+   },
+   {
+    "as-set": [
+     "AS5398770:AS-ASSet"
+    ],
+    "descr": [
+     "AS"
+    ],
+    "members": [
+     "AS398770",
+     "AS54580"
+    ],
+    "mnt-by": [
+     "MAINT-AS398775"
+    ],
+    "changed": [
+     "<masqué>@netridge.com 20200202"
+    ],
+    "source": [
+     "ALTDB"
+    ]
+   },
+   {
+    "route": [
+     "204.175.0.0/16"
+    ],
+    "descr": [
+     "IPv4"
+    ],
+    "origin": [
+     "AS398770"
+    ],
+    "mnt-by": [
+     "MAINT-AS398775"
+    ],
+    "changed": [
+     "<masqué>@gmail.com 20241210"
+    ],
+    "source": [
+     "ALTDB"
+    ]
+   },
+   {
+    "as-set": [
+     "AS398770:AS-ASSet"
+    ],
+    "descr": [
+     "AS"
+    ],
+    "members": [
+     "AS398770",
+     "AS54580"
+    ],
+    "mnt-by": [
+     "MAINT-AS398775"
+    ],
+    "changed": [
+     "<masqué>@netridge.com 20200202"
+    ],
+    "source": [
+     "ALTDB"
+    ]
+   },
+   {
+    "route": [
+     "184.48.0.0/15"
+    ],
+    "descr": [
+     "IPv4"
+    ],
+    "origin": [
+     "AS13964"
+    ],
+    "mnt-by": [
+     "MAINT-AS398775"
+    ],
+    "changed": [
+     "<masqué>@gmail.com 20241210"
+    ],
+    "source": [
+     "ALTDB"
+    ]
+   },
+   {
+    "route": [
+     "179.108.184.0/21"
+    ],
+    "descr": [
+     "IPv4"
+    ],
+    "origin": [
+     "AS26561"
+    ],
+    "mnt-by": [
+     "MAINT-AS398775"
+    ],
+    "changed": [
+     "<masqué>@gmail.com 20241210"
+    ],
+    "source": [
+     "ALTDB"
+    ]
+   },
+   {
+    "route": [
+     "179.108.184.0/21"
+    ],
+    "descr": [
+     "IPv4"
+    ],
+    "origin": [
+     "AS245"
+    ],
+    "mnt-by": [
+     "MAINT-AS398775"
+    ],
+    "changed": [
+     "<masqué>@gmail.com 20241210"
+    ],
+    "source": [
+     "ALTDB"
+    ]
+   },
+   {
+    "as-set": [
+     "AS54497:AS-NET"
+    ],
+    "descr": [
+     "54497 AS"
+    ],
+    "members": [
+     "AS54497",
+     "AS327952",
+     "AS3502",
+     "AS32131",
+     "AS6186"
+    ],
+    "mnt-by": [
+     "MAINT-AS398775"
+    ],
+    "changed": [
+     "<masqué>@lhwebtech.com 20200202"
+    ],
+    "source": [
+     "ALTDB"
+    ]
+   },
+   {
+    "as-set": [
+     "AS26561:AS-NETRIDGE"
+    ],
+    "descr": [
+     "Netridge AS"
+    ],
+    "members": [
+     "AS26561",
+     "AS398770",
+     "AS327952",
+     "AS245",
+     "AS51964",
+     "AS6186",
+     "AS13964",
+     "AS11921",
+     "AS11896"
+    ],
+    "mnt-by": [
+     "MAINT-AS398775"
+    ],
+    "changed": [
+     "<masqué>@netridge.com 20200202"
+    ],
+    "source": [
+     "ALTDB"
+    ]
+   },
+   {
+    "as-set": [
+     "AS26173:AS-NLGC"
+    ],
+    "descr": [
+     "KingsCross"
+    ],
+    "members": [
+     "AS26173",
+     "AS26561",
+     "AS398770",
+     "AS327952",
+     "AS245",
+     "AS51964",
+     "AS6186",
+     "AS13964",
+     "AS11921",
+     "AS5511",
+     "AS12479",
+     "AS11896",
+     "AS3125",
+     "AS5650",
+     "AS1660",
+     "AS701",
+     "AS7046",
+     "AS5571",
+     "AS278"
+    ],
+    "mnt-by": [
+     "MAINT-AS398775"
+    ],
+    "changed": [
+     "<masqué>@kindscross.com 20200202"
+    ],
+    "source": [
+     "ALTDB"
+    ]
+   },
+   {
+    "route": [
+     "136.96.0.0/13"
+    ],
+    "descr": [
+     "IPv4"
+    ],
+    "origin": [
+     "AS16471"
+    ],
+    "mnt-by": [
+     "MAINT-AS398775"
+    ],
+    "changed": [
+     "<masqué>@google.com 20241210"
+    ],
+    "source": [
+     "ALTDB"
+    ]
+   },
+   {
+    "as-set": [
+     "AS16471:AS-ADEX"
+    ],
+    "descr": [
+     "adexus"
+    ],
+    "members": [
+     "AS26173",
+     "AS16471",
+     "AS398770",
+     "AS13560",
+     "AS21928",
+     "AS327952",
+     "AS245",
+     "AS51964",
+     "AS6186",
+     "AS13964",
+     "AS11921",
+     "AS5511",
+     "AS12479",
+     "AS11896",
+     "AS3125",
+     "AS5650",
+     "AS1660",
+     "AS2256",
+     "AS701",
+     "AS7046",
+     "AS5571",
+     "AS278"
+    ],
+    "mnt-by": [
+     "MAINT-AS398775"
+    ],
+    "changed": [
+     "<masqué>@adexus.cl 20200202"
+    ],
+    "source": [
+     "ALTDB"
+    ]
+   }
+  ],
+  "errors": []
+ }
+}

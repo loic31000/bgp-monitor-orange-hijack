@@ -1,0 +1,20 @@
+{
+ "meta": {
+  "source": "RIPEstat https://stat.ripe.net/data/",
+  "query": "rpki-validation resource=54113 prefix=90.98.0.0/18",
+  "fetched_at": "2026-10-21T08:01:36+00:00",
+  "sha256_data": "c810658f02cb691dea0c833649e6083913775135f106ce109f0c4639cf2ba796",
+  "tool": "bgpmon 3.0.0",
+  "note": ""
+ },
+ "data": {
+  "messages": [],
+  "data": {
+   "resource": "54113",
+   "prefix": "90.98.0.0/18",
+   "validating_roas": [],
+   "status": "unknown",
+   "validator": "routinator"
+  }
+ }
+}

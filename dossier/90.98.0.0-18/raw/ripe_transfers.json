@@ -1,0 +1,361 @@
+{
+ "meta": {
+  "source": "https://ftp.ripe.net/pub/stats/ripencc/transfers/transfers_latest.json",
+  "query": "transferts recouvrant 90.98.0.0/15 ou impliquant « Orange S.A. »",
+  "fetched_at": "2026-10-21T08:04:30+00:00",
+  "sha256_data": "2876e759719c207a82de0feeae9f6bf0c8f6eab57ab72a0e4548bd1bd7fc74d7",
+  "tool": "bgpmon 3.0.0",
+  "note": "Extrait filtré ; le fichier complet contient des noms de personnes physiques sans rapport et n'est pas conservé."
+ },
+ "data": {
+  "total_records": 77962,
+  "covering": [
+   {
+    "transfer_date": "2024-07-22T19:00:00Z",
+    "ip4nets": {
+     "original_set": [
+      {
+       "start_address": "90.0.0.0",
+       "end_address": "90.127.255.255"
+      }
+     ],
+     "transfer_set": [
+      {
+       "start_address": "90.72.0.0",
+       "end_address": "90.72.255.255"
+      },
+      {
+       "start_address": "90.97.0.0",
+       "end_address": "90.97.127.255"
+      }
+     ]
+    },
+    "type": "RESOURCE_TRANSFER",
+    "source_organization": {
+     "name": "Orange S.A.",
+     "country_code": null
+    },
+    "recipient_organization": {
+     "name": "Bleu SAS",
+     "country_code": null
+    },
+    "source_rir": "RIPE NCC",
+    "recipient_rir": "RIPE NCC"
+   },
+   {
+    "transfer_date": "2026-09-03T19:00:00Z",
+    "ip4nets": {
+     "original_set": [
+      {
+       "start_address": "90.98.0.0",
+       "end_address": "90.99.255.255"
+      }
+     ],
+     "transfer_set": [
+      {
+       "start_address": "90.98.0.0",
+       "end_address": "90.98.255.255"
+      }
+     ]
+    },
+    "type": "RESOURCE_TRANSFER",
+    "source_organization": {
+     "name": "Orange S.A.",
+     "country_code": "FR"
+    },
+    "recipient_organization": {
+     "name": "Fastly, Inc.",
+     "country_code": "US"
+    },
+    "source_rir": "RIPE NCC",
+    "recipient_rir": "RIPE NCC"
+   }
+  ],
+  "holder": [
+   {
+    "transfer_date": "2023-11-09T19:00:00Z",
+    "ip4nets": {
+     "original_set": [
+      {
+       "start_address": "2.0.0.0",
+       "end_address": "2.15.255.255"
+      }
+     ],
+     "transfer_set": [
+      {
+       "start_address": "2.0.0.0",
+       "end_address": "2.1.255.255"
+      }
+     ]
+    },
+    "type": "RESOURCE_TRANSFER",
+    "source_organization": {
+     "name": "Orange S.A.",
+     "country_code": null
+    },
+    "recipient_organization": {
+     "name": "Oracle Svenska AB",
+     "country_code": null
+    },
+    "source_rir": "RIPE NCC",
+    "recipient_rir": "RIPE NCC"
+   },
+   {
+    "transfer_date": "2024-05-30T19:00:00Z",
+    "ip4nets": {
+     "original_set": [
+      {
+       "start_address": "2.2.0.0",
+       "end_address": "2.3.255.255"
+      }
+     ],
+     "transfer_set": [
+      {
+       "start_address": "2.2.0.0",
+       "end_address": "2.2.255.255"
+      }
+     ]
+    },
+    "type": "RESOURCE_TRANSFER",
+    "source_organization": {
+     "name": "Orange S.A.",
+     "country_code": null
+    },
+    "recipient_organization": {
+     "name": "Oracle Svenska AB",
+     "country_code": null
+    },
+    "source_rir": "RIPE NCC",
+    "recipient_rir": "RIPE NCC"
+   },
+   {
+    "transfer_date": "2024-07-22T19:00:00Z",
+    "ip4nets": {
+     "original_set": [
+      {
+       "start_address": "90.0.0.0",
+       "end_address": "90.127.255.255"
+      }
+     ],
+     "transfer_set": [
+      {
+       "start_address": "90.72.0.0",
+       "end_address": "90.72.255.255"
+      },
+      {
+       "start_address": "90.97.0.0",
+       "end_address": "90.97.127.255"
+      }
+     ]
+    },
+    "type": "RESOURCE_TRANSFER",
+    "source_organization": {
+     "name": "Orange S.A.",
+     "country_code": null
+    },
+    "recipient_organization": {
+     "name": "Bleu SAS",
+     "country_code": null
+    },
+    "source_rir": "RIPE NCC",
+    "recipient_rir": "RIPE NCC"
+   },
+   {
+    "transfer_date": "2024-07-22T19:00:00Z",
+    "ip6nets": {
+     "original_set": [
+      {
+       "start_address": "2a01:c000::",
+       "end_address": "2a01:dfff:ffff:ffff:ffff:ffff:ffff:ffff"
+      }
+     ],
+     "transfer_set": [
+      {
+       "start_address": "2a01:dfff::",
+       "end_address": "2a01:dfff:ffff:ffff:ffff:ffff:ffff:ffff"
+      }
+     ]
+    },
+    "type": "RESOURCE_TRANSFER",
+    "source_organization": {
+     "name": "Orange S.A.",
+     "country_code": null
+    },
+    "recipient_organization": {
+     "name": "Bleu SAS",
+     "country_code": null
+    },
+    "source_rir": "RIPE NCC",
+    "recipient_rir": "RIPE NCC"
+   },
+   {
+    "transfer_date": "2025-02-21T19:00:00Z",
+    "ip4nets": {
+     "original_set": [
+      {
+       "start_address": "86.192.0.0",
+       "end_address": "86.255.255.255"
+      }
+     ],
+     "transfer_set": [
+      {
+       "start_address": "86.232.0.0",
+       "end_address": "86.232.255.255"
+      }
+     ]
+    },
+    "type": "RESOURCE_TRANSFER",
+    "source_organization": {
+     "name": "Orange S.A.",
+     "country_code": null
+    },
+    "recipient_organization": {
+     "name": "Bleu SAS",
+     "country_code": null
+    },
+    "source_rir": "RIPE NCC",
+    "recipient_rir": "RIPE NCC"
+   },
+   {
+    "transfer_date": "2026-05-22T19:00:00Z",
+    "ip4nets": {
+     "original_set": [
+      {
+       "start_address": "86.224.0.0",
+       "end_address": "86.231.255.255"
+      }
+     ],
+     "transfer_set": [
+      {
+       "start_address": "86.226.0.0",
+       "end_address": "86.226.255.255"
+      }
+     ]
+    },
+    "type": "RESOURCE_TRANSFER",
+    "source_organization": {
+     "name": "Orange S.A.",
+     "country_code": "FR"
+    },
+    "recipient_organization": {
+     "name": "NET AND GRID RESEARCH, LLC",
+     "country_code": "US"
+    },
+    "source_rir": "RIPE NCC",
+    "recipient_rir": "RIPE NCC"
+   },
+   {
+    "transfer_date": "2026-05-22T19:00:00Z",
+    "ip4nets": {
+     "original_set": [
+      {
+       "start_address": "90.96.0.0",
+       "end_address": "90.96.255.255"
+      }
+     ],
+     "transfer_set": [
+      {
+       "start_address": "90.96.0.0",
+       "end_address": "90.96.255.255"
+      }
+     ]
+    },
+    "type": "RESOURCE_TRANSFER",
+    "source_organization": {
+     "name": "Orange S.A.",
+     "country_code": "FR"
+    },
+    "recipient_organization": {
+     "name": "NET AND GRID RESEARCH, LLC",
+     "country_code": "US"
+    },
+    "source_rir": "RIPE NCC",
+    "recipient_rir": "RIPE NCC"
+   },
+   {
+    "transfer_date": "2026-09-03T19:00:00Z",
+    "ip4nets": {
+     "original_set": [
+      {
+       "start_address": "90.98.0.0",
+       "end_address": "90.99.255.255"
+      }
+     ],
+     "transfer_set": [
+      {
+       "start_address": "90.98.0.0",
+       "end_address": "90.98.255.255"
+      }
+     ]
+    },
+    "type": "RESOURCE_TRANSFER",
+    "source_organization": {
+     "name": "Orange S.A.",
+     "country_code": "FR"
+    },
+    "recipient_organization": {
+     "name": "Fastly, Inc.",
+     "country_code": "US"
+    },
+    "source_rir": "RIPE NCC",
+    "recipient_rir": "RIPE NCC"
+   },
+   {
+    "transfer_date": "2026-10-14T19:00:00Z",
+    "ip4nets": {
+     "original_set": [
+      {
+       "start_address": "92.128.0.0",
+       "end_address": "92.191.255.255"
+      }
+     ],
+     "transfer_set": [
+      {
+       "start_address": "92.181.224.0",
+       "end_address": "92.181.255.255"
+      }
+     ]
+    },
+    "type": "RESOURCE_TRANSFER",
+    "source_organization": {
+     "name": "Orange S.A.",
+     "country_code": "FR"
+    },
+    "recipient_organization": {
+     "name": "Orange Espagne SA",
+     "country_code": "ES"
+    },
+    "source_rir": "RIPE NCC",
+    "recipient_rir": "RIPE NCC"
+   },
+   {
+    "transfer_date": "2026-10-15T19:00:00Z",
+    "ip4nets": {
+     "original_set": [
+      {
+       "start_address": "1.178.224.0",
+       "end_address": "1.178.255.255"
+      }
+     ],
+     "transfer_set": [
+      {
+       "start_address": "1.178.224.0",
+       "end_address": "1.178.255.255"
+      }
+     ]
+    },
+    "type": "RESOURCE_TRANSFER",
+    "source_organization": {
+     "name": "Orange Espagne SA",
+     "country_code": "ES"
+    },
+    "recipient_organization": {
+     "name": "Orange S.A.",
+     "country_code": "FR"
+    },
+    "source_rir": "RIPE NCC",
+    "recipient_rir": "RIPE NCC"
+   }
+  ]
+ }
+}

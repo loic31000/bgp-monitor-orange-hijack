@@ -1,0 +1,52 @@
+{
+ "meta": {
+  "source": "RIPEstat https://stat.ripe.net/data/",
+  "query": "routing-status resource=90.98.0.0/18",
+  "fetched_at": "2026-10-21T08:01:17+00:00",
+  "sha256_data": "f2cbbcc38cd6b9fc19266506ff6f687e04558c9cf9b67a1bbd0e07429c7488f6",
+  "tool": "bgpmon 3.0.0",
+  "note": ""
+ },
+ "data": {
+  "messages": [
+   [
+    "info",
+    "Results exclude routes with very low visibility (less than 10 RIS full-feed peers seeing)."
+   ]
+  ],
+  "data": {
+   "first_seen": {
+    "prefix": "90.98.0.0/18",
+    "origin": "54113",
+    "time": "2026-10-05T08:00:00"
+   },
+   "last_seen": {
+    "prefix": "90.98.0.0/18",
+    "origin": "54113",
+    "time": "2026-10-21T00:00:00"
+   },
+   "visibility": {
+    "v4": {
+     "ris_peers_seeing": 162,
+     "total_ris_peers": 164
+    },
+    "v6": {
+     "ris_peers_seeing": 0,
+     "total_ris_peers": 0
+    }
+   },
+   "origins": [
+    {
+     "origin": 54113,
+     "route_objects": [
+      "RADB"
+     ]
+    }
+   ],
+   "less_specifics": [],
+   "more_specifics": [],
+   "resource": "90.98.0.0/18",
+   "query_time": "2026-10-21T00:00:00"
+  }
+ }
+}

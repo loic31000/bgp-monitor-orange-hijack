@@ -1,0 +1,257 @@
+{
+ "meta": {
+  "source": "Archives RPKI du RIPE NCC (ftp.ripe.net/rpki)",
+  "query": "ROA recouvrant 90.98.0.0/15, dates ['2026-02-20', '2026-04-15', '2026-04-19', '2026-04-20', '2026-04-21', '2026-04-23', '2026-06-01', '2026-08-15', '2026-08-24', '2026-08-25', '2026-09-01', '2026-09-04', '2026-10-04', '2026-10-06', '2026-10-20']",
+  "fetched_at": "2026-10-21T08:03:36+00:00",
+  "sha256_data": "9695741ade2f9f88ce43c8af0de131f67f2cc0f117c5d1786613b27e00e88ace",
+  "tool": "bgpmon 3.0.0",
+  "note": ""
+ },
+ "data": {
+  "ripencc/2026-02-20": {
+   "url": "https://ftp.ripe.net/rpki/ripencc.tal/2026/02/20/roas.csv.xz",
+   "sha256_file": "f3e2a03fa0bc0e10d87c60e580d9c78f25469f3fc26829451fcd73abd48e1452",
+   "sha256_ok": true,
+   "roas": [
+    {
+     "asn": "AS3215",
+     "prefix": "90.99.0.0/16",
+     "max_length": "24",
+     "not_before": "2026-01-29 12:48:30",
+     "not_after": "2027-07-01 00:00:00"
+    }
+   ]
+  },
+  "ripencc/2026-04-15": {
+   "url": "https://ftp.ripe.net/rpki/ripencc.tal/2026/04/15/roas.csv.xz",
+   "sha256_file": "9c972c1211fed279f7b3b55a4f947bc23cde54ac71562faa6a3804593ff276df",
+   "sha256_ok": true,
+   "roas": [
+    {
+     "asn": "AS3215",
+     "prefix": "90.99.0.0/16",
+     "max_length": "24",
+     "not_before": "2026-04-02 12:50:25",
+     "not_after": "2027-07-01 00:00:00"
+    }
+   ]
+  },
+  "ripencc/2026-04-19": {
+   "url": "https://ftp.ripe.net/rpki/ripencc.tal/2026/04/19/roas.csv.xz",
+   "sha256_file": "efa12f3eaa431843ff9187b9708d45222f97ab587770ee433726e5074a8f4278",
+   "sha256_ok": true,
+   "roas": [
+    {
+     "asn": "AS3215",
+     "prefix": "90.99.0.0/16",
+     "max_length": "24",
+     "not_before": "2026-04-17 08:23:20",
+     "not_after": "2027-07-01 00:00:00"
+    }
+   ]
+  },
+  "ripencc/2026-04-20": {
+   "url": "https://ftp.ripe.net/rpki/ripencc.tal/2026/04/20/roas.csv.xz",
+   "sha256_file": "7a2b86f6b2aa0cce4cbc6e3184f25ba03517dd61729d69173c7e77d6adcd0e05",
+   "sha256_ok": true,
+   "roas": [
+    {
+     "asn": "AS3215",
+     "prefix": "90.99.0.0/16",
+     "max_length": "24",
+     "not_before": "2026-04-17 08:23:20",
+     "not_after": "2027-07-01 00:00:00"
+    }
+   ]
+  },
+  "ripencc/2026-04-21": {
+   "url": "https://ftp.ripe.net/rpki/ripencc.tal/2026/04/21/roas.csv.xz",
+   "sha256_file": "3835c769a44c0cb7e83ee31ec9a42139abcfa1b6a69b6d0226ae0a0d6fbfa4b7",
+   "sha256_ok": true,
+   "roas": [
+    {
+     "asn": "AS3215",
+     "prefix": "90.98.0.0/16",
+     "max_length": "16",
+     "not_before": "2026-04-20 12:45:26",
+     "not_after": "2027-07-01 00:00:00"
+    },
+    {
+     "asn": "AS3215",
+     "prefix": "90.99.0.0/16",
+     "max_length": "24",
+     "not_before": "2026-04-20 12:45:26",
+     "not_after": "2027-07-01 00:00:00"
+    }
+   ]
+  },
+  "ripencc/2026-04-23": {
+   "url": "https://ftp.ripe.net/rpki/ripencc.tal/2026/04/23/roas.csv.xz",
+   "sha256_file": "2bfaf5347f08368d9b136ad91d59235775ff48c7d1000d9208b9383201882574",
+   "sha256_ok": true,
+   "roas": [
+    {
+     "asn": "AS3215",
+     "prefix": "90.98.0.0/16",
+     "max_length": "16",
+     "not_before": "2026-04-22 09:33:27",
+     "not_after": "2027-07-01 00:00:00"
+    },
+    {
+     "asn": "AS3215",
+     "prefix": "90.99.0.0/16",
+     "max_length": "24",
+     "not_before": "2026-04-22 09:33:27",
+     "not_after": "2027-07-01 00:00:00"
+    }
+   ]
+  },
+  "ripencc/2026-06-01": {
+   "url": "https://ftp.ripe.net/rpki/ripencc.tal/2026/06/01/roas.csv.xz",
+   "sha256_file": "e47594df53d9213bbfb87acca88d03c66307d99c32611bc19302fb8b9e1b0528",
+   "sha256_ok": true,
+   "roas": [
+    {
+     "asn": "AS3215",
+     "prefix": "90.98.0.0/16",
+     "max_length": "16",
+     "not_before": "2026-05-07 14:39:36",
+     "not_after": "2027-07-01 00:00:00"
+    },
+    {
+     "asn": "AS3215",
+     "prefix": "90.99.0.0/16",
+     "max_length": "24",
+     "not_before": "2026-05-07 14:39:36",
+     "not_after": "2027-07-01 00:00:00"
+    }
+   ]
+  },
+  "ripencc/2026-08-15": {
+   "url": "https://ftp.ripe.net/rpki/ripencc.tal/2026/08/15/roas.csv.xz",
+   "sha256_file": "88a4a8cff4d78fb6051f5eb96021effa3832835b214ff0e4b07e487d1dcf0315",
+   "sha256_ok": true,
+   "roas": [
+    {
+     "asn": "AS3215",
+     "prefix": "90.98.0.0/16",
+     "max_length": "16",
+     "not_before": "2026-06-09 12:05:11",
+     "not_after": "2027-07-01 00:00:00"
+    },
+    {
+     "asn": "AS3215",
+     "prefix": "90.99.0.0/16",
+     "max_length": "24",
+     "not_before": "2026-06-09 12:05:11",
+     "not_after": "2027-07-01 00:00:00"
+    }
+   ]
+  },
+  "ripencc/2026-08-24": {
+   "url": "https://ftp.ripe.net/rpki/ripencc.tal/2026/08/24/roas.csv.xz",
+   "sha256_file": "0eb086cce4b27f63f61ca14fa537e5c9d31167d54e37402facee99e4802a4081",
+   "sha256_ok": true,
+   "roas": [
+    {
+     "asn": "AS3215",
+     "prefix": "90.98.0.0/16",
+     "max_length": "16",
+     "not_before": "2026-06-09 12:05:11",
+     "not_after": "2027-07-01 00:00:00"
+    },
+    {
+     "asn": "AS3215",
+     "prefix": "90.99.0.0/16",
+     "max_length": "24",
+     "not_before": "2026-06-09 12:05:11",
+     "not_after": "2027-07-01 00:00:00"
+    }
+   ]
+  },
+  "ripencc/2026-08-25": {
+   "url": "https://ftp.ripe.net/rpki/ripencc.tal/2026/08/25/roas.csv.xz",
+   "sha256_file": "cb9d7434b1204dff59631747eeebc15abec77e4e2deafd59df7473d8aba1716f",
+   "sha256_ok": true,
+   "roas": [
+    {
+     "asn": "AS3215",
+     "prefix": "90.99.0.0/16",
+     "max_length": "24",
+     "not_before": "2026-08-24 08:34:28",
+     "not_after": "2027-07-01 00:00:00"
+    }
+   ]
+  },
+  "ripencc/2026-09-01": {
+   "url": "https://ftp.ripe.net/rpki/ripencc.tal/2026/09/01/roas.csv.xz",
+   "sha256_file": "4abf889127ea9968768cca5d1d4b6ca5e69a330ba0286c182d876f9caff00fdf",
+   "sha256_ok": true,
+   "roas": [
+    {
+     "asn": "AS3215",
+     "prefix": "90.99.0.0/16",
+     "max_length": "24",
+     "not_before": "2026-08-24 08:34:28",
+     "not_after": "2027-07-01 00:00:00"
+    }
+   ]
+  },
+  "ripencc/2026-09-04": {
+   "url": "https://ftp.ripe.net/rpki/ripencc.tal/2026/09/04/roas.csv.xz",
+   "sha256_file": "1cdabfcbdfec0b5f089f8ddeb792cb8de8179b001e10dcbeb450acac9954d4fa",
+   "sha256_ok": true,
+   "roas": [
+    {
+     "asn": "AS3215",
+     "prefix": "90.99.0.0/16",
+     "max_length": "24",
+     "not_before": "2026-09-01 13:25:12",
+     "not_after": "2027-07-01 00:00:00"
+    }
+   ]
+  },
+  "ripencc/2026-10-04": {
+   "url": "https://ftp.ripe.net/rpki/ripencc.tal/2026/10/04/roas.csv.xz",
+   "sha256_file": "bbdcb1981c6cf91586e078147a9ae962f426c67e48a913813328c102ee370db9",
+   "sha256_ok": true,
+   "roas": [
+    {
+     "asn": "AS3215",
+     "prefix": "90.99.0.0/16",
+     "max_length": "24",
+     "not_before": "2026-09-14 08:03:27",
+     "not_after": "2027-07-01 00:00:00"
+    }
+   ]
+  },
+  "ripencc/2026-10-06": {
+   "url": "https://ftp.ripe.net/rpki/ripencc.tal/2026/10/06/roas.csv.xz",
+   "sha256_file": "496533a85e98dc93e42bfa1c8c6ab180fac73550f2d2fd650132094dba2b5529",
+   "sha256_ok": true,
+   "roas": [
+    {
+     "asn": "AS3215",
+     "prefix": "90.99.0.0/16",
+     "max_length": "24",
+     "not_before": "2026-09-14 08:03:27",
+     "not_after": "2027-07-01 00:00:00"
+    }
+   ]
+  },
+  "ripencc/2026-10-20": {
+   "url": "https://ftp.ripe.net/rpki/ripencc.tal/2026/10/20/roas.csv.xz",
+   "sha256_file": "3eddb6d030688043aa599fb38eeaf661cc183b28d63f0dde5ff5ce5c18caa699",
+   "sha256_ok": true,
+   "roas": [
+    {
+     "asn": "AS3215",
+     "prefix": "90.99.0.0/16",
+     "max_length": "24",
+     "not_before": "2026-10-14 11:27:43",
+     "not_after": "2027-07-01 00:00:00"
+    }
+   ]
+  }
+ }
+}

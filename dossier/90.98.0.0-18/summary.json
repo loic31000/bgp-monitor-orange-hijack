@@ -1,0 +1,4973 @@
+{
+ "prefix": "90.98.0.0/18",
+ "asn": 54113,
+ "covering": "90.98.0.0/15",
+ "started_at": "2026-10-21T08:01:15+00:00",
+ "tool": "bgpmon 3.0.0",
+ "method": "Collecte 100 % passive : API et fichiers publics uniquement, aucun scan.",
+ "routing": {
+  "status_prefix": {
+   "query_time": "2026-10-21T00:00:00",
+   "origins": [
+    54113
+   ],
+   "more_specifics": [],
+   "less_specifics": [],
+   "peers_seeing": 162,
+   "total_peers": 164,
+   "first_seen": {
+    "prefix": "90.98.0.0/18",
+    "origin": "54113",
+    "time": "2026-10-05T08:00:00"
+   },
+   "last_seen": {
+    "prefix": "90.98.0.0/18",
+    "origin": "54113",
+    "time": "2026-10-21T00:00:00"
+   }
+  },
+  "status_covering": {
+   "query_time": "2026-10-21T00:00:00",
+   "origins": [],
+   "more_specifics": [
+    {
+     "prefix": "90.99.0.0/16",
+     "origin": 3215
+    },
+    {
+     "prefix": "90.98.0.0/18",
+     "origin": 54113
+    }
+   ],
+   "less_specifics": [],
+   "peers_seeing": 0,
+   "total_peers": 164,
+   "first_seen": {
+    "prefix": "90.98.0.0/15",
+    "origin": "41128",
+    "time": "2026-02-25T08:00:00"
+   },
+   "last_seen": {
+    "prefix": "90.98.0.0/15",
+    "origin": "41128",
+    "time": "2026-04-21T16:00:00"
+   }
+  },
+  "history_full": [
+   {
+    "origin": 19962,
+    "prefix": "90.0.0.0/8",
+    "start": "2004-03-15T00:00:00",
+    "end": "2004-03-26T23:59:59",
+    "max_peers": 11.0,
+    "min_peers": 11.0,
+    "bins": 1
+   },
+   {
+    "origin": 9121,
+    "prefix": "64.0.0.0/2",
+    "start": "2004-10-05T00:00:00",
+    "end": "2004-10-16T23:59:59",
+    "max_peers": 34.0,
+    "min_peers": 34.0,
+    "bins": 1
+   },
+   {
+    "origin": 3352,
+    "prefix": "90.0.0.0/7",
+    "start": "2007-08-15T00:00:00",
+    "end": "2007-08-26T23:59:59",
+    "max_peers": 59.0,
+    "min_peers": 59.0,
+    "bins": 1
+   },
+   {
+    "origin": 1299,
+    "prefix": "0.0.0.0/1",
+    "start": "2008-05-05T00:00:00",
+    "end": "2008-05-16T23:59:59",
+    "max_peers": 58.0,
+    "min_peers": 58.0,
+    "bins": 1
+   },
+   {
+    "origin": 3215,
+    "prefix": "90.99.0.0/16",
+    "start": "2019-04-14T00:00:00",
+    "end": "2021-04-02T23:59:59",
+    "max_peers": 331.0,
+    "min_peers": 225.5,
+    "bins": 44
+   },
+   {
+    "origin": 3215,
+    "prefix": "90.99.0.0/16",
+    "start": "2025-08-16T00:00:00",
+    "end": "2025-09-08T23:59:59",
+    "max_peers": 22.13,
+    "min_peers": 22.13,
+    "bins": 1
+   },
+   {
+    "origin": 41128,
+    "prefix": "90.98.0.0/15",
+    "start": "2026-02-24T00:00:00",
+    "end": "2026-04-24T23:59:59",
+    "max_peers": 327.0,
+    "min_peers": 288.42,
+    "bins": 4
+   },
+   {
+    "origin": 3215,
+    "prefix": "90.98.0.0/16",
+    "start": "2026-04-13T00:00:00",
+    "end": "2026-09-03T23:59:59",
+    "max_peers": 330.54,
+    "min_peers": 282.53,
+    "bins": 6
+   },
+   {
+    "origin": 41128,
+    "prefix": "90.98.0.0/16",
+    "start": "2026-04-13T00:00:00",
+    "end": "2026-04-24T23:59:59",
+    "max_peers": 12.0,
+    "min_peers": 12.0,
+    "bins": 1
+   },
+   {
+    "origin": 3215,
+    "prefix": "90.99.0.0/16",
+    "start": "2026-04-13T00:00:00",
+    "end": "2026-10-21T00:00:00",
+    "max_peers": 331.46,
+    "min_peers": 325.39,
+    "bins": 6
+   },
+   {
+    "origin": 54113,
+    "prefix": "90.98.0.0/18",
+    "start": "2026-09-28T00:00:00",
+    "end": "2026-10-21T00:00:00",
+    "max_peers": 324.36,
+    "min_peers": 324.36,
+    "bins": 1
+   }
+  ],
+  "history_400d": [
+   {
+    "origin": 41128,
+    "prefix": "90.98.0.0/15",
+    "start": "2026-02-24T00:00:00",
+    "end": "2026-03-11T23:59:59",
+    "max_peers": 291.83,
+    "min_peers": 285.0,
+    "bins": 4
+   },
+   {
+    "origin": 41128,
+    "prefix": "90.98.0.0/15",
+    "start": "2026-04-11T00:00:00",
+    "end": "2026-04-22T23:59:59",
+    "max_peers": 331.83,
+    "min_peers": 273.17,
+    "bins": 4
+   },
+   {
+    "origin": 3215,
+    "prefix": "90.98.0.0/16",
+    "start": "2026-04-19T00:00:00",
+    "end": "2026-09-03T23:59:59",
+    "max_peers": 332.0,
+    "min_peers": 55.5,
+    "bins": 18
+   },
+   {
+    "origin": 3215,
+    "prefix": "90.99.0.0/16",
+    "start": "2026-04-19T00:00:00",
+    "end": "2026-10-21T00:00:00",
+    "max_peers": 332.0,
+    "min_peers": 249.67,
+    "bins": 21
+   },
+   {
+    "origin": 41128,
+    "prefix": "90.98.0.0/16",
+    "start": "2026-04-21T00:00:00",
+    "end": "2026-04-22T23:59:59",
+    "max_peers": 12.0,
+    "min_peers": 12.0,
+    "bins": 1
+   },
+   {
+    "origin": 54113,
+    "prefix": "90.98.0.0/18",
+    "start": "2026-10-04T00:00:00",
+    "end": "2026-10-21T00:00:00",
+    "max_peers": 324.0,
+    "min_peers": 247.33,
+    "bins": 2
+   }
+  ],
+  "target_spans": [
+   {
+    "origin": 54113,
+    "prefix": "90.98.0.0/18",
+    "start": "2026-10-04T00:00:00",
+    "end": "2026-10-21T00:00:00",
+    "max_peers": 324.0,
+    "min_peers": 247.33,
+    "bins": 2
+   }
+  ],
+  "first_seen_refined": "2026-10-05T08:00:00",
+  "appearance": {
+   "initial_state_routes": 0,
+   "events": 1680,
+   "first_announcement": "2026-10-05T03:03:15",
+   "first_path": [
+    215628,
+    12577,
+    33891,
+    1299,
+    5511,
+    54113
+   ],
+   "peers_announcing": 338,
+   "hourly_upstreams": [
+    {
+     "hour": "2026-10-05T03",
+     "announcements": 622,
+     "upstreams": [
+      [
+       5511,
+       622
+      ]
+     ]
+    },
+    {
+     "hour": "2026-10-05T04",
+     "announcements": 3,
+     "upstreams": [
+      [
+       5511,
+       3
+      ]
+     ]
+    },
+    {
+     "hour": "2026-10-05T07",
+     "announcements": 1,
+     "upstreams": [
+      [
+       5511,
+       1
+      ]
+     ]
+    },
+    {
+     "hour": "2026-10-05T08",
+     "announcements": 4,
+     "upstreams": [
+      [
+       5511,
+       4
+      ]
+     ]
+    },
+    {
+     "hour": "2026-10-05T09",
+     "announcements": 11,
+     "upstreams": [
+      [
+       5511,
+       11
+      ]
+     ]
+    },
+    {
+     "hour": "2026-10-05T10",
+     "announcements": 11,
+     "upstreams": [
+      [
+       5511,
+       11
+      ]
+     ]
+    },
+    {
+     "hour": "2026-10-05T11",
+     "announcements": 3,
+     "upstreams": [
+      [
+       5511,
+       3
+      ]
+     ]
+    },
+    {
+     "hour": "2026-10-05T12",
+     "announcements": 5,
+     "upstreams": [
+      [
+       5511,
+       5
+      ]
+     ]
+    },
+    {
+     "hour": "2026-10-05T13",
+     "announcements": 3,
+     "upstreams": [
+      [
+       5511,
+       3
+      ]
+     ]
+    },
+    {
+     "hour": "2026-10-05T14",
+     "announcements": 6,
+     "upstreams": [
+      [
+       5511,
+       6
+      ]
+     ]
+    },
+    {
+     "hour": "2026-10-05T15",
+     "announcements": 2,
+     "upstreams": [
+      [
+       5511,
+       2
+      ]
+     ]
+    },
+    {
+     "hour": "2026-10-05T16",
+     "announcements": 1,
+     "upstreams": [
+      [
+       5511,
+       1
+      ]
+     ]
+    },
+    {
+     "hour": "2026-10-05T17",
+     "announcements": 3,
+     "upstreams": [
+      [
+       5511,
+       3
+      ]
+     ]
+    },
+    {
+     "hour": "2026-10-05T18",
+     "announcements": 443,
+     "upstreams": [
+      [
+       12956,
+       95
+      ],
+      [
+       5511,
+       54
+      ],
+      [
+       6461,
+       29
+      ],
+      [
+       8218,
+       21
+      ],
+      [
+       6830,
+       16
+      ],
+      [
+       8220,
+       15
+      ]
+     ]
+    },
+    {
+     "hour": "2026-10-05T19",
+     "announcements": 242,
+     "upstreams": [
+      [
+       1299,
+       220
+      ],
+      [
+       5511,
+       14
+      ],
+      [
+       12956,
+       4
+      ],
+      [
+       6461,
+       2
+      ],
+      [
+       3170,
+       1
+      ],
+      [
+       8220,
+       1
+      ]
+     ]
+    },
+    {
+     "hour": "2026-10-05T20",
+     "announcements": 2,
+     "upstreams": [
+      [
+       12956,
+       1
+      ],
+      [
+       51184,
+       1
+      ]
+     ]
+    },
+    {
+     "hour": "2026-10-05T21",
+     "announcements": 2,
+     "upstreams": [
+      [
+       1267,
+       1
+      ],
+      [
+       1299,
+       1
+      ]
+     ]
+    },
+    {
+     "hour": "2026-10-05T23",
+     "announcements": 3,
+     "upstreams": [
+      [
+       8283,
+       2
+      ],
+      [
+       1267,
+       1
+      ]
+     ]
+    },
+    {
+     "hour": "2026-10-06T00",
+     "announcements": 43,
+     "upstreams": [
+      [
+       9002,
+       38
+      ],
+      [
+       1299,
+       3
+      ],
+      [
+       6461,
+       1
+      ],
+      [
+       12389,
+       1
+      ]
+     ]
+    },
+    {
+     "hour": "2026-10-06T01",
+     "announcements": 1,
+     "upstreams": [
+      [
+       1299,
+       1
+      ]
+     ]
+    },
+    {
+     "hour": "2026-10-06T02",
+     "announcements": 2,
+     "upstreams": [
+      [
+       35280,
+       1
+      ],
+      [
+       1828,
+       1
+      ]
+     ]
+    },
+    {
+     "hour": "2026-10-06T03",
+     "announcements": 1,
+     "upstreams": [
+      [
+       1299,
+       1
+      ]
+     ]
+    },
+    {
+     "hour": "2026-10-06T04",
+     "announcements": 189,
+     "upstreams": [
+      [
+       2914,
+       148
+      ],
+      [
+       3257,
+       27
+      ],
+      [
+       8220,
+       4
+      ],
+      [
+       286,
+       4
+      ],
+      [
+       5405,
+       3
+      ],
+      [
+       1299,
+       2
+      ]
+     ]
+    },
+    {
+     "hour": "2026-10-06T05",
+     "announcements": 6,
+     "upstreams": [
+      [
+       8758,
+       4
+      ],
+      [
+       20764,
+       2
+      ]
+     ]
+    },
+    {
+     "hour": "2026-10-06T06",
+     "announcements": 47,
+     "upstreams": [
+      [
+       3356,
+       33
+      ],
+      [
+       3320,
+       13
+      ],
+      [
+       1299,
+       1
+      ]
+     ]
+    },
+    {
+     "hour": "2026-10-06T07",
+     "announcements": 16,
+     "upstreams": [
+      [
+       6762,
+       13
+      ],
+      [
+       5511,
+       2
+      ],
+      [
+       1299,
+       1
+      ]
+     ]
+    }
+   ]
+  },
+  "withdrawals": [
+   {
+    "origin": 3215,
+    "prefix": "90.98.0.0/16",
+    "start": "2026-04-19T00:00:00",
+    "end": "2026-09-03T23:59:59",
+    "max_peers": 332.0,
+    "min_peers": 55.5,
+    "bins": 18,
+    "end_refined": "2026-09-02T07:59:59",
+    "initial_peers": 335,
+    "first_withdrawal": "2026-09-01T13:09:10",
+    "median_withdrawal": "2026-09-02T06:51:44",
+    "last_withdrawal": "2026-09-02T07:02:40",
+    "peers_still_announcing_at_window_end": 1
+   },
+   {
+    "origin": 41128,
+    "prefix": "90.98.0.0/15",
+    "start": "2026-04-11T00:00:00",
+    "end": "2026-04-22T23:59:59",
+    "max_peers": 331.83,
+    "min_peers": 273.17,
+    "bins": 4,
+    "end_refined": "2026-04-21T23:59:59",
+    "initial_peers": 382,
+    "first_withdrawal": "2026-04-21T01:25:40",
+    "median_withdrawal": "2026-04-21T17:28:35",
+    "last_withdrawal": "2026-04-21T17:59:21",
+    "peers_still_announcing_at_window_end": 2
+   },
+   {
+    "origin": 41128,
+    "prefix": "90.98.0.0/15",
+    "start": "2026-02-24T00:00:00",
+    "end": "2026-03-11T23:59:59",
+    "max_peers": 291.83,
+    "min_peers": 285.0,
+    "bins": 4,
+    "end_refined": "2026-03-10T23:59:59",
+    "initial_peers": 299,
+    "first_withdrawal": "2026-03-10T00:14:59",
+    "median_withdrawal": "2026-03-10T19:14:28",
+    "last_withdrawal": "2026-03-10T19:26:29",
+    "peers_still_announcing_at_window_end": 3
+   }
+  ],
+  "upstreams_now": {
+   "timestamp": "2026-10-21T05:59:55",
+   "routes": 186,
+   "distribution": [
+    [
+     1299,
+     23
+    ],
+    [
+     3356,
+     16
+    ],
+    [
+     2914,
+     16
+    ],
+    [
+     6762,
+     10
+    ],
+    [
+     9002,
+     9
+    ],
+    [
+     6939,
+     7
+    ],
+    [
+     3257,
+     7
+    ],
+    [
+     34549,
+     6
+    ],
+    [
+     24482,
+     5
+    ],
+    [
+     3320,
+     5
+    ],
+    [
+     1764,
+     4
+    ],
+    [
+     199524,
+     4
+    ],
+    [
+     8758,
+     4
+    ],
+    [
+     6830,
+     3
+    ],
+    [
+     6461,
+     3
+    ],
+    [
+     13030,
+     3
+    ],
+    [
+     8218,
+     3
+    ],
+    [
+     2497,
+     3
+    ],
+    [
+     39351,
+     2
+    ],
+    [
+     21320,
+     2
+    ],
+    [
+     15547,
+     2
+    ],
+    [
+     51184,
+     2
+    ],
+    [
+     35280,
+     2
+    ],
+    [
+     19151,
+     2
+    ],
+    [
+     24961,
+     2
+    ],
+    [
+     13786,
+     2
+    ],
+    [
+     8283,
+     2
+    ],
+    [
+     42708,
+     1
+    ],
+    [
+     1403,
+     1
+    ],
+    [
+     8434,
+     1
+    ],
+    [
+     50304,
+     1
+    ],
+    [
+     22652,
+     1
+    ],
+    [
+     59919,
+     1
+    ],
+    [
+     20205,
+     1
+    ],
+    [
+     12389,
+     1
+    ],
+    [
+     12969,
+     1
+    ],
+    [
+     1103,
+     1
+    ],
+    [
+     8529,
+     1
+    ],
+    [
+     3303,
+     1
+    ],
+    [
+     34177,
+     1
+    ],
+    [
+     31510,
+     1
+    ],
+    [
+     5405,
+     1
+    ],
+    [
+     59890,
+     1
+    ],
+    [
+     17676,
+     1
+    ],
+    [
+     2518,
+     1
+    ],
+    [
+     6667,
+     1
+    ],
+    [
+     553,
+     1
+    ],
+    [
+     680,
+     1
+    ],
+    [
+     48919,
+     1
+    ],
+    [
+     12779,
+     1
+    ],
+    [
+     205112,
+     1
+    ],
+    [
+     286,
+     1
+    ],
+    [
+     264409,
+     1
+    ],
+    [
+     52320,
+     1
+    ],
+    [
+     15704,
+     1
+    ],
+    [
+     30844,
+     1
+    ],
+    [
+     37497,
+     1
+    ],
+    [
+     5511,
+     1
+    ],
+    [
+     209823,
+     1
+    ],
+    [
+     8708,
+     1
+    ],
+    [
+     6663,
+     1
+    ],
+    [
+     6204,
+     1
+    ],
+    [
+     18106,
+     1
+    ],
+    [
+     48237,
+     1
+    ]
+   ]
+  },
+  "asn_prefix_count": 1811,
+  "reference": {
+   "prefixes": [
+    {
+     "prefix": "151.101.0.0/16",
+     "routes": 189,
+     "distribution": [
+      [
+       174,
+       20
+      ],
+      [
+       2914,
+       15
+      ],
+      [
+       3356,
+       14
+      ],
+      [
+       1299,
+       12
+      ],
+      [
+       6939,
+       9
+      ],
+      [
+       9002,
+       9
+      ],
+      [
+       34549,
+       6
+      ],
+      [
+       3320,
+       6
+      ]
+     ]
+    },
+    {
+     "prefix": "199.232.0.0/16",
+     "routes": 189,
+     "distribution": [
+      [
+       174,
+       20
+      ],
+      [
+       2914,
+       15
+      ],
+      [
+       3356,
+       14
+      ],
+      [
+       1299,
+       12
+      ],
+      [
+       6939,
+       9
+      ],
+      [
+       9002,
+       9
+      ],
+      [
+       34549,
+       6
+      ],
+      [
+       3320,
+       6
+      ]
+     ]
+    },
+    {
+     "prefix": "146.75.0.0/17",
+     "routes": 189,
+     "distribution": [
+      [
+       174,
+       20
+      ],
+      [
+       2914,
+       15
+      ],
+      [
+       3356,
+       14
+      ],
+      [
+       1299,
+       12
+      ],
+      [
+       6939,
+       9
+      ],
+      [
+       9002,
+       9
+      ],
+      [
+       34549,
+       6
+      ],
+      [
+       3320,
+       6
+      ]
+     ]
+    },
+    {
+     "prefix": "146.75.128.0/17",
+     "routes": 225,
+     "distribution": [
+      [
+       37662,
+       34
+      ],
+      [
+       63927,
+       9
+      ],
+      [
+       174,
+       5
+      ],
+      [
+       24482,
+       5
+      ],
+      [
+       199524,
+       5
+      ],
+      [
+       2914,
+       4
+      ],
+      [
+       48362,
+       4
+      ],
+      [
+       9002,
+       4
+      ]
+     ]
+    },
+    {
+     "prefix": "167.82.0.0/17",
+     "routes": 189,
+     "distribution": [
+      [
+       174,
+       20
+      ],
+      [
+       2914,
+       15
+      ],
+      [
+       3356,
+       14
+      ],
+      [
+       1299,
+       12
+      ],
+      [
+       6939,
+       9
+      ],
+      [
+       9002,
+       9
+      ],
+      [
+       34549,
+       6
+      ],
+      [
+       3320,
+       6
+      ]
+     ]
+    },
+    {
+     "prefix": "140.248.0.0/18",
+     "routes": 225,
+     "distribution": [
+      [
+       37662,
+       34
+      ],
+      [
+       63927,
+       9
+      ],
+      [
+       174,
+       5
+      ],
+      [
+       24482,
+       5
+      ],
+      [
+       199524,
+       5
+      ],
+      [
+       2914,
+       4
+      ],
+      [
+       48362,
+       4
+      ],
+      [
+       9002,
+       4
+      ]
+     ]
+    }
+   ],
+   "aggregate": [
+    [
+     174,
+     90
+    ],
+    [
+     2914,
+     68
+    ],
+    [
+     37662,
+     68
+    ],
+    [
+     3356,
+     58
+    ],
+    [
+     1299,
+     50
+    ],
+    [
+     9002,
+     44
+    ],
+    [
+     6939,
+     36
+    ],
+    [
+     34549,
+     30
+    ],
+    [
+     24482,
+     30
+    ],
+    [
+     6762,
+     30
+    ],
+    [
+     199524,
+     26
+    ],
+    [
+     3320,
+     24
+    ]
+   ],
+   "share_of_target_routes_via_reference_upstreams_pct": 98.9,
+   "reference_upstreams_absent_from_target": [
+    {
+     "asn": 174,
+     "reference_routes": 90
+    },
+    {
+     "asn": 37662,
+     "reference_routes": 68
+    },
+    {
+     "asn": 63927,
+     "reference_routes": 18
+    },
+    {
+     "asn": 48362,
+     "reference_routes": 8
+    },
+    {
+     "asn": 21859,
+     "reference_routes": 8
+    },
+    {
+     "asn": 7195,
+     "reference_routes": 7
+    },
+    {
+     "asn": 7018,
+     "reference_routes": 6
+    },
+    {
+     "asn": 852,
+     "reference_routes": 6
+    },
+    {
+     "asn": 7473,
+     "reference_routes": 6
+    },
+    {
+     "asn": 49544,
+     "reference_routes": 6
+    },
+    {
+     "asn": 14840,
+     "reference_routes": 6
+    },
+    {
+     "asn": 1828,
+     "reference_routes": 4
+    },
+    {
+     "asn": 3741,
+     "reference_routes": 4
+    },
+    {
+     "asn": 34927,
+     "reference_routes": 4
+    },
+    {
+     "asn": 25091,
+     "reference_routes": 4
+    },
+    {
+     "asn": 47147,
+     "reference_routes": 4
+    },
+    {
+     "asn": 47692,
+     "reference_routes": 4
+    },
+    {
+     "asn": 51185,
+     "reference_routes": 4
+    },
+    {
+     "asn": 35710,
+     "reference_routes": 4
+    },
+    {
+     "asn": 28634,
+     "reference_routes": 4
+    },
+    {
+     "asn": 3491,
+     "reference_routes": 4
+    },
+    {
+     "asn": 9044,
+     "reference_routes": 4
+    },
+    {
+     "asn": 6057,
+     "reference_routes": 4
+    },
+    {
+     "asn": 202297,
+     "reference_routes": 2
+    },
+    {
+     "asn": 37721,
+     "reference_routes": 2
+    },
+    {
+     "asn": 50300,
+     "reference_routes": 2
+    },
+    {
+     "asn": 29504,
+     "reference_routes": 2
+    },
+    {
+     "asn": 3333,
+     "reference_routes": 2
+    },
+    {
+     "asn": 48185,
+     "reference_routes": 2
+    },
+    {
+     "asn": 38001,
+     "reference_routes": 2
+    },
+    {
+     "asn": 17639,
+     "reference_routes": 2
+    },
+    {
+     "asn": 4608,
+     "reference_routes": 2
+    },
+    {
+     "asn": 37989,
+     "reference_routes": 2
+    },
+    {
+     "asn": 64073,
+     "reference_routes": 2
+    },
+    {
+     "asn": 50673,
+     "reference_routes": 2
+    },
+    {
+     "asn": 20766,
+     "reference_routes": 2
+    },
+    {
+     "asn": 20485,
+     "reference_routes": 2
+    },
+    {
+     "asn": 199938,
+     "reference_routes": 2
+    },
+    {
+     "asn": 559,
+     "reference_routes": 2
+    },
+    {
+     "asn": 20932,
+     "reference_routes": 2
+    },
+    {
+     "asn": 40994,
+     "reference_routes": 2
+    },
+    {
+     "asn": 13237,
+     "reference_routes": 2
+    },
+    {
+     "asn": 12577,
+     "reference_routes": 2
+    },
+    {
+     "asn": 25152,
+     "reference_routes": 2
+    },
+    {
+     "asn": 4777,
+     "reference_routes": 2
+    },
+    {
+     "asn": 2500,
+     "reference_routes": 2
+    },
+    {
+     "asn": 59105,
+     "reference_routes": 2
+    },
+    {
+     "asn": 3399,
+     "reference_routes": 2
+    },
+    {
+     "asn": 21700,
+     "reference_routes": 2
+    },
+    {
+     "asn": 34019,
+     "reference_routes": 2
+    },
+    {
+     "asn": 34288,
+     "reference_routes": 2
+    },
+    {
+     "asn": 25220,
+     "reference_routes": 2
+    },
+    {
+     "asn": 29140,
+     "reference_routes": 2
+    },
+    {
+     "asn": 64475,
+     "reference_routes": 2
+    },
+    {
+     "asn": 206356,
+     "reference_routes": 2
+    },
+    {
+     "asn": 58057,
+     "reference_routes": 2
+    },
+    {
+     "asn": 58299,
+     "reference_routes": 2
+    },
+    {
+     "asn": 6424,
+     "reference_routes": 2
+    },
+    {
+     "asn": 28624,
+     "reference_routes": 2
+    },
+    {
+     "asn": 22548,
+     "reference_routes": 2
+    },
+    {
+     "asn": 263152,
+     "reference_routes": 2
+    },
+    {
+     "asn": 20080,
+     "reference_routes": 2
+    },
+    {
+     "asn": 32653,
+     "reference_routes": 2
+    },
+    {
+     "asn": 37680,
+     "reference_routes": 2
+    },
+    {
+     "asn": 37239,
+     "reference_routes": 2
+    },
+    {
+     "asn": 327960,
+     "reference_routes": 2
+    },
+    {
+     "asn": 327804,
+     "reference_routes": 2
+    },
+    {
+     "asn": 327983,
+     "reference_routes": 2
+    },
+    {
+     "asn": 328320,
+     "reference_routes": 2
+    },
+    {
+     "asn": 917,
+     "reference_routes": 2
+    },
+    {
+     "asn": 328137,
+     "reference_routes": 2
+    },
+    {
+     "asn": 328206,
+     "reference_routes": 2
+    },
+    {
+     "asn": 37697,
+     "reference_routes": 2
+    },
+    {
+     "asn": 4455,
+     "reference_routes": 2
+    },
+    {
+     "asn": 29691,
+     "reference_routes": 2
+    },
+    {
+     "asn": 8298,
+     "reference_routes": 2
+    },
+    {
+     "asn": 57777,
+     "reference_routes": 2
+    },
+    {
+     "asn": 35360,
+     "reference_routes": 2
+    },
+    {
+     "asn": 14907,
+     "reference_routes": 2
+    },
+    {
+     "asn": 58952,
+     "reference_routes": 2
+    },
+    {
+     "asn": 45896,
+     "reference_routes": 2
+    },
+    {
+     "asn": 133210,
+     "reference_routes": 2
+    },
+    {
+     "asn": 61573,
+     "reference_routes": 2
+    },
+    {
+     "asn": 53046,
+     "reference_routes": 2
+    },
+    {
+     "asn": 270014,
+     "reference_routes": 2
+    },
+    {
+     "asn": 12956,
+     "reference_routes": 2
+    },
+    {
+     "asn": 269956,
+     "reference_routes": 2
+    },
+    {
+     "asn": 64126,
+     "reference_routes": 2
+    },
+    {
+     "asn": 60171,
+     "reference_routes": 2
+    },
+    {
+     "asn": 18678,
+     "reference_routes": 1
+    }
+   ],
+   "target_upstreams_absent_from_reference": [
+    {
+     "asn": 8434,
+     "routes": 1
+    },
+    {
+     "asn": 30844,
+     "routes": 1
+    }
+   ]
+  }
+ },
+ "rpki": {
+  "validation_now": {
+   "status": "unknown",
+   "validator": "routinator",
+   "validating_roas": []
+  },
+  "archive": {
+   "ripencc/2026-02-20": [
+    {
+     "asn": "AS3215",
+     "prefix": "90.99.0.0/16",
+     "max_length": "24",
+     "not_before": "2026-01-29 12:48:30",
+     "not_after": "2027-07-01 00:00:00"
+    }
+   ],
+   "ripencc/2026-04-15": [
+    {
+     "asn": "AS3215",
+     "prefix": "90.99.0.0/16",
+     "max_length": "24",
+     "not_before": "2026-04-02 12:50:25",
+     "not_after": "2027-07-01 00:00:00"
+    }
+   ],
+   "ripencc/2026-04-19": [
+    {
+     "asn": "AS3215",
+     "prefix": "90.99.0.0/16",
+     "max_length": "24",
+     "not_before": "2026-04-17 08:23:20",
+     "not_after": "2027-07-01 00:00:00"
+    }
+   ],
+   "ripencc/2026-04-20": [
+    {
+     "asn": "AS3215",
+     "prefix": "90.99.0.0/16",
+     "max_length": "24",
+     "not_before": "2026-04-17 08:23:20",
+     "not_after": "2027-07-01 00:00:00"
+    }
+   ],
+   "ripencc/2026-04-21": [
+    {
+     "asn": "AS3215",
+     "prefix": "90.98.0.0/16",
+     "max_length": "16",
+     "not_before": "2026-04-20 12:45:26",
+     "not_after": "2027-07-01 00:00:00"
+    },
+    {
+     "asn": "AS3215",
+     "prefix": "90.99.0.0/16",
+     "max_length": "24",
+     "not_before": "2026-04-20 12:45:26",
+     "not_after": "2027-07-01 00:00:00"
+    }
+   ],
+   "ripencc/2026-04-23": [
+    {
+     "asn": "AS3215",
+     "prefix": "90.98.0.0/16",
+     "max_length": "16",
+     "not_before": "2026-04-22 09:33:27",
+     "not_after": "2027-07-01 00:00:00"
+    },
+    {
+     "asn": "AS3215",
+     "prefix": "90.99.0.0/16",
+     "max_length": "24",
+     "not_before": "2026-04-22 09:33:27",
+     "not_after": "2027-07-01 00:00:00"
+    }
+   ],
+   "ripencc/2026-06-01": [
+    {
+     "asn": "AS3215",
+     "prefix": "90.98.0.0/16",
+     "max_length": "16",
+     "not_before": "2026-05-07 14:39:36",
+     "not_after": "2027-07-01 00:00:00"
+    },
+    {
+     "asn": "AS3215",
+     "prefix": "90.99.0.0/16",
+     "max_length": "24",
+     "not_before": "2026-05-07 14:39:36",
+     "not_after": "2027-07-01 00:00:00"
+    }
+   ],
+   "ripencc/2026-08-15": [
+    {
+     "asn": "AS3215",
+     "prefix": "90.98.0.0/16",
+     "max_length": "16",
+     "not_before": "2026-06-09 12:05:11",
+     "not_after": "2027-07-01 00:00:00"
+    },
+    {
+     "asn": "AS3215",
+     "prefix": "90.99.0.0/16",
+     "max_length": "24",
+     "not_before": "2026-06-09 12:05:11",
+     "not_after": "2027-07-01 00:00:00"
+    }
+   ],
+   "ripencc/2026-08-24": [
+    {
+     "asn": "AS3215",
+     "prefix": "90.98.0.0/16",
+     "max_length": "16",
+     "not_before": "2026-06-09 12:05:11",
+     "not_after": "2027-07-01 00:00:00"
+    },
+    {
+     "asn": "AS3215",
+     "prefix": "90.99.0.0/16",
+     "max_length": "24",
+     "not_before": "2026-06-09 12:05:11",
+     "not_after": "2027-07-01 00:00:00"
+    }
+   ],
+   "ripencc/2026-08-25": [
+    {
+     "asn": "AS3215",
+     "prefix": "90.99.0.0/16",
+     "max_length": "24",
+     "not_before": "2026-08-24 08:34:28",
+     "not_after": "2027-07-01 00:00:00"
+    }
+   ],
+   "ripencc/2026-09-01": [
+    {
+     "asn": "AS3215",
+     "prefix": "90.99.0.0/16",
+     "max_length": "24",
+     "not_before": "2026-08-24 08:34:28",
+     "not_after": "2027-07-01 00:00:00"
+    }
+   ],
+   "ripencc/2026-09-04": [
+    {
+     "asn": "AS3215",
+     "prefix": "90.99.0.0/16",
+     "max_length": "24",
+     "not_before": "2026-09-01 13:25:12",
+     "not_after": "2027-07-01 00:00:00"
+    }
+   ],
+   "ripencc/2026-10-04": [
+    {
+     "asn": "AS3215",
+     "prefix": "90.99.0.0/16",
+     "max_length": "24",
+     "not_before": "2026-09-14 08:03:27",
+     "not_after": "2027-07-01 00:00:00"
+    }
+   ],
+   "ripencc/2026-10-06": [
+    {
+     "asn": "AS3215",
+     "prefix": "90.99.0.0/16",
+     "max_length": "24",
+     "not_before": "2026-09-14 08:03:27",
+     "not_after": "2027-07-01 00:00:00"
+    }
+   ],
+   "ripencc/2026-10-20": [
+    {
+     "asn": "AS3215",
+     "prefix": "90.99.0.0/16",
+     "max_length": "24",
+     "not_before": "2026-10-14 11:27:43",
+     "not_after": "2027-07-01 00:00:00"
+    }
+   ]
+  },
+  "archive_sha256_ok": true
+ },
+ "irr": {
+  "objects": {
+   "RADB": [
+    {
+     "query": "exact",
+     "route": [
+      "90.98.0.0/18"
+     ],
+     "origin": [
+      "AS54113"
+     ],
+     "descr": [
+      "Fastly"
+     ],
+     "mnt-by": [
+      "MAINT-AS54113"
+     ],
+     "source": [
+      "RADB"
+     ],
+     "created": null,
+     "last-modified": [
+      "2026-10-05T11:49:37Z"
+     ],
+     "changed": [
+      "<masqué>@fastly.com 20261005 # 11:49 GMT"
+     ]
+    },
+    {
+     "query": "more",
+     "route": [
+      "90.98.0.0/18"
+     ],
+     "origin": [
+      "AS54113"
+     ],
+     "descr": [
+      "Fastly"
+     ],
+     "mnt-by": [
+      "MAINT-AS54113"
+     ],
+     "source": [
+      "RADB"
+     ],
+     "created": null,
+     "last-modified": [
+      "2026-10-05T11:49:37Z"
+     ],
+     "changed": [
+      "<masqué>@fastly.com 20261005 # 11:49 GMT"
+     ]
+    },
+    {
+     "query": "more",
+     "route": [
+      "90.98.128.0/18"
+     ],
+     "origin": [
+      "AS54113"
+     ],
+     "descr": [
+      "Fastly"
+     ],
+     "mnt-by": [
+      "MAINT-AS54113"
+     ],
+     "source": [
+      "RADB"
+     ],
+     "created": null,
+     "last-modified": [
+      "2026-10-05T11:49:37Z"
+     ],
+     "changed": [
+      "<masqué>@fastly.com 20261005 # 11:49 GMT"
+     ]
+    }
+   ],
+   "ALTDB": [
+    {
+     "query": "covering",
+     "route": [
+      "90.98.0.0/15"
+     ],
+     "origin": [
+      "AS41128"
+     ],
+     "descr": [
+      "SprintLink - FR Telco"
+     ],
+     "mnt-by": [
+      "MAINT-SPRINT"
+     ],
+     "source": [
+      "ALTDB"
+     ],
+     "created": null,
+     "last-modified": null,
+     "changed": [
+      "<masqué>@cogentco.com 20220324"
+     ]
+    },
+    {
+     "query": "covering",
+     "route": [
+      "90.98.0.0/15"
+     ],
+     "origin": [
+      "AS270118"
+     ],
+     "descr": [
+      "SprintLink - FR Telco"
+     ],
+     "mnt-by": [
+      "MAINT-SPRINT"
+     ],
+     "source": [
+      "ALTDB"
+     ],
+     "created": null,
+     "last-modified": null,
+     "changed": [
+      "<masqué>@cogentco.com 20220324"
+     ]
+    },
+    {
+     "query": "more",
+     "route": [
+      "90.99.0.0/16"
+     ],
+     "origin": [
+      "AS3215"
+     ],
+     "descr": [
+      "IPv4 Allow"
+     ],
+     "mnt-by": [
+      "MAINT-AS398775"
+     ],
+     "source": [
+      "ALTDB"
+     ],
+     "created": null,
+     "last-modified": null,
+     "changed": [
+      "<masqué>@gmail.com 20241210"
+     ]
+    },
+    {
+     "query": "less",
+     "route": [
+      "90.98.0.0/15"
+     ],
+     "origin": [
+      "AS41128"
+     ],
+     "descr": [
+      "SprintLink - FR Telco"
+     ],
+     "mnt-by": [
+      "MAINT-SPRINT"
+     ],
+     "source": [
+      "ALTDB"
+     ],
+     "created": null,
+     "last-modified": null,
+     "changed": [
+      "<masqué>@cogentco.com 20220324"
+     ]
+    },
+    {
+     "query": "less",
+     "route": [
+      "90.98.0.0/15"
+     ],
+     "origin": [
+      "AS270118"
+     ],
+     "descr": [
+      "SprintLink - FR Telco"
+     ],
+     "mnt-by": [
+      "MAINT-SPRINT"
+     ],
+     "source": [
+      "ALTDB"
+     ],
+     "created": null,
+     "last-modified": null,
+     "changed": [
+      "<masqué>@cogentco.com 20220324"
+     ]
+    }
+   ],
+   "RIPE": []
+  },
+  "maintainers": {
+   "ALTDB:MAINT-AS398775": {
+    "objects": 69,
+    "by_class": [
+     [
+      "route",
+      59
+     ],
+     [
+      "as-set",
+      10
+     ]
+    ],
+    "top_origins": [
+     [
+      "AS26561",
+      20
+     ],
+     [
+      "AS398770",
+      9
+     ],
+     [
+      "AS245",
+      8
+     ],
+     [
+      "AS268521",
+      5
+     ],
+     [
+      "AS16471",
+      4
+     ],
+     [
+      "AS54497",
+      2
+     ],
+     [
+      "AS6186",
+      2
+     ],
+     [
+      "AS60558",
+      1
+     ]
+    ],
+    "last_modified_months": [],
+    "mntner": []
+   },
+   "ALTDB:MAINT-SPRINT": {
+    "objects": 25,
+    "by_class": [
+     [
+      "route",
+      23
+     ],
+     [
+      "mntner",
+      1
+     ],
+     [
+      "as-set",
+      1
+     ]
+    ],
+    "top_origins": [
+     [
+      "AS270118",
+      15
+     ],
+     [
+      "AS1802",
+      4
+     ],
+     [
+      "AS3643",
+      1
+     ],
+     [
+      "AS272055",
+      1
+     ],
+     [
+      "AS41128",
+      1
+     ],
+     [
+      "AS22521",
+      1
+     ]
+    ],
+    "last_modified_months": [],
+    "mntner": [
+     {
+      "mntner": [
+       "MAINT-SPRINT"
+      ],
+      "descr": [
+       "Sprint"
+      ],
+      "admin-c": [
+       "SIE-ARIN"
+      ],
+      "changed": [
+       "<masqué>@cogentco.com 20200213"
+      ],
+      "source": [
+       "ALTDB"
+      ]
+     }
+    ]
+   },
+   "RADB:MAINT-AS54113": {
+    "objects": 4952,
+    "by_class": [
+     [
+      "route6",
+      4234
+     ],
+     [
+      "route",
+      713
+     ],
+     [
+      "as-set",
+      2
+     ],
+     [
+      "aut-num",
+      1
+     ],
+     [
+      "mntner",
+      1
+     ],
+     [
+      "person",
+      1
+     ]
+    ],
+    "top_origins": [
+     [
+      "AS54113",
+      4946
+     ],
+     [
+      "AS394192",
+      1
+     ]
+    ],
+    "last_modified_months": [
+     [
+      "2025-10",
+      40
+     ],
+     [
+      "2025-11",
+      29
+     ],
+     [
+      "2025-12",
+      22
+     ],
+     [
+      "2026-01",
+      67
+     ],
+     [
+      "2026-02",
+      29
+     ],
+     [
+      "2026-03",
+      53
+     ],
+     [
+      "2026-04",
+      129
+     ],
+     [
+      "2026-05",
+      4
+     ],
+     [
+      "2026-06",
+      110
+     ],
+     [
+      "2026-07",
+      17
+     ],
+     [
+      "2026-09",
+      138
+     ],
+     [
+      "2026-10",
+      16
+     ]
+    ],
+    "mntner": [
+     {
+      "mntner": [
+       "MAINT-AS54113"
+      ],
+      "descr": [
+       "Fastly, Inc."
+      ],
+      "admin-c": [
+       "TECHOPS-FASTLY"
+      ],
+      "changed": [
+       "<masqué>@fastly.com 20251022 # 23:59 GMT"
+      ],
+      "source": [
+       "RADB"
+      ],
+      "last-modified": [
+       "2025-10-22T23:59:29Z"
+      ]
+     }
+    ]
+   }
+  }
+ },
+ "registry": {
+  "inetnum": [
+   {
+    "inetnum": [
+     "90.98.0.0 - 90.98.255.255"
+    ],
+    "netname": [
+     "US-FASTLY-20060302"
+    ],
+    "country": [
+     "US"
+    ],
+    "org": [
+     "ORG-FI26-RIPE"
+    ],
+    "admin-c": [
+     "FRA59-RIPE"
+    ],
+    "tech-c": [
+     "FRA59-RIPE"
+    ],
+    "status": [
+     "ALLOCATED PA"
+    ],
+    "mnt-by": [
+     "FASTLY",
+     "RIPE-NCC-HM-MNT"
+    ],
+    "created": [
+     "2026-09-03T07:43:08Z"
+    ],
+    "last-modified": [
+     "2026-09-03T07:43:08Z"
+    ],
+    "source": [
+     "RIPE"
+    ]
+   }
+  ],
+  "inetnum_more_specific_count": 0,
+  "orgs": {
+   "ORG-FI26-RIPE": [
+    {
+     "organisation": [
+      "ORG-FI26-RIPE"
+     ],
+     "org-name": [
+      "Fastly, Inc."
+     ],
+     "country": [
+      "US"
+     ],
+     "org-type": [
+      "LIR"
+     ],
+     "created": [
+      "2013-07-08T09:37:51Z"
+     ],
+     "last-modified": [
+      "2026-08-03T14:05:16Z"
+     ]
+    }
+   ]
+  },
+  "inetnum_history": [
+   {
+    "version": 1,
+    "from": "2026-09-03T07:43:08",
+    "to": "2026-10-21T08:04:00"
+   }
+  ],
+  "aut_num": {
+   "RADB": [
+    {
+     "aut-num": [
+      "AS54113"
+     ],
+     "as-name": [
+      "Fastly"
+     ],
+     "descr": [
+      "Fastly, Inc."
+     ],
+     "org": null,
+     "mnt-by": [
+      "MAINT-AS54113"
+     ],
+     "last-modified": [
+      "2025-10-22T23:48:57Z"
+     ],
+     "policy_lines": 36
+    }
+   ],
+   "RIPE": []
+  },
+  "upstream_policies": {
+   "AS5511": {
+    "found": true,
+    "as-name": [
+     "Opentransit"
+    ],
+    "org": [
+     "ORG-FT2-RIPE"
+    ],
+    "lines_mentioning_asn": [
+     "import: from AS54113 action pref=100; accept AS54113",
+     "export: to AS54113 announce ANY",
+     "mp-import: afi ipv6.unicast from AS54113 accept AS54113",
+     "mp-export: afi ipv6.unicast to AS54113 announce ANY"
+    ],
+    "first_version_mentioning_asn": {
+     "version": 325,
+     "from": "2020-07-08T14:28:41",
+     "previous_version": 324,
+     "previous_from": "2020-05-14T11:10:48",
+     "hypothèse": "mention supposée continue depuis cette version (dichotomie)"
+    }
+   }
+  }
+ },
+ "transfers": {
+  "covering": [
+   {
+    "transfer_date": "2024-07-22T19:00:00Z",
+    "ip4nets": {
+     "original_set": [
+      {
+       "start_address": "90.0.0.0",
+       "end_address": "90.127.255.255"
+      }
+     ],
+     "transfer_set": [
+      {
+       "start_address": "90.72.0.0",
+       "end_address": "90.72.255.255"
+      },
+      {
+       "start_address": "90.97.0.0",
+       "end_address": "90.97.127.255"
+      }
+     ]
+    },
+    "type": "RESOURCE_TRANSFER",
+    "source_organization": {
+     "name": "Orange S.A.",
+     "country_code": null
+    },
+    "recipient_organization": {
+     "name": "Bleu SAS",
+     "country_code": null
+    },
+    "source_rir": "RIPE NCC",
+    "recipient_rir": "RIPE NCC"
+   },
+   {
+    "transfer_date": "2026-09-03T19:00:00Z",
+    "ip4nets": {
+     "original_set": [
+      {
+       "start_address": "90.98.0.0",
+       "end_address": "90.99.255.255"
+      }
+     ],
+     "transfer_set": [
+      {
+       "start_address": "90.98.0.0",
+       "end_address": "90.98.255.255"
+      }
+     ]
+    },
+    "type": "RESOURCE_TRANSFER",
+    "source_organization": {
+     "name": "Orange S.A.",
+     "country_code": "FR"
+    },
+    "recipient_organization": {
+     "name": "Fastly, Inc.",
+     "country_code": "US"
+    },
+    "source_rir": "RIPE NCC",
+    "recipient_rir": "RIPE NCC"
+   }
+  ],
+  "holder": [
+   {
+    "transfer_date": "2023-11-09T19:00:00Z",
+    "ip4nets": {
+     "original_set": [
+      {
+       "start_address": "2.0.0.0",
+       "end_address": "2.15.255.255"
+      }
+     ],
+     "transfer_set": [
+      {
+       "start_address": "2.0.0.0",
+       "end_address": "2.1.255.255"
+      }
+     ]
+    },
+    "type": "RESOURCE_TRANSFER",
+    "source_organization": {
+     "name": "Orange S.A.",
+     "country_code": null
+    },
+    "recipient_organization": {
+     "name": "Oracle Svenska AB",
+     "country_code": null
+    },
+    "source_rir": "RIPE NCC",
+    "recipient_rir": "RIPE NCC"
+   },
+   {
+    "transfer_date": "2024-05-30T19:00:00Z",
+    "ip4nets": {
+     "original_set": [
+      {
+       "start_address": "2.2.0.0",
+       "end_address": "2.3.255.255"
+      }
+     ],
+     "transfer_set": [
+      {
+       "start_address": "2.2.0.0",
+       "end_address": "2.2.255.255"
+      }
+     ]
+    },
+    "type": "RESOURCE_TRANSFER",
+    "source_organization": {
+     "name": "Orange S.A.",
+     "country_code": null
+    },
+    "recipient_organization": {
+     "name": "Oracle Svenska AB",
+     "country_code": null
+    },
+    "source_rir": "RIPE NCC",
+    "recipient_rir": "RIPE NCC"
+   },
+   {
+    "transfer_date": "2024-07-22T19:00:00Z",
+    "ip4nets": {
+     "original_set": [
+      {
+       "start_address": "90.0.0.0",
+       "end_address": "90.127.255.255"
+      }
+     ],
+     "transfer_set": [
+      {
+       "start_address": "90.72.0.0",
+       "end_address": "90.72.255.255"
+      },
+      {
+       "start_address": "90.97.0.0",
+       "end_address": "90.97.127.255"
+      }
+     ]
+    },
+    "type": "RESOURCE_TRANSFER",
+    "source_organization": {
+     "name": "Orange S.A.",
+     "country_code": null
+    },
+    "recipient_organization": {
+     "name": "Bleu SAS",
+     "country_code": null
+    },
+    "source_rir": "RIPE NCC",
+    "recipient_rir": "RIPE NCC"
+   },
+   {
+    "transfer_date": "2024-07-22T19:00:00Z",
+    "ip6nets": {
+     "original_set": [
+      {
+       "start_address": "2a01:c000::",
+       "end_address": "2a01:dfff:ffff:ffff:ffff:ffff:ffff:ffff"
+      }
+     ],
+     "transfer_set": [
+      {
+       "start_address": "2a01:dfff::",
+       "end_address": "2a01:dfff:ffff:ffff:ffff:ffff:ffff:ffff"
+      }
+     ]
+    },
+    "type": "RESOURCE_TRANSFER",
+    "source_organization": {
+     "name": "Orange S.A.",
+     "country_code": null
+    },
+    "recipient_organization": {
+     "name": "Bleu SAS",
+     "country_code": null
+    },
+    "source_rir": "RIPE NCC",
+    "recipient_rir": "RIPE NCC"
+   },
+   {
+    "transfer_date": "2025-02-21T19:00:00Z",
+    "ip4nets": {
+     "original_set": [
+      {
+       "start_address": "86.192.0.0",
+       "end_address": "86.255.255.255"
+      }
+     ],
+     "transfer_set": [
+      {
+       "start_address": "86.232.0.0",
+       "end_address": "86.232.255.255"
+      }
+     ]
+    },
+    "type": "RESOURCE_TRANSFER",
+    "source_organization": {
+     "name": "Orange S.A.",
+     "country_code": null
+    },
+    "recipient_organization": {
+     "name": "Bleu SAS",
+     "country_code": null
+    },
+    "source_rir": "RIPE NCC",
+    "recipient_rir": "RIPE NCC"
+   },
+   {
+    "transfer_date": "2026-05-22T19:00:00Z",
+    "ip4nets": {
+     "original_set": [
+      {
+       "start_address": "86.224.0.0",
+       "end_address": "86.231.255.255"
+      }
+     ],
+     "transfer_set": [
+      {
+       "start_address": "86.226.0.0",
+       "end_address": "86.226.255.255"
+      }
+     ]
+    },
+    "type": "RESOURCE_TRANSFER",
+    "source_organization": {
+     "name": "Orange S.A.",
+     "country_code": "FR"
+    },
+    "recipient_organization": {
+     "name": "NET AND GRID RESEARCH, LLC",
+     "country_code": "US"
+    },
+    "source_rir": "RIPE NCC",
+    "recipient_rir": "RIPE NCC"
+   },
+   {
+    "transfer_date": "2026-05-22T19:00:00Z",
+    "ip4nets": {
+     "original_set": [
+      {
+       "start_address": "90.96.0.0",
+       "end_address": "90.96.255.255"
+      }
+     ],
+     "transfer_set": [
+      {
+       "start_address": "90.96.0.0",
+       "end_address": "90.96.255.255"
+      }
+     ]
+    },
+    "type": "RESOURCE_TRANSFER",
+    "source_organization": {
+     "name": "Orange S.A.",
+     "country_code": "FR"
+    },
+    "recipient_organization": {
+     "name": "NET AND GRID RESEARCH, LLC",
+     "country_code": "US"
+    },
+    "source_rir": "RIPE NCC",
+    "recipient_rir": "RIPE NCC"
+   },
+   {
+    "transfer_date": "2026-09-03T19:00:00Z",
+    "ip4nets": {
+     "original_set": [
+      {
+       "start_address": "90.98.0.0",
+       "end_address": "90.99.255.255"
+      }
+     ],
+     "transfer_set": [
+      {
+       "start_address": "90.98.0.0",
+       "end_address": "90.98.255.255"
+      }
+     ]
+    },
+    "type": "RESOURCE_TRANSFER",
+    "source_organization": {
+     "name": "Orange S.A.",
+     "country_code": "FR"
+    },
+    "recipient_organization": {
+     "name": "Fastly, Inc.",
+     "country_code": "US"
+    },
+    "source_rir": "RIPE NCC",
+    "recipient_rir": "RIPE NCC"
+   },
+   {
+    "transfer_date": "2026-10-14T19:00:00Z",
+    "ip4nets": {
+     "original_set": [
+      {
+       "start_address": "92.128.0.0",
+       "end_address": "92.191.255.255"
+      }
+     ],
+     "transfer_set": [
+      {
+       "start_address": "92.181.224.0",
+       "end_address": "92.181.255.255"
+      }
+     ]
+    },
+    "type": "RESOURCE_TRANSFER",
+    "source_organization": {
+     "name": "Orange S.A.",
+     "country_code": "FR"
+    },
+    "recipient_organization": {
+     "name": "Orange Espagne SA",
+     "country_code": "ES"
+    },
+    "source_rir": "RIPE NCC",
+    "recipient_rir": "RIPE NCC"
+   },
+   {
+    "transfer_date": "2026-10-15T19:00:00Z",
+    "ip4nets": {
+     "original_set": [
+      {
+       "start_address": "1.178.224.0",
+       "end_address": "1.178.255.255"
+      }
+     ],
+     "transfer_set": [
+      {
+       "start_address": "1.178.224.0",
+       "end_address": "1.178.255.255"
+      }
+     ]
+    },
+    "type": "RESOURCE_TRANSFER",
+    "source_organization": {
+     "name": "Orange Espagne SA",
+     "country_code": "ES"
+    },
+    "recipient_organization": {
+     "name": "Orange S.A.",
+     "country_code": "FR"
+    },
+    "source_rir": "RIPE NCC",
+    "recipient_rir": "RIPE NCC"
+   }
+  ]
+ },
+ "dns": {
+  "ns": {
+   "0.98.90.in-addr.arpa": {
+    "status": 3,
+    "answer": [],
+    "authority": [
+     "pri.authdns.ripe.net."
+    ]
+   },
+   "90.in-addr.arpa": {
+    "status": 0,
+    "answer": [
+     "ns3.lacnic.net.",
+     "ns3.afrinic.net.",
+     "ns4.apnic.net.",
+     "pri.authdns.ripe.net.",
+     "rirns.arin.net."
+    ],
+    "authority": []
+   },
+   "98.90.in-addr.arpa": {
+    "status": 3,
+    "answer": [],
+    "authority": [
+     "pri.authdns.ripe.net."
+    ]
+   }
+  },
+  "ptr": {
+   "90.98.0.1": {
+    "status": 3,
+    "answer": []
+   },
+   "90.98.8.1": {
+    "status": 3,
+    "answer": []
+   },
+   "90.98.16.1": {
+    "status": 3,
+    "answer": []
+   },
+   "90.98.24.1": {
+    "status": 3,
+    "answer": []
+   },
+   "90.98.32.1": {
+    "status": 3,
+    "answer": []
+   },
+   "90.98.40.1": {
+    "status": 3,
+    "answer": []
+   },
+   "90.98.48.1": {
+    "status": 3,
+    "answer": []
+   },
+   "90.98.56.1": {
+    "status": 3,
+    "answer": []
+   }
+  }
+ },
+ "provider_list": {
+  "url": "https://api.fastly.com/public-ip-list",
+  "overlapping_entries": [
+   "90.98.0.0/17"
+  ],
+  "wayback": [
+   {
+    "timestamp": "20240927142655",
+    "digest": "ONK4QC2EGSUZ7TEO5C5UP6XHL5FZORCX",
+    "overlapping_entries": []
+   },
+   {
+    "timestamp": "20241127015431",
+    "digest": "KTXR3UAKVL6J5K4GKH63ZD4VHHRZKZLK",
+    "overlapping_entries": []
+   },
+   {
+    "timestamp": "20241217204725",
+    "digest": "SSYWJWI2C7IYPOOFCWO5HVTVGBHGX544",
+    "overlapping_entries": []
+   },
+   {
+    "timestamp": "20250109002659",
+    "digest": "TLSBEZONYSH2SPFD5WQJTP7SIYVTNNNO",
+    "overlapping_entries": []
+   },
+   {
+    "timestamp": "20250130101925",
+    "digest": "XGC2KK3UQVWB6KGABKHH2E4HR4CEXBX3",
+    "overlapping_entries": []
+   },
+   {
+    "timestamp": "20250424182516",
+    "digest": "TFNXHG2DS5CHMY7JL6VEJATLBMVV7GRH",
+    "overlapping_entries": []
+   },
+   {
+    "timestamp": "20250528142418",
+    "digest": "A6INVB2HFVEKYZEQIL42FHGNOLWQ5WCC",
+    "overlapping_entries": []
+   },
+   {
+    "timestamp": "20250706105543",
+    "digest": "5AVIXYI7MC6FSPSR7WSTIXAKSN4TMNHU",
+    "overlapping_entries": []
+   },
+   {
+    "timestamp": "20250821133156",
+    "digest": "PJ4B42DA25SM33EBNIMPIXICS3UXSH4Q",
+    "overlapping_entries": []
+   },
+   {
+    "timestamp": "20251003051601",
+    "digest": "SSYWJWI2C7IYPOOFCWO5HVTVGBHGX544",
+    "overlapping_entries": []
+   },
+   {
+    "timestamp": "20251003094403",
+    "digest": "V7ROGLBDHRPYNEBT3N4FNZ64LKRH2GWF",
+    "overlapping_entries": []
+   },
+   {
+    "timestamp": "20251007022616",
+    "digest": "SSYWJWI2C7IYPOOFCWO5HVTVGBHGX544",
+    "overlapping_entries": []
+   },
+   {
+    "timestamp": "20251010221640",
+    "digest": "FYQCNBBPOOJIMPNPC5K5LXOPAD36FSIK",
+    "overlapping_entries": []
+   },
+   {
+    "timestamp": "20251114204228",
+    "digest": "NQQYMID4QZOBHSTARXYD344REGSUTSXA",
+    "overlapping_entries": []
+   },
+   {
+    "timestamp": "20251228001340",
+    "digest": "K45MTBF5AIWNBCETRLDYFCJW3O3ABTHZ",
+    "overlapping_entries": []
+   },
+   {
+    "timestamp": "20260210053027",
+    "digest": "SJ42GRYMDKSPDKBPM62CY6OHSQJ4YLNZ",
+    "overlapping_entries": []
+   },
+   {
+    "timestamp": "20260306105104",
+    "digest": "2LKFDGQRWQGHK4KGDHS3NLKQDF5CDAZB",
+    "overlapping_entries": []
+   },
+   {
+    "timestamp": "20260428102705",
+    "digest": "SSYWJWI2C7IYPOOFCWO5HVTVGBHGX544",
+    "overlapping_entries": []
+   },
+   {
+    "timestamp": "20260523175323",
+    "digest": "WSWEYS6752QYM5NN5F4OWXQTDLWOVHLS",
+    "overlapping_entries": []
+   },
+   {
+    "timestamp": "20260527222056",
+    "digest": "ILZIOYSOCXDN735QNHTBHGYWKTQN6VSQ",
+    "overlapping_entries": []
+   },
+   {
+    "timestamp": "20260709213643",
+    "digest": "GIMIHTPJCFTWLMXJVTLC4AGPHP3BATSX",
+    "overlapping_entries": []
+   },
+   {
+    "timestamp": "20260711225902",
+    "digest": "46II7DEKL6R7TPJ5IKFFBRLY5VAV4Y5N",
+    "overlapping_entries": []
+   },
+   {
+    "timestamp": "20260816021341",
+    "digest": "SSYWJWI2C7IYPOOFCWO5HVTVGBHGX544",
+    "overlapping_entries": []
+   }
+  ]
+ },
+ "holder_scan": {
+  "holder_org": "ORG-FT2-RIPE",
+  "holder_asns": [
+   2278,
+   2279,
+   2280,
+   2281,
+   2282,
+   2283,
+   2284,
+   2285,
+   2286,
+   2287,
+   2288,
+   2289,
+   2290,
+   2291,
+   2292,
+   2293,
+   2294,
+   2295,
+   2296,
+   2297,
+   2298,
+   2299,
+   2300,
+   2301,
+   2302,
+   2303,
+   2304,
+   2305,
+   2306,
+   2307,
+   2308,
+   2309,
+   2340,
+   2341,
+   2342,
+   2343,
+   2344,
+   2345,
+   2346,
+   2347,
+   2348,
+   2349,
+   2370,
+   2371,
+   2372,
+   2373,
+   2374,
+   2375,
+   2377,
+   2917,
+   3215,
+   5511,
+   5583,
+   8891,
+   16028,
+   24600,
+   25113,
+   25186,
+   28708,
+   41128,
+   199140
+  ],
+  "blocks": 96,
+  "foreign_routes": [
+   {
+    "holder_block": "193.248.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "193.251.153.0/24",
+    "origin": 37173
+   },
+   {
+    "holder_block": "193.248.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "193.251.217.0/24",
+    "origin": 8723
+   },
+   {
+    "holder_block": "193.248.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "193.251.218.0/24",
+    "origin": 37173
+   },
+   {
+    "holder_block": "193.248.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "193.251.219.0/24",
+    "origin": 37173
+   },
+   {
+    "holder_block": "193.248.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "193.251.222.0/24",
+    "origin": 37173
+   },
+   {
+    "holder_block": "193.252.0.0/15",
+    "status": "ALLOCATED PA",
+    "prefix": "193.252.16.0/23",
+    "origin": 41951
+   },
+   {
+    "holder_block": "193.252.0.0/15",
+    "status": "ALLOCATED PA",
+    "prefix": "193.252.242.0/23",
+    "origin": 13034
+   },
+   {
+    "holder_block": "193.252.0.0/15",
+    "status": "ALLOCATED PA",
+    "prefix": "193.252.16.0/24",
+    "origin": 41951
+   },
+   {
+    "holder_block": "193.252.0.0/15",
+    "status": "ALLOCATED PA",
+    "prefix": "193.252.17.0/24",
+    "origin": 41951
+   },
+   {
+    "holder_block": "193.252.0.0/15",
+    "status": "ALLOCATED PA",
+    "prefix": "193.252.138.0/24",
+    "origin": 13034
+   },
+   {
+    "holder_block": "193.252.0.0/15",
+    "status": "ALLOCATED PA",
+    "prefix": "193.252.234.0/24",
+    "origin": 5377
+   },
+   {
+    "holder_block": "194.2.0.0/18",
+    "status": "ALLOCATED PA",
+    "prefix": "194.2.35.0/24",
+    "origin": 21272
+   },
+   {
+    "holder_block": "194.2.0.0/18",
+    "status": "ALLOCATED PA",
+    "prefix": "194.2.42.0/24",
+    "origin": 47818
+   },
+   {
+    "holder_block": "194.2.0.0/18",
+    "status": "ALLOCATED PA",
+    "prefix": "194.2.56.0/24",
+    "origin": 16236
+   },
+   {
+    "holder_block": "194.2.0.0/18",
+    "status": "ALLOCATED PA",
+    "prefix": "194.2.57.0/24",
+    "origin": 16236
+   },
+   {
+    "holder_block": "194.2.72.0/23",
+    "status": "ALLOCATED PA",
+    "prefix": "194.2.72.0/24",
+    "origin": 400110
+   },
+   {
+    "holder_block": "194.3.0.0/17",
+    "status": "ALLOCATED PA",
+    "prefix": "194.3.4.0/24",
+    "origin": 16236
+   },
+   {
+    "holder_block": "194.2.80.0/21",
+    "status": "ALLOCATED PA",
+    "prefix": "194.2.86.0/24",
+    "origin": 16236
+   },
+   {
+    "holder_block": "194.2.128.0/20",
+    "status": "ALLOCATED PA",
+    "prefix": "194.2.130.0/23",
+    "origin": 199233
+   },
+   {
+    "holder_block": "194.2.128.0/20",
+    "status": "ALLOCATED PA",
+    "prefix": "194.2.130.0/24",
+    "origin": 199233
+   },
+   {
+    "holder_block": "194.2.128.0/20",
+    "status": "ALLOCATED PA",
+    "prefix": "194.2.131.0/24",
+    "origin": 199233
+   },
+   {
+    "holder_block": "194.206.0.0/16",
+    "status": "ALLOCATED PA",
+    "prefix": "194.206.120.0/24",
+    "origin": 9180
+   },
+   {
+    "holder_block": "194.206.0.0/16",
+    "status": "ALLOCATED PA",
+    "prefix": "194.206.126.0/24",
+    "origin": 8362
+   },
+   {
+    "holder_block": "194.206.0.0/16",
+    "status": "ALLOCATED PA",
+    "prefix": "194.206.254.0/24",
+    "origin": 15422
+   },
+   {
+    "holder_block": "194.250.0.0/16",
+    "status": "ALLOCATED PA",
+    "prefix": "194.250.98.0/24",
+    "origin": 16236
+   },
+   {
+    "holder_block": "194.250.0.0/16",
+    "status": "ALLOCATED PA",
+    "prefix": "194.250.118.0/24",
+    "origin": 9180
+   },
+   {
+    "holder_block": "194.3.160.0/19",
+    "status": "ALLOCATED PA",
+    "prefix": "194.3.190.0/24",
+    "origin": 9180
+   },
+   {
+    "holder_block": "194.51.0.0/16",
+    "status": "ALLOCATED PA",
+    "prefix": "194.51.35.0/24",
+    "origin": 206713
+   },
+   {
+    "holder_block": "194.51.0.0/16",
+    "status": "ALLOCATED PA",
+    "prefix": "194.51.85.0/24",
+    "origin": 8362
+   },
+   {
+    "holder_block": "194.51.0.0/16",
+    "status": "ALLOCATED PA",
+    "prefix": "194.51.187.0/24",
+    "origin": 212709
+   },
+   {
+    "holder_block": "195.101.0.0/16",
+    "status": "ALLOCATED PA",
+    "prefix": "195.101.164.0/23",
+    "origin": 12601
+   },
+   {
+    "holder_block": "195.101.0.0/16",
+    "status": "ALLOCATED PA",
+    "prefix": "195.101.166.0/23",
+    "origin": 12601
+   },
+   {
+    "holder_block": "195.101.0.0/16",
+    "status": "ALLOCATED PA",
+    "prefix": "195.101.64.0/24",
+    "origin": 9180
+   },
+   {
+    "holder_block": "195.101.0.0/16",
+    "status": "ALLOCATED PA",
+    "prefix": "195.101.158.0/24",
+    "origin": 12826
+   },
+   {
+    "holder_block": "195.101.0.0/16",
+    "status": "ALLOCATED PA",
+    "prefix": "195.101.188.0/24",
+    "origin": 9180
+   },
+   {
+    "holder_block": "195.101.0.0/16",
+    "status": "ALLOCATED PA",
+    "prefix": "195.101.189.0/24",
+    "origin": 9180
+   },
+   {
+    "holder_block": "195.6.0.0/16",
+    "status": "ALLOCATED PA",
+    "prefix": "195.6.244.0/23",
+    "origin": 8362
+   },
+   {
+    "holder_block": "212.234.0.0/16",
+    "status": "ALLOCATED PA",
+    "prefix": "212.234.169.0/24",
+    "origin": 47127
+   },
+   {
+    "holder_block": "217.108.0.0/15",
+    "status": "ALLOCATED PA",
+    "prefix": "217.109.67.0/24",
+    "origin": 15422
+   },
+   {
+    "holder_block": "217.108.0.0/15",
+    "status": "ALLOCATED PA",
+    "prefix": "217.109.108.0/24",
+    "origin": 47818
+   },
+   {
+    "holder_block": "217.108.0.0/15",
+    "status": "ALLOCATED PA",
+    "prefix": "217.109.116.0/24",
+    "origin": 48125
+   },
+   {
+    "holder_block": "217.108.0.0/15",
+    "status": "ALLOCATED PA",
+    "prefix": "217.109.127.0/24",
+    "origin": 9180
+   },
+   {
+    "holder_block": "217.167.0.0/16",
+    "status": "ALLOCATED PA",
+    "prefix": "217.167.147.0/24",
+    "origin": 21272
+   },
+   {
+    "holder_block": "62.160.0.0/15",
+    "status": "ALLOCATED PA",
+    "prefix": "62.160.27.0/24",
+    "origin": 8908
+   },
+   {
+    "holder_block": "80.8.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "80.10.64.0/20",
+    "origin": 8376
+   },
+   {
+    "holder_block": "80.8.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "80.10.78.0/24",
+    "origin": 8376
+   },
+   {
+    "holder_block": "81.248.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "81.252.173.0/24",
+    "origin": 21272
+   },
+   {
+    "holder_block": "81.248.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "81.252.189.0/24",
+    "origin": 212709
+   },
+   {
+    "holder_block": "81.248.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "81.255.154.0/24",
+    "origin": 31629
+   },
+   {
+    "holder_block": "81.248.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "81.255.155.0/24",
+    "origin": 31629
+   },
+   {
+    "holder_block": "81.248.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "81.255.156.0/24",
+    "origin": 31660
+   },
+   {
+    "holder_block": "81.248.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "81.255.178.0/24",
+    "origin": 16236
+   },
+   {
+    "holder_block": "81.48.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "81.52.185.0/24",
+    "origin": 51964
+   },
+   {
+    "holder_block": "81.48.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "81.52.199.0/24",
+    "origin": 29664
+   },
+   {
+    "holder_block": "81.80.0.0/16",
+    "status": "ALLOCATED PA",
+    "prefix": "81.80.237.0/24",
+    "origin": 12826
+   },
+   {
+    "holder_block": "83.192.0.0/12",
+    "status": "ALLOCATED PA",
+    "prefix": "83.206.66.0/24",
+    "origin": 35169
+   },
+   {
+    "holder_block": "90.64.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "90.68.0.0/16",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.64.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "90.64.0.0/17",
+    "origin": 15962
+   },
+   {
+    "holder_block": "90.64.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "90.64.128.0/17",
+    "origin": 15962
+   },
+   {
+    "holder_block": "90.64.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "90.68.32.0/19",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.64.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "90.68.192.0/19",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.64.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "90.68.16.0/20",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.64.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "90.68.80.0/20",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.64.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "90.68.96.0/20",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.64.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "90.68.112.0/21",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.64.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "90.68.120.0/21",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.64.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "90.68.4.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.64.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "90.68.68.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.64.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "90.68.80.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.64.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "90.68.128.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.64.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "90.68.132.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.64.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "90.68.136.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.64.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "90.68.140.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.64.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "90.68.144.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.64.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "90.68.148.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.64.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "90.68.160.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.64.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "90.68.164.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.64.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "90.68.168.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.64.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "90.68.172.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.64.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "90.68.176.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.64.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "90.68.180.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.64.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "90.68.184.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.64.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "90.68.188.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.64.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "90.68.32.0/23",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.64.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "90.68.34.0/23",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.64.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "90.68.36.0/23",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.64.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "90.68.38.0/23",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.64.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "90.68.108.0/23",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.64.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "90.68.146.0/23",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.64.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "90.68.170.0/23",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.64.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "90.68.196.0/23",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.64.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "90.68.216.0/23",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.64.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "90.68.220.0/23",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.64.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "90.68.222.0/23",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.64.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "90.68.52.0/24",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.64.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "90.68.103.0/24",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.64.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "90.68.144.0/24",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.64.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "90.68.152.0/24",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.64.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "90.68.153.0/24",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.64.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "90.68.154.0/24",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.64.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "90.68.155.0/24",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.64.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "90.68.156.0/24",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.64.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "90.68.157.0/24",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.64.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "90.68.158.0/24",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.74.0.0/15",
+    "status": "ALLOCATED PA",
+    "prefix": "90.74.0.0/16",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.74.0.0/15",
+    "status": "ALLOCATED PA",
+    "prefix": "90.74.0.0/19",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.74.0.0/15",
+    "status": "ALLOCATED PA",
+    "prefix": "90.74.96.0/19",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.74.0.0/15",
+    "status": "ALLOCATED PA",
+    "prefix": "90.74.128.0/19",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.74.0.0/15",
+    "status": "ALLOCATED PA",
+    "prefix": "90.74.160.0/20",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.74.0.0/15",
+    "status": "ALLOCATED PA",
+    "prefix": "90.74.224.0/20",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.74.0.0/15",
+    "status": "ALLOCATED PA",
+    "prefix": "90.74.240.0/20",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.74.0.0/15",
+    "status": "ALLOCATED PA",
+    "prefix": "90.74.88.0/21",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.74.0.0/15",
+    "status": "ALLOCATED PA",
+    "prefix": "90.74.184.0/21",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.74.0.0/15",
+    "status": "ALLOCATED PA",
+    "prefix": "90.74.32.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.74.0.0/15",
+    "status": "ALLOCATED PA",
+    "prefix": "90.74.36.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.74.0.0/15",
+    "status": "ALLOCATED PA",
+    "prefix": "90.74.40.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.74.0.0/15",
+    "status": "ALLOCATED PA",
+    "prefix": "90.74.44.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.74.0.0/15",
+    "status": "ALLOCATED PA",
+    "prefix": "90.74.48.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.74.0.0/15",
+    "status": "ALLOCATED PA",
+    "prefix": "90.74.52.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.74.0.0/15",
+    "status": "ALLOCATED PA",
+    "prefix": "90.74.56.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.74.0.0/15",
+    "status": "ALLOCATED PA",
+    "prefix": "90.74.64.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.74.0.0/15",
+    "status": "ALLOCATED PA",
+    "prefix": "90.74.68.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.74.0.0/15",
+    "status": "ALLOCATED PA",
+    "prefix": "90.74.72.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.74.0.0/15",
+    "status": "ALLOCATED PA",
+    "prefix": "90.74.76.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.74.0.0/15",
+    "status": "ALLOCATED PA",
+    "prefix": "90.74.80.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.74.0.0/15",
+    "status": "ALLOCATED PA",
+    "prefix": "90.74.84.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.74.0.0/15",
+    "status": "ALLOCATED PA",
+    "prefix": "90.74.156.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.74.0.0/15",
+    "status": "ALLOCATED PA",
+    "prefix": "90.74.180.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.74.0.0/15",
+    "status": "ALLOCATED PA",
+    "prefix": "90.74.192.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.74.0.0/15",
+    "status": "ALLOCATED PA",
+    "prefix": "90.74.196.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.74.0.0/15",
+    "status": "ALLOCATED PA",
+    "prefix": "90.74.200.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.74.0.0/15",
+    "status": "ALLOCATED PA",
+    "prefix": "90.74.204.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.74.0.0/15",
+    "status": "ALLOCATED PA",
+    "prefix": "90.74.208.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.74.0.0/15",
+    "status": "ALLOCATED PA",
+    "prefix": "90.74.212.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.74.0.0/15",
+    "status": "ALLOCATED PA",
+    "prefix": "90.74.216.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.74.0.0/15",
+    "status": "ALLOCATED PA",
+    "prefix": "90.74.220.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.74.0.0/15",
+    "status": "ALLOCATED PA",
+    "prefix": "90.74.0.0/23",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.74.0.0/15",
+    "status": "ALLOCATED PA",
+    "prefix": "90.74.2.0/23",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.74.0.0/15",
+    "status": "ALLOCATED PA",
+    "prefix": "90.74.18.0/23",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.74.0.0/15",
+    "status": "ALLOCATED PA",
+    "prefix": "90.74.32.0/23",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.74.0.0/15",
+    "status": "ALLOCATED PA",
+    "prefix": "90.74.34.0/23",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.74.0.0/15",
+    "status": "ALLOCATED PA",
+    "prefix": "90.74.42.0/23",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.74.0.0/15",
+    "status": "ALLOCATED PA",
+    "prefix": "90.74.44.0/23",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.74.0.0/15",
+    "status": "ALLOCATED PA",
+    "prefix": "90.74.46.0/23",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.74.0.0/15",
+    "status": "ALLOCATED PA",
+    "prefix": "90.74.60.0/23",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.74.0.0/15",
+    "status": "ALLOCATED PA",
+    "prefix": "90.74.62.0/23",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.74.0.0/15",
+    "status": "ALLOCATED PA",
+    "prefix": "90.74.104.0/23",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.74.0.0/15",
+    "status": "ALLOCATED PA",
+    "prefix": "90.74.148.0/23",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.74.0.0/15",
+    "status": "ALLOCATED PA",
+    "prefix": "90.74.174.0/23",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.74.0.0/15",
+    "status": "ALLOCATED PA",
+    "prefix": "90.74.15.0/24",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.74.0.0/15",
+    "status": "ALLOCATED PA",
+    "prefix": "90.74.17.0/24",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.74.0.0/15",
+    "status": "ALLOCATED PA",
+    "prefix": "90.74.80.0/24",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.74.0.0/15",
+    "status": "ALLOCATED PA",
+    "prefix": "90.74.82.0/24",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.74.0.0/15",
+    "status": "ALLOCATED PA",
+    "prefix": "90.74.100.0/24",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.76.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "90.77.0.0/16",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.76.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "90.77.96.0/19",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.76.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "90.77.0.0/20",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.76.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "90.77.128.0/20",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.76.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "90.77.144.0/20",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.76.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "90.77.176.0/20",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.76.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "90.77.208.0/20",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.76.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "90.77.40.0/21",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.76.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "90.77.48.0/21",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.76.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "90.77.64.0/21",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.76.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "90.77.224.0/21",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.76.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "90.77.16.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.76.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "90.77.20.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.76.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "90.77.24.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.76.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "90.77.28.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.76.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "90.77.36.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.76.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "90.77.56.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.76.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "90.77.60.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.76.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "90.77.72.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.76.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "90.77.76.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.76.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "90.77.80.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.76.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "90.77.84.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.76.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "90.77.88.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.76.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "90.77.92.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.76.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "90.77.136.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.76.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "90.77.160.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.76.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "90.77.164.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.76.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "90.77.168.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.76.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "90.77.172.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.76.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "90.77.212.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.76.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "90.77.232.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.76.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "90.77.236.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.76.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "90.77.240.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.76.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "90.77.244.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.76.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "90.77.248.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.76.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "90.77.252.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.76.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "90.77.40.0/23",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.76.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "90.77.126.0/23",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.76.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "90.77.97.0/24",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.76.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "90.77.98.0/24",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.76.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "90.77.99.0/24",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.76.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "90.77.105.0/24",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.76.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "90.77.106.0/24",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.76.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "90.77.124.0/24",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.76.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "90.77.165.0/24",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.76.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "90.77.169.0/24",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.76.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "90.77.170.0/24",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.76.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "90.77.179.0/24",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.80.0.0/12",
+    "status": "ALLOCATED PA",
+    "prefix": "90.84.96.0/19",
+    "origin": 56369
+   },
+   {
+    "holder_block": "90.80.0.0/12",
+    "status": "ALLOCATED PA",
+    "prefix": "90.84.224.0/20",
+    "origin": 8953
+   },
+   {
+    "holder_block": "90.80.0.0/12",
+    "status": "ALLOCATED PA",
+    "prefix": "90.84.208.0/21",
+    "origin": 8953
+   },
+   {
+    "holder_block": "90.80.0.0/12",
+    "status": "ALLOCATED PA",
+    "prefix": "90.84.12.0/23",
+    "origin": 47150
+   },
+   {
+    "holder_block": "90.104.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "90.106.0.0/16",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.104.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "90.106.0.0/18",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.104.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "90.106.64.0/18",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.104.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "90.106.192.0/20",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.104.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "90.106.178.0/23",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.104.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "90.106.171.0/24",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.104.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "90.106.172.0/24",
+    "origin": 12479
+   },
+   {
+    "holder_block": "90.112.0.0/12",
+    "status": "ALLOCATED PA",
+    "prefix": "90.115.208.0/24",
+    "origin": 16236
+   },
+   {
+    "holder_block": "90.112.0.0/12",
+    "status": "ALLOCATED PA",
+    "prefix": "90.115.209.0/24",
+    "origin": 16236
+   },
+   {
+    "holder_block": "92.160.0.0/12",
+    "status": "ALLOCATED PA",
+    "prefix": "92.172.0.0/16",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.160.0.0/12",
+    "status": "ALLOCATED PA",
+    "prefix": "92.172.32.0/19",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.160.0.0/12",
+    "status": "ALLOCATED PA",
+    "prefix": "92.172.64.0/19",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.160.0.0/12",
+    "status": "ALLOCATED PA",
+    "prefix": "92.172.96.0/19",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.160.0.0/12",
+    "status": "ALLOCATED PA",
+    "prefix": "92.172.128.0/19",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.160.0.0/12",
+    "status": "ALLOCATED PA",
+    "prefix": "92.172.192.0/19",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.160.0.0/12",
+    "status": "ALLOCATED PA",
+    "prefix": "92.172.224.0/19",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.160.0.0/12",
+    "status": "ALLOCATED PA",
+    "prefix": "92.172.68.0/23",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.160.0.0/12",
+    "status": "ALLOCATED PA",
+    "prefix": "92.172.70.0/23",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.160.0.0/12",
+    "status": "ALLOCATED PA",
+    "prefix": "92.172.72.0/23",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.160.0.0/12",
+    "status": "ALLOCATED PA",
+    "prefix": "92.172.78.0/23",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.160.0.0/12",
+    "status": "ALLOCATED PA",
+    "prefix": "92.172.206.0/23",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.160.0.0/12",
+    "status": "ALLOCATED PA",
+    "prefix": "92.172.141.0/24",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.160.0.0/12",
+    "status": "ALLOCATED PA",
+    "prefix": "92.172.143.0/24",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.160.0.0/12",
+    "status": "ALLOCATED PA",
+    "prefix": "92.172.216.0/24",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.176.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "92.176.0.0/16",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.176.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "92.176.0.0/19",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.176.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "92.176.64.0/19",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.176.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "92.176.128.0/20",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.176.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "92.176.40.0/21",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.176.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "92.176.56.0/21",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.176.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "92.176.104.0/21",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.176.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "92.176.112.0/21",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.176.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "92.176.160.0/21",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.176.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "92.176.184.0/21",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.176.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "92.176.208.0/21",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.176.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "92.176.232.0/21",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.176.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "92.176.248.0/21",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.176.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "92.176.32.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.176.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "92.176.48.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.176.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "92.176.100.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.176.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "92.176.120.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.176.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "92.176.124.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.176.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "92.176.144.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.176.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "92.176.148.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.176.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "92.176.156.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.176.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "92.176.168.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.176.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "92.176.172.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.176.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "92.176.176.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.176.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "92.176.180.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.176.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "92.176.184.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.176.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "92.176.188.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.176.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "92.176.192.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.176.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "92.176.196.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.176.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "92.176.200.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.176.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "92.176.204.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.176.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "92.176.212.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.176.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "92.176.216.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.176.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "92.176.220.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.176.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "92.176.224.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.176.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "92.176.240.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.176.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "92.176.244.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.176.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "92.176.28.0/23",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.176.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "92.176.30.0/23",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.176.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "92.176.126.0/23",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.176.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "92.176.134.0/23",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.176.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "92.176.156.0/23",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.176.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "92.176.158.0/23",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.176.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "92.176.180.0/23",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.176.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "92.176.206.0/23",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.176.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "92.176.210.0/23",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.176.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "92.176.216.0/23",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.176.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "92.176.240.0/23",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.176.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "92.176.1.0/24",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.176.0.0/14",
+    "status": "ALLOCATED PA",
+    "prefix": "92.176.26.0/24",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.180.0.0/16",
+    "status": "ALLOCATED PA",
+    "prefix": "92.180.0.0/17",
+    "origin": 8953
+   },
+   {
+    "holder_block": "92.180.0.0/16",
+    "status": "ALLOCATED PA",
+    "prefix": "92.180.192.0/18",
+    "origin": 15962
+   },
+   {
+    "holder_block": "92.181.0.0/17",
+    "status": "ALLOCATED PA",
+    "prefix": "92.181.0.0/17",
+    "origin": 31204
+   },
+   {
+    "holder_block": "92.181.128.0/18",
+    "status": "ALLOCATED PA",
+    "prefix": "92.181.128.0/19",
+    "origin": 31204
+   },
+   {
+    "holder_block": "92.181.128.0/18",
+    "status": "ALLOCATED PA",
+    "prefix": "92.181.171.0/24",
+    "origin": 800
+   },
+   {
+    "holder_block": "92.184.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "92.185.0.0/16",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.184.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "92.185.32.0/19",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.184.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "92.185.96.0/19",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.184.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "92.185.224.0/19",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.184.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "92.185.0.0/20",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.184.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "92.185.16.0/20",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.184.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "92.185.128.0/20",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.184.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "92.185.192.0/20",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.184.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "92.185.0.0/21",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.184.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "92.185.48.0/21",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.184.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "92.185.80.0/21",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.184.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "92.185.152.0/21",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.184.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "92.185.208.0/21",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.184.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "92.185.224.0/21",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.184.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "92.185.64.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.184.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "92.185.68.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.184.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "92.185.72.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.184.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "92.185.76.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.184.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "92.185.88.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.184.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "92.185.92.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.184.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "92.185.144.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.184.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "92.185.148.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.184.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "92.185.152.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.184.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "92.185.156.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.184.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "92.185.160.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.184.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "92.185.164.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.184.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "92.185.168.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.184.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "92.185.172.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.184.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "92.185.176.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.184.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "92.185.184.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.184.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "92.185.188.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.184.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "92.185.216.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.184.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "92.185.220.0/22",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.184.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "92.185.8.0/23",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.184.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "92.185.98.0/23",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.184.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "92.185.120.0/23",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.184.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "92.185.122.0/23",
+    "origin": 12479
+   },
+   {
+    "holder_block": "92.184.0.0/13",
+    "status": "ALLOCATED PA",
+    "prefix": "92.185.242.0/23",
+    "origin": 12479
+   }
+  ],
+  "foreign_origin_holders": {
+   "12479": "UNI2-AS Orange Espagne SA",
+   "16236": "PSA Stellantis Auto SAS",
+   "9180": "ALIENOR Alienor.net SARL",
+   "37173": "GETESA (Orange Equatorial Guinea) - GETESA (Orange Equatorial Guinea)",
+   "41951": "GlobecastUK GlobecastUK Ltd",
+   "21272": "DANONE-GROUP Danone SA",
+   "199233": "MAIF-AS Mutuelle Assurance Instituteur France STE",
+   "8362": "NordNet SA",
+   "15962": "OSK-DNI Orange Slovensko a.s.",
+   "8953": "ASN-ORANGE-ROMANIA Orange Romania S.A.",
+   "13034": "AS-PAGESJAUNES SOLOCAL",
+   "47818": "MIPIH Midi Picardie Informatique Hospitaliere",
+   "15422": "PPR-AS15422 Kering SA",
+   "212709": "ACCOR-AS ACCOR S.A.",
+   "12601": "CEGEDIM Cegedim.Cloud SASU",
+   "12826": "CYLLENE-ITS CYLLENE ITS SAS",
+   "8376": "Jordan Data Communications Company LLC",
+   "31629": "LOREAL-AS LOREAL SA",
+   "31204": "SunCommunications-AS ORANGE MOLDOVA S.A.",
+   "8723": "INTEGRA-AS ITS INTEGRA SAS",
+   "5377": "MARLINK-EMEA Marlink AS",
+   "400110": "ANUVU-AVI-01 - Anuvu Operations LLC",
+   "206713": "ASFTV France Televisions SA",
+   "47127": "TELEMAQUE Telemaque SAS",
+   "48125": "INTER-MUTUELLES-ASSISTANCE-AS Inter Mutuelles Assistance GIE",
+   "8908": "SBP-AS SWISSLIFE BANQUE PRIVEE SA",
+   "31660": "PIXTEL-AS PIXTEL",
+   "51964": "ORANGE-BUSINESS-SERVICES-IPSN-ASN ORANGE BUSINESS SERVICES U.S. Inc.",
+   "29664": "RGCOM-VANCO-HAI Flag Telecom UK Limited",
+   "35169": "EURO-PROTECTION-SURVEILLANCE Euro Protection Surveillance SAS",
+   "56369": "OrangeBE Orange Belgium SA",
+   "47150": "ETN IPC FRANCE SA",
+   "800": "ONEWEB - OneWeb"
+  },
+  "note": "Noms de détenteurs d'ASN à relire : ils peuvent désigner une personne physique et ne doivent alors pas être publiés."
+ },
+ "transferred_blocks": [
+  {
+   "date": "2023-11-09T19:00:00Z",
+   "recipient": "Oracle Svenska AB",
+   "block": "2.0.0.0/15",
+   "origins_exact": [],
+   "more_specific_origins": [],
+   "more_specific_count": 0
+  },
+  {
+   "date": "2024-05-30T19:00:00Z",
+   "recipient": "Oracle Svenska AB",
+   "block": "2.2.0.0/16",
+   "origins_exact": [],
+   "more_specific_origins": [],
+   "more_specific_count": 0
+  },
+  {
+   "date": "2024-07-22T19:00:00Z",
+   "recipient": "Bleu SAS",
+   "block": "90.72.0.0/16",
+   "origins_exact": [
+    2376
+   ],
+   "more_specific_origins": [],
+   "more_specific_count": 0
+  },
+  {
+   "date": "2024-07-22T19:00:00Z",
+   "recipient": "Bleu SAS",
+   "block": "90.97.0.0/17",
+   "origins_exact": [
+    2376
+   ],
+   "more_specific_origins": [],
+   "more_specific_count": 0
+  },
+  {
+   "date": "2025-02-21T19:00:00Z",
+   "recipient": "Bleu SAS",
+   "block": "86.232.0.0/16",
+   "origins_exact": [
+    2376
+   ],
+   "more_specific_origins": [],
+   "more_specific_count": 0
+  },
+  {
+   "date": "2026-05-22T19:00:00Z",
+   "recipient": "NET AND GRID RESEARCH, LLC",
+   "block": "86.226.0.0/16",
+   "origins_exact": [],
+   "more_specific_origins": [
+    6079,
+    7459
+   ],
+   "more_specific_count": 32
+  },
+  {
+   "date": "2026-05-22T19:00:00Z",
+   "recipient": "NET AND GRID RESEARCH, LLC",
+   "block": "90.96.0.0/16",
+   "origins_exact": [],
+   "more_specific_origins": [
+    6079,
+    7029,
+    7459,
+    13335,
+    22773,
+    54004,
+    215294
+   ],
+   "more_specific_count": 47
+  },
+  {
+   "date": "2026-09-03T19:00:00Z",
+   "recipient": "Fastly, Inc.",
+   "block": "90.98.0.0/16",
+   "origins_exact": [],
+   "more_specific_origins": [
+    54113
+   ],
+   "more_specific_count": 1
+  },
+  {
+   "date": "2026-10-14T19:00:00Z",
+   "recipient": "Orange Espagne SA",
+   "block": "92.181.224.0/19",
+   "origins_exact": [],
+   "more_specific_origins": [],
+   "more_specific_count": 0
+  }
+ ],
+ "finished_at": "2026-10-21T08:09:51+00:00",
+ "unverified": []
+}
