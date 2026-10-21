@@ -1,4 +1,12 @@
 #!/usr/bin/env python3
+# ============================================================================
+# OBSOLÈTE — bgp_monitor.py v2.4, conservé uniquement pour référence historique.
+# Remplacé par le package `bgpmon` (v3) : voir README.md et CHANGELOG.md.
+# Ne plus utiliser : origines mélangées avec l'historique, aucun suivi des
+# plus-spécifiques ni de l'AS path, état "CLEAN" par défaut en l'absence de
+# données. Migration de la configuration : `python -m bgpmon migrate-config`.
+# Le nom d'une personne physique présent dans une description a été retiré.
+# ============================================================================
 # bgp_monitor.py — Version 2.4 — Hijack massif 167.32.0.0/16
 import requests
 import time
@@ -206,7 +214,7 @@ DEFAULT_CONFIG = {
             "type": "asn",
             "resource": "215828",
             "role": "Upstream suspect (Allemagne)",
-            "desc": "TMW Global Networks — Tizian Maxime Weigt"
+            "desc": "TMW Global Networks"
         },
         {
             "label": "AS398290",
