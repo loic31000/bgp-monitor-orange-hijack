@@ -1,0 +1,62 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bgpmon"
+version = "3.0.0"
+description = "Moniteur BGP passif et défensif (RIS Live, RIPEstat, RPKI, IRR)"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.10"
+dependencies = [
+    "requests==2.34.2",
+    "websocket-client==1.9.2",
+    "PyYAML==6.0.3",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest==9.1.1",
+    "ruff==0.16.10",
+    "mypy==2.4.0",
+    "types-requests==2.33.0.20260906",
+    "types-PyYAML==6.0.12.20260906",
+]
+
+[project.scripts]
+bgpmon = "bgpmon.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["bgpmon*"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+extend-exclude = ["legacy"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP", "SIM", "BLE", "RUF"]
+ignore = ["RUF001", "RUF002", "RUF003"]  # caractères typographiques français volontaires
+
+[tool.ruff.lint.per-file-ignores]
+"bgpmon/report.py" = ["E501"]  # gabarit HTML/CSS
+
+[tool.mypy]
+python_version = "3.10"
+strict = true
+warn_unreachable = true
+exclude = ["legacy/"]
+
+[[tool.mypy.overrides]]
+module = ["websocket", "websocket.*"]
+ignore_missing_imports = true
+
+[[tool.mypy.overrides]]
+module = ["tests.*"]
+disallow_untyped_defs = false
+disallow_incomplete_defs = false
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

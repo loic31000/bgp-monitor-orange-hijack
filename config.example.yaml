@@ -1,0 +1,249 @@
+# bgpmon v3 — configuration d'exemple.
+#
+# Copiez ce fichier en `config.yaml` (ignoré par git) puis adaptez-le :
+#   cp config.example.yaml config.yaml
+#   python -m bgpmon check-config
+#
+# Toutes les valeurs ci-dessous sont explicites : ce fichier est la seule
+# source de vérité, aucune cible n'est codée en dur dans le programme.
+# Les ressources sont désignées uniquement par ASN, préfixe et nom d'organisation.
+
+version: 3
+
+settings:
+  check_interval: 300            # secondes entre deux passages RIPEstat/RPKI
+  log_level: INFO                # DEBUG | INFO | WARNING | ERROR
+  log_format: text               # text | json (une ligne JSON par entrée)
+  log_file: bgpmon.log           # null pour désactiver le fichier
+  db_path: bgpmon.sqlite3
+  recent_window_hours: 24        # durée pendant laquelle un événement ponctuel influe sur l'état
+  source_error_cycles: 3         # SOURCE_ERROR après N échecs consécutifs
+  visibility_drop_pct: 30        # VISIBILITY_DROP si la visibilité baisse de plus de 30 %
+  severity_overrides: {}         # ex. {RPKI_UNKNOWN: info}
+
+  ripestat:
+    base_url: https://stat.ripe.net/data
+    sourceapp: bgpmon
+    timeout: 20
+    retries: 3
+    backoff: 2.0                 # base du backoff exponentiel (s)
+    min_interval: 0.5            # délai minimal entre deux requêtes (s)
+    cache_ttl: 60                # cache court des réponses (s)
+    asn_prefix_window_hours: 24  # fenêtre d'announced-prefixes
+    max_more_specific_queries: 32
+    neighbour_types: [left, right]  # « uncertain » fluctue beaucoup d'un jeu de données à l'autre
+
+  ris_live:
+    enabled: true
+    url: wss://ris-live.ripe.net/v1/ws/?client=bgpmon-orange-investigation
+    heartbeat_seconds: 30
+    reconnect_max_seconds: 300
+    queue_size: 10000
+
+  rpki:
+    enabled: true
+
+  irr:
+    enabled: true
+    interval: 3600               # les objets IRR sont relus toutes les heures
+    timeout: 20
+    query_delay: 1.0             # pause entre deux requêtes whois (s)
+    servers:
+      - {name: RADB, host: whois.radb.net, port: 43, query_prefix: "-s RADB"}
+      - {name: ALTDB, host: whois.altdb.net, port: 43, query_prefix: ""}
+      - {name: RIPE, host: whois.ripe.net, port: 43, query_prefix: "-r"}
+
+  report:
+    path: bgp_report.html
+    refresh_seconds: null        # null = check_interval
+    history_per_target: 20
+    timeline_size: 50
+
+  alerts:
+    cooldown_seconds:
+      default: 3600
+      SOURCE_ERROR: 21600
+      VISIBILITY_DROP: 1800
+    channels:
+      - {type: console, min_severity: info}
+      - {type: jsonl, path: bgp_alerts.jsonl, min_severity: info}
+      # URL lue dans la variable d'environnement, jamais écrite dans ce fichier.
+      # format : auto (détection par URL) | discord | slack | ntfy | generic
+      - {type: webhook, url_env: BGPMON_WEBHOOK_URL, format: auto, min_severity: high}
+
+targets:
+  # ── Enquête principale : espace Orange France (AS3215) ───────────────────
+  - label: "90.98.0.0/15"
+    type: prefix
+    resource: "90.98.0.0/15"
+    role: "Espace Orange France"
+    description: "Annoncé via AS41128 de fév. à avr. 2026 ; repris par AS3215 via des /16 le 20/04/2026"
+    expected_origins: [3215]
+    forbidden_origins: [41128]
+    forbidden_path_asns: [41128, 22541, 29802]
+    expected_upstreams: []
+    max_prefix_length: 24
+    allow_more_specific_from: [3215]
+    rpki: expect_valid
+    irr: watch
+    severity: critical
+
+  - label: "92.183.128.0/18"
+    type: prefix
+    resource: "92.183.128.0/18"
+    role: "Espace Orange France (cible secondaire)"
+    description: "Pré-positionnement documenté depuis mai 2024"
+    expected_origins: [3215]
+    forbidden_origins: [263692]
+    forbidden_path_asns: [263692, 41128]
+    expected_upstreams: []
+    max_prefix_length: 24
+    allow_more_specific_from: [3215]
+    rpki: expect_valid
+    irr: watch
+    severity: critical
+
+  - label: "AS41128"
+    type: asn
+    resource: 41128
+    role: "Origine de l'annonce frauduleuse"
+    description: "ORANGEFR-GRX-AS (Orange S.A.) — ASN peu utilisé détourné"
+    watch_prefix_set: true
+    watch_neighbours: true
+    ris_live_origin: true
+    irr: watch
+    severity: high
+
+  - label: "AS3215"
+    type: asn
+    resource: 3215
+    role: "Orange France — origine légitime"
+    description: "Orange S.A."
+    watch_prefix_set: true
+    watch_neighbours: false
+    ris_live_origin: false
+    irr: ignore
+    severity: warning
+
+  - label: "AS29802"
+    type: asn
+    resource: 29802
+    role: "Infrastructure observée dans le chemin"
+    description: "Hivelocity (Dallas, TX)"
+    watch_prefix_set: false
+    watch_neighbours: true
+    ris_live_origin: false
+    irr: ignore
+    severity: warning
+
+  # ── Routes signalées par Spamhaus (pool MCI/SAE) ─────────────────────────
+  - label: "198.193.12.0/24"
+    type: prefix
+    resource: "198.193.12.0/24"
+    role: "Route suspecte (pool MCI/SAE)"
+    description: "Annoncée par AS2702, inactif depuis 2003 ; plus annoncée depuis"
+    expect_silent: true               # silence attendu : toute nouvelle annonce alerte
+    expected_origins: []
+    forbidden_origins: [2702]
+    forbidden_path_asns: [2702]
+    expected_upstreams: []
+    max_prefix_length: 24
+    allow_more_specific_from: []
+    rpki: any
+    irr: watch
+    severity: high
+
+  - label: "198.195.144.0/24"
+    type: prefix
+    resource: "198.195.144.0/24"
+    role: "Route suspecte (pool MCI/SAE)"
+    description: "Annoncée par AS2702, inactif depuis 2003 ; plus annoncée depuis"
+    expect_silent: true               # silence attendu : toute nouvelle annonce alerte
+    expected_origins: []
+    forbidden_origins: [2702]
+    forbidden_path_asns: [2702]
+    expected_upstreams: []
+    max_prefix_length: 24
+    allow_more_specific_from: []
+    rpki: any
+    irr: watch
+    severity: high
+
+  - label: "198.196.199.0/24"
+    type: prefix
+    resource: "198.196.199.0/24"
+    role: "Route suspecte (pool MCI/SAE)"
+    description: "Annoncée par AS2702, inactif depuis 2003 ; plus annoncée depuis"
+    expect_silent: true               # silence attendu : toute nouvelle annonce alerte
+    expected_origins: []
+    forbidden_origins: [2702]
+    forbidden_path_asns: [2702]
+    expected_upstreams: []
+    max_prefix_length: 24
+    allow_more_specific_from: []
+    rpki: any
+    irr: watch
+    severity: high
+
+  # ── Famille 167.32.0.0/16 (AS398290) ─────────────────────────────────────
+  # Les sous-préfixes de la v2.4 (/21 et /24) sont couverts par cette cible :
+  # RIS Live (moreSpecific) et RIPEstat (more_specifics) remontent tout plus-spécifique.
+  - label: "167.32.0.0/16"
+    type: prefix
+    resource: "167.32.0.0/16"
+    role: "Annonce suspecte (AS398290)"
+    description: "ASN enregistré au nom de House of Commons (Canada) ; annonces actives depuis nov. 2023"
+    expected_origins: []
+    forbidden_origins: [398290]
+    forbidden_path_asns: [398290]
+    expected_upstreams: []
+    max_prefix_length: 24
+    allow_more_specific_from: []
+    rpki: any
+    irr: watch
+    severity: high
+
+  # ── ASN suspects ─────────────────────────────────────────────────────────
+  - label: "AS2702"
+    type: asn
+    resource: 2702
+    role: "ASN inactif réactivé"
+    description: "Novx Systems / Interserve — inactif depuis 2003"
+    watch_prefix_set: true
+    watch_neighbours: true
+    ris_live_origin: true
+    irr: watch
+    severity: high
+
+  - label: "AS7857"
+    type: asn
+    resource: 7857
+    role: "ASN d'une société disparue réactivé"
+    description: "Empire Communications"
+    watch_prefix_set: true
+    watch_neighbours: true
+    ris_live_origin: true
+    irr: watch
+    severity: high
+
+  - label: "AS215828"
+    type: asn
+    resource: 215828
+    role: "Upstream suspect (Allemagne)"
+    description: "TMW Global Networks"
+    watch_prefix_set: true
+    watch_neighbours: true
+    ris_live_origin: true
+    irr: watch
+    severity: high
+
+  - label: "AS398290"
+    type: asn
+    resource: 398290
+    role: "ASN gouvernemental utilisé pour des annonces suspectes"
+    description: "House of Commons (Canada)"
+    watch_prefix_set: true
+    watch_neighbours: true
+    ris_live_origin: true
+    irr: watch
+    severity: high

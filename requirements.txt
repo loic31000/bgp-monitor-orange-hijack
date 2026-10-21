@@ -1,1 +1,4 @@
-requests==2.32.3
+# Dépendances d'exécution (versions épinglées)
+requests==2.34.2
+websocket-client==1.9.2
+PyYAML==6.0.3
