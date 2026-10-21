@@ -1,0 +1,15 @@
+route:      90.98.0.0/15
+origin:     AS41128
+descr:      Exemple de description
+mnt-by:     MAINT-EXAMPLE
+admin-c:    EX1-ARIN
+tech-c:     EX1-ARIN
+changed:    noc@example.net 20220324
+source:     ALTDB
+rpki-ov-state:  not_found # No ROAs found
+
+route:      90.99.0.0/16
+origin:     AS3215
+mnt-by:     MAINT-EXAMPLE-FR
+source:     ALTDB
+

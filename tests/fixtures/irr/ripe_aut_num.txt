@@ -1,0 +1,18 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+
+% Information related to 'AS41128'
+
+aut-num:        AS41128
+as-name:        ORANGEFR-GRX-AS
+org:            ORG-EX1-RIPE
+import:         from AS2300 action pref=100; accept any
+export:         to AS2300 announce AS41128
+admin-c:        EX1-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+created:        2006-01-01T00:00:00Z
+last-modified:  2024-01-01T00:00:00Z
+source:         RIPE
+
+% This query was served by the RIPE Database Query Service
